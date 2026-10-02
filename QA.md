@@ -1,5 +1,16 @@
 # Production checks
 
+## Visual revision 2
+
+- Eight generated transparent PNGs and three OGL photographs integrated into the film; 22 main scenes now use raster imagery, with additional changes inside the rapid inventory shots.
+- Alpha-channel presence and transparent pixels checked for all generated assets; results in `data/image-alpha-check.json`.
+- Sixteen revised representative frames rendered and visually reviewed. The photographs were then given aspect-correct dimensions to preserve full ships and rotors.
+- Generated images retain the native alpha. No programmatic background removal or retouching was used.
+- TypeScript, ESLint and timeline checks passed after the visual update.
+- Image provenance, licensing and generation prompts recorded in `IMAGE-SOURCES.md` and `data/image-prompts.json`.
+
+## Base production
+
 - Format: 1920×1080, 30 fps, 6047 frames (201.567 seconds).
 - Timeline: 62 contiguous shots, each 60–120 frames; original audio fully covered.
 - Main icon cues: four frames before aligned words.

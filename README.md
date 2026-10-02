@@ -6,6 +6,8 @@ Composição editável sincronizada ao áudio fornecido **Intro.mp3**.
 
 **Versão 2:** a composição combina os SVGs com **8 PNGs gerados com transparência** e **3 fotografias navais da internet**. Assets gerados e fotos documentais estão identificados em [IMAGE-SOURCES.md](IMAGE-SOURCES.md), com os [prompts completos](data/image-prompts.json). Os novos elementos já estão inseridos e animados na timeline.
 
+![Frames da composição revisada](docs/preview-v2.jpg)
+
 ## Prévia e exportação
 
 ```sh

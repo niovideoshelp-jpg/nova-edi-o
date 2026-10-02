@@ -1,0 +1,58 @@
+[
+  {
+    "file": "public/images/generated/anchor.png",
+    "width": 1234,
+    "height": 1274,
+    "mode": "RGBA",
+    "transparentFraction": 0.7281
+  },
+  {
+    "file": "public/images/generated/carrier.png",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "transparentFraction": 0.6166
+  },
+  {
+    "file": "public/images/generated/f35b.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "transparentFraction": 0.6225
+  },
+  {
+    "file": "public/images/generated/globe.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "transparentFraction": 0.298
+  },
+  {
+    "file": "public/images/generated/logistics.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "transparentFraction": 0.4621
+  },
+  {
+    "file": "public/images/generated/merlin.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "transparentFraction": 0.6819
+  },
+  {
+    "file": "public/images/generated/numenor.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "transparentFraction": 0.5531
+  },
+  {
+    "file": "public/images/generated/sailing-ship.png",
+    "width": 1374,
+    "height": 1145,
+    "mode": "RGBA",
+    "transparentFraction": 0.4481
+  }
+]
