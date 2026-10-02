@@ -1,0 +1,502 @@
+{
+  "fullResolutionSceneStills": [
+    {
+      "scene": "S01",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "1bf2cf41ea97c3927789d9347e0261c0f9916a643c7dc76398e700afec8837f3"
+    },
+    {
+      "scene": "S02",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "379666e6295fcf7d226a7bd6fa32818da754348a86534a35c4f7949068db8974"
+    },
+    {
+      "scene": "S03",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a7dacaf60b249aa7c32fbb45ed5039de890a98ee1b208d2c650c1e157dc8e738"
+    },
+    {
+      "scene": "S04",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "840c6855aa7cac4e3fd651286f74ae4f47f2cef4aaad6f0c505db5e2b1128975"
+    },
+    {
+      "scene": "S05",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "cb80c425832ba7d8268f256ed0afa9cd5d8be43a4f35bf00e3ee45d5bf0e4a29"
+    },
+    {
+      "scene": "S06",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "21b794335bfd3480c97918c22010a6d80a98a669707a8edb8a5f1b64c5596205"
+    },
+    {
+      "scene": "S07",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "528053c1faa119304d8c896cbbe0c3f628156286c0acaebab341bb5a646baa7a"
+    },
+    {
+      "scene": "S08",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fe8e790abe96e16ea6527e20c513900cd5b2209a8397675ecf2393b22e832a1b"
+    },
+    {
+      "scene": "S09",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a0832a965b79dcb787c72f37c36d1704efdbbc66d6527a80f3ef2a4b82c9d37a"
+    },
+    {
+      "scene": "S10",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d708c73fe04161248be40e0ddc4de6185d3a691b4d1ea537991ed36c62c417d0"
+    },
+    {
+      "scene": "S11",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8769524049b5b099b5c0b756e013bd9dc1355150f083ad24dbbff27b60a6ed68"
+    },
+    {
+      "scene": "S12",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "c048701302a860bcfc47570ef374619c718db2771d953f517bc8127bfeeed3ed"
+    },
+    {
+      "scene": "S13",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "b2ba332285ae1482e58eb163dd036b50ccdcb31a5dff290e8fa474e8c2f4da5f"
+    },
+    {
+      "scene": "S14",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "e1404d4291a19249dec16da4820e16631b8b12ba50af6eac7a036d025ec3f07c"
+    },
+    {
+      "scene": "S15",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "3acb1038c0abdd988afc0cb1e0f08f3d672dcca56fb5c2c776d8ab1bd14d723e"
+    },
+    {
+      "scene": "S16",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fc4238efad55c732b7ad61eca2ce84564cc17decf75bb834a1b770efd70e793e"
+    },
+    {
+      "scene": "S17",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "831ba4e173f9c3099c9b816b75a3a347e20eff59aa9412bab35fd3ceee39fb20"
+    },
+    {
+      "scene": "S18",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "cd69deced712a3e289adb165f88bbf47bd38786955334e6f23c1eb2172ef7041"
+    },
+    {
+      "scene": "S19",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "2dcbb565e439c344603d536123f1e57ccfc9dee9e52810a262cee49fba9c4a3a"
+    },
+    {
+      "scene": "S20",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fb6032f6200661acbfbc30726befd6b7c80a2c39a2229dcbf5aade790bd90024"
+    },
+    {
+      "scene": "S21",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "edda5aa1c5b61abc1b77f1e6d13bef03e6555e3c0b59d16eac36bf9dcc020bca"
+    },
+    {
+      "scene": "S22",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "db1e32054e66a61db76099ef82e07990019b74e27bc6f083afac26045d3b8e02"
+    },
+    {
+      "scene": "S23",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a9458e3cae695a208fb284d20f98587acda5cb29e6f12ce32e435f02311bdc38"
+    },
+    {
+      "scene": "S24",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "1d65e2ef4d705eb5a9a208766bd885d651cbcbfbace78eb0e316bbd4106bc4bd"
+    },
+    {
+      "scene": "S25",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fe1d4c2242dd4dab5865cd3648057b117a74b7078667b856dd759aef67d27770"
+    },
+    {
+      "scene": "S26",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "5280579fd8305c28e4cb1ea00ebdfc15bea2edbb7cd8efc7f0c02d0889de620d"
+    },
+    {
+      "scene": "S27",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "0019897e0246acf7c319fb44e4871549fcd08e8c649c0c546cce458c3ea2043b"
+    },
+    {
+      "scene": "S28",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "92235662d5449a19cb6b68c3c1a4bf6f7a16478a79542e54b953249552139830"
+    },
+    {
+      "scene": "S29",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "258df2922d68da922793dc582247894d8db5a0b7596d9f1d1d8b55192bc9913b"
+    },
+    {
+      "scene": "S30",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "ffcc5b21e22fcc97cc0401bbfbda2492fd9b8ce924579b5abc795b4ac7cc9edf"
+    },
+    {
+      "scene": "S31",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "77fed501ddf3026c7693ce5f4118da6e402ce0a9cb6a1cb139f4e21ba023f3f7"
+    },
+    {
+      "scene": "S32",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "05145db1a122bc9cb3a9f49062f3b73e4a7bcefaa73065369206d54c9337f0b9"
+    },
+    {
+      "scene": "S33",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "191bd55bf332254967c8d833e267800902b65515d4ca12026f59efaa91c9b69f"
+    },
+    {
+      "scene": "S34",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "2e0e41598948ea683603ef361f5734fced0cdced54b61c4a94ea80c732332f09"
+    },
+    {
+      "scene": "S35",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "6f057c707afbba9740a12979a05c9cef2ab6de2d4bb0867d2015b52f7a354051"
+    },
+    {
+      "scene": "S36",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a9b3fb47d50dc4d48ca8d7e852cd0aad57e145879c442b16a9c2c75431b7eccc"
+    },
+    {
+      "scene": "S37",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "70ee8c3e0b016d388346003881418ead12bf490c54d11b1289c33516c6fdae33"
+    },
+    {
+      "scene": "S38",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "f9a9445716ab8a99d1d01c5173d7208bcabe1ad260f0883db2ece4e9fa90864e"
+    },
+    {
+      "scene": "S39",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "37c5536f55f38bff93773153a89203995e0e15250d84c3f8315a5ce39cd51bbd"
+    },
+    {
+      "scene": "S40",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "1345cf476889eedfd8fadff6bdc48cb84e1e4c987cfe08de036840b186d6d3bc"
+    },
+    {
+      "scene": "S41",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "e2f7c8cf3d7c06e37deb64e5ec0f50eef0215d9b43025fbbf834016739dfc034"
+    },
+    {
+      "scene": "S42",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "babfa0183b052917787ed53333b083efaf68d3323acdb1abd106d7b66e4b3cfb"
+    },
+    {
+      "scene": "S43",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "091bcca6b9a248565b62e55790882d70a380056b5ab5868788616dab3dcdff6c"
+    },
+    {
+      "scene": "S44",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "778d04e6f295f5c311bbd7b34d9f1553cbb4487abfb778d81b0e01460004728d"
+    },
+    {
+      "scene": "S45",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "c61f44e98fbc68d33539820f82ab47f8dc6baa5ca6c57877b8e04aa2a74e4c42"
+    },
+    {
+      "scene": "S46",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8da9470d5d6b85e9b2f5b9a387bc1c1ea192d32d93170e5fadd75707e7eee68a"
+    },
+    {
+      "scene": "S47",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "04a74c95df0e5a5ac14c4fcfb4163f420dce9d8e6e9f8ecacf9746a26fe1c950"
+    },
+    {
+      "scene": "S48",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "20b1fb9366e73e32a832527a9216f0512bdf26120afe1e3ca03e2ebd24eaf286"
+    },
+    {
+      "scene": "S49",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a61d965819f41167e2e7251c82c4ffe7291b269db8506dca94403293594c9f29"
+    },
+    {
+      "scene": "S50",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "03b9342e1bdb755f6518a668249b1f0d928d2960e3bd61d2eb5da4ec75c7f0b1"
+    },
+    {
+      "scene": "S51",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "40cf43cf9db9a304b40ce4ee7cdd5154ac03b65083e8ed20fd384f40343becfd"
+    },
+    {
+      "scene": "S52",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "49f2520442bb14c7a1dfe802d835f91e0a09aa70db0cfee7dd645b991e451830"
+    },
+    {
+      "scene": "S53",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "c994bedb8a672441eadf6cc0129983466525d982b9772c13e158d9a6f281a5de"
+    },
+    {
+      "scene": "S54",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d29f305e1ebf94580c3958e0317add46f2ee663abe1b8fb91d61f69ea72f419d"
+    },
+    {
+      "scene": "S55",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "e6246d0d1f0aefa7e3cf8674b8ca8dbd19697237bc3b8e7763017af435d2037c"
+    },
+    {
+      "scene": "S56",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "99a0b6eb510f5aa9154da93b6d79874206dd79f74f3bc51c7dc329041d776223"
+    },
+    {
+      "scene": "S57",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "6a25190da425c90bc601135b398f1b04b5cb1dd0fe1ad25f0bf0df41d25049e4"
+    },
+    {
+      "scene": "S58",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "8a85e5a0aa55a57b54ad26904b8fa32d96fb74d2025e7b0ce7f677d02ef0c5cd"
+    },
+    {
+      "scene": "S59",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "d20bf9584c79080405699d2bd3ed14f0d235d4aeeb144c6155ff10bca0782c70"
+    },
+    {
+      "scene": "S60",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "9cf1c285bc7c10311c174c9f4c231c67246576808d7b02e4811cefa80eb88bdd"
+    },
+    {
+      "scene": "S61",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fbf5e0aafdcbdedd0e4e3cc957916cf2e5a8bc7c2012591547dc43e6bffa9146"
+    },
+    {
+      "scene": "S62",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a1933b791a5e74a49e6a0d67e3be66acc95ba00816ab89914ec67ea275dfe175"
+    }
+  ],
+  "additionalChecks": "visual-qa-v3-details.json",
+  "mp4Exported": false
+}

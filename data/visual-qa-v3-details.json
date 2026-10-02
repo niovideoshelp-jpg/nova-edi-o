@@ -1,0 +1,47 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "sceneStills": 15,
+  "randomAccessChecks": [
+    {
+      "frame": 60,
+      "sha": "e0c2f11eff4b7e9d91394dfbaa174ac37294ace47b3a461830f1e870dede50c2"
+    },
+    {
+      "frame": 426,
+      "sha": "824c3e17bfa4c11bba1e712ef6ab95ee794e5d088f134839547400fd7570f8d1"
+    },
+    {
+      "frame": 4987,
+      "sha": "e041b86c5377d8fe2c14930d5096d5b88262c40e56c0ad6dcce8a0e457a5e655"
+    },
+    {
+      "frame": 31,
+      "sha": "9e2c297fe0125369ca4a18cc8b4bd0cd456397d99579f30e38f2ad072cf0f2d2"
+    },
+    {
+      "frame": 426,
+      "sha": "824c3e17bfa4c11bba1e712ef6ab95ee794e5d088f134839547400fd7570f8d1"
+    },
+    {
+      "frame": 60,
+      "sha": "e0c2f11eff4b7e9d91394dfbaa174ac37294ace47b3a461830f1e870dede50c2"
+    }
+  ],
+  "pixelDifferences": [
+    {
+      "frame": 60,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "frame": 426,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    }
+  ],
+  "tolerance": "Maximum one RGB level, at most 192 pixels out of 2,073,600 (<0.01%); larger changes fail.",
+  "browserWarnings": []
+}

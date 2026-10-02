@@ -37,8 +37,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/uk.svg"
+        "kind": "map",
+        "name": "uk-paint",
+        "concept": "Coastline draw and liquid ink fill"
       }
     },
     {
@@ -62,8 +63,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/book.svg"
+        "kind": "graphic",
+        "name": "archive",
+        "concept": "Naval logbook"
       }
     },
     {
@@ -87,9 +89,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/anchor.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "anchor",
+        "concept": "Royal Navy identity"
       }
     },
     {
@@ -113,9 +115,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/sailing-ship.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "sailing-ship",
+        "concept": "Age of sail"
       }
     },
     {
@@ -139,9 +141,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/globe.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "map",
+        "name": "colonies",
+        "concept": "UK connections to five former colonies"
       }
     },
     {
@@ -165,8 +167,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/crown.svg"
+        "kind": "title",
+        "name": "empire-title",
+        "concept": "British Empire typographic punctuation"
       }
     },
     {
@@ -190,8 +193,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/sun.svg"
+        "kind": "map",
+        "name": "daylight",
+        "concept": "Daylight travels across connected continents"
       }
     },
     {
@@ -215,8 +219,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/book.svg"
+        "kind": "graphic",
+        "name": "manuscript",
+        "concept": "Tolkien manuscript"
       }
     },
     {
@@ -240,9 +245,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/numenor.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "numenor",
+        "concept": "Fictional island miniature"
       }
     },
     {
@@ -266,8 +271,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/compass.svg"
+        "kind": "graphic",
+        "name": "compass",
+        "concept": "Fictional world orientation"
       }
     },
     {
@@ -291,8 +297,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/crown.svg"
+        "kind": "graphic",
+        "name": "harbor",
+        "concept": "Maritime civilization"
       }
     },
     {
@@ -316,9 +323,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/numenor.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "island-distance",
+        "concept": "Small island in a wide ocean"
       }
     },
     {
@@ -342,9 +349,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/sailing-ship.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "naval-influence",
+        "concept": "Sailing fleet influence"
       }
     },
     {
@@ -368,8 +375,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/quill.svg"
+        "kind": "title",
+        "name": "tolkien-title",
+        "concept": "Author name"
       }
     },
     {
@@ -393,8 +401,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/question.svg"
+        "kind": "graphic",
+        "name": "inquiry",
+        "concept": "Uncertain historical inspiration"
       }
     },
     {
@@ -418,8 +427,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/balance.svg"
+        "kind": "map",
+        "name": "comparison",
+        "concept": "British geography grounds the comparison"
       }
     },
     {
@@ -443,8 +453,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/uk.svg"
+        "kind": "map",
+        "name": "europe",
+        "concept": "Pull out to show the island off Europe"
       }
     },
     {
@@ -468,9 +479,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/sailing-ship.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "broadside",
+        "concept": "Naval power, ship broadside"
       }
     },
     {
@@ -494,9 +505,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/globe.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "map",
+        "name": "reach",
+        "concept": "Connections across oceans"
       }
     },
     {
@@ -520,8 +531,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/hourglass.svg"
+        "kind": "graphic",
+        "name": "era-change",
+        "concept": "Shift to a modern hull"
       }
     },
     {
@@ -545,8 +557,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/question.svg"
+        "kind": "graphic",
+        "name": "capability",
+        "concept": "Present carrier capability"
       }
     },
     {
@@ -570,9 +583,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/anchor.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "flagship",
+        "concept": "Modern Royal Navy silhouette"
       }
     },
     {
@@ -596,8 +609,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/medal.svg"
+        "kind": "graphic",
+        "name": "formation",
+        "concept": "Carrier with escorts"
       }
     },
     {
@@ -621,8 +635,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/carrier-top.svg"
+        "kind": "graphic",
+        "name": "deck-plan",
+        "concept": "Carrier flight deck in plan"
       }
     },
     {
@@ -646,9 +661,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "photo",
-        "file": "public/images/web/queen-elizabeth.jpg",
-        "credits": "IMAGE-SOURCES.md"
+        "kind": "map",
+        "name": "home-range",
+        "concept": "Ocean scale from home"
       }
     },
     {
@@ -676,16 +691,16 @@
           "asset": "carrier",
           "text": "HMS Prince of Wales",
           "visualMedia": {
-            "kind": "generated-cutout",
-            "file": "public/images/generated/carrier.png",
-            "prompt": "data/image-prompts.json"
+            "kind": "photo",
+            "name": "prince-of-wales",
+            "concept": "HMS Prince of Wales"
           }
         }
       ],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/carrier.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "photo",
+        "name": "queen-elizabeth",
+        "concept": "HMS Queen Elizabeth, archival photograph"
       }
     },
     {
@@ -709,8 +724,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/carrier-top.svg"
+        "kind": "photo",
+        "name": "prince-of-wales",
+        "concept": "HMS Prince of Wales, archival photograph"
       }
     },
     {
@@ -734,9 +750,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "photo",
-        "file": "public/images/web/queen-elizabeth.jpg",
-        "credits": "IMAGE-SOURCES.md"
+        "kind": "graphic",
+        "name": "ski-jump",
+        "concept": "Deck and departure path"
       }
     },
     {
@@ -764,16 +780,16 @@
           "asset": "jet",
           "text": "F-35B",
           "visualMedia": {
-            "kind": "generated-cutout",
-            "file": "public/images/generated/f35b.png",
-            "prompt": "data/image-prompts.json"
+            "kind": "cutout",
+            "name": "f35b",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
         "kind": "photo",
-        "file": "public/images/web/daring-dauntless.jpg",
-        "credits": "IMAGE-SOURCES.md"
+        "name": "daring-dauntless",
+        "concept": "Ships deploy together"
       }
     },
     {
@@ -801,15 +817,16 @@
           "asset": "escort",
           "text": "",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/escort.svg"
+            "kind": "graphic",
+            "name": "frigate",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/merlin.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "photo",
+        "name": "merlin-hm2",
+        "concept": "Merlin helicopter, documentary photograph"
       }
     },
     {
@@ -837,14 +854,16 @@
           "asset": "command",
           "text": "",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/command.svg"
+            "kind": "graphic",
+            "name": "communications",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/support.svg"
+        "kind": "graphic",
+        "name": "supply",
+        "concept": "Underway replenishment"
       }
     },
     {
@@ -872,14 +891,16 @@
           "asset": "shield",
           "text": "",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/shield.svg"
+            "kind": "graphic",
+            "name": "defense-ring",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/command.svg"
+        "kind": "graphic",
+        "name": "command",
+        "concept": "Command links around flagship"
       }
     },
     {
@@ -903,9 +924,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "photo",
-        "file": "public/images/web/merlin-hm2.jpg",
-        "credits": "IMAGE-SOURCES.md"
+        "kind": "graphic",
+        "name": "sonar",
+        "concept": "Anti-submarine search"
       }
     },
     {
@@ -929,8 +950,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/shield.svg"
+        "kind": "graphic",
+        "name": "defense-ring",
+        "concept": "Layered escort coverage"
       }
     },
     {
@@ -954,8 +976,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/calendar.svg"
+        "kind": "title",
+        "name": "year",
+        "concept": "2025 chapter marker"
       }
     },
     {
@@ -979,9 +1002,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/carrier.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "highmast",
+        "concept": "Flagship leads operation"
       }
     },
     {
@@ -1005,8 +1028,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/clock.svg"
+        "kind": "graphic",
+        "name": "eight-months",
+        "concept": "Eight-month timeline"
       }
     },
     {
@@ -1030,8 +1054,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/pacific.svg"
+        "kind": "map",
+        "name": "indo-pacific",
+        "concept": "Regional geographic connections"
       }
     },
     {
@@ -1060,14 +1085,16 @@
           "text": "24",
           "value": 24,
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/mediterranean.svg"
+            "kind": "map",
+            "name": "mediterranean",
+            "concept": "Accurate Mediterranean coastline"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/mediterranean.svg"
+        "kind": "map",
+        "name": "mediterranean",
+        "concept": "Accurate Mediterranean coastline"
       }
     },
     {
@@ -1091,9 +1118,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/f35b.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "f35b",
+        "concept": "Aircraft and spoken count"
       }
     },
     {
@@ -1117,8 +1144,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/flightdeck.svg"
+        "kind": "graphic",
+        "name": "airwing",
+        "concept": "Twenty-four aircraft on one deck"
       }
     },
     {
@@ -1142,9 +1170,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/carrier.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "carrier",
+        "concept": "Queen Elizabeth class, closer view"
       }
     },
     {
@@ -1168,8 +1196,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/binoculars.svg"
+        "kind": "graphic",
+        "name": "reveal",
+        "concept": "Scanning the deployment"
       }
     },
     {
@@ -1193,8 +1222,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/uk.svg"
+        "kind": "map",
+        "name": "leadership",
+        "concept": "United Kingdom, first finding"
       }
     },
     {
@@ -1218,8 +1248,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/command.svg"
+        "kind": "graphic",
+        "name": "communications",
+        "concept": "Command coordinates the operation"
       }
     },
     {
@@ -1243,9 +1274,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/globe.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "map",
+        "name": "distance",
+        "concept": "UK to the other side of the world"
       }
     },
     {
@@ -1273,8 +1304,9 @@
           "asset": "wrench",
           "text": "",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/wrench.svg"
+            "kind": "graphic",
+            "name": "maintenance",
+            "concept": "Word-aligned detail"
           }
         },
         {
@@ -1282,16 +1314,16 @@
           "asset": "fuel",
           "text": "",
           "visualMedia": {
-            "kind": "generated-cutout",
-            "file": "public/images/generated/logistics.png",
-            "prompt": "data/image-prompts.json"
+            "kind": "graphic",
+            "name": "fuel",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/logistics.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "cutout",
+        "name": "logistics",
+        "concept": "Supplies, maintenance and fuel"
       }
     },
     {
@@ -1319,14 +1351,16 @@
           "asset": "escort",
           "text": "",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/escort.svg"
+            "kind": "graphic",
+            "name": "frigate",
+            "concept": "Word-aligned detail"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/ammunition.svg"
+        "kind": "graphic",
+        "name": "ammunition",
+        "concept": "Ammunition inventory"
       }
     },
     {
@@ -1350,8 +1384,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/clock.svg"
+        "kind": "graphic",
+        "name": "endurance",
+        "concept": "Operating across time"
       }
     },
     {
@@ -1380,16 +1415,16 @@
           "text": "2",
           "value": 2,
           "visualMedia": {
-            "kind": "generated-cutout",
-            "file": "public/images/generated/globe.png",
-            "prompt": "data/image-prompts.json"
+            "kind": "map",
+            "name": "return",
+            "concept": "Distance from home"
           }
         }
       ],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/globe.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "map",
+        "name": "return",
+        "concept": "Distance from home"
       }
     },
     {
@@ -1413,8 +1448,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/balance.svg"
+        "kind": "photo",
+        "name": "replenishment",
+        "concept": "Replenishment at sea replaces the balance metaphor"
       }
     },
     {
@@ -1438,8 +1474,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/alliance.svg"
+        "kind": "map",
+        "name": "allies",
+        "concept": "United Kingdom, Norway and Canada"
       }
     },
     {
@@ -1467,8 +1504,9 @@
           "asset": "escort",
           "text": "Norway",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/escort.svg"
+            "kind": "graphic",
+            "name": "frigate",
+            "concept": "Allied frigates"
           }
         },
         {
@@ -1476,8 +1514,9 @@
           "asset": "escort",
           "text": "Canada",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/escort.svg"
+            "kind": "graphic",
+            "name": "frigate",
+            "concept": "Allied frigates"
           }
         },
         {
@@ -1485,14 +1524,16 @@
           "asset": "escort",
           "text": "Norway",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/escort.svg"
+            "kind": "graphic",
+            "name": "frigate",
+            "concept": "Allied frigates"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/escort.svg"
+        "kind": "graphic",
+        "name": "frigate",
+        "concept": "Allied frigates"
       }
     },
     {
@@ -1520,14 +1561,16 @@
           "asset": "support",
           "text": "Norway",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/support.svg"
+            "kind": "map",
+            "name": "norway",
+            "concept": "Norwegian support"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/support.svg"
+        "kind": "map",
+        "name": "norway",
+        "concept": "Norwegian support"
       }
     },
     {
@@ -1551,8 +1594,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/shield.svg"
+        "kind": "graphic",
+        "name": "interoperability",
+        "concept": "Overlapping allied defensive coverage"
       }
     },
     {
@@ -1576,8 +1620,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/network.svg"
+        "kind": "graphic",
+        "name": "burden",
+        "concept": "Distributed operational load"
       }
     },
     {
@@ -1601,8 +1646,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/uk.svg"
+        "kind": "map",
+        "name": "sovereignty",
+        "concept": "United Kingdom, precise outline"
       }
     },
     {
@@ -1626,9 +1672,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "generated-cutout",
-        "file": "public/images/generated/anchor.png",
-        "prompt": "data/image-prompts.json"
+        "kind": "graphic",
+        "name": "autonomy",
+        "concept": "Single sovereign carrier capability"
       }
     },
     {
@@ -1656,14 +1702,16 @@
           "asset": "question",
           "text": "How many ships?",
           "visualMedia": {
-            "kind": "svg",
-            "file": "public/svg/question.svg"
+            "kind": "graphic",
+            "name": "availability",
+            "concept": "Fleet availability question"
           }
         }
       ],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/question.svg"
+        "kind": "graphic",
+        "name": "availability",
+        "concept": "Fleet availability question"
       }
     },
     {
@@ -1687,8 +1735,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/dock.svg"
+        "kind": "graphic",
+        "name": "dockyard",
+        "concept": "Ships in dock"
       }
     },
     {
@@ -1712,8 +1761,9 @@
       "alert": false,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/clock.svg"
+        "kind": "graphic",
+        "name": "sustain",
+        "concept": "Operational endurance"
       }
     },
     {
@@ -1737,11 +1787,21 @@
       "alert": true,
       "variants": [],
       "visualMedia": {
-        "kind": "svg",
-        "file": "public/svg/pressure.svg"
+        "kind": "graphic",
+        "name": "fleet-pressure",
+        "concept": "Pressure on the remaining fleet"
       }
     }
   ],
-  "visualRevision": 2,
-  "imageCredits": "IMAGE-SOURCES.md"
+  "visualRevision": 3,
+  "imageCredits": "IMAGE-SOURCES.md",
+  "animationIntegration": "@remotion/gsap 4.0.532: useGsapTimeline()",
+  "geography": {
+    "source": "Natural Earth",
+    "license": "Public domain",
+    "coastlines": "1:10m UK and Ireland; 1:50m world",
+    "processing": "Turf.js and d3-geo",
+    "historicalConnections": "Five representative former colonies, not exhaustive and not a dated territorial map",
+    "modernConnections": "Schematic geographic links, not recorded ship tracks"
+  }
 }

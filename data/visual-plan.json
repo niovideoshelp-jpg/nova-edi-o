@@ -1,0 +1,312 @@
+{
+  "S01": {
+    "kind": "map",
+    "name": "uk-paint",
+    "concept": "Coastline draw and liquid ink fill"
+  },
+  "S02": {
+    "kind": "graphic",
+    "name": "archive",
+    "concept": "Naval logbook"
+  },
+  "S03": {
+    "kind": "cutout",
+    "name": "anchor",
+    "concept": "Royal Navy identity"
+  },
+  "S04": {
+    "kind": "cutout",
+    "name": "sailing-ship",
+    "concept": "Age of sail"
+  },
+  "S05": {
+    "kind": "map",
+    "name": "colonies",
+    "concept": "UK connections to five former colonies"
+  },
+  "S06": {
+    "kind": "title",
+    "name": "empire-title",
+    "concept": "British Empire typographic punctuation"
+  },
+  "S07": {
+    "kind": "map",
+    "name": "daylight",
+    "concept": "Daylight travels across connected continents"
+  },
+  "S08": {
+    "kind": "graphic",
+    "name": "manuscript",
+    "concept": "Tolkien manuscript"
+  },
+  "S09": {
+    "kind": "cutout",
+    "name": "numenor",
+    "concept": "Fictional island miniature"
+  },
+  "S10": {
+    "kind": "graphic",
+    "name": "compass",
+    "concept": "Fictional world orientation"
+  },
+  "S11": {
+    "kind": "graphic",
+    "name": "harbor",
+    "concept": "Maritime civilization"
+  },
+  "S12": {
+    "kind": "graphic",
+    "name": "island-distance",
+    "concept": "Small island in a wide ocean"
+  },
+  "S13": {
+    "kind": "graphic",
+    "name": "naval-influence",
+    "concept": "Sailing fleet influence"
+  },
+  "S14": {
+    "kind": "title",
+    "name": "tolkien-title",
+    "concept": "Author name"
+  },
+  "S15": {
+    "kind": "graphic",
+    "name": "inquiry",
+    "concept": "Uncertain historical inspiration"
+  },
+  "S16": {
+    "kind": "map",
+    "name": "comparison",
+    "concept": "British geography grounds the comparison"
+  },
+  "S17": {
+    "kind": "map",
+    "name": "europe",
+    "concept": "Pull out to show the island off Europe"
+  },
+  "S18": {
+    "kind": "graphic",
+    "name": "broadside",
+    "concept": "Naval power, ship broadside"
+  },
+  "S19": {
+    "kind": "map",
+    "name": "reach",
+    "concept": "Connections across oceans"
+  },
+  "S20": {
+    "kind": "graphic",
+    "name": "era-change",
+    "concept": "Shift to a modern hull"
+  },
+  "S21": {
+    "kind": "graphic",
+    "name": "capability",
+    "concept": "Present carrier capability"
+  },
+  "S22": {
+    "kind": "graphic",
+    "name": "flagship",
+    "concept": "Modern Royal Navy silhouette"
+  },
+  "S23": {
+    "kind": "graphic",
+    "name": "formation",
+    "concept": "Carrier with escorts"
+  },
+  "S24": {
+    "kind": "graphic",
+    "name": "deck-plan",
+    "concept": "Carrier flight deck in plan"
+  },
+  "S25": {
+    "kind": "map",
+    "name": "home-range",
+    "concept": "Ocean scale from home"
+  },
+  "S26": {
+    "kind": "photo",
+    "name": "queen-elizabeth",
+    "concept": "HMS Queen Elizabeth, archival photograph"
+  },
+  "S27": {
+    "kind": "photo",
+    "name": "prince-of-wales",
+    "concept": "HMS Prince of Wales, archival photograph"
+  },
+  "S28": {
+    "kind": "graphic",
+    "name": "ski-jump",
+    "concept": "Deck and departure path"
+  },
+  "S29": {
+    "kind": "photo",
+    "name": "daring-dauntless",
+    "concept": "Ships deploy together"
+  },
+  "S30": {
+    "kind": "photo",
+    "name": "merlin-hm2",
+    "concept": "Merlin helicopter, documentary photograph"
+  },
+  "S31": {
+    "kind": "graphic",
+    "name": "supply",
+    "concept": "Underway replenishment"
+  },
+  "S32": {
+    "kind": "graphic",
+    "name": "command",
+    "concept": "Command links around flagship"
+  },
+  "S33": {
+    "kind": "graphic",
+    "name": "sonar",
+    "concept": "Anti-submarine search"
+  },
+  "S34": {
+    "kind": "graphic",
+    "name": "defense-ring",
+    "concept": "Layered escort coverage"
+  },
+  "S35": {
+    "kind": "title",
+    "name": "year",
+    "concept": "2025 chapter marker"
+  },
+  "S36": {
+    "kind": "graphic",
+    "name": "highmast",
+    "concept": "Flagship leads operation"
+  },
+  "S37": {
+    "kind": "graphic",
+    "name": "eight-months",
+    "concept": "Eight-month timeline"
+  },
+  "S38": {
+    "kind": "map",
+    "name": "indo-pacific",
+    "concept": "Regional geographic connections"
+  },
+  "S39": {
+    "kind": "map",
+    "name": "mediterranean",
+    "concept": "Accurate Mediterranean coastline"
+  },
+  "S40": {
+    "kind": "cutout",
+    "name": "f35b",
+    "concept": "Aircraft and spoken count"
+  },
+  "S41": {
+    "kind": "graphic",
+    "name": "airwing",
+    "concept": "Twenty-four aircraft on one deck"
+  },
+  "S42": {
+    "kind": "cutout",
+    "name": "carrier",
+    "concept": "Queen Elizabeth class, closer view"
+  },
+  "S43": {
+    "kind": "graphic",
+    "name": "reveal",
+    "concept": "Scanning the deployment"
+  },
+  "S44": {
+    "kind": "map",
+    "name": "leadership",
+    "concept": "United Kingdom, first finding"
+  },
+  "S45": {
+    "kind": "graphic",
+    "name": "communications",
+    "concept": "Command coordinates the operation"
+  },
+  "S46": {
+    "kind": "map",
+    "name": "distance",
+    "concept": "UK to the other side of the world"
+  },
+  "S47": {
+    "kind": "cutout",
+    "name": "logistics",
+    "concept": "Supplies, maintenance and fuel"
+  },
+  "S48": {
+    "kind": "graphic",
+    "name": "ammunition",
+    "concept": "Ammunition inventory"
+  },
+  "S49": {
+    "kind": "graphic",
+    "name": "endurance",
+    "concept": "Operating across time"
+  },
+  "S50": {
+    "kind": "map",
+    "name": "return",
+    "concept": "Distance from home"
+  },
+  "S51": {
+    "kind": "photo",
+    "name": "replenishment",
+    "concept": "Replenishment at sea replaces the balance metaphor"
+  },
+  "S52": {
+    "kind": "map",
+    "name": "allies",
+    "concept": "United Kingdom, Norway and Canada"
+  },
+  "S53": {
+    "kind": "graphic",
+    "name": "frigate",
+    "concept": "Allied frigates"
+  },
+  "S54": {
+    "kind": "map",
+    "name": "norway",
+    "concept": "Norwegian support"
+  },
+  "S55": {
+    "kind": "graphic",
+    "name": "interoperability",
+    "concept": "Overlapping allied defensive coverage"
+  },
+  "S56": {
+    "kind": "graphic",
+    "name": "burden",
+    "concept": "Distributed operational load"
+  },
+  "S57": {
+    "kind": "map",
+    "name": "sovereignty",
+    "concept": "United Kingdom, precise outline"
+  },
+  "S58": {
+    "kind": "graphic",
+    "name": "autonomy",
+    "concept": "Single sovereign carrier capability"
+  },
+  "S59": {
+    "kind": "graphic",
+    "name": "availability",
+    "concept": "Fleet availability question"
+  },
+  "S60": {
+    "kind": "graphic",
+    "name": "dockyard",
+    "concept": "Ships in dock"
+  },
+  "S61": {
+    "kind": "graphic",
+    "name": "sustain",
+    "concept": "Operational endurance"
+  },
+  "S62": {
+    "kind": "graphic",
+    "name": "fleet-pressure",
+    "concept": "Pressure on the remaining fleet"
+  }
+}

@@ -2,11 +2,11 @@
 
 Composição editável sincronizada ao áudio fornecido **Intro.mp3**.
 
-**1920×1080 · 30 fps · 6047 frames · 3:21,567 · 62 cenas · 44 SVGs originais**
+**1920×1080 · 30 fps · 6047 frames · 3:21,567 · 62 cenas**
 
-**Versão 2:** a composição combina os SVGs com **8 PNGs gerados com transparência** e **3 fotografias navais da internet**. Assets gerados e fotos documentais estão identificados em [IMAGE-SOURCES.md](IMAGE-SOURCES.md), com os [prompts completos](data/image-prompts.json). Os novos elementos já estão inseridos e animados na timeline.
+**Revisão 3:** mapas geográficos reais com **Turf.js**, pintura líquida do Reino Unido, rotas pontilhadas para antigas colônias e animação pela integração oficial **`@remotion/gsap`**, com uso efetivo de **`useGsapTimeline()`**. Todos os globos e as duas balanças foram substituídos na composição. O storyboard alterna 15 cenas cartográficas, ilustrações navais redesenhadas, tipografia, seis recortes gerados e cinco fotografias licenciadas.
 
-![Frames da composição revisada](docs/preview-v2.jpg)
+![Frames da composição revisada](docs/preview-v3.jpg)
 
 ## Prévia e exportação
 
@@ -35,7 +35,10 @@ Exporta `out/RoyalNavy.mp4`. O Remotion pode baixar o Chrome Headless Shell auto
 | 571 palavras com timestamps | [data/words.json](data/words.json) |
 | Transcrição corrigida | [data/transcript.txt](data/transcript.txt) |
 | Lista de SVGs | [ASSETS.md](ASSETS.md) |
-| SVGs transparentes | [public/svg](public/svg) |
+| SVGs navais revisados | [public/svg-v3](public/svg-v3) |
+| SVGs cartográficos | [public/maps](public/maps) |
+| Dados geográficos e origem | [data/geography](data/geography) |
+| Storyboard revisado | [STORYBOARD.md](STORYBOARD.md) |
 | Narração original | [public/audio/Intro.mp3](public/audio/Intro.mp3) |
 | Mixagem pronta | [public/audio/mix.mp3](public/audio/mix.mp3) |
 | Música e efeitos originais | [public/audio](public/audio) |
@@ -44,11 +47,19 @@ Exporta `out/RoyalNavy.mp4`. O Remotion pode baixar o Chrome Headless Shell auto
 
 ## Direção e movimento
 
-Paleta solicitada, Inter local, fundo em gradiente com grão discreto e vinheta. SVGs originais com traço uniforme, desenho por stroke-dashoffset e preenchimento posterior. Mapas e equipamentos são ilustrações esquemáticas, não desenhos técnicos.
+Paleta solicitada, Inter local, fundo em gradiente com grão discreto e vinheta. São 35 SVGs navais exportáveis e 16 vistas cartográficas disponíveis. Desenho por stroke-dashoffset e preenchimento posterior. Os navios são ilustrações editoriais; os mapas partem de dados geográficos Natural Earth, com detalhe 1:10 milhões para Reino Unido e Irlanda e 1:50 milhões para o mundo.
+
+Turf.js processa limites, orienta e simplifica polígonos e calcula geodésicas, comprimentos e amostras dos trajetos. D3 faz a projeção para o SVG. Os arquivos são locais: a prévia não depende de uma API de mapas nem de chaves. A pintura líquida usa uma frente de tinta animada, com turbulência determinística e máscara recortada ao contorno do Reino Unido; a costa permanece precisa.
+
+As conexões históricas ligam o Reino Unido a Canadá, Jamaica, África do Sul, Índia e Austrália. São exemplos de antigas colônias, com limites atuais; não é um mapa completo do império em uma data específica. As conexões modernas são esquemas geográficos e não reconstituem trajetos reais de navios.
 
 Planos principais de 2–4 segundos, sem repetir asset principal, entrada ou saída em cenas consecutivas. Nas listas rápidas da narração, o mesmo plano troca seu único ícone ou nome na palavra correspondente. Esses handoffs internos são mais rápidos que a duração dos planos; nunca exibem painéis concorrentes.
 
-GSAP usa timelines pausadas, posicionadas explicitamente pelo frame do Remotion. Entradas: 0,5 s, power3.out ou expo.out. Saídas: 0,3 s, power2.in. Contadores usam snap inteiro. Zoom lento e deslocamento mantêm movimento contínuo. As transições usam direção de navegação, horizonte, mergulho, íris e passagem de página conforme o conceito.
+`useGsapTimeline()` controla elementos DOM/SVG em [Scene.tsx](src/Scene.tsx), [MapAtlas.tsx](src/MapAtlas.tsx) e [NavalGraphic.tsx](src/NavalGraphic.tsx). O hook oficial gerencia a timeline pausada e busca o frame; não há ticker manual nem callbacks de animação. Entradas de 0,5 s usam power3.out/expo.out; saídas de 0,3 s usam power2.in. Os números são derivados do frame com easing GSAP e snap inteiro, conforme a restrição do hook a alvos DOM/SVG. Máscaras de palavras, pintura, desenho das rotas e micro-movimento são animados pelo hook.
+
+Referências: [integração oficial Remotion/GSAP](https://www.remotion.dev/docs/gsap/use-gsap-timeline), [Turf greatCircle](https://turfjs.org/docs/api/greatCircle), [Natural Earth — domínio público](https://www.naturalearthdata.com/about/terms-of-use/).
+
+Os oito PNGs gerados anteriormente permanecem disponíveis, com [prompts](data/image-prompts.json); o globo não é usado e o Merlin gerado fica como alternativa à fotografia. Fotografias e créditos em [IMAGE-SOURCES.md](IMAGE-SOURCES.md).
 
 ## Sincronização
 
@@ -76,6 +87,16 @@ npm run lint
 ```
 
 Checagens de continuidade, duração, antecipação dos ícones, variação de assets/movimentos e cobertura do áudio. Revisão visual registrada em [QA.md](QA.md).
+
+Para refazer a cartografia e os SVGs sem alterar o áudio:
+
+```sh
+node scripts/build-geography.mjs
+node scripts/revise-storyboard.mjs
+node scripts/export-vectors.mjs
+```
+
+`fetch-geography.mjs` atualiza os dados a partir do repositório Natural Earth; não é necessário para usar os dados congelados nesta entrega. A revisão completa de frames está em `scripts/review-stills.mjs` (ajuste `CHROME_PATH` se necessário).
 
 ## Repositórios públicos utilizados
 
