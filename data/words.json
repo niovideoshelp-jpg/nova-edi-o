@@ -1,0 +1,4570 @@
+[
+  {
+    "id": 0,
+    "text": "When",
+    "startMs": 0,
+    "endMs": 260,
+    "timestampMs": 0,
+    "confidence": null
+  },
+  {
+    "id": 1,
+    "text": "you",
+    "startMs": 260,
+    "endMs": 400,
+    "timestampMs": 260,
+    "confidence": null
+  },
+  {
+    "id": 2,
+    "text": "think",
+    "startMs": 400,
+    "endMs": 580,
+    "timestampMs": 400,
+    "confidence": null
+  },
+  {
+    "id": 3,
+    "text": "about",
+    "startMs": 580,
+    "endMs": 800,
+    "timestampMs": 580,
+    "confidence": null
+  },
+  {
+    "id": 4,
+    "text": "the",
+    "startMs": 800,
+    "endMs": 940,
+    "timestampMs": 800,
+    "confidence": null
+  },
+  {
+    "id": 5,
+    "text": "United",
+    "startMs": 940,
+    "endMs": 1160,
+    "timestampMs": 940,
+    "confidence": null
+  },
+  {
+    "id": 6,
+    "text": "Kingdom,",
+    "startMs": 1160,
+    "endMs": 1620,
+    "timestampMs": 1160,
+    "confidence": null
+  },
+  {
+    "id": 7,
+    "text": "at",
+    "startMs": 2120,
+    "endMs": 2240,
+    "timestampMs": 2120,
+    "confidence": null
+  },
+  {
+    "id": 8,
+    "text": "least",
+    "startMs": 2240,
+    "endMs": 2400,
+    "timestampMs": 2240,
+    "confidence": null
+  },
+  {
+    "id": 9,
+    "text": "for",
+    "startMs": 2400,
+    "endMs": 2560,
+    "timestampMs": 2400,
+    "confidence": null
+  },
+  {
+    "id": 10,
+    "text": "me",
+    "startMs": 2560,
+    "endMs": 2800,
+    "timestampMs": 2560,
+    "confidence": null
+  },
+  {
+    "id": 11,
+    "text": "as",
+    "startMs": 2800,
+    "endMs": 3160,
+    "timestampMs": 2800,
+    "confidence": null
+  },
+  {
+    "id": 12,
+    "text": "someone",
+    "startMs": 3160,
+    "endMs": 3420,
+    "timestampMs": 3160,
+    "confidence": null
+  },
+  {
+    "id": 13,
+    "text": "who",
+    "startMs": 3420,
+    "endMs": 3580,
+    "timestampMs": 3420,
+    "confidence": null
+  },
+  {
+    "id": 14,
+    "text": "loves",
+    "startMs": 3580,
+    "endMs": 3900,
+    "timestampMs": 3580,
+    "confidence": null
+  },
+  {
+    "id": 15,
+    "text": "history,",
+    "startMs": 3900,
+    "endMs": 4360,
+    "timestampMs": 3900,
+    "confidence": null
+  },
+  {
+    "id": 16,
+    "text": "it's",
+    "startMs": 4860,
+    "endMs": 5060,
+    "timestampMs": 4860,
+    "confidence": null
+  },
+  {
+    "id": 17,
+    "text": "hard",
+    "startMs": 5060,
+    "endMs": 5260,
+    "timestampMs": 5060,
+    "confidence": null
+  },
+  {
+    "id": 18,
+    "text": "not",
+    "startMs": 5260,
+    "endMs": 5560,
+    "timestampMs": 5260,
+    "confidence": null
+  },
+  {
+    "id": 19,
+    "text": "to",
+    "startMs": 5560,
+    "endMs": 5760,
+    "timestampMs": 5560,
+    "confidence": null
+  },
+  {
+    "id": 20,
+    "text": "think",
+    "startMs": 5760,
+    "endMs": 5960,
+    "timestampMs": 5760,
+    "confidence": null
+  },
+  {
+    "id": 21,
+    "text": "about",
+    "startMs": 5960,
+    "endMs": 6160,
+    "timestampMs": 5960,
+    "confidence": null
+  },
+  {
+    "id": 22,
+    "text": "the",
+    "startMs": 6160,
+    "endMs": 6320,
+    "timestampMs": 6160,
+    "confidence": null
+  },
+  {
+    "id": 23,
+    "text": "Royal",
+    "startMs": 6320,
+    "endMs": 6580,
+    "timestampMs": 6320,
+    "confidence": null
+  },
+  {
+    "id": 24,
+    "text": "Navy.",
+    "startMs": 6580,
+    "endMs": 6940,
+    "timestampMs": 6580,
+    "confidence": null
+  },
+  {
+    "id": 25,
+    "text": "The",
+    "startMs": 7560,
+    "endMs": 7680,
+    "timestampMs": 7560,
+    "confidence": null
+  },
+  {
+    "id": 26,
+    "text": "powerful",
+    "startMs": 7680,
+    "endMs": 8140,
+    "timestampMs": 7680,
+    "confidence": null
+  },
+  {
+    "id": 27,
+    "text": "British",
+    "startMs": 8140,
+    "endMs": 8500,
+    "timestampMs": 8140,
+    "confidence": null
+  },
+  {
+    "id": 28,
+    "text": "Navy",
+    "startMs": 8500,
+    "endMs": 8900,
+    "timestampMs": 8500,
+    "confidence": null
+  },
+  {
+    "id": 29,
+    "text": "that,",
+    "startMs": 8900,
+    "endMs": 9160,
+    "timestampMs": 8900,
+    "confidence": null
+  },
+  {
+    "id": 30,
+    "text": "for",
+    "startMs": 9340,
+    "endMs": 9420,
+    "timestampMs": 9340,
+    "confidence": null
+  },
+  {
+    "id": 31,
+    "text": "centuries,",
+    "startMs": 9420,
+    "endMs": 9900,
+    "timestampMs": 9420,
+    "confidence": null
+  },
+  {
+    "id": 32,
+    "text": "helped",
+    "startMs": 10400,
+    "endMs": 10520,
+    "timestampMs": 10400,
+    "confidence": null
+  },
+  {
+    "id": 33,
+    "text": "the",
+    "startMs": 10520,
+    "endMs": 10680,
+    "timestampMs": 10520,
+    "confidence": null
+  },
+  {
+    "id": 34,
+    "text": "United",
+    "startMs": 10680,
+    "endMs": 10880,
+    "timestampMs": 10680,
+    "confidence": null
+  },
+  {
+    "id": 35,
+    "text": "Kingdom",
+    "startMs": 10880,
+    "endMs": 11280,
+    "timestampMs": 10880,
+    "confidence": null
+  },
+  {
+    "id": 36,
+    "text": "build",
+    "startMs": 11280,
+    "endMs": 11620,
+    "timestampMs": 11280,
+    "confidence": null
+  },
+  {
+    "id": 37,
+    "text": "an",
+    "startMs": 11620,
+    "endMs": 11800,
+    "timestampMs": 11620,
+    "confidence": null
+  },
+  {
+    "id": 38,
+    "text": "empire",
+    "startMs": 11800,
+    "endMs": 12120,
+    "timestampMs": 11800,
+    "confidence": null
+  },
+  {
+    "id": 39,
+    "text": "that",
+    "startMs": 12120,
+    "endMs": 12480,
+    "timestampMs": 12120,
+    "confidence": null
+  },
+  {
+    "id": 40,
+    "text": "stretched",
+    "startMs": 12480,
+    "endMs": 12800,
+    "timestampMs": 12480,
+    "confidence": null
+  },
+  {
+    "id": 41,
+    "text": "across",
+    "startMs": 12800,
+    "endMs": 13100,
+    "timestampMs": 12800,
+    "confidence": null
+  },
+  {
+    "id": 42,
+    "text": "nearly",
+    "startMs": 13100,
+    "endMs": 13460,
+    "timestampMs": 13100,
+    "confidence": null
+  },
+  {
+    "id": 43,
+    "text": "every",
+    "startMs": 13460,
+    "endMs": 14040,
+    "timestampMs": 13460,
+    "confidence": null
+  },
+  {
+    "id": 44,
+    "text": "continent.",
+    "startMs": 14040,
+    "endMs": 14560,
+    "timestampMs": 14040,
+    "confidence": null
+  },
+  {
+    "id": 45,
+    "text": "An",
+    "startMs": 15180,
+    "endMs": 15320,
+    "timestampMs": 15180,
+    "confidence": null
+  },
+  {
+    "id": 46,
+    "text": "empire",
+    "startMs": 15320,
+    "endMs": 15620,
+    "timestampMs": 15320,
+    "confidence": null
+  },
+  {
+    "id": 47,
+    "text": "so",
+    "startMs": 15620,
+    "endMs": 16080,
+    "timestampMs": 15620,
+    "confidence": null
+  },
+  {
+    "id": 48,
+    "text": "vast",
+    "startMs": 16080,
+    "endMs": 16420,
+    "timestampMs": 16080,
+    "confidence": null
+  },
+  {
+    "id": 49,
+    "text": "that",
+    "startMs": 16420,
+    "endMs": 16860,
+    "timestampMs": 16420,
+    "confidence": null
+  },
+  {
+    "id": 50,
+    "text": "it",
+    "startMs": 16860,
+    "endMs": 17000,
+    "timestampMs": 16860,
+    "confidence": null
+  },
+  {
+    "id": 51,
+    "text": "gave",
+    "startMs": 17000,
+    "endMs": 17160,
+    "timestampMs": 17000,
+    "confidence": null
+  },
+  {
+    "id": 52,
+    "text": "rise",
+    "startMs": 17160,
+    "endMs": 17440,
+    "timestampMs": 17160,
+    "confidence": null
+  },
+  {
+    "id": 53,
+    "text": "to",
+    "startMs": 17440,
+    "endMs": 17640,
+    "timestampMs": 17440,
+    "confidence": null
+  },
+  {
+    "id": 54,
+    "text": "that",
+    "startMs": 17640,
+    "endMs": 17780,
+    "timestampMs": 17640,
+    "confidence": null
+  },
+  {
+    "id": 55,
+    "text": "famous",
+    "startMs": 17780,
+    "endMs": 18180,
+    "timestampMs": 17780,
+    "confidence": null
+  },
+  {
+    "id": 56,
+    "text": "phrase,",
+    "startMs": 18180,
+    "endMs": 18540,
+    "timestampMs": 18180,
+    "confidence": null
+  },
+  {
+    "id": 57,
+    "text": "the",
+    "startMs": 19320,
+    "endMs": 19400,
+    "timestampMs": 19320,
+    "confidence": null
+  },
+  {
+    "id": 58,
+    "text": "sun",
+    "startMs": 19400,
+    "endMs": 19760,
+    "timestampMs": 19400,
+    "confidence": null
+  },
+  {
+    "id": 59,
+    "text": "never",
+    "startMs": 19760,
+    "endMs": 20060,
+    "timestampMs": 19760,
+    "confidence": null
+  },
+  {
+    "id": 60,
+    "text": "sets",
+    "startMs": 20060,
+    "endMs": 20500,
+    "timestampMs": 20060,
+    "confidence": null
+  },
+  {
+    "id": 61,
+    "text": "on",
+    "startMs": 20500,
+    "endMs": 20960,
+    "timestampMs": 20500,
+    "confidence": null
+  },
+  {
+    "id": 62,
+    "text": "the",
+    "startMs": 20960,
+    "endMs": 21060,
+    "timestampMs": 20960,
+    "confidence": null
+  },
+  {
+    "id": 63,
+    "text": "British",
+    "startMs": 21060,
+    "endMs": 21320,
+    "timestampMs": 21060,
+    "confidence": null
+  },
+  {
+    "id": 64,
+    "text": "Empire.",
+    "startMs": 21320,
+    "endMs": 21760,
+    "timestampMs": 21320,
+    "confidence": null
+  },
+  {
+    "id": 65,
+    "text": "In",
+    "startMs": 22460,
+    "endMs": 22760,
+    "timestampMs": 22460,
+    "confidence": null
+  },
+  {
+    "id": 66,
+    "text": "Tolkien's",
+    "startMs": 22760,
+    "endMs": 23260,
+    "timestampMs": 22760,
+    "confidence": null
+  },
+  {
+    "id": 67,
+    "text": "world,",
+    "startMs": 23260,
+    "endMs": 23480,
+    "timestampMs": 23260,
+    "confidence": null
+  },
+  {
+    "id": 68,
+    "text": "there",
+    "startMs": 23740,
+    "endMs": 23820,
+    "timestampMs": 23740,
+    "confidence": null
+  },
+  {
+    "id": 69,
+    "text": "was",
+    "startMs": 23820,
+    "endMs": 23980,
+    "timestampMs": 23820,
+    "confidence": null
+  },
+  {
+    "id": 70,
+    "text": "Númenor,",
+    "startMs": 23980,
+    "endMs": 24520,
+    "timestampMs": 23980,
+    "confidence": null
+  },
+  {
+    "id": 71,
+    "text": "a",
+    "startMs": 24900,
+    "endMs": 25000,
+    "timestampMs": 24900,
+    "confidence": null
+  },
+  {
+    "id": 72,
+    "text": "great",
+    "startMs": 25000,
+    "endMs": 25300,
+    "timestampMs": 25000,
+    "confidence": null
+  },
+  {
+    "id": 73,
+    "text": "island",
+    "startMs": 25300,
+    "endMs": 25740,
+    "timestampMs": 25300,
+    "confidence": null
+  },
+  {
+    "id": 74,
+    "text": "in",
+    "startMs": 25740,
+    "endMs": 25940,
+    "timestampMs": 25740,
+    "confidence": null
+  },
+  {
+    "id": 75,
+    "text": "the",
+    "startMs": 25940,
+    "endMs": 26000,
+    "timestampMs": 25940,
+    "confidence": null
+  },
+  {
+    "id": 76,
+    "text": "middle",
+    "startMs": 26000,
+    "endMs": 26260,
+    "timestampMs": 26000,
+    "confidence": null
+  },
+  {
+    "id": 77,
+    "text": "of",
+    "startMs": 26260,
+    "endMs": 26440,
+    "timestampMs": 26260,
+    "confidence": null
+  },
+  {
+    "id": 78,
+    "text": "the",
+    "startMs": 26440,
+    "endMs": 26560,
+    "timestampMs": 26440,
+    "confidence": null
+  },
+  {
+    "id": 79,
+    "text": "ocean",
+    "startMs": 26560,
+    "endMs": 26860,
+    "timestampMs": 26560,
+    "confidence": null
+  },
+  {
+    "id": 80,
+    "text": "separated",
+    "startMs": 26860,
+    "endMs": 27460,
+    "timestampMs": 26860,
+    "confidence": null
+  },
+  {
+    "id": 81,
+    "text": "from",
+    "startMs": 27460,
+    "endMs": 27760,
+    "timestampMs": 27460,
+    "confidence": null
+  },
+  {
+    "id": 82,
+    "text": "the",
+    "startMs": 27760,
+    "endMs": 27880,
+    "timestampMs": 27760,
+    "confidence": null
+  },
+  {
+    "id": 83,
+    "text": "rest",
+    "startMs": 27880,
+    "endMs": 28140,
+    "timestampMs": 27880,
+    "confidence": null
+  },
+  {
+    "id": 84,
+    "text": "of",
+    "startMs": 28140,
+    "endMs": 28300,
+    "timestampMs": 28140,
+    "confidence": null
+  },
+  {
+    "id": 85,
+    "text": "Middle",
+    "startMs": 28300,
+    "endMs": 28460,
+    "timestampMs": 28300,
+    "confidence": null
+  },
+  {
+    "id": 86,
+    "text": "Earth,",
+    "startMs": 28460,
+    "endMs": 28740,
+    "timestampMs": 28460,
+    "confidence": null
+  },
+  {
+    "id": 87,
+    "text": "yet",
+    "startMs": 28740,
+    "endMs": 29240,
+    "timestampMs": 28740,
+    "confidence": null
+  },
+  {
+    "id": 88,
+    "text": "destined",
+    "startMs": 29240,
+    "endMs": 29680,
+    "timestampMs": 29240,
+    "confidence": null
+  },
+  {
+    "id": 89,
+    "text": "to",
+    "startMs": 29680,
+    "endMs": 29860,
+    "timestampMs": 29680,
+    "confidence": null
+  },
+  {
+    "id": 90,
+    "text": "become",
+    "startMs": 29860,
+    "endMs": 30100,
+    "timestampMs": 29860,
+    "confidence": null
+  },
+  {
+    "id": 91,
+    "text": "one",
+    "startMs": 30100,
+    "endMs": 30340,
+    "timestampMs": 30100,
+    "confidence": null
+  },
+  {
+    "id": 92,
+    "text": "of",
+    "startMs": 30340,
+    "endMs": 30440,
+    "timestampMs": 30340,
+    "confidence": null
+  },
+  {
+    "id": 93,
+    "text": "the",
+    "startMs": 30440,
+    "endMs": 30540,
+    "timestampMs": 30440,
+    "confidence": null
+  },
+  {
+    "id": 94,
+    "text": "most",
+    "startMs": 30540,
+    "endMs": 30700,
+    "timestampMs": 30540,
+    "confidence": null
+  },
+  {
+    "id": 95,
+    "text": "powerful",
+    "startMs": 30700,
+    "endMs": 31240,
+    "timestampMs": 30700,
+    "confidence": null
+  },
+  {
+    "id": 96,
+    "text": "civilizations",
+    "startMs": 31240,
+    "endMs": 31800,
+    "timestampMs": 31240,
+    "confidence": null
+  },
+  {
+    "id": 97,
+    "text": "of",
+    "startMs": 31800,
+    "endMs": 32260,
+    "timestampMs": 31800,
+    "confidence": null
+  },
+  {
+    "id": 98,
+    "text": "its",
+    "startMs": 32260,
+    "endMs": 32420,
+    "timestampMs": 32260,
+    "confidence": null
+  },
+  {
+    "id": 99,
+    "text": "age.",
+    "startMs": 32420,
+    "endMs": 32740,
+    "timestampMs": 32420,
+    "confidence": null
+  },
+  {
+    "id": 100,
+    "text": "A",
+    "startMs": 33200,
+    "endMs": 33420,
+    "timestampMs": 33200,
+    "confidence": null
+  },
+  {
+    "id": 101,
+    "text": "relatively",
+    "startMs": 33420,
+    "endMs": 33720,
+    "timestampMs": 33420,
+    "confidence": null
+  },
+  {
+    "id": 102,
+    "text": "small",
+    "startMs": 33720,
+    "endMs": 34200,
+    "timestampMs": 33720,
+    "confidence": null
+  },
+  {
+    "id": 103,
+    "text": "island,",
+    "startMs": 34200,
+    "endMs": 34660,
+    "timestampMs": 34200,
+    "confidence": null
+  },
+  {
+    "id": 104,
+    "text": "compared",
+    "startMs": 34780,
+    "endMs": 35000,
+    "timestampMs": 34780,
+    "confidence": null
+  },
+  {
+    "id": 105,
+    "text": "to",
+    "startMs": 35000,
+    "endMs": 35220,
+    "timestampMs": 35000,
+    "confidence": null
+  },
+  {
+    "id": 106,
+    "text": "an",
+    "startMs": 35220,
+    "endMs": 35320,
+    "timestampMs": 35220,
+    "confidence": null
+  },
+  {
+    "id": 107,
+    "text": "entire",
+    "startMs": 35320,
+    "endMs": 35700,
+    "timestampMs": 35320,
+    "confidence": null
+  },
+  {
+    "id": 108,
+    "text": "continent,",
+    "startMs": 35700,
+    "endMs": 36260,
+    "timestampMs": 35700,
+    "confidence": null
+  },
+  {
+    "id": 109,
+    "text": "but",
+    "startMs": 36600,
+    "endMs": 36840,
+    "timestampMs": 36600,
+    "confidence": null
+  },
+  {
+    "id": 110,
+    "text": "one",
+    "startMs": 36840,
+    "endMs": 37060,
+    "timestampMs": 36840,
+    "confidence": null
+  },
+  {
+    "id": 111,
+    "text": "with",
+    "startMs": 37060,
+    "endMs": 37240,
+    "timestampMs": 37060,
+    "confidence": null
+  },
+  {
+    "id": 112,
+    "text": "enormous",
+    "startMs": 37240,
+    "endMs": 37760,
+    "timestampMs": 37240,
+    "confidence": null
+  },
+  {
+    "id": 113,
+    "text": "naval",
+    "startMs": 37760,
+    "endMs": 38280,
+    "timestampMs": 37760,
+    "confidence": null
+  },
+  {
+    "id": 114,
+    "text": "and",
+    "startMs": 38280,
+    "endMs": 38520,
+    "timestampMs": 38280,
+    "confidence": null
+  },
+  {
+    "id": 115,
+    "text": "political",
+    "startMs": 38520,
+    "endMs": 38900,
+    "timestampMs": 38520,
+    "confidence": null
+  },
+  {
+    "id": 116,
+    "text": "influence.",
+    "startMs": 38900,
+    "endMs": 39460,
+    "timestampMs": 38900,
+    "confidence": null
+  },
+  {
+    "id": 117,
+    "text": "Did",
+    "startMs": 40120,
+    "endMs": 40360,
+    "timestampMs": 40120,
+    "confidence": null
+  },
+  {
+    "id": 118,
+    "text": "Tolkien",
+    "startMs": 40360,
+    "endMs": 40680,
+    "timestampMs": 40360,
+    "confidence": null
+  },
+  {
+    "id": 119,
+    "text": "look",
+    "startMs": 40680,
+    "endMs": 40940,
+    "timestampMs": 40680,
+    "confidence": null
+  },
+  {
+    "id": 120,
+    "text": "at",
+    "startMs": 40940,
+    "endMs": 41080,
+    "timestampMs": 40940,
+    "confidence": null
+  },
+  {
+    "id": 121,
+    "text": "British",
+    "startMs": 41080,
+    "endMs": 41320,
+    "timestampMs": 41080,
+    "confidence": null
+  },
+  {
+    "id": 122,
+    "text": "history",
+    "startMs": 41320,
+    "endMs": 41800,
+    "timestampMs": 41320,
+    "confidence": null
+  },
+  {
+    "id": 123,
+    "text": "and",
+    "startMs": 41800,
+    "endMs": 42100,
+    "timestampMs": 41800,
+    "confidence": null
+  },
+  {
+    "id": 124,
+    "text": "draw",
+    "startMs": 42100,
+    "endMs": 42360,
+    "timestampMs": 42100,
+    "confidence": null
+  },
+  {
+    "id": 125,
+    "text": "some",
+    "startMs": 42360,
+    "endMs": 42520,
+    "timestampMs": 42360,
+    "confidence": null
+  },
+  {
+    "id": 126,
+    "text": "inspiration",
+    "startMs": 42520,
+    "endMs": 42960,
+    "timestampMs": 42520,
+    "confidence": null
+  },
+  {
+    "id": 127,
+    "text": "from",
+    "startMs": 42960,
+    "endMs": 43300,
+    "timestampMs": 42960,
+    "confidence": null
+  },
+  {
+    "id": 128,
+    "text": "it?",
+    "startMs": 43300,
+    "endMs": 43440,
+    "timestampMs": 43300,
+    "confidence": null
+  },
+  {
+    "id": 129,
+    "text": "Well,",
+    "startMs": 43940,
+    "endMs": 44280,
+    "timestampMs": 43940,
+    "confidence": null
+  },
+  {
+    "id": 130,
+    "text": "I",
+    "startMs": 44680,
+    "endMs": 44800,
+    "timestampMs": 44680,
+    "confidence": null
+  },
+  {
+    "id": 131,
+    "text": "don't",
+    "startMs": 44800,
+    "endMs": 44940,
+    "timestampMs": 44800,
+    "confidence": null
+  },
+  {
+    "id": 132,
+    "text": "know,",
+    "startMs": 44940,
+    "endMs": 45200,
+    "timestampMs": 44940,
+    "confidence": null
+  },
+  {
+    "id": 133,
+    "text": "but",
+    "startMs": 45460,
+    "endMs": 45780,
+    "timestampMs": 45460,
+    "confidence": null
+  },
+  {
+    "id": 134,
+    "text": "it",
+    "startMs": 45780,
+    "endMs": 46040,
+    "timestampMs": 45780,
+    "confidence": null
+  },
+  {
+    "id": 135,
+    "text": "is",
+    "startMs": 46040,
+    "endMs": 46340,
+    "timestampMs": 46040,
+    "confidence": null
+  },
+  {
+    "id": 136,
+    "text": "an",
+    "startMs": 46340,
+    "endMs": 46460,
+    "timestampMs": 46340,
+    "confidence": null
+  },
+  {
+    "id": 137,
+    "text": "interesting",
+    "startMs": 46460,
+    "endMs": 46800,
+    "timestampMs": 46460,
+    "confidence": null
+  },
+  {
+    "id": 138,
+    "text": "comparison.",
+    "startMs": 46800,
+    "endMs": 47420,
+    "timestampMs": 46800,
+    "confidence": null
+  },
+  {
+    "id": 139,
+    "text": "Because",
+    "startMs": 47920,
+    "endMs": 48260,
+    "timestampMs": 47920,
+    "confidence": null
+  },
+  {
+    "id": 140,
+    "text": "for",
+    "startMs": 48260,
+    "endMs": 48500,
+    "timestampMs": 48260,
+    "confidence": null
+  },
+  {
+    "id": 141,
+    "text": "a",
+    "startMs": 48500,
+    "endMs": 48620,
+    "timestampMs": 48500,
+    "confidence": null
+  },
+  {
+    "id": 142,
+    "text": "very",
+    "startMs": 48620,
+    "endMs": 48920,
+    "timestampMs": 48620,
+    "confidence": null
+  },
+  {
+    "id": 143,
+    "text": "long",
+    "startMs": 48920,
+    "endMs": 49200,
+    "timestampMs": 48920,
+    "confidence": null
+  },
+  {
+    "id": 144,
+    "text": "time,",
+    "startMs": 49200,
+    "endMs": 49600,
+    "timestampMs": 49200,
+    "confidence": null
+  },
+  {
+    "id": 145,
+    "text": "a",
+    "startMs": 49880,
+    "endMs": 50020,
+    "timestampMs": 49880,
+    "confidence": null
+  },
+  {
+    "id": 146,
+    "text": "relatively",
+    "startMs": 50020,
+    "endMs": 50340,
+    "timestampMs": 50020,
+    "confidence": null
+  },
+  {
+    "id": 147,
+    "text": "small",
+    "startMs": 50340,
+    "endMs": 50800,
+    "timestampMs": 50340,
+    "confidence": null
+  },
+  {
+    "id": 148,
+    "text": "island",
+    "startMs": 50800,
+    "endMs": 51320,
+    "timestampMs": 50800,
+    "confidence": null
+  },
+  {
+    "id": 149,
+    "text": "off",
+    "startMs": 51320,
+    "endMs": 51480,
+    "timestampMs": 51320,
+    "confidence": null
+  },
+  {
+    "id": 150,
+    "text": "the",
+    "startMs": 51480,
+    "endMs": 51620,
+    "timestampMs": 51480,
+    "confidence": null
+  },
+  {
+    "id": 151,
+    "text": "coast",
+    "startMs": 51620,
+    "endMs": 51820,
+    "timestampMs": 51620,
+    "confidence": null
+  },
+  {
+    "id": 152,
+    "text": "of",
+    "startMs": 51820,
+    "endMs": 52000,
+    "timestampMs": 51820,
+    "confidence": null
+  },
+  {
+    "id": 153,
+    "text": "Europe",
+    "startMs": 52000,
+    "endMs": 52280,
+    "timestampMs": 52000,
+    "confidence": null
+  },
+  {
+    "id": 154,
+    "text": "managed",
+    "startMs": 52280,
+    "endMs": 52840,
+    "timestampMs": 52280,
+    "confidence": null
+  },
+  {
+    "id": 155,
+    "text": "to",
+    "startMs": 52840,
+    "endMs": 53120,
+    "timestampMs": 52840,
+    "confidence": null
+  },
+  {
+    "id": 156,
+    "text": "build",
+    "startMs": 53120,
+    "endMs": 53300,
+    "timestampMs": 53120,
+    "confidence": null
+  },
+  {
+    "id": 157,
+    "text": "the",
+    "startMs": 53300,
+    "endMs": 53460,
+    "timestampMs": 53300,
+    "confidence": null
+  },
+  {
+    "id": 158,
+    "text": "most",
+    "startMs": 53460,
+    "endMs": 53640,
+    "timestampMs": 53460,
+    "confidence": null
+  },
+  {
+    "id": 159,
+    "text": "powerful",
+    "startMs": 53640,
+    "endMs": 54160,
+    "timestampMs": 53640,
+    "confidence": null
+  },
+  {
+    "id": 160,
+    "text": "navy",
+    "startMs": 54160,
+    "endMs": 54540,
+    "timestampMs": 54160,
+    "confidence": null
+  },
+  {
+    "id": 161,
+    "text": "on",
+    "startMs": 54540,
+    "endMs": 54820,
+    "timestampMs": 54540,
+    "confidence": null
+  },
+  {
+    "id": 162,
+    "text": "Earth",
+    "startMs": 54820,
+    "endMs": 55180,
+    "timestampMs": 54820,
+    "confidence": null
+  },
+  {
+    "id": 163,
+    "text": "and",
+    "startMs": 55180,
+    "endMs": 55560,
+    "timestampMs": 55180,
+    "confidence": null
+  },
+  {
+    "id": 164,
+    "text": "project",
+    "startMs": 55560,
+    "endMs": 55840,
+    "timestampMs": 55560,
+    "confidence": null
+  },
+  {
+    "id": 165,
+    "text": "its",
+    "startMs": 55840,
+    "endMs": 56080,
+    "timestampMs": 55840,
+    "confidence": null
+  },
+  {
+    "id": 166,
+    "text": "power",
+    "startMs": 56080,
+    "endMs": 56400,
+    "timestampMs": 56080,
+    "confidence": null
+  },
+  {
+    "id": 167,
+    "text": "into",
+    "startMs": 56400,
+    "endMs": 56640,
+    "timestampMs": 56400,
+    "confidence": null
+  },
+  {
+    "id": 168,
+    "text": "almost",
+    "startMs": 56640,
+    "endMs": 56980,
+    "timestampMs": 56640,
+    "confidence": null
+  },
+  {
+    "id": 169,
+    "text": "every",
+    "startMs": 56980,
+    "endMs": 57420,
+    "timestampMs": 56980,
+    "confidence": null
+  },
+  {
+    "id": 170,
+    "text": "corner",
+    "startMs": 57420,
+    "endMs": 57760,
+    "timestampMs": 57420,
+    "confidence": null
+  },
+  {
+    "id": 171,
+    "text": "of",
+    "startMs": 57760,
+    "endMs": 57960,
+    "timestampMs": 57760,
+    "confidence": null
+  },
+  {
+    "id": 172,
+    "text": "the",
+    "startMs": 57960,
+    "endMs": 58060,
+    "timestampMs": 57960,
+    "confidence": null
+  },
+  {
+    "id": 173,
+    "text": "world.",
+    "startMs": 58060,
+    "endMs": 58320,
+    "timestampMs": 58060,
+    "confidence": null
+  },
+  {
+    "id": 174,
+    "text": "But",
+    "startMs": 58940,
+    "endMs": 59280,
+    "timestampMs": 58940,
+    "confidence": null
+  },
+  {
+    "id": 175,
+    "text": "of",
+    "startMs": 59280,
+    "endMs": 59640,
+    "timestampMs": 59280,
+    "confidence": null
+  },
+  {
+    "id": 176,
+    "text": "course,",
+    "startMs": 59640,
+    "endMs": 59960,
+    "timestampMs": 59640,
+    "confidence": null
+  },
+  {
+    "id": 177,
+    "text": "that",
+    "startMs": 60560,
+    "endMs": 60780,
+    "timestampMs": 60560,
+    "confidence": null
+  },
+  {
+    "id": 178,
+    "text": "world",
+    "startMs": 60780,
+    "endMs": 61000,
+    "timestampMs": 60780,
+    "confidence": null
+  },
+  {
+    "id": 179,
+    "text": "is",
+    "startMs": 61000,
+    "endMs": 61180,
+    "timestampMs": 61000,
+    "confidence": null
+  },
+  {
+    "id": 180,
+    "text": "gone.",
+    "startMs": 61180,
+    "endMs": 61460,
+    "timestampMs": 61180,
+    "confidence": null
+  },
+  {
+    "id": 181,
+    "text": "The",
+    "startMs": 62200,
+    "endMs": 62340,
+    "timestampMs": 62200,
+    "confidence": null
+  },
+  {
+    "id": 182,
+    "text": "question",
+    "startMs": 62340,
+    "endMs": 62620,
+    "timestampMs": 62340,
+    "confidence": null
+  },
+  {
+    "id": 183,
+    "text": "is,",
+    "startMs": 62620,
+    "endMs": 62900,
+    "timestampMs": 62620,
+    "confidence": null
+  },
+  {
+    "id": 184,
+    "text": "how",
+    "startMs": 63300,
+    "endMs": 63520,
+    "timestampMs": 63300,
+    "confidence": null
+  },
+  {
+    "id": 185,
+    "text": "much",
+    "startMs": 63520,
+    "endMs": 63740,
+    "timestampMs": 63520,
+    "confidence": null
+  },
+  {
+    "id": 186,
+    "text": "of",
+    "startMs": 63740,
+    "endMs": 63840,
+    "timestampMs": 63740,
+    "confidence": null
+  },
+  {
+    "id": 187,
+    "text": "that",
+    "startMs": 63840,
+    "endMs": 64000,
+    "timestampMs": 63840,
+    "confidence": null
+  },
+  {
+    "id": 188,
+    "text": "power",
+    "startMs": 64000,
+    "endMs": 64340,
+    "timestampMs": 64000,
+    "confidence": null
+  },
+  {
+    "id": 189,
+    "text": "is",
+    "startMs": 64340,
+    "endMs": 64600,
+    "timestampMs": 64340,
+    "confidence": null
+  },
+  {
+    "id": 190,
+    "text": "still",
+    "startMs": 64600,
+    "endMs": 64900,
+    "timestampMs": 64600,
+    "confidence": null
+  },
+  {
+    "id": 191,
+    "text": "there",
+    "startMs": 64900,
+    "endMs": 65140,
+    "timestampMs": 64900,
+    "confidence": null
+  },
+  {
+    "id": 192,
+    "text": "today?",
+    "startMs": 65140,
+    "endMs": 65480,
+    "timestampMs": 65140,
+    "confidence": null
+  },
+  {
+    "id": 193,
+    "text": "And",
+    "startMs": 66180,
+    "endMs": 66340,
+    "timestampMs": 66180,
+    "confidence": null
+  },
+  {
+    "id": 194,
+    "text": "the",
+    "startMs": 66340,
+    "endMs": 66420,
+    "timestampMs": 66340,
+    "confidence": null
+  },
+  {
+    "id": 195,
+    "text": "truth",
+    "startMs": 66420,
+    "endMs": 66640,
+    "timestampMs": 66420,
+    "confidence": null
+  },
+  {
+    "id": 196,
+    "text": "is,",
+    "startMs": 66640,
+    "endMs": 66920,
+    "timestampMs": 66640,
+    "confidence": null
+  },
+  {
+    "id": 197,
+    "text": "the",
+    "startMs": 67260,
+    "endMs": 67340,
+    "timestampMs": 67260,
+    "confidence": null
+  },
+  {
+    "id": 198,
+    "text": "Royal",
+    "startMs": 67340,
+    "endMs": 67600,
+    "timestampMs": 67340,
+    "confidence": null
+  },
+  {
+    "id": 199,
+    "text": "Navy",
+    "startMs": 67600,
+    "endMs": 67920,
+    "timestampMs": 67600,
+    "confidence": null
+  },
+  {
+    "id": 200,
+    "text": "still",
+    "startMs": 67920,
+    "endMs": 68320,
+    "timestampMs": 67920,
+    "confidence": null
+  },
+  {
+    "id": 201,
+    "text": "belongs",
+    "startMs": 68320,
+    "endMs": 68740,
+    "timestampMs": 68320,
+    "confidence": null
+  },
+  {
+    "id": 202,
+    "text": "to",
+    "startMs": 68740,
+    "endMs": 68980,
+    "timestampMs": 68740,
+    "confidence": null
+  },
+  {
+    "id": 203,
+    "text": "a",
+    "startMs": 68980,
+    "endMs": 69120,
+    "timestampMs": 68980,
+    "confidence": null
+  },
+  {
+    "id": 204,
+    "text": "very",
+    "startMs": 69120,
+    "endMs": 69460,
+    "timestampMs": 69120,
+    "confidence": null
+  },
+  {
+    "id": 205,
+    "text": "exclusive",
+    "startMs": 69460,
+    "endMs": 69960,
+    "timestampMs": 69460,
+    "confidence": null
+  },
+  {
+    "id": 206,
+    "text": "group.",
+    "startMs": 69960,
+    "endMs": 70420,
+    "timestampMs": 69960,
+    "confidence": null
+  },
+  {
+    "id": 207,
+    "text": "It",
+    "startMs": 70920,
+    "endMs": 71100,
+    "timestampMs": 70920,
+    "confidence": null
+  },
+  {
+    "id": 208,
+    "text": "remains",
+    "startMs": 71100,
+    "endMs": 71400,
+    "timestampMs": 71100,
+    "confidence": null
+  },
+  {
+    "id": 209,
+    "text": "one",
+    "startMs": 71400,
+    "endMs": 71600,
+    "timestampMs": 71400,
+    "confidence": null
+  },
+  {
+    "id": 210,
+    "text": "of",
+    "startMs": 71600,
+    "endMs": 71700,
+    "timestampMs": 71600,
+    "confidence": null
+  },
+  {
+    "id": 211,
+    "text": "the",
+    "startMs": 71700,
+    "endMs": 71800,
+    "timestampMs": 71700,
+    "confidence": null
+  },
+  {
+    "id": 212,
+    "text": "few",
+    "startMs": 71800,
+    "endMs": 72080,
+    "timestampMs": 71800,
+    "confidence": null
+  },
+  {
+    "id": 213,
+    "text": "navies",
+    "startMs": 72080,
+    "endMs": 72460,
+    "timestampMs": 72080,
+    "confidence": null
+  },
+  {
+    "id": 214,
+    "text": "in",
+    "startMs": 72460,
+    "endMs": 72600,
+    "timestampMs": 72460,
+    "confidence": null
+  },
+  {
+    "id": 215,
+    "text": "the",
+    "startMs": 72600,
+    "endMs": 72680,
+    "timestampMs": 72600,
+    "confidence": null
+  },
+  {
+    "id": 216,
+    "text": "world",
+    "startMs": 72680,
+    "endMs": 73020,
+    "timestampMs": 72680,
+    "confidence": null
+  },
+  {
+    "id": 217,
+    "text": "capable",
+    "startMs": 73020,
+    "endMs": 73400,
+    "timestampMs": 73020,
+    "confidence": null
+  },
+  {
+    "id": 218,
+    "text": "of",
+    "startMs": 73400,
+    "endMs": 73700,
+    "timestampMs": 73400,
+    "confidence": null
+  },
+  {
+    "id": 219,
+    "text": "assembling",
+    "startMs": 73700,
+    "endMs": 74080,
+    "timestampMs": 73700,
+    "confidence": null
+  },
+  {
+    "id": 220,
+    "text": "a",
+    "startMs": 74080,
+    "endMs": 74320,
+    "timestampMs": 74080,
+    "confidence": null
+  },
+  {
+    "id": 221,
+    "text": "carrier",
+    "startMs": 74320,
+    "endMs": 74660,
+    "timestampMs": 74320,
+    "confidence": null
+  },
+  {
+    "id": 222,
+    "text": "strike",
+    "startMs": 74660,
+    "endMs": 75000,
+    "timestampMs": 74660,
+    "confidence": null
+  },
+  {
+    "id": 223,
+    "text": "group",
+    "startMs": 75000,
+    "endMs": 75340,
+    "timestampMs": 75000,
+    "confidence": null
+  },
+  {
+    "id": 224,
+    "text": "and",
+    "startMs": 75340,
+    "endMs": 75700,
+    "timestampMs": 75340,
+    "confidence": null
+  },
+  {
+    "id": 225,
+    "text": "sending",
+    "startMs": 75700,
+    "endMs": 75980,
+    "timestampMs": 75700,
+    "confidence": null
+  },
+  {
+    "id": 226,
+    "text": "it",
+    "startMs": 75980,
+    "endMs": 76160,
+    "timestampMs": 75980,
+    "confidence": null
+  },
+  {
+    "id": 227,
+    "text": "thousands",
+    "startMs": 76160,
+    "endMs": 76600,
+    "timestampMs": 76160,
+    "confidence": null
+  },
+  {
+    "id": 228,
+    "text": "of",
+    "startMs": 76600,
+    "endMs": 76860,
+    "timestampMs": 76600,
+    "confidence": null
+  },
+  {
+    "id": 229,
+    "text": "miles",
+    "startMs": 76860,
+    "endMs": 77100,
+    "timestampMs": 76860,
+    "confidence": null
+  },
+  {
+    "id": 230,
+    "text": "away",
+    "startMs": 77100,
+    "endMs": 77400,
+    "timestampMs": 77100,
+    "confidence": null
+  },
+  {
+    "id": 231,
+    "text": "from",
+    "startMs": 77400,
+    "endMs": 77580,
+    "timestampMs": 77400,
+    "confidence": null
+  },
+  {
+    "id": 232,
+    "text": "home.",
+    "startMs": 77580,
+    "endMs": 77840,
+    "timestampMs": 77580,
+    "confidence": null
+  },
+  {
+    "id": 233,
+    "text": "At",
+    "startMs": 78400,
+    "endMs": 78640,
+    "timestampMs": 78400,
+    "confidence": null
+  },
+  {
+    "id": 234,
+    "text": "the",
+    "startMs": 78640,
+    "endMs": 78740,
+    "timestampMs": 78640,
+    "confidence": null
+  },
+  {
+    "id": 235,
+    "text": "center",
+    "startMs": 78740,
+    "endMs": 79000,
+    "timestampMs": 78740,
+    "confidence": null
+  },
+  {
+    "id": 236,
+    "text": "of",
+    "startMs": 79000,
+    "endMs": 79180,
+    "timestampMs": 79000,
+    "confidence": null
+  },
+  {
+    "id": 237,
+    "text": "that",
+    "startMs": 79180,
+    "endMs": 79300,
+    "timestampMs": 79180,
+    "confidence": null
+  },
+  {
+    "id": 238,
+    "text": "capability",
+    "startMs": 79300,
+    "endMs": 79740,
+    "timestampMs": 79300,
+    "confidence": null
+  },
+  {
+    "id": 239,
+    "text": "are",
+    "startMs": 79740,
+    "endMs": 80300,
+    "timestampMs": 79740,
+    "confidence": null
+  },
+  {
+    "id": 240,
+    "text": "HMS",
+    "startMs": 80300,
+    "endMs": 80820,
+    "timestampMs": 80300,
+    "confidence": null
+  },
+  {
+    "id": 241,
+    "text": "Queen",
+    "startMs": 80820,
+    "endMs": 81180,
+    "timestampMs": 80820,
+    "confidence": null
+  },
+  {
+    "id": 242,
+    "text": "Elizabeth",
+    "startMs": 81180,
+    "endMs": 81520,
+    "timestampMs": 81180,
+    "confidence": null
+  },
+  {
+    "id": 243,
+    "text": "and",
+    "startMs": 81520,
+    "endMs": 81980,
+    "timestampMs": 81520,
+    "confidence": null
+  },
+  {
+    "id": 244,
+    "text": "HMS",
+    "startMs": 81980,
+    "endMs": 82540,
+    "timestampMs": 81980,
+    "confidence": null
+  },
+  {
+    "id": 245,
+    "text": "Prince",
+    "startMs": 82540,
+    "endMs": 82840,
+    "timestampMs": 82540,
+    "confidence": null
+  },
+  {
+    "id": 246,
+    "text": "of",
+    "startMs": 82840,
+    "endMs": 83040,
+    "timestampMs": 82840,
+    "confidence": null
+  },
+  {
+    "id": 247,
+    "text": "Wales,",
+    "startMs": 83040,
+    "endMs": 83280,
+    "timestampMs": 83040,
+    "confidence": null
+  },
+  {
+    "id": 248,
+    "text": "the",
+    "startMs": 83720,
+    "endMs": 83820,
+    "timestampMs": 83720,
+    "confidence": null
+  },
+  {
+    "id": 249,
+    "text": "largest",
+    "startMs": 83820,
+    "endMs": 84240,
+    "timestampMs": 83820,
+    "confidence": null
+  },
+  {
+    "id": 250,
+    "text": "warships",
+    "startMs": 84240,
+    "endMs": 84780,
+    "timestampMs": 84240,
+    "confidence": null
+  },
+  {
+    "id": 251,
+    "text": "ever",
+    "startMs": 84780,
+    "endMs": 85180,
+    "timestampMs": 84780,
+    "confidence": null
+  },
+  {
+    "id": 252,
+    "text": "built",
+    "startMs": 85180,
+    "endMs": 85500,
+    "timestampMs": 85180,
+    "confidence": null
+  },
+  {
+    "id": 253,
+    "text": "for",
+    "startMs": 85500,
+    "endMs": 85680,
+    "timestampMs": 85500,
+    "confidence": null
+  },
+  {
+    "id": 254,
+    "text": "the",
+    "startMs": 85680,
+    "endMs": 85780,
+    "timestampMs": 85680,
+    "confidence": null
+  },
+  {
+    "id": 255,
+    "text": "Royal",
+    "startMs": 85780,
+    "endMs": 86000,
+    "timestampMs": 85780,
+    "confidence": null
+  },
+  {
+    "id": 256,
+    "text": "Navy.",
+    "startMs": 86000,
+    "endMs": 86300,
+    "timestampMs": 86000,
+    "confidence": null
+  },
+  {
+    "id": 257,
+    "text": "And",
+    "startMs": 86900,
+    "endMs": 87140,
+    "timestampMs": 86900,
+    "confidence": null
+  },
+  {
+    "id": 258,
+    "text": "when",
+    "startMs": 87140,
+    "endMs": 87240,
+    "timestampMs": 87140,
+    "confidence": null
+  },
+  {
+    "id": 259,
+    "text": "one",
+    "startMs": 87240,
+    "endMs": 87440,
+    "timestampMs": 87240,
+    "confidence": null
+  },
+  {
+    "id": 260,
+    "text": "of",
+    "startMs": 87440,
+    "endMs": 87520,
+    "timestampMs": 87440,
+    "confidence": null
+  },
+  {
+    "id": 261,
+    "text": "these",
+    "startMs": 87520,
+    "endMs": 87680,
+    "timestampMs": 87520,
+    "confidence": null
+  },
+  {
+    "id": 262,
+    "text": "carriers",
+    "startMs": 87680,
+    "endMs": 87980,
+    "timestampMs": 87680,
+    "confidence": null
+  },
+  {
+    "id": 263,
+    "text": "deploys",
+    "startMs": 87980,
+    "endMs": 88540,
+    "timestampMs": 87980,
+    "confidence": null
+  },
+  {
+    "id": 264,
+    "text": "on",
+    "startMs": 88540,
+    "endMs": 88760,
+    "timestampMs": 88540,
+    "confidence": null
+  },
+  {
+    "id": 265,
+    "text": "a",
+    "startMs": 88760,
+    "endMs": 88860,
+    "timestampMs": 88760,
+    "confidence": null
+  },
+  {
+    "id": 266,
+    "text": "full",
+    "startMs": 88860,
+    "endMs": 89120,
+    "timestampMs": 88860,
+    "confidence": null
+  },
+  {
+    "id": 267,
+    "text": "-scale",
+    "startMs": 89120,
+    "endMs": 89360,
+    "timestampMs": 89120,
+    "confidence": null
+  },
+  {
+    "id": 268,
+    "text": "operation,",
+    "startMs": 89360,
+    "endMs": 89960,
+    "timestampMs": 89360,
+    "confidence": null
+  },
+  {
+    "id": 269,
+    "text": "it",
+    "startMs": 90360,
+    "endMs": 90500,
+    "timestampMs": 90360,
+    "confidence": null
+  },
+  {
+    "id": 270,
+    "text": "doesn't",
+    "startMs": 90500,
+    "endMs": 90760,
+    "timestampMs": 90500,
+    "confidence": null
+  },
+  {
+    "id": 271,
+    "text": "go",
+    "startMs": 90760,
+    "endMs": 90900,
+    "timestampMs": 90760,
+    "confidence": null
+  },
+  {
+    "id": 272,
+    "text": "alone.",
+    "startMs": 90900,
+    "endMs": 91220,
+    "timestampMs": 90900,
+    "confidence": null
+  },
+  {
+    "id": 273,
+    "text": "There",
+    "startMs": 91840,
+    "endMs": 91980,
+    "timestampMs": 91840,
+    "confidence": null
+  },
+  {
+    "id": 274,
+    "text": "are",
+    "startMs": 91980,
+    "endMs": 92100,
+    "timestampMs": 91980,
+    "confidence": null
+  },
+  {
+    "id": 275,
+    "text": "F",
+    "startMs": 92100,
+    "endMs": 92340,
+    "timestampMs": 92100,
+    "confidence": null
+  },
+  {
+    "id": 276,
+    "text": "-35B",
+    "startMs": 92340,
+    "endMs": 93020,
+    "timestampMs": 92340,
+    "confidence": null
+  },
+  {
+    "id": 277,
+    "text": "fighters,",
+    "startMs": 93020,
+    "endMs": 93380,
+    "timestampMs": 93020,
+    "confidence": null
+  },
+  {
+    "id": 278,
+    "text": "Merlin",
+    "startMs": 93840,
+    "endMs": 94120,
+    "timestampMs": 93840,
+    "confidence": null
+  },
+  {
+    "id": 279,
+    "text": "helicopters,",
+    "startMs": 94120,
+    "endMs": 94540,
+    "timestampMs": 94120,
+    "confidence": null
+  },
+  {
+    "id": 280,
+    "text": "escort",
+    "startMs": 95160,
+    "endMs": 95500,
+    "timestampMs": 95160,
+    "confidence": null
+  },
+  {
+    "id": 281,
+    "text": "ships,",
+    "startMs": 95500,
+    "endMs": 95880,
+    "timestampMs": 95500,
+    "confidence": null
+  },
+  {
+    "id": 282,
+    "text": "support",
+    "startMs": 96140,
+    "endMs": 96380,
+    "timestampMs": 96140,
+    "confidence": null
+  },
+  {
+    "id": 283,
+    "text": "vessels,",
+    "startMs": 96380,
+    "endMs": 96800,
+    "timestampMs": 96380,
+    "confidence": null
+  },
+  {
+    "id": 284,
+    "text": "and",
+    "startMs": 97100,
+    "endMs": 97280,
+    "timestampMs": 97100,
+    "confidence": null
+  },
+  {
+    "id": 285,
+    "text": "an",
+    "startMs": 97280,
+    "endMs": 97380,
+    "timestampMs": 97280,
+    "confidence": null
+  },
+  {
+    "id": 286,
+    "text": "entire",
+    "startMs": 97380,
+    "endMs": 97820,
+    "timestampMs": 97380,
+    "confidence": null
+  },
+  {
+    "id": 287,
+    "text": "structure",
+    "startMs": 97820,
+    "endMs": 98400,
+    "timestampMs": 97820,
+    "confidence": null
+  },
+  {
+    "id": 288,
+    "text": "built",
+    "startMs": 98400,
+    "endMs": 98700,
+    "timestampMs": 98400,
+    "confidence": null
+  },
+  {
+    "id": 289,
+    "text": "around",
+    "startMs": 98700,
+    "endMs": 98960,
+    "timestampMs": 98700,
+    "confidence": null
+  },
+  {
+    "id": 290,
+    "text": "command",
+    "startMs": 98960,
+    "endMs": 99280,
+    "timestampMs": 98960,
+    "confidence": null
+  },
+  {
+    "id": 291,
+    "text": "and",
+    "startMs": 99280,
+    "endMs": 99540,
+    "timestampMs": 99280,
+    "confidence": null
+  },
+  {
+    "id": 292,
+    "text": "control,",
+    "startMs": 99540,
+    "endMs": 99900,
+    "timestampMs": 99540,
+    "confidence": null
+  },
+  {
+    "id": 293,
+    "text": "air",
+    "startMs": 100340,
+    "endMs": 100440,
+    "timestampMs": 100340,
+    "confidence": null
+  },
+  {
+    "id": 294,
+    "text": "defense,",
+    "startMs": 100440,
+    "endMs": 100780,
+    "timestampMs": 100440,
+    "confidence": null
+  },
+  {
+    "id": 295,
+    "text": "and",
+    "startMs": 101000,
+    "endMs": 101100,
+    "timestampMs": 101000,
+    "confidence": null
+  },
+  {
+    "id": 296,
+    "text": "anti",
+    "startMs": 101100,
+    "endMs": 101480,
+    "timestampMs": 101100,
+    "confidence": null
+  },
+  {
+    "id": 297,
+    "text": "-submarine",
+    "startMs": 101480,
+    "endMs": 101980,
+    "timestampMs": 101480,
+    "confidence": null
+  },
+  {
+    "id": 298,
+    "text": "warfare.",
+    "startMs": 101980,
+    "endMs": 102360,
+    "timestampMs": 101980,
+    "confidence": null
+  },
+  {
+    "id": 299,
+    "text": "That",
+    "startMs": 103000,
+    "endMs": 103300,
+    "timestampMs": 103000,
+    "confidence": null
+  },
+  {
+    "id": 300,
+    "text": "is",
+    "startMs": 103300,
+    "endMs": 103500,
+    "timestampMs": 103300,
+    "confidence": null
+  },
+  {
+    "id": 301,
+    "text": "a",
+    "startMs": 103500,
+    "endMs": 103600,
+    "timestampMs": 103500,
+    "confidence": null
+  },
+  {
+    "id": 302,
+    "text": "level",
+    "startMs": 103600,
+    "endMs": 103780,
+    "timestampMs": 103600,
+    "confidence": null
+  },
+  {
+    "id": 303,
+    "text": "of",
+    "startMs": 103780,
+    "endMs": 103920,
+    "timestampMs": 103780,
+    "confidence": null
+  },
+  {
+    "id": 304,
+    "text": "capability",
+    "startMs": 103920,
+    "endMs": 104420,
+    "timestampMs": 103920,
+    "confidence": null
+  },
+  {
+    "id": 305,
+    "text": "that",
+    "startMs": 104420,
+    "endMs": 104740,
+    "timestampMs": 104420,
+    "confidence": null
+  },
+  {
+    "id": 306,
+    "text": "very",
+    "startMs": 104740,
+    "endMs": 105180,
+    "timestampMs": 104740,
+    "confidence": null
+  },
+  {
+    "id": 307,
+    "text": "few",
+    "startMs": 105180,
+    "endMs": 105460,
+    "timestampMs": 105180,
+    "confidence": null
+  },
+  {
+    "id": 308,
+    "text": "navies",
+    "startMs": 105460,
+    "endMs": 105860,
+    "timestampMs": 105460,
+    "confidence": null
+  },
+  {
+    "id": 309,
+    "text": "can",
+    "startMs": 105860,
+    "endMs": 106020,
+    "timestampMs": 105860,
+    "confidence": null
+  },
+  {
+    "id": 310,
+    "text": "put",
+    "startMs": 106020,
+    "endMs": 106180,
+    "timestampMs": 106020,
+    "confidence": null
+  },
+  {
+    "id": 311,
+    "text": "to",
+    "startMs": 106180,
+    "endMs": 106320,
+    "timestampMs": 106180,
+    "confidence": null
+  },
+  {
+    "id": 312,
+    "text": "sea",
+    "startMs": 106320,
+    "endMs": 106520,
+    "timestampMs": 106320,
+    "confidence": null
+  },
+  {
+    "id": 313,
+    "text": "today.",
+    "startMs": 106520,
+    "endMs": 106780,
+    "timestampMs": 106520,
+    "confidence": null
+  },
+  {
+    "id": 314,
+    "text": "In",
+    "startMs": 107320,
+    "endMs": 107580,
+    "timestampMs": 107320,
+    "confidence": null
+  },
+  {
+    "id": 315,
+    "text": "2025,",
+    "startMs": 107580,
+    "endMs": 108120,
+    "timestampMs": 107580,
+    "confidence": null
+  },
+  {
+    "id": 316,
+    "text": "for",
+    "startMs": 108480,
+    "endMs": 108580,
+    "timestampMs": 108480,
+    "confidence": null
+  },
+  {
+    "id": 317,
+    "text": "example,",
+    "startMs": 108580,
+    "endMs": 108900,
+    "timestampMs": 108580,
+    "confidence": null
+  },
+  {
+    "id": 318,
+    "text": "the",
+    "startMs": 109220,
+    "endMs": 109320,
+    "timestampMs": 109220,
+    "confidence": null
+  },
+  {
+    "id": 319,
+    "text": "carrier",
+    "startMs": 109320,
+    "endMs": 109580,
+    "timestampMs": 109320,
+    "confidence": null
+  },
+  {
+    "id": 320,
+    "text": "strike",
+    "startMs": 109580,
+    "endMs": 109860,
+    "timestampMs": 109580,
+    "confidence": null
+  },
+  {
+    "id": 321,
+    "text": "group",
+    "startMs": 109860,
+    "endMs": 110200,
+    "timestampMs": 109860,
+    "confidence": null
+  },
+  {
+    "id": 322,
+    "text": "led",
+    "startMs": 110200,
+    "endMs": 110400,
+    "timestampMs": 110200,
+    "confidence": null
+  },
+  {
+    "id": 323,
+    "text": "by",
+    "startMs": 110400,
+    "endMs": 110560,
+    "timestampMs": 110400,
+    "confidence": null
+  },
+  {
+    "id": 324,
+    "text": "Prince",
+    "startMs": 110560,
+    "endMs": 110800,
+    "timestampMs": 110560,
+    "confidence": null
+  },
+  {
+    "id": 325,
+    "text": "of",
+    "startMs": 110800,
+    "endMs": 111000,
+    "timestampMs": 110800,
+    "confidence": null
+  },
+  {
+    "id": 326,
+    "text": "Wales",
+    "startMs": 111000,
+    "endMs": 111200,
+    "timestampMs": 111000,
+    "confidence": null
+  },
+  {
+    "id": 327,
+    "text": "deployed",
+    "startMs": 111200,
+    "endMs": 111660,
+    "timestampMs": 111200,
+    "confidence": null
+  },
+  {
+    "id": 328,
+    "text": "on",
+    "startMs": 111660,
+    "endMs": 111920,
+    "timestampMs": 111660,
+    "confidence": null
+  },
+  {
+    "id": 329,
+    "text": "Operation",
+    "startMs": 111920,
+    "endMs": 112400,
+    "timestampMs": 111920,
+    "confidence": null
+  },
+  {
+    "id": 330,
+    "text": "Highmast.",
+    "startMs": 112400,
+    "endMs": 113120,
+    "timestampMs": 112400,
+    "confidence": null
+  },
+  {
+    "id": 331,
+    "text": "The",
+    "startMs": 113600,
+    "endMs": 113800,
+    "timestampMs": 113600,
+    "confidence": null
+  },
+  {
+    "id": 332,
+    "text": "mission",
+    "startMs": 113800,
+    "endMs": 114000,
+    "timestampMs": 113800,
+    "confidence": null
+  },
+  {
+    "id": 333,
+    "text": "lasted",
+    "startMs": 114000,
+    "endMs": 114420,
+    "timestampMs": 114000,
+    "confidence": null
+  },
+  {
+    "id": 334,
+    "text": "around",
+    "startMs": 114420,
+    "endMs": 114700,
+    "timestampMs": 114420,
+    "confidence": null
+  },
+  {
+    "id": 335,
+    "text": "eight",
+    "startMs": 114700,
+    "endMs": 115040,
+    "timestampMs": 114700,
+    "confidence": null
+  },
+  {
+    "id": 336,
+    "text": "months,",
+    "startMs": 115040,
+    "endMs": 115400,
+    "timestampMs": 115040,
+    "confidence": null
+  },
+  {
+    "id": 337,
+    "text": "taking",
+    "startMs": 115640,
+    "endMs": 115880,
+    "timestampMs": 115640,
+    "confidence": null
+  },
+  {
+    "id": 338,
+    "text": "the",
+    "startMs": 115880,
+    "endMs": 116040,
+    "timestampMs": 115880,
+    "confidence": null
+  },
+  {
+    "id": 339,
+    "text": "group",
+    "startMs": 116040,
+    "endMs": 116240,
+    "timestampMs": 116040,
+    "confidence": null
+  },
+  {
+    "id": 340,
+    "text": "through",
+    "startMs": 116240,
+    "endMs": 116420,
+    "timestampMs": 116240,
+    "confidence": null
+  },
+  {
+    "id": 341,
+    "text": "the",
+    "startMs": 116420,
+    "endMs": 116560,
+    "timestampMs": 116420,
+    "confidence": null
+  },
+  {
+    "id": 342,
+    "text": "Mediterranean",
+    "startMs": 116560,
+    "endMs": 117060,
+    "timestampMs": 116560,
+    "confidence": null
+  },
+  {
+    "id": 343,
+    "text": "and",
+    "startMs": 117060,
+    "endMs": 117560,
+    "timestampMs": 117060,
+    "confidence": null
+  },
+  {
+    "id": 344,
+    "text": "all",
+    "startMs": 117560,
+    "endMs": 117860,
+    "timestampMs": 117560,
+    "confidence": null
+  },
+  {
+    "id": 345,
+    "text": "the",
+    "startMs": 117860,
+    "endMs": 118000,
+    "timestampMs": 117860,
+    "confidence": null
+  },
+  {
+    "id": 346,
+    "text": "way",
+    "startMs": 118000,
+    "endMs": 118180,
+    "timestampMs": 118000,
+    "confidence": null
+  },
+  {
+    "id": 347,
+    "text": "into",
+    "startMs": 118180,
+    "endMs": 118400,
+    "timestampMs": 118180,
+    "confidence": null
+  },
+  {
+    "id": 348,
+    "text": "the",
+    "startMs": 118400,
+    "endMs": 118540,
+    "timestampMs": 118400,
+    "confidence": null
+  },
+  {
+    "id": 349,
+    "text": "Indo",
+    "startMs": 118540,
+    "endMs": 118800,
+    "timestampMs": 118540,
+    "confidence": null
+  },
+  {
+    "id": 350,
+    "text": "-Pacific.",
+    "startMs": 118800,
+    "endMs": 119360,
+    "timestampMs": 118800,
+    "confidence": null
+  },
+  {
+    "id": 351,
+    "text": "During",
+    "startMs": 119940,
+    "endMs": 120140,
+    "timestampMs": 119940,
+    "confidence": null
+  },
+  {
+    "id": 352,
+    "text": "the",
+    "startMs": 120140,
+    "endMs": 120300,
+    "timestampMs": 120140,
+    "confidence": null
+  },
+  {
+    "id": 353,
+    "text": "final",
+    "startMs": 120300,
+    "endMs": 120580,
+    "timestampMs": 120300,
+    "confidence": null
+  },
+  {
+    "id": 354,
+    "text": "phase",
+    "startMs": 120580,
+    "endMs": 120860,
+    "timestampMs": 120580,
+    "confidence": null
+  },
+  {
+    "id": 355,
+    "text": "of",
+    "startMs": 120860,
+    "endMs": 121040,
+    "timestampMs": 120860,
+    "confidence": null
+  },
+  {
+    "id": 356,
+    "text": "the",
+    "startMs": 121040,
+    "endMs": 121120,
+    "timestampMs": 121040,
+    "confidence": null
+  },
+  {
+    "id": 357,
+    "text": "deployment,",
+    "startMs": 121120,
+    "endMs": 121460,
+    "timestampMs": 121120,
+    "confidence": null
+  },
+  {
+    "id": 358,
+    "text": "back",
+    "startMs": 121780,
+    "endMs": 121880,
+    "timestampMs": 121780,
+    "confidence": null
+  },
+  {
+    "id": 359,
+    "text": "in",
+    "startMs": 121880,
+    "endMs": 122020,
+    "timestampMs": 121880,
+    "confidence": null
+  },
+  {
+    "id": 360,
+    "text": "the",
+    "startMs": 122020,
+    "endMs": 122080,
+    "timestampMs": 122020,
+    "confidence": null
+  },
+  {
+    "id": 361,
+    "text": "Mediterranean,",
+    "startMs": 122080,
+    "endMs": 122540,
+    "timestampMs": 122080,
+    "confidence": null
+  },
+  {
+    "id": 362,
+    "text": "the",
+    "startMs": 123180,
+    "endMs": 123200,
+    "timestampMs": 123180,
+    "confidence": null
+  },
+  {
+    "id": 363,
+    "text": "carrier",
+    "startMs": 123200,
+    "endMs": 123460,
+    "timestampMs": 123200,
+    "confidence": null
+  },
+  {
+    "id": 364,
+    "text": "had",
+    "startMs": 123460,
+    "endMs": 123780,
+    "timestampMs": 123460,
+    "confidence": null
+  },
+  {
+    "id": 365,
+    "text": "24",
+    "startMs": 123780,
+    "endMs": 124480,
+    "timestampMs": 123780,
+    "confidence": null
+  },
+  {
+    "id": 366,
+    "text": "British",
+    "startMs": 124480,
+    "endMs": 124980,
+    "timestampMs": 124480,
+    "confidence": null
+  },
+  {
+    "id": 367,
+    "text": "F",
+    "startMs": 124980,
+    "endMs": 125300,
+    "timestampMs": 124980,
+    "confidence": null
+  },
+  {
+    "id": 368,
+    "text": "-35Bs",
+    "startMs": 125300,
+    "endMs": 126140,
+    "timestampMs": 125300,
+    "confidence": null
+  },
+  {
+    "id": 369,
+    "text": "on",
+    "startMs": 126140,
+    "endMs": 126240,
+    "timestampMs": 126140,
+    "confidence": null
+  },
+  {
+    "id": 370,
+    "text": "board.",
+    "startMs": 126240,
+    "endMs": 126500,
+    "timestampMs": 126240,
+    "confidence": null
+  },
+  {
+    "id": 371,
+    "text": "At",
+    "startMs": 126920,
+    "endMs": 127080,
+    "timestampMs": 126920,
+    "confidence": null
+  },
+  {
+    "id": 372,
+    "text": "that",
+    "startMs": 127080,
+    "endMs": 127260,
+    "timestampMs": 127080,
+    "confidence": null
+  },
+  {
+    "id": 373,
+    "text": "point,",
+    "startMs": 127260,
+    "endMs": 127540,
+    "timestampMs": 127260,
+    "confidence": null
+  },
+  {
+    "id": 374,
+    "text": "it",
+    "startMs": 127800,
+    "endMs": 127920,
+    "timestampMs": 127800,
+    "confidence": null
+  },
+  {
+    "id": 375,
+    "text": "was",
+    "startMs": 127920,
+    "endMs": 128060,
+    "timestampMs": 127920,
+    "confidence": null
+  },
+  {
+    "id": 376,
+    "text": "the",
+    "startMs": 128060,
+    "endMs": 128200,
+    "timestampMs": 128060,
+    "confidence": null
+  },
+  {
+    "id": 377,
+    "text": "largest",
+    "startMs": 128200,
+    "endMs": 128580,
+    "timestampMs": 128200,
+    "confidence": null
+  },
+  {
+    "id": 378,
+    "text": "number",
+    "startMs": 128580,
+    "endMs": 128940,
+    "timestampMs": 128580,
+    "confidence": null
+  },
+  {
+    "id": 379,
+    "text": "of",
+    "startMs": 128940,
+    "endMs": 129120,
+    "timestampMs": 128940,
+    "confidence": null
+  },
+  {
+    "id": 380,
+    "text": "F",
+    "startMs": 129120,
+    "endMs": 129360,
+    "timestampMs": 129120,
+    "confidence": null
+  },
+  {
+    "id": 381,
+    "text": "-35Bs",
+    "startMs": 129360,
+    "endMs": 130300,
+    "timestampMs": 129360,
+    "confidence": null
+  },
+  {
+    "id": 382,
+    "text": "ever",
+    "startMs": 130300,
+    "endMs": 130620,
+    "timestampMs": 130300,
+    "confidence": null
+  },
+  {
+    "id": 383,
+    "text": "embarked",
+    "startMs": 130620,
+    "endMs": 131180,
+    "timestampMs": 130620,
+    "confidence": null
+  },
+  {
+    "id": 384,
+    "text": "on",
+    "startMs": 131180,
+    "endMs": 131280,
+    "timestampMs": 131180,
+    "confidence": null
+  },
+  {
+    "id": 385,
+    "text": "either",
+    "startMs": 131280,
+    "endMs": 131700,
+    "timestampMs": 131280,
+    "confidence": null
+  },
+  {
+    "id": 386,
+    "text": "of",
+    "startMs": 131700,
+    "endMs": 131920,
+    "timestampMs": 131700,
+    "confidence": null
+  },
+  {
+    "id": 387,
+    "text": "Britain's",
+    "startMs": 131920,
+    "endMs": 132300,
+    "timestampMs": 131920,
+    "confidence": null
+  },
+  {
+    "id": 388,
+    "text": "two",
+    "startMs": 132300,
+    "endMs": 132540,
+    "timestampMs": 132300,
+    "confidence": null
+  },
+  {
+    "id": 389,
+    "text": "Queen",
+    "startMs": 132540,
+    "endMs": 132820,
+    "timestampMs": 132540,
+    "confidence": null
+  },
+  {
+    "id": 390,
+    "text": "Elizabeth",
+    "startMs": 132820,
+    "endMs": 133060,
+    "timestampMs": 132820,
+    "confidence": null
+  },
+  {
+    "id": 391,
+    "text": "class",
+    "startMs": 133060,
+    "endMs": 133480,
+    "timestampMs": 133060,
+    "confidence": null
+  },
+  {
+    "id": 392,
+    "text": "carriers.",
+    "startMs": 133480,
+    "endMs": 133920,
+    "timestampMs": 133480,
+    "confidence": null
+  },
+  {
+    "id": 393,
+    "text": "And",
+    "startMs": 134600,
+    "endMs": 134820,
+    "timestampMs": 134600,
+    "confidence": null
+  },
+  {
+    "id": 394,
+    "text": "that",
+    "startMs": 134820,
+    "endMs": 135100,
+    "timestampMs": 134820,
+    "confidence": null
+  },
+  {
+    "id": 395,
+    "text": "deployment",
+    "startMs": 135100,
+    "endMs": 135640,
+    "timestampMs": 135100,
+    "confidence": null
+  },
+  {
+    "id": 396,
+    "text": "revealed",
+    "startMs": 135640,
+    "endMs": 136100,
+    "timestampMs": 135640,
+    "confidence": null
+  },
+  {
+    "id": 397,
+    "text": "two",
+    "startMs": 136100,
+    "endMs": 136460,
+    "timestampMs": 136100,
+    "confidence": null
+  },
+  {
+    "id": 398,
+    "text": "important",
+    "startMs": 136460,
+    "endMs": 137100,
+    "timestampMs": 136460,
+    "confidence": null
+  },
+  {
+    "id": 399,
+    "text": "things",
+    "startMs": 137100,
+    "endMs": 137520,
+    "timestampMs": 137100,
+    "confidence": null
+  },
+  {
+    "id": 400,
+    "text": "about",
+    "startMs": 137520,
+    "endMs": 137800,
+    "timestampMs": 137520,
+    "confidence": null
+  },
+  {
+    "id": 401,
+    "text": "the",
+    "startMs": 137800,
+    "endMs": 137960,
+    "timestampMs": 137800,
+    "confidence": null
+  },
+  {
+    "id": 402,
+    "text": "Royal",
+    "startMs": 137960,
+    "endMs": 138200,
+    "timestampMs": 137960,
+    "confidence": null
+  },
+  {
+    "id": 403,
+    "text": "Navy",
+    "startMs": 138200,
+    "endMs": 138540,
+    "timestampMs": 138200,
+    "confidence": null
+  },
+  {
+    "id": 404,
+    "text": "today.",
+    "startMs": 138540,
+    "endMs": 138840,
+    "timestampMs": 138540,
+    "confidence": null
+  },
+  {
+    "id": 405,
+    "text": "First,",
+    "startMs": 139560,
+    "endMs": 139820,
+    "timestampMs": 139560,
+    "confidence": null
+  },
+  {
+    "id": 406,
+    "text": "the",
+    "startMs": 140360,
+    "endMs": 140480,
+    "timestampMs": 140360,
+    "confidence": null
+  },
+  {
+    "id": 407,
+    "text": "United",
+    "startMs": 140480,
+    "endMs": 140720,
+    "timestampMs": 140480,
+    "confidence": null
+  },
+  {
+    "id": 408,
+    "text": "Kingdom",
+    "startMs": 140720,
+    "endMs": 141100,
+    "timestampMs": 140720,
+    "confidence": null
+  },
+  {
+    "id": 409,
+    "text": "is",
+    "startMs": 141100,
+    "endMs": 141400,
+    "timestampMs": 141100,
+    "confidence": null
+  },
+  {
+    "id": 410,
+    "text": "still",
+    "startMs": 141400,
+    "endMs": 141740,
+    "timestampMs": 141400,
+    "confidence": null
+  },
+  {
+    "id": 411,
+    "text": "capable",
+    "startMs": 141740,
+    "endMs": 142140,
+    "timestampMs": 141740,
+    "confidence": null
+  },
+  {
+    "id": 412,
+    "text": "of",
+    "startMs": 142140,
+    "endMs": 142400,
+    "timestampMs": 142140,
+    "confidence": null
+  },
+  {
+    "id": 413,
+    "text": "organizing",
+    "startMs": 142400,
+    "endMs": 142800,
+    "timestampMs": 142400,
+    "confidence": null
+  },
+  {
+    "id": 414,
+    "text": "and",
+    "startMs": 142800,
+    "endMs": 143300,
+    "timestampMs": 142800,
+    "confidence": null
+  },
+  {
+    "id": 415,
+    "text": "leading",
+    "startMs": 143300,
+    "endMs": 143600,
+    "timestampMs": 143300,
+    "confidence": null
+  },
+  {
+    "id": 416,
+    "text": "a",
+    "startMs": 143600,
+    "endMs": 143880,
+    "timestampMs": 143600,
+    "confidence": null
+  },
+  {
+    "id": 417,
+    "text": "complex",
+    "startMs": 143880,
+    "endMs": 144300,
+    "timestampMs": 143880,
+    "confidence": null
+  },
+  {
+    "id": 418,
+    "text": "naval",
+    "startMs": 144300,
+    "endMs": 144640,
+    "timestampMs": 144300,
+    "confidence": null
+  },
+  {
+    "id": 419,
+    "text": "operation",
+    "startMs": 144640,
+    "endMs": 145200,
+    "timestampMs": 144640,
+    "confidence": null
+  },
+  {
+    "id": 420,
+    "text": "on",
+    "startMs": 145200,
+    "endMs": 145480,
+    "timestampMs": 145200,
+    "confidence": null
+  },
+  {
+    "id": 421,
+    "text": "the",
+    "startMs": 145480,
+    "endMs": 145600,
+    "timestampMs": 145480,
+    "confidence": null
+  },
+  {
+    "id": 422,
+    "text": "other",
+    "startMs": 145600,
+    "endMs": 145920,
+    "timestampMs": 145600,
+    "confidence": null
+  },
+  {
+    "id": 423,
+    "text": "side",
+    "startMs": 145920,
+    "endMs": 146240,
+    "timestampMs": 145920,
+    "confidence": null
+  },
+  {
+    "id": 424,
+    "text": "of",
+    "startMs": 146240,
+    "endMs": 146360,
+    "timestampMs": 146240,
+    "confidence": null
+  },
+  {
+    "id": 425,
+    "text": "the",
+    "startMs": 146360,
+    "endMs": 146420,
+    "timestampMs": 146360,
+    "confidence": null
+  },
+  {
+    "id": 426,
+    "text": "world.",
+    "startMs": 146420,
+    "endMs": 146820,
+    "timestampMs": 146420,
+    "confidence": null
+  },
+  {
+    "id": 427,
+    "text": "That",
+    "startMs": 147300,
+    "endMs": 147640,
+    "timestampMs": 147300,
+    "confidence": null
+  },
+  {
+    "id": 428,
+    "text": "is",
+    "startMs": 147640,
+    "endMs": 147960,
+    "timestampMs": 147640,
+    "confidence": null
+  },
+  {
+    "id": 429,
+    "text": "no",
+    "startMs": 147960,
+    "endMs": 148400,
+    "timestampMs": 147960,
+    "confidence": null
+  },
+  {
+    "id": 430,
+    "text": "small",
+    "startMs": 148400,
+    "endMs": 148840,
+    "timestampMs": 148400,
+    "confidence": null
+  },
+  {
+    "id": 431,
+    "text": "achievement.",
+    "startMs": 148840,
+    "endMs": 149340,
+    "timestampMs": 148840,
+    "confidence": null
+  },
+  {
+    "id": 432,
+    "text": "It",
+    "startMs": 149920,
+    "endMs": 150080,
+    "timestampMs": 149920,
+    "confidence": null
+  },
+  {
+    "id": 433,
+    "text": "requires",
+    "startMs": 150080,
+    "endMs": 150480,
+    "timestampMs": 150080,
+    "confidence": null
+  },
+  {
+    "id": 434,
+    "text": "logistics,",
+    "startMs": 150480,
+    "endMs": 151040,
+    "timestampMs": 150480,
+    "confidence": null
+  },
+  {
+    "id": 435,
+    "text": "maintenance,",
+    "startMs": 151560,
+    "endMs": 151880,
+    "timestampMs": 151560,
+    "confidence": null
+  },
+  {
+    "id": 436,
+    "text": "fuel,",
+    "startMs": 152440,
+    "endMs": 152740,
+    "timestampMs": 152440,
+    "confidence": null
+  },
+  {
+    "id": 437,
+    "text": "ammunition,",
+    "startMs": 153100,
+    "endMs": 153360,
+    "timestampMs": 153100,
+    "confidence": null
+  },
+  {
+    "id": 438,
+    "text": "escorts,",
+    "startMs": 153960,
+    "endMs": 154380,
+    "timestampMs": 153960,
+    "confidence": null
+  },
+  {
+    "id": 439,
+    "text": "and",
+    "startMs": 154660,
+    "endMs": 155040,
+    "timestampMs": 154660,
+    "confidence": null
+  },
+  {
+    "id": 440,
+    "text": "the",
+    "startMs": 155040,
+    "endMs": 155160,
+    "timestampMs": 155040,
+    "confidence": null
+  },
+  {
+    "id": 441,
+    "text": "ability",
+    "startMs": 155160,
+    "endMs": 155480,
+    "timestampMs": 155160,
+    "confidence": null
+  },
+  {
+    "id": 442,
+    "text": "to",
+    "startMs": 155480,
+    "endMs": 155680,
+    "timestampMs": 155480,
+    "confidence": null
+  },
+  {
+    "id": 443,
+    "text": "keep",
+    "startMs": 155680,
+    "endMs": 155840,
+    "timestampMs": 155680,
+    "confidence": null
+  },
+  {
+    "id": 444,
+    "text": "everything",
+    "startMs": 155840,
+    "endMs": 156360,
+    "timestampMs": 155840,
+    "confidence": null
+  },
+  {
+    "id": 445,
+    "text": "operating",
+    "startMs": 156360,
+    "endMs": 156900,
+    "timestampMs": 156360,
+    "confidence": null
+  },
+  {
+    "id": 446,
+    "text": "for",
+    "startMs": 156900,
+    "endMs": 157160,
+    "timestampMs": 156900,
+    "confidence": null
+  },
+  {
+    "id": 447,
+    "text": "months",
+    "startMs": 157160,
+    "endMs": 157560,
+    "timestampMs": 157160,
+    "confidence": null
+  },
+  {
+    "id": 448,
+    "text": "at",
+    "startMs": 157560,
+    "endMs": 157740,
+    "timestampMs": 157560,
+    "confidence": null
+  },
+  {
+    "id": 449,
+    "text": "a",
+    "startMs": 157740,
+    "endMs": 157840,
+    "timestampMs": 157740,
+    "confidence": null
+  },
+  {
+    "id": 450,
+    "text": "time,",
+    "startMs": 157840,
+    "endMs": 158180,
+    "timestampMs": 157840,
+    "confidence": null
+  },
+  {
+    "id": 451,
+    "text": "thousands",
+    "startMs": 158500,
+    "endMs": 158880,
+    "timestampMs": 158500,
+    "confidence": null
+  },
+  {
+    "id": 452,
+    "text": "of",
+    "startMs": 158880,
+    "endMs": 159120,
+    "timestampMs": 158880,
+    "confidence": null
+  },
+  {
+    "id": 453,
+    "text": "miles",
+    "startMs": 159120,
+    "endMs": 159360,
+    "timestampMs": 159120,
+    "confidence": null
+  },
+  {
+    "id": 454,
+    "text": "from",
+    "startMs": 159360,
+    "endMs": 159580,
+    "timestampMs": 159360,
+    "confidence": null
+  },
+  {
+    "id": 455,
+    "text": "home.",
+    "startMs": 159580,
+    "endMs": 159880,
+    "timestampMs": 159580,
+    "confidence": null
+  },
+  {
+    "id": 456,
+    "text": "But",
+    "startMs": 160260,
+    "endMs": 160480,
+    "timestampMs": 160260,
+    "confidence": null
+  },
+  {
+    "id": 457,
+    "text": "the",
+    "startMs": 160480,
+    "endMs": 160620,
+    "timestampMs": 160480,
+    "confidence": null
+  },
+  {
+    "id": 458,
+    "text": "second",
+    "startMs": 160620,
+    "endMs": 160920,
+    "timestampMs": 160620,
+    "confidence": null
+  },
+  {
+    "id": 459,
+    "text": "point",
+    "startMs": 160920,
+    "endMs": 161260,
+    "timestampMs": 160920,
+    "confidence": null
+  },
+  {
+    "id": 460,
+    "text": "is",
+    "startMs": 161260,
+    "endMs": 161520,
+    "timestampMs": 161260,
+    "confidence": null
+  },
+  {
+    "id": 461,
+    "text": "just",
+    "startMs": 161520,
+    "endMs": 161860,
+    "timestampMs": 161520,
+    "confidence": null
+  },
+  {
+    "id": 462,
+    "text": "as",
+    "startMs": 161860,
+    "endMs": 162040,
+    "timestampMs": 161860,
+    "confidence": null
+  },
+  {
+    "id": 463,
+    "text": "important.",
+    "startMs": 162040,
+    "endMs": 162440,
+    "timestampMs": 162040,
+    "confidence": null
+  },
+  {
+    "id": 464,
+    "text": "Britain",
+    "startMs": 163060,
+    "endMs": 163400,
+    "timestampMs": 163060,
+    "confidence": null
+  },
+  {
+    "id": 465,
+    "text": "increasingly",
+    "startMs": 163400,
+    "endMs": 164180,
+    "timestampMs": 163400,
+    "confidence": null
+  },
+  {
+    "id": 466,
+    "text": "does",
+    "startMs": 164180,
+    "endMs": 164560,
+    "timestampMs": 164180,
+    "confidence": null
+  },
+  {
+    "id": 467,
+    "text": "this",
+    "startMs": 164560,
+    "endMs": 164840,
+    "timestampMs": 164560,
+    "confidence": null
+  },
+  {
+    "id": 468,
+    "text": "alongside",
+    "startMs": 164840,
+    "endMs": 165400,
+    "timestampMs": 164840,
+    "confidence": null
+  },
+  {
+    "id": 469,
+    "text": "its",
+    "startMs": 165400,
+    "endMs": 165860,
+    "timestampMs": 165400,
+    "confidence": null
+  },
+  {
+    "id": 470,
+    "text": "allies.",
+    "startMs": 165860,
+    "endMs": 166260,
+    "timestampMs": 165860,
+    "confidence": null
+  },
+  {
+    "id": 471,
+    "text": "The",
+    "startMs": 166900,
+    "endMs": 167020,
+    "timestampMs": 166900,
+    "confidence": null
+  },
+  {
+    "id": 472,
+    "text": "original",
+    "startMs": 167020,
+    "endMs": 167320,
+    "timestampMs": 167020,
+    "confidence": null
+  },
+  {
+    "id": 473,
+    "text": "formation,",
+    "startMs": 167320,
+    "endMs": 167860,
+    "timestampMs": 167320,
+    "confidence": null
+  },
+  {
+    "id": 474,
+    "text": "for",
+    "startMs": 168160,
+    "endMs": 168240,
+    "timestampMs": 168160,
+    "confidence": null
+  },
+  {
+    "id": 475,
+    "text": "example,",
+    "startMs": 168240,
+    "endMs": 168580,
+    "timestampMs": 168240,
+    "confidence": null
+  },
+  {
+    "id": 476,
+    "text": "included",
+    "startMs": 168900,
+    "endMs": 169200,
+    "timestampMs": 168900,
+    "confidence": null
+  },
+  {
+    "id": 477,
+    "text": "frigates",
+    "startMs": 169200,
+    "endMs": 169600,
+    "timestampMs": 169200,
+    "confidence": null
+  },
+  {
+    "id": 478,
+    "text": "from",
+    "startMs": 169600,
+    "endMs": 169800,
+    "timestampMs": 169600,
+    "confidence": null
+  },
+  {
+    "id": 479,
+    "text": "Norway",
+    "startMs": 169800,
+    "endMs": 170080,
+    "timestampMs": 169800,
+    "confidence": null
+  },
+  {
+    "id": 480,
+    "text": "and",
+    "startMs": 170080,
+    "endMs": 170440,
+    "timestampMs": 170080,
+    "confidence": null
+  },
+  {
+    "id": 481,
+    "text": "Canada,",
+    "startMs": 170440,
+    "endMs": 170840,
+    "timestampMs": 170440,
+    "confidence": null
+  },
+  {
+    "id": 482,
+    "text": "as",
+    "startMs": 171140,
+    "endMs": 171320,
+    "timestampMs": 171140,
+    "confidence": null
+  },
+  {
+    "id": 483,
+    "text": "well",
+    "startMs": 171320,
+    "endMs": 171500,
+    "timestampMs": 171320,
+    "confidence": null
+  },
+  {
+    "id": 484,
+    "text": "as",
+    "startMs": 171500,
+    "endMs": 171660,
+    "timestampMs": 171500,
+    "confidence": null
+  },
+  {
+    "id": 485,
+    "text": "a",
+    "startMs": 171660,
+    "endMs": 171740,
+    "timestampMs": 171660,
+    "confidence": null
+  },
+  {
+    "id": 486,
+    "text": "Norwegian",
+    "startMs": 171740,
+    "endMs": 172040,
+    "timestampMs": 171740,
+    "confidence": null
+  },
+  {
+    "id": 487,
+    "text": "support",
+    "startMs": 172040,
+    "endMs": 172420,
+    "timestampMs": 172040,
+    "confidence": null
+  },
+  {
+    "id": 488,
+    "text": "ship.",
+    "startMs": 172420,
+    "endMs": 172800,
+    "timestampMs": 172420,
+    "confidence": null
+  },
+  {
+    "id": 489,
+    "text": "That",
+    "startMs": 173280,
+    "endMs": 173440,
+    "timestampMs": 173280,
+    "confidence": null
+  },
+  {
+    "id": 490,
+    "text": "cooperation",
+    "startMs": 173440,
+    "endMs": 173900,
+    "timestampMs": 173440,
+    "confidence": null
+  },
+  {
+    "id": 491,
+    "text": "strengthens",
+    "startMs": 173900,
+    "endMs": 174820,
+    "timestampMs": 173900,
+    "confidence": null
+  },
+  {
+    "id": 492,
+    "text": "the",
+    "startMs": 174820,
+    "endMs": 174940,
+    "timestampMs": 174820,
+    "confidence": null
+  },
+  {
+    "id": 493,
+    "text": "group's",
+    "startMs": 174940,
+    "endMs": 175240,
+    "timestampMs": 174940,
+    "confidence": null
+  },
+  {
+    "id": 494,
+    "text": "defenses,",
+    "startMs": 175240,
+    "endMs": 175660,
+    "timestampMs": 175240,
+    "confidence": null
+  },
+  {
+    "id": 495,
+    "text": "improves",
+    "startMs": 176020,
+    "endMs": 176320,
+    "timestampMs": 176020,
+    "confidence": null
+  },
+  {
+    "id": 496,
+    "text": "logistics,",
+    "startMs": 176320,
+    "endMs": 176860,
+    "timestampMs": 176320,
+    "confidence": null
+  },
+  {
+    "id": 497,
+    "text": "and",
+    "startMs": 177200,
+    "endMs": 177380,
+    "timestampMs": 177200,
+    "confidence": null
+  },
+  {
+    "id": 498,
+    "text": "spreads",
+    "startMs": 177380,
+    "endMs": 177680,
+    "timestampMs": 177380,
+    "confidence": null
+  },
+  {
+    "id": 499,
+    "text": "some",
+    "startMs": 177680,
+    "endMs": 177960,
+    "timestampMs": 177680,
+    "confidence": null
+  },
+  {
+    "id": 500,
+    "text": "of",
+    "startMs": 177960,
+    "endMs": 178060,
+    "timestampMs": 177960,
+    "confidence": null
+  },
+  {
+    "id": 501,
+    "text": "the",
+    "startMs": 178060,
+    "endMs": 178140,
+    "timestampMs": 178060,
+    "confidence": null
+  },
+  {
+    "id": 502,
+    "text": "burden",
+    "startMs": 178140,
+    "endMs": 178420,
+    "timestampMs": 178140,
+    "confidence": null
+  },
+  {
+    "id": 503,
+    "text": "across",
+    "startMs": 178420,
+    "endMs": 178720,
+    "timestampMs": 178420,
+    "confidence": null
+  },
+  {
+    "id": 504,
+    "text": "several",
+    "startMs": 178720,
+    "endMs": 179140,
+    "timestampMs": 178720,
+    "confidence": null
+  },
+  {
+    "id": 505,
+    "text": "countries.",
+    "startMs": 179140,
+    "endMs": 179580,
+    "timestampMs": 179140,
+    "confidence": null
+  },
+  {
+    "id": 506,
+    "text": "But",
+    "startMs": 180080,
+    "endMs": 180300,
+    "timestampMs": 180080,
+    "confidence": null
+  },
+  {
+    "id": 507,
+    "text": "that",
+    "startMs": 180300,
+    "endMs": 180460,
+    "timestampMs": 180300,
+    "confidence": null
+  },
+  {
+    "id": 508,
+    "text": "doesn't",
+    "startMs": 180460,
+    "endMs": 180800,
+    "timestampMs": 180460,
+    "confidence": null
+  },
+  {
+    "id": 509,
+    "text": "automatically",
+    "startMs": 180800,
+    "endMs": 181380,
+    "timestampMs": 180800,
+    "confidence": null
+  },
+  {
+    "id": 510,
+    "text": "mean",
+    "startMs": 181380,
+    "endMs": 181740,
+    "timestampMs": 181380,
+    "confidence": null
+  },
+  {
+    "id": 511,
+    "text": "the",
+    "startMs": 181740,
+    "endMs": 181900,
+    "timestampMs": 181740,
+    "confidence": null
+  },
+  {
+    "id": 512,
+    "text": "United",
+    "startMs": 181900,
+    "endMs": 182120,
+    "timestampMs": 181900,
+    "confidence": null
+  },
+  {
+    "id": 513,
+    "text": "Kingdom",
+    "startMs": 182120,
+    "endMs": 182560,
+    "timestampMs": 182120,
+    "confidence": null
+  },
+  {
+    "id": 514,
+    "text": "is",
+    "startMs": 182560,
+    "endMs": 182800,
+    "timestampMs": 182560,
+    "confidence": null
+  },
+  {
+    "id": 515,
+    "text": "incapable",
+    "startMs": 182800,
+    "endMs": 183300,
+    "timestampMs": 182800,
+    "confidence": null
+  },
+  {
+    "id": 516,
+    "text": "of",
+    "startMs": 183300,
+    "endMs": 183700,
+    "timestampMs": 183300,
+    "confidence": null
+  },
+  {
+    "id": 517,
+    "text": "conducting",
+    "startMs": 183700,
+    "endMs": 184060,
+    "timestampMs": 183700,
+    "confidence": null
+  },
+  {
+    "id": 518,
+    "text": "an",
+    "startMs": 184060,
+    "endMs": 184240,
+    "timestampMs": 184060,
+    "confidence": null
+  },
+  {
+    "id": 519,
+    "text": "operation",
+    "startMs": 184240,
+    "endMs": 184600,
+    "timestampMs": 184240,
+    "confidence": null
+  },
+  {
+    "id": 520,
+    "text": "on",
+    "startMs": 184600,
+    "endMs": 184880,
+    "timestampMs": 184600,
+    "confidence": null
+  },
+  {
+    "id": 521,
+    "text": "its",
+    "startMs": 184880,
+    "endMs": 185020,
+    "timestampMs": 184880,
+    "confidence": null
+  },
+  {
+    "id": 522,
+    "text": "own.",
+    "startMs": 185020,
+    "endMs": 185260,
+    "timestampMs": 185020,
+    "confidence": null
+  },
+  {
+    "id": 523,
+    "text": "To",
+    "startMs": 185820,
+    "endMs": 185960,
+    "timestampMs": 185820,
+    "confidence": null
+  },
+  {
+    "id": 524,
+    "text": "understand",
+    "startMs": 185960,
+    "endMs": 186360,
+    "timestampMs": 185960,
+    "confidence": null
+  },
+  {
+    "id": 525,
+    "text": "how",
+    "startMs": 186360,
+    "endMs": 186660,
+    "timestampMs": 186360,
+    "confidence": null
+  },
+  {
+    "id": 526,
+    "text": "much",
+    "startMs": 186660,
+    "endMs": 186900,
+    "timestampMs": 186660,
+    "confidence": null
+  },
+  {
+    "id": 527,
+    "text": "independence",
+    "startMs": 186900,
+    "endMs": 187340,
+    "timestampMs": 186900,
+    "confidence": null
+  },
+  {
+    "id": 528,
+    "text": "Britain",
+    "startMs": 187340,
+    "endMs": 187700,
+    "timestampMs": 187340,
+    "confidence": null
+  },
+  {
+    "id": 529,
+    "text": "actually",
+    "startMs": 187700,
+    "endMs": 188220,
+    "timestampMs": 187700,
+    "confidence": null
+  },
+  {
+    "id": 530,
+    "text": "has,",
+    "startMs": 188220,
+    "endMs": 188640,
+    "timestampMs": 188220,
+    "confidence": null
+  },
+  {
+    "id": 531,
+    "text": "we",
+    "startMs": 188640,
+    "endMs": 189180,
+    "timestampMs": 188640,
+    "confidence": null
+  },
+  {
+    "id": 532,
+    "text": "need",
+    "startMs": 189180,
+    "endMs": 189340,
+    "timestampMs": 189180,
+    "confidence": null
+  },
+  {
+    "id": 533,
+    "text": "to",
+    "startMs": 189340,
+    "endMs": 189460,
+    "timestampMs": 189340,
+    "confidence": null
+  },
+  {
+    "id": 534,
+    "text": "look",
+    "startMs": 189460,
+    "endMs": 189620,
+    "timestampMs": 189460,
+    "confidence": null
+  },
+  {
+    "id": 535,
+    "text": "at",
+    "startMs": 189620,
+    "endMs": 189760,
+    "timestampMs": 189620,
+    "confidence": null
+  },
+  {
+    "id": 536,
+    "text": "another",
+    "startMs": 189760,
+    "endMs": 190040,
+    "timestampMs": 189760,
+    "confidence": null
+  },
+  {
+    "id": 537,
+    "text": "question.",
+    "startMs": 190040,
+    "endMs": 190480,
+    "timestampMs": 190040,
+    "confidence": null
+  },
+  {
+    "id": 538,
+    "text": "How",
+    "startMs": 191140,
+    "endMs": 191300,
+    "timestampMs": 191140,
+    "confidence": null
+  },
+  {
+    "id": 539,
+    "text": "many",
+    "startMs": 191300,
+    "endMs": 191480,
+    "timestampMs": 191300,
+    "confidence": null
+  },
+  {
+    "id": 540,
+    "text": "British",
+    "startMs": 191480,
+    "endMs": 191740,
+    "timestampMs": 191480,
+    "confidence": null
+  },
+  {
+    "id": 541,
+    "text": "ships",
+    "startMs": 191740,
+    "endMs": 192100,
+    "timestampMs": 191740,
+    "confidence": null
+  },
+  {
+    "id": 542,
+    "text": "are",
+    "startMs": 192100,
+    "endMs": 192340,
+    "timestampMs": 192100,
+    "confidence": null
+  },
+  {
+    "id": 543,
+    "text": "really",
+    "startMs": 192340,
+    "endMs": 192720,
+    "timestampMs": 192340,
+    "confidence": null
+  },
+  {
+    "id": 544,
+    "text": "available?",
+    "startMs": 192720,
+    "endMs": 193160,
+    "timestampMs": 192720,
+    "confidence": null
+  },
+  {
+    "id": 545,
+    "text": "And",
+    "startMs": 193880,
+    "endMs": 193940,
+    "timestampMs": 193880,
+    "confidence": null
+  },
+  {
+    "id": 546,
+    "text": "more",
+    "startMs": 193940,
+    "endMs": 194100,
+    "timestampMs": 193940,
+    "confidence": null
+  },
+  {
+    "id": 547,
+    "text": "importantly,",
+    "startMs": 194100,
+    "endMs": 194500,
+    "timestampMs": 194100,
+    "confidence": null
+  },
+  {
+    "id": 548,
+    "text": "how",
+    "startMs": 195040,
+    "endMs": 195260,
+    "timestampMs": 195040,
+    "confidence": null
+  },
+  {
+    "id": 549,
+    "text": "long",
+    "startMs": 195260,
+    "endMs": 195600,
+    "timestampMs": 195260,
+    "confidence": null
+  },
+  {
+    "id": 550,
+    "text": "can",
+    "startMs": 195600,
+    "endMs": 195800,
+    "timestampMs": 195600,
+    "confidence": null
+  },
+  {
+    "id": 551,
+    "text": "the",
+    "startMs": 195800,
+    "endMs": 195900,
+    "timestampMs": 195800,
+    "confidence": null
+  },
+  {
+    "id": 552,
+    "text": "country",
+    "startMs": 195900,
+    "endMs": 196160,
+    "timestampMs": 195900,
+    "confidence": null
+  },
+  {
+    "id": 553,
+    "text": "sustain",
+    "startMs": 196160,
+    "endMs": 196620,
+    "timestampMs": 196160,
+    "confidence": null
+  },
+  {
+    "id": 554,
+    "text": "an",
+    "startMs": 196620,
+    "endMs": 196820,
+    "timestampMs": 196620,
+    "confidence": null
+  },
+  {
+    "id": 555,
+    "text": "operation",
+    "startMs": 196820,
+    "endMs": 197160,
+    "timestampMs": 196820,
+    "confidence": null
+  },
+  {
+    "id": 556,
+    "text": "of",
+    "startMs": 197160,
+    "endMs": 197480,
+    "timestampMs": 197160,
+    "confidence": null
+  },
+  {
+    "id": 557,
+    "text": "this",
+    "startMs": 197480,
+    "endMs": 197700,
+    "timestampMs": 197480,
+    "confidence": null
+  },
+  {
+    "id": 558,
+    "text": "size",
+    "startMs": 197700,
+    "endMs": 198120,
+    "timestampMs": 197700,
+    "confidence": null
+  },
+  {
+    "id": 559,
+    "text": "before",
+    "startMs": 198120,
+    "endMs": 198600,
+    "timestampMs": 198120,
+    "confidence": null
+  },
+  {
+    "id": 560,
+    "text": "it",
+    "startMs": 198600,
+    "endMs": 198820,
+    "timestampMs": 198600,
+    "confidence": null
+  },
+  {
+    "id": 561,
+    "text": "starts",
+    "startMs": 198820,
+    "endMs": 199000,
+    "timestampMs": 198820,
+    "confidence": null
+  },
+  {
+    "id": 562,
+    "text": "putting",
+    "startMs": 199000,
+    "endMs": 199280,
+    "timestampMs": 199000,
+    "confidence": null
+  },
+  {
+    "id": 563,
+    "text": "serious",
+    "startMs": 199280,
+    "endMs": 199800,
+    "timestampMs": 199280,
+    "confidence": null
+  },
+  {
+    "id": 564,
+    "text": "pressure",
+    "startMs": 199800,
+    "endMs": 200280,
+    "timestampMs": 199800,
+    "confidence": null
+  },
+  {
+    "id": 565,
+    "text": "on",
+    "startMs": 200280,
+    "endMs": 200460,
+    "timestampMs": 200280,
+    "confidence": null
+  },
+  {
+    "id": 566,
+    "text": "the",
+    "startMs": 200460,
+    "endMs": 200560,
+    "timestampMs": 200460,
+    "confidence": null
+  },
+  {
+    "id": 567,
+    "text": "rest",
+    "startMs": 200560,
+    "endMs": 200760,
+    "timestampMs": 200560,
+    "confidence": null
+  },
+  {
+    "id": 568,
+    "text": "of",
+    "startMs": 200760,
+    "endMs": 200880,
+    "timestampMs": 200760,
+    "confidence": null
+  },
+  {
+    "id": 569,
+    "text": "the",
+    "startMs": 200880,
+    "endMs": 200960,
+    "timestampMs": 200880,
+    "confidence": null
+  },
+  {
+    "id": 570,
+    "text": "fleet?",
+    "startMs": 200960,
+    "endMs": 201240,
+    "timestampMs": 200960,
+    "confidence": null
+  }
+]

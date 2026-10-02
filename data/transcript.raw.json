@@ -1,0 +1,3133 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.36,
+      "text": " When you think about the United Kingdom, at least for me as someone who loves history,",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.26,
+          "word": " When"
+        },
+        {
+          "start": 0.26,
+          "end": 0.4,
+          "word": " you"
+        },
+        {
+          "start": 0.4,
+          "end": 0.58,
+          "word": " think"
+        },
+        {
+          "start": 0.58,
+          "end": 0.8,
+          "word": " about"
+        },
+        {
+          "start": 0.8,
+          "end": 0.94,
+          "word": " the"
+        },
+        {
+          "start": 0.94,
+          "end": 1.16,
+          "word": " United"
+        },
+        {
+          "start": 1.16,
+          "end": 1.62,
+          "word": " Kingdom,"
+        },
+        {
+          "start": 2.12,
+          "end": 2.24,
+          "word": " at"
+        },
+        {
+          "start": 2.24,
+          "end": 2.4,
+          "word": " least"
+        },
+        {
+          "start": 2.4,
+          "end": 2.56,
+          "word": " for"
+        },
+        {
+          "start": 2.56,
+          "end": 2.8,
+          "word": " me"
+        },
+        {
+          "start": 2.8,
+          "end": 3.16,
+          "word": " as"
+        },
+        {
+          "start": 3.16,
+          "end": 3.42,
+          "word": " someone"
+        },
+        {
+          "start": 3.42,
+          "end": 3.58,
+          "word": " who"
+        },
+        {
+          "start": 3.58,
+          "end": 3.9,
+          "word": " loves"
+        },
+        {
+          "start": 3.9,
+          "end": 4.36,
+          "word": " history,"
+        }
+      ]
+    },
+    {
+      "start": 4.86,
+      "end": 9.9,
+      "text": " it's hard not to think about the Royal Navy. The powerful British Navy that, for centuries,",
+      "words": [
+        {
+          "start": 4.86,
+          "end": 5.06,
+          "word": " it's"
+        },
+        {
+          "start": 5.06,
+          "end": 5.26,
+          "word": " hard"
+        },
+        {
+          "start": 5.26,
+          "end": 5.56,
+          "word": " not"
+        },
+        {
+          "start": 5.56,
+          "end": 5.76,
+          "word": " to"
+        },
+        {
+          "start": 5.76,
+          "end": 5.96,
+          "word": " think"
+        },
+        {
+          "start": 5.96,
+          "end": 6.16,
+          "word": " about"
+        },
+        {
+          "start": 6.16,
+          "end": 6.32,
+          "word": " the"
+        },
+        {
+          "start": 6.32,
+          "end": 6.58,
+          "word": " Royal"
+        },
+        {
+          "start": 6.58,
+          "end": 6.94,
+          "word": " Navy."
+        },
+        {
+          "start": 7.56,
+          "end": 7.68,
+          "word": " The"
+        },
+        {
+          "start": 7.68,
+          "end": 8.14,
+          "word": " powerful"
+        },
+        {
+          "start": 8.14,
+          "end": 8.5,
+          "word": " British"
+        },
+        {
+          "start": 8.5,
+          "end": 8.9,
+          "word": " Navy"
+        },
+        {
+          "start": 8.9,
+          "end": 9.16,
+          "word": " that,"
+        },
+        {
+          "start": 9.34,
+          "end": 9.42,
+          "word": " for"
+        },
+        {
+          "start": 9.42,
+          "end": 9.9,
+          "word": " centuries,"
+        }
+      ]
+    },
+    {
+      "start": 10.4,
+      "end": 14.56,
+      "text": " helped the United Kingdom build an empire that stretched across nearly every continent.",
+      "words": [
+        {
+          "start": 10.4,
+          "end": 10.52,
+          "word": " helped"
+        },
+        {
+          "start": 10.52,
+          "end": 10.68,
+          "word": " the"
+        },
+        {
+          "start": 10.68,
+          "end": 10.88,
+          "word": " United"
+        },
+        {
+          "start": 10.88,
+          "end": 11.28,
+          "word": " Kingdom"
+        },
+        {
+          "start": 11.28,
+          "end": 11.62,
+          "word": " build"
+        },
+        {
+          "start": 11.62,
+          "end": 11.8,
+          "word": " an"
+        },
+        {
+          "start": 11.8,
+          "end": 12.12,
+          "word": " empire"
+        },
+        {
+          "start": 12.12,
+          "end": 12.48,
+          "word": " that"
+        },
+        {
+          "start": 12.48,
+          "end": 12.8,
+          "word": " stretched"
+        },
+        {
+          "start": 12.8,
+          "end": 13.1,
+          "word": " across"
+        },
+        {
+          "start": 13.1,
+          "end": 13.46,
+          "word": " nearly"
+        },
+        {
+          "start": 13.46,
+          "end": 14.04,
+          "word": " every"
+        },
+        {
+          "start": 14.04,
+          "end": 14.56,
+          "word": " continent."
+        }
+      ]
+    },
+    {
+      "start": 15.18,
+      "end": 18.54,
+      "text": " An empire so vast that it gave rise to that famous phrase,",
+      "words": [
+        {
+          "start": 15.18,
+          "end": 15.32,
+          "word": " An"
+        },
+        {
+          "start": 15.32,
+          "end": 15.62,
+          "word": " empire"
+        },
+        {
+          "start": 15.62,
+          "end": 16.08,
+          "word": " so"
+        },
+        {
+          "start": 16.08,
+          "end": 16.42,
+          "word": " vast"
+        },
+        {
+          "start": 16.42,
+          "end": 16.86,
+          "word": " that"
+        },
+        {
+          "start": 16.86,
+          "end": 17.0,
+          "word": " it"
+        },
+        {
+          "start": 17.0,
+          "end": 17.16,
+          "word": " gave"
+        },
+        {
+          "start": 17.16,
+          "end": 17.44,
+          "word": " rise"
+        },
+        {
+          "start": 17.44,
+          "end": 17.64,
+          "word": " to"
+        },
+        {
+          "start": 17.64,
+          "end": 17.78,
+          "word": " that"
+        },
+        {
+          "start": 17.78,
+          "end": 18.18,
+          "word": " famous"
+        },
+        {
+          "start": 18.18,
+          "end": 18.54,
+          "word": " phrase,"
+        }
+      ]
+    },
+    {
+      "start": 19.32,
+      "end": 24.52,
+      "text": " the sun never sets on the British Empire. In Tolkien's world, there was Numenor,",
+      "words": [
+        {
+          "start": 19.32,
+          "end": 19.4,
+          "word": " the"
+        },
+        {
+          "start": 19.4,
+          "end": 19.76,
+          "word": " sun"
+        },
+        {
+          "start": 19.76,
+          "end": 20.06,
+          "word": " never"
+        },
+        {
+          "start": 20.06,
+          "end": 20.5,
+          "word": " sets"
+        },
+        {
+          "start": 20.5,
+          "end": 20.96,
+          "word": " on"
+        },
+        {
+          "start": 20.96,
+          "end": 21.06,
+          "word": " the"
+        },
+        {
+          "start": 21.06,
+          "end": 21.32,
+          "word": " British"
+        },
+        {
+          "start": 21.32,
+          "end": 21.76,
+          "word": " Empire."
+        },
+        {
+          "start": 22.46,
+          "end": 22.76,
+          "word": " In"
+        },
+        {
+          "start": 22.76,
+          "end": 23.26,
+          "word": " Tolkien's"
+        },
+        {
+          "start": 23.26,
+          "end": 23.48,
+          "word": " world,"
+        },
+        {
+          "start": 23.74,
+          "end": 23.82,
+          "word": " there"
+        },
+        {
+          "start": 23.82,
+          "end": 23.98,
+          "word": " was"
+        },
+        {
+          "start": 23.98,
+          "end": 24.52,
+          "word": " Numenor,"
+        }
+      ]
+    },
+    {
+      "start": 24.9,
+      "end": 28.74,
+      "text": " a great island in the middle of the ocean separated from the rest of Middle Earth,",
+      "words": [
+        {
+          "start": 24.9,
+          "end": 25.0,
+          "word": " a"
+        },
+        {
+          "start": 25.0,
+          "end": 25.3,
+          "word": " great"
+        },
+        {
+          "start": 25.3,
+          "end": 25.74,
+          "word": " island"
+        },
+        {
+          "start": 25.74,
+          "end": 25.94,
+          "word": " in"
+        },
+        {
+          "start": 25.94,
+          "end": 26.0,
+          "word": " the"
+        },
+        {
+          "start": 26.0,
+          "end": 26.26,
+          "word": " middle"
+        },
+        {
+          "start": 26.26,
+          "end": 26.44,
+          "word": " of"
+        },
+        {
+          "start": 26.44,
+          "end": 26.56,
+          "word": " the"
+        },
+        {
+          "start": 26.56,
+          "end": 26.86,
+          "word": " ocean"
+        },
+        {
+          "start": 26.86,
+          "end": 27.46,
+          "word": " separated"
+        },
+        {
+          "start": 27.46,
+          "end": 27.76,
+          "word": " from"
+        },
+        {
+          "start": 27.76,
+          "end": 27.88,
+          "word": " the"
+        },
+        {
+          "start": 27.88,
+          "end": 28.14,
+          "word": " rest"
+        },
+        {
+          "start": 28.14,
+          "end": 28.3,
+          "word": " of"
+        },
+        {
+          "start": 28.3,
+          "end": 28.46,
+          "word": " Middle"
+        },
+        {
+          "start": 28.46,
+          "end": 28.74,
+          "word": " Earth,"
+        }
+      ]
+    },
+    {
+      "start": 28.74,
+      "end": 32.74,
+      "text": " yet destined to become one of the most powerful civilizations of its age.",
+      "words": [
+        {
+          "start": 28.74,
+          "end": 29.24,
+          "word": " yet"
+        },
+        {
+          "start": 29.24,
+          "end": 29.68,
+          "word": " destined"
+        },
+        {
+          "start": 29.68,
+          "end": 29.86,
+          "word": " to"
+        },
+        {
+          "start": 29.86,
+          "end": 30.1,
+          "word": " become"
+        },
+        {
+          "start": 30.1,
+          "end": 30.34,
+          "word": " one"
+        },
+        {
+          "start": 30.34,
+          "end": 30.44,
+          "word": " of"
+        },
+        {
+          "start": 30.44,
+          "end": 30.54,
+          "word": " the"
+        },
+        {
+          "start": 30.54,
+          "end": 30.7,
+          "word": " most"
+        },
+        {
+          "start": 30.7,
+          "end": 31.24,
+          "word": " powerful"
+        },
+        {
+          "start": 31.24,
+          "end": 31.8,
+          "word": " civilizations"
+        },
+        {
+          "start": 31.8,
+          "end": 32.26,
+          "word": " of"
+        },
+        {
+          "start": 32.26,
+          "end": 32.42,
+          "word": " its"
+        },
+        {
+          "start": 32.42,
+          "end": 32.74,
+          "word": " age."
+        }
+      ]
+    },
+    {
+      "start": 33.2,
+      "end": 36.26,
+      "text": " A relatively small island, compared to an entire continent,",
+      "words": [
+        {
+          "start": 33.2,
+          "end": 33.42,
+          "word": " A"
+        },
+        {
+          "start": 33.42,
+          "end": 33.72,
+          "word": " relatively"
+        },
+        {
+          "start": 33.72,
+          "end": 34.2,
+          "word": " small"
+        },
+        {
+          "start": 34.2,
+          "end": 34.66,
+          "word": " island,"
+        },
+        {
+          "start": 34.78,
+          "end": 35.0,
+          "word": " compared"
+        },
+        {
+          "start": 35.0,
+          "end": 35.22,
+          "word": " to"
+        },
+        {
+          "start": 35.22,
+          "end": 35.32,
+          "word": " an"
+        },
+        {
+          "start": 35.32,
+          "end": 35.7,
+          "word": " entire"
+        },
+        {
+          "start": 35.7,
+          "end": 36.26,
+          "word": " continent,"
+        }
+      ]
+    },
+    {
+      "start": 36.6,
+      "end": 41.8,
+      "text": " but one with enormous naval and political influence. Did Tolkien look at British history",
+      "words": [
+        {
+          "start": 36.6,
+          "end": 36.84,
+          "word": " but"
+        },
+        {
+          "start": 36.84,
+          "end": 37.06,
+          "word": " one"
+        },
+        {
+          "start": 37.06,
+          "end": 37.24,
+          "word": " with"
+        },
+        {
+          "start": 37.24,
+          "end": 37.76,
+          "word": " enormous"
+        },
+        {
+          "start": 37.76,
+          "end": 38.28,
+          "word": " naval"
+        },
+        {
+          "start": 38.28,
+          "end": 38.52,
+          "word": " and"
+        },
+        {
+          "start": 38.52,
+          "end": 38.9,
+          "word": " political"
+        },
+        {
+          "start": 38.9,
+          "end": 39.46,
+          "word": " influence."
+        },
+        {
+          "start": 40.12,
+          "end": 40.36,
+          "word": " Did"
+        },
+        {
+          "start": 40.36,
+          "end": 40.68,
+          "word": " Tolkien"
+        },
+        {
+          "start": 40.68,
+          "end": 40.94,
+          "word": " look"
+        },
+        {
+          "start": 40.94,
+          "end": 41.08,
+          "word": " at"
+        },
+        {
+          "start": 41.08,
+          "end": 41.32,
+          "word": " British"
+        },
+        {
+          "start": 41.32,
+          "end": 41.8,
+          "word": " history"
+        }
+      ]
+    },
+    {
+      "start": 41.8,
+      "end": 47.42,
+      "text": " and draw some inspiration from it? Well, I don't know, but it is an interesting comparison.",
+      "words": [
+        {
+          "start": 41.8,
+          "end": 42.1,
+          "word": " and"
+        },
+        {
+          "start": 42.1,
+          "end": 42.36,
+          "word": " draw"
+        },
+        {
+          "start": 42.36,
+          "end": 42.52,
+          "word": " some"
+        },
+        {
+          "start": 42.52,
+          "end": 42.96,
+          "word": " inspiration"
+        },
+        {
+          "start": 42.96,
+          "end": 43.3,
+          "word": " from"
+        },
+        {
+          "start": 43.3,
+          "end": 43.44,
+          "word": " it?"
+        },
+        {
+          "start": 43.94,
+          "end": 44.28,
+          "word": " Well,"
+        },
+        {
+          "start": 44.68,
+          "end": 44.8,
+          "word": " I"
+        },
+        {
+          "start": 44.8,
+          "end": 44.94,
+          "word": " don't"
+        },
+        {
+          "start": 44.94,
+          "end": 45.2,
+          "word": " know,"
+        },
+        {
+          "start": 45.46,
+          "end": 45.78,
+          "word": " but"
+        },
+        {
+          "start": 45.78,
+          "end": 46.04,
+          "word": " it"
+        },
+        {
+          "start": 46.04,
+          "end": 46.34,
+          "word": " is"
+        },
+        {
+          "start": 46.34,
+          "end": 46.46,
+          "word": " an"
+        },
+        {
+          "start": 46.46,
+          "end": 46.8,
+          "word": " interesting"
+        },
+        {
+          "start": 46.8,
+          "end": 47.42,
+          "word": " comparison."
+        }
+      ]
+    },
+    {
+      "start": 47.92,
+      "end": 52.84,
+      "text": " Because for a very long time, a relatively small island off the coast of Europe managed",
+      "words": [
+        {
+          "start": 47.92,
+          "end": 48.26,
+          "word": " Because"
+        },
+        {
+          "start": 48.26,
+          "end": 48.5,
+          "word": " for"
+        },
+        {
+          "start": 48.5,
+          "end": 48.62,
+          "word": " a"
+        },
+        {
+          "start": 48.62,
+          "end": 48.92,
+          "word": " very"
+        },
+        {
+          "start": 48.92,
+          "end": 49.2,
+          "word": " long"
+        },
+        {
+          "start": 49.2,
+          "end": 49.6,
+          "word": " time,"
+        },
+        {
+          "start": 49.88,
+          "end": 50.02,
+          "word": " a"
+        },
+        {
+          "start": 50.02,
+          "end": 50.34,
+          "word": " relatively"
+        },
+        {
+          "start": 50.34,
+          "end": 50.8,
+          "word": " small"
+        },
+        {
+          "start": 50.8,
+          "end": 51.32,
+          "word": " island"
+        },
+        {
+          "start": 51.32,
+          "end": 51.48,
+          "word": " off"
+        },
+        {
+          "start": 51.48,
+          "end": 51.62,
+          "word": " the"
+        },
+        {
+          "start": 51.62,
+          "end": 51.82,
+          "word": " coast"
+        },
+        {
+          "start": 51.82,
+          "end": 52.0,
+          "word": " of"
+        },
+        {
+          "start": 52.0,
+          "end": 52.28,
+          "word": " Europe"
+        },
+        {
+          "start": 52.28,
+          "end": 52.84,
+          "word": " managed"
+        }
+      ]
+    },
+    {
+      "start": 52.84,
+      "end": 57.76,
+      "text": " to build the most powerful navy on Earth and project its power into almost every corner",
+      "words": [
+        {
+          "start": 52.84,
+          "end": 53.12,
+          "word": " to"
+        },
+        {
+          "start": 53.12,
+          "end": 53.3,
+          "word": " build"
+        },
+        {
+          "start": 53.3,
+          "end": 53.46,
+          "word": " the"
+        },
+        {
+          "start": 53.46,
+          "end": 53.64,
+          "word": " most"
+        },
+        {
+          "start": 53.64,
+          "end": 54.16,
+          "word": " powerful"
+        },
+        {
+          "start": 54.16,
+          "end": 54.54,
+          "word": " navy"
+        },
+        {
+          "start": 54.54,
+          "end": 54.82,
+          "word": " on"
+        },
+        {
+          "start": 54.82,
+          "end": 55.18,
+          "word": " Earth"
+        },
+        {
+          "start": 55.18,
+          "end": 55.56,
+          "word": " and"
+        },
+        {
+          "start": 55.56,
+          "end": 55.84,
+          "word": " project"
+        },
+        {
+          "start": 55.84,
+          "end": 56.08,
+          "word": " its"
+        },
+        {
+          "start": 56.08,
+          "end": 56.4,
+          "word": " power"
+        },
+        {
+          "start": 56.4,
+          "end": 56.64,
+          "word": " into"
+        },
+        {
+          "start": 56.64,
+          "end": 56.98,
+          "word": " almost"
+        },
+        {
+          "start": 56.98,
+          "end": 57.42,
+          "word": " every"
+        },
+        {
+          "start": 57.42,
+          "end": 57.76,
+          "word": " corner"
+        }
+      ]
+    },
+    {
+      "start": 57.76,
+      "end": 64.9,
+      "text": " of the world. But of course, that world is gone. The question is, how much of that power is still",
+      "words": [
+        {
+          "start": 57.76,
+          "end": 57.96,
+          "word": " of"
+        },
+        {
+          "start": 57.96,
+          "end": 58.06,
+          "word": " the"
+        },
+        {
+          "start": 58.06,
+          "end": 58.32,
+          "word": " world."
+        },
+        {
+          "start": 58.94,
+          "end": 59.28,
+          "word": " But"
+        },
+        {
+          "start": 59.28,
+          "end": 59.64,
+          "word": " of"
+        },
+        {
+          "start": 59.64,
+          "end": 59.96,
+          "word": " course,"
+        },
+        {
+          "start": 60.56,
+          "end": 60.78,
+          "word": " that"
+        },
+        {
+          "start": 60.78,
+          "end": 61.0,
+          "word": " world"
+        },
+        {
+          "start": 61.0,
+          "end": 61.18,
+          "word": " is"
+        },
+        {
+          "start": 61.18,
+          "end": 61.46,
+          "word": " gone."
+        },
+        {
+          "start": 62.2,
+          "end": 62.34,
+          "word": " The"
+        },
+        {
+          "start": 62.34,
+          "end": 62.62,
+          "word": " question"
+        },
+        {
+          "start": 62.62,
+          "end": 62.9,
+          "word": " is,"
+        },
+        {
+          "start": 63.3,
+          "end": 63.52,
+          "word": " how"
+        },
+        {
+          "start": 63.52,
+          "end": 63.74,
+          "word": " much"
+        },
+        {
+          "start": 63.74,
+          "end": 63.84,
+          "word": " of"
+        },
+        {
+          "start": 63.84,
+          "end": 64.0,
+          "word": " that"
+        },
+        {
+          "start": 64.0,
+          "end": 64.34,
+          "word": " power"
+        },
+        {
+          "start": 64.34,
+          "end": 64.6,
+          "word": " is"
+        },
+        {
+          "start": 64.6,
+          "end": 64.9,
+          "word": " still"
+        }
+      ]
+    },
+    {
+      "start": 64.9,
+      "end": 70.42,
+      "text": " there today? And the truth is, the Royal Navy still belongs to a very exclusive group.",
+      "words": [
+        {
+          "start": 64.9,
+          "end": 65.14,
+          "word": " there"
+        },
+        {
+          "start": 65.14,
+          "end": 65.48,
+          "word": " today?"
+        },
+        {
+          "start": 66.18,
+          "end": 66.34,
+          "word": " And"
+        },
+        {
+          "start": 66.34,
+          "end": 66.42,
+          "word": " the"
+        },
+        {
+          "start": 66.42,
+          "end": 66.64,
+          "word": " truth"
+        },
+        {
+          "start": 66.64,
+          "end": 66.92,
+          "word": " is,"
+        },
+        {
+          "start": 67.26,
+          "end": 67.34,
+          "word": " the"
+        },
+        {
+          "start": 67.34,
+          "end": 67.6,
+          "word": " Royal"
+        },
+        {
+          "start": 67.6,
+          "end": 67.92,
+          "word": " Navy"
+        },
+        {
+          "start": 67.92,
+          "end": 68.32,
+          "word": " still"
+        },
+        {
+          "start": 68.32,
+          "end": 68.74,
+          "word": " belongs"
+        },
+        {
+          "start": 68.74,
+          "end": 68.98,
+          "word": " to"
+        },
+        {
+          "start": 68.98,
+          "end": 69.12,
+          "word": " a"
+        },
+        {
+          "start": 69.12,
+          "end": 69.46,
+          "word": " very"
+        },
+        {
+          "start": 69.46,
+          "end": 69.96,
+          "word": " exclusive"
+        },
+        {
+          "start": 69.96,
+          "end": 70.42,
+          "word": " group."
+        }
+      ]
+    },
+    {
+      "start": 70.92,
+      "end": 75.34,
+      "text": " It remains one of the few navies in the world capable of assembling a carrier strike group",
+      "words": [
+        {
+          "start": 70.92,
+          "end": 71.1,
+          "word": " It"
+        },
+        {
+          "start": 71.1,
+          "end": 71.4,
+          "word": " remains"
+        },
+        {
+          "start": 71.4,
+          "end": 71.6,
+          "word": " one"
+        },
+        {
+          "start": 71.6,
+          "end": 71.7,
+          "word": " of"
+        },
+        {
+          "start": 71.7,
+          "end": 71.8,
+          "word": " the"
+        },
+        {
+          "start": 71.8,
+          "end": 72.08,
+          "word": " few"
+        },
+        {
+          "start": 72.08,
+          "end": 72.46,
+          "word": " navies"
+        },
+        {
+          "start": 72.46,
+          "end": 72.6,
+          "word": " in"
+        },
+        {
+          "start": 72.6,
+          "end": 72.68,
+          "word": " the"
+        },
+        {
+          "start": 72.68,
+          "end": 73.02,
+          "word": " world"
+        },
+        {
+          "start": 73.02,
+          "end": 73.4,
+          "word": " capable"
+        },
+        {
+          "start": 73.4,
+          "end": 73.7,
+          "word": " of"
+        },
+        {
+          "start": 73.7,
+          "end": 74.08,
+          "word": " assembling"
+        },
+        {
+          "start": 74.08,
+          "end": 74.32,
+          "word": " a"
+        },
+        {
+          "start": 74.32,
+          "end": 74.66,
+          "word": " carrier"
+        },
+        {
+          "start": 74.66,
+          "end": 75.0,
+          "word": " strike"
+        },
+        {
+          "start": 75.0,
+          "end": 75.34,
+          "word": " group"
+        }
+      ]
+    },
+    {
+      "start": 75.34,
+      "end": 80.3,
+      "text": " and sending it thousands of miles away from home. At the center of that capability are",
+      "words": [
+        {
+          "start": 75.34,
+          "end": 75.7,
+          "word": " and"
+        },
+        {
+          "start": 75.7,
+          "end": 75.98,
+          "word": " sending"
+        },
+        {
+          "start": 75.98,
+          "end": 76.16,
+          "word": " it"
+        },
+        {
+          "start": 76.16,
+          "end": 76.6,
+          "word": " thousands"
+        },
+        {
+          "start": 76.6,
+          "end": 76.86,
+          "word": " of"
+        },
+        {
+          "start": 76.86,
+          "end": 77.1,
+          "word": " miles"
+        },
+        {
+          "start": 77.1,
+          "end": 77.4,
+          "word": " away"
+        },
+        {
+          "start": 77.4,
+          "end": 77.58,
+          "word": " from"
+        },
+        {
+          "start": 77.58,
+          "end": 77.84,
+          "word": " home."
+        },
+        {
+          "start": 78.4,
+          "end": 78.64,
+          "word": " At"
+        },
+        {
+          "start": 78.64,
+          "end": 78.74,
+          "word": " the"
+        },
+        {
+          "start": 78.74,
+          "end": 79.0,
+          "word": " center"
+        },
+        {
+          "start": 79.0,
+          "end": 79.18,
+          "word": " of"
+        },
+        {
+          "start": 79.18,
+          "end": 79.3,
+          "word": " that"
+        },
+        {
+          "start": 79.3,
+          "end": 79.74,
+          "word": " capability"
+        },
+        {
+          "start": 79.74,
+          "end": 80.3,
+          "word": " are"
+        }
+      ]
+    },
+    {
+      "start": 80.3,
+      "end": 86.0,
+      "text": " HMS Queen Elizabeth and HMS Prince of Wales, the largest warships ever built for the Royal",
+      "words": [
+        {
+          "start": 80.3,
+          "end": 80.82,
+          "word": " HMS"
+        },
+        {
+          "start": 80.82,
+          "end": 81.18,
+          "word": " Queen"
+        },
+        {
+          "start": 81.18,
+          "end": 81.52,
+          "word": " Elizabeth"
+        },
+        {
+          "start": 81.52,
+          "end": 81.98,
+          "word": " and"
+        },
+        {
+          "start": 81.98,
+          "end": 82.54,
+          "word": " HMS"
+        },
+        {
+          "start": 82.54,
+          "end": 82.84,
+          "word": " Prince"
+        },
+        {
+          "start": 82.84,
+          "end": 83.04,
+          "word": " of"
+        },
+        {
+          "start": 83.04,
+          "end": 83.28,
+          "word": " Wales,"
+        },
+        {
+          "start": 83.72,
+          "end": 83.82,
+          "word": " the"
+        },
+        {
+          "start": 83.82,
+          "end": 84.24,
+          "word": " largest"
+        },
+        {
+          "start": 84.24,
+          "end": 84.78,
+          "word": " warships"
+        },
+        {
+          "start": 84.78,
+          "end": 85.18,
+          "word": " ever"
+        },
+        {
+          "start": 85.18,
+          "end": 85.5,
+          "word": " built"
+        },
+        {
+          "start": 85.5,
+          "end": 85.68,
+          "word": " for"
+        },
+        {
+          "start": 85.68,
+          "end": 85.78,
+          "word": " the"
+        },
+        {
+          "start": 85.78,
+          "end": 86.0,
+          "word": " Royal"
+        }
+      ]
+    },
+    {
+      "start": 86.0,
+      "end": 91.22,
+      "text": " Navy. And when one of these carriers deploys on a full-scale operation, it doesn't go alone.",
+      "words": [
+        {
+          "start": 86.0,
+          "end": 86.3,
+          "word": " Navy."
+        },
+        {
+          "start": 86.9,
+          "end": 87.14,
+          "word": " And"
+        },
+        {
+          "start": 87.14,
+          "end": 87.24,
+          "word": " when"
+        },
+        {
+          "start": 87.24,
+          "end": 87.44,
+          "word": " one"
+        },
+        {
+          "start": 87.44,
+          "end": 87.52,
+          "word": " of"
+        },
+        {
+          "start": 87.52,
+          "end": 87.68,
+          "word": " these"
+        },
+        {
+          "start": 87.68,
+          "end": 87.98,
+          "word": " carriers"
+        },
+        {
+          "start": 87.98,
+          "end": 88.54,
+          "word": " deploys"
+        },
+        {
+          "start": 88.54,
+          "end": 88.76,
+          "word": " on"
+        },
+        {
+          "start": 88.76,
+          "end": 88.86,
+          "word": " a"
+        },
+        {
+          "start": 88.86,
+          "end": 89.12,
+          "word": " full"
+        },
+        {
+          "start": 89.12,
+          "end": 89.36,
+          "word": "-scale"
+        },
+        {
+          "start": 89.36,
+          "end": 89.96,
+          "word": " operation,"
+        },
+        {
+          "start": 90.36,
+          "end": 90.5,
+          "word": " it"
+        },
+        {
+          "start": 90.5,
+          "end": 90.76,
+          "word": " doesn't"
+        },
+        {
+          "start": 90.76,
+          "end": 90.9,
+          "word": " go"
+        },
+        {
+          "start": 90.9,
+          "end": 91.22,
+          "word": " alone."
+        }
+      ]
+    },
+    {
+      "start": 91.84,
+      "end": 97.82,
+      "text": " There are F-35B fighters, Merlin helicopters, escort ships, support vessels, and an entire",
+      "words": [
+        {
+          "start": 91.84,
+          "end": 91.98,
+          "word": " There"
+        },
+        {
+          "start": 91.98,
+          "end": 92.1,
+          "word": " are"
+        },
+        {
+          "start": 92.1,
+          "end": 92.34,
+          "word": " F"
+        },
+        {
+          "start": 92.34,
+          "end": 93.02,
+          "word": "-35B"
+        },
+        {
+          "start": 93.02,
+          "end": 93.38,
+          "word": " fighters,"
+        },
+        {
+          "start": 93.84,
+          "end": 94.12,
+          "word": " Merlin"
+        },
+        {
+          "start": 94.12,
+          "end": 94.54,
+          "word": " helicopters,"
+        },
+        {
+          "start": 95.16,
+          "end": 95.5,
+          "word": " escort"
+        },
+        {
+          "start": 95.5,
+          "end": 95.88,
+          "word": " ships,"
+        },
+        {
+          "start": 96.14,
+          "end": 96.38,
+          "word": " support"
+        },
+        {
+          "start": 96.38,
+          "end": 96.8,
+          "word": " vessels,"
+        },
+        {
+          "start": 97.1,
+          "end": 97.28,
+          "word": " and"
+        },
+        {
+          "start": 97.28,
+          "end": 97.38,
+          "word": " an"
+        },
+        {
+          "start": 97.38,
+          "end": 97.82,
+          "word": " entire"
+        }
+      ]
+    },
+    {
+      "start": 97.82,
+      "end": 102.36,
+      "text": " structure built around command and control, air defense, and anti-submarine warfare.",
+      "words": [
+        {
+          "start": 97.82,
+          "end": 98.4,
+          "word": " structure"
+        },
+        {
+          "start": 98.4,
+          "end": 98.7,
+          "word": " built"
+        },
+        {
+          "start": 98.7,
+          "end": 98.96,
+          "word": " around"
+        },
+        {
+          "start": 98.96,
+          "end": 99.28,
+          "word": " command"
+        },
+        {
+          "start": 99.28,
+          "end": 99.54,
+          "word": " and"
+        },
+        {
+          "start": 99.54,
+          "end": 99.9,
+          "word": " control,"
+        },
+        {
+          "start": 100.34,
+          "end": 100.44,
+          "word": " air"
+        },
+        {
+          "start": 100.44,
+          "end": 100.78,
+          "word": " defense,"
+        },
+        {
+          "start": 101.0,
+          "end": 101.1,
+          "word": " and"
+        },
+        {
+          "start": 101.1,
+          "end": 101.48,
+          "word": " anti"
+        },
+        {
+          "start": 101.48,
+          "end": 101.98,
+          "word": "-submarine"
+        },
+        {
+          "start": 101.98,
+          "end": 102.36,
+          "word": " warfare."
+        }
+      ]
+    },
+    {
+      "start": 103.0,
+      "end": 106.78,
+      "text": " That is a level of capability that very few navies can put to sea today.",
+      "words": [
+        {
+          "start": 103.0,
+          "end": 103.3,
+          "word": " That"
+        },
+        {
+          "start": 103.3,
+          "end": 103.5,
+          "word": " is"
+        },
+        {
+          "start": 103.5,
+          "end": 103.6,
+          "word": " a"
+        },
+        {
+          "start": 103.6,
+          "end": 103.78,
+          "word": " level"
+        },
+        {
+          "start": 103.78,
+          "end": 103.92,
+          "word": " of"
+        },
+        {
+          "start": 103.92,
+          "end": 104.42,
+          "word": " capability"
+        },
+        {
+          "start": 104.42,
+          "end": 104.74,
+          "word": " that"
+        },
+        {
+          "start": 104.74,
+          "end": 105.18,
+          "word": " very"
+        },
+        {
+          "start": 105.18,
+          "end": 105.46,
+          "word": " few"
+        },
+        {
+          "start": 105.46,
+          "end": 105.86,
+          "word": " navies"
+        },
+        {
+          "start": 105.86,
+          "end": 106.02,
+          "word": " can"
+        },
+        {
+          "start": 106.02,
+          "end": 106.18,
+          "word": " put"
+        },
+        {
+          "start": 106.18,
+          "end": 106.32,
+          "word": " to"
+        },
+        {
+          "start": 106.32,
+          "end": 106.52,
+          "word": " sea"
+        },
+        {
+          "start": 106.52,
+          "end": 106.78,
+          "word": " today."
+        }
+      ]
+    },
+    {
+      "start": 107.32,
+      "end": 111.92,
+      "text": " In 2025, for example, the carrier strike group led by Prince of Wales deployed on",
+      "words": [
+        {
+          "start": 107.32,
+          "end": 107.58,
+          "word": " In"
+        },
+        {
+          "start": 107.58,
+          "end": 108.12,
+          "word": " 2025,"
+        },
+        {
+          "start": 108.48,
+          "end": 108.58,
+          "word": " for"
+        },
+        {
+          "start": 108.58,
+          "end": 108.9,
+          "word": " example,"
+        },
+        {
+          "start": 109.22,
+          "end": 109.32,
+          "word": " the"
+        },
+        {
+          "start": 109.32,
+          "end": 109.58,
+          "word": " carrier"
+        },
+        {
+          "start": 109.58,
+          "end": 109.86,
+          "word": " strike"
+        },
+        {
+          "start": 109.86,
+          "end": 110.2,
+          "word": " group"
+        },
+        {
+          "start": 110.2,
+          "end": 110.4,
+          "word": " led"
+        },
+        {
+          "start": 110.4,
+          "end": 110.56,
+          "word": " by"
+        },
+        {
+          "start": 110.56,
+          "end": 110.8,
+          "word": " Prince"
+        },
+        {
+          "start": 110.8,
+          "end": 111.0,
+          "word": " of"
+        },
+        {
+          "start": 111.0,
+          "end": 111.2,
+          "word": " Wales"
+        },
+        {
+          "start": 111.2,
+          "end": 111.66,
+          "word": " deployed"
+        },
+        {
+          "start": 111.66,
+          "end": 111.92,
+          "word": " on"
+        }
+      ]
+    },
+    {
+      "start": 111.92,
+      "end": 116.56,
+      "text": " Operation Hymast. The mission lasted around eight months, taking the group through the",
+      "words": [
+        {
+          "start": 111.92,
+          "end": 112.4,
+          "word": " Operation"
+        },
+        {
+          "start": 112.4,
+          "end": 113.12,
+          "word": " Hymast."
+        },
+        {
+          "start": 113.6,
+          "end": 113.8,
+          "word": " The"
+        },
+        {
+          "start": 113.8,
+          "end": 114.0,
+          "word": " mission"
+        },
+        {
+          "start": 114.0,
+          "end": 114.42,
+          "word": " lasted"
+        },
+        {
+          "start": 114.42,
+          "end": 114.7,
+          "word": " around"
+        },
+        {
+          "start": 114.7,
+          "end": 115.04,
+          "word": " eight"
+        },
+        {
+          "start": 115.04,
+          "end": 115.4,
+          "word": " months,"
+        },
+        {
+          "start": 115.64,
+          "end": 115.88,
+          "word": " taking"
+        },
+        {
+          "start": 115.88,
+          "end": 116.04,
+          "word": " the"
+        },
+        {
+          "start": 116.04,
+          "end": 116.24,
+          "word": " group"
+        },
+        {
+          "start": 116.24,
+          "end": 116.42,
+          "word": " through"
+        },
+        {
+          "start": 116.42,
+          "end": 116.56,
+          "word": " the"
+        }
+      ]
+    },
+    {
+      "start": 116.56,
+      "end": 121.46,
+      "text": " Mediterranean and all the way into the Indo-Pacific. During the final phase of the deployment,",
+      "words": [
+        {
+          "start": 116.56,
+          "end": 117.06,
+          "word": " Mediterranean"
+        },
+        {
+          "start": 117.06,
+          "end": 117.56,
+          "word": " and"
+        },
+        {
+          "start": 117.56,
+          "end": 117.86,
+          "word": " all"
+        },
+        {
+          "start": 117.86,
+          "end": 118.0,
+          "word": " the"
+        },
+        {
+          "start": 118.0,
+          "end": 118.18,
+          "word": " way"
+        },
+        {
+          "start": 118.18,
+          "end": 118.4,
+          "word": " into"
+        },
+        {
+          "start": 118.4,
+          "end": 118.54,
+          "word": " the"
+        },
+        {
+          "start": 118.54,
+          "end": 118.8,
+          "word": " Indo"
+        },
+        {
+          "start": 118.8,
+          "end": 119.36,
+          "word": "-Pacific."
+        },
+        {
+          "start": 119.94,
+          "end": 120.14,
+          "word": " During"
+        },
+        {
+          "start": 120.14,
+          "end": 120.3,
+          "word": " the"
+        },
+        {
+          "start": 120.3,
+          "end": 120.58,
+          "word": " final"
+        },
+        {
+          "start": 120.58,
+          "end": 120.86,
+          "word": " phase"
+        },
+        {
+          "start": 120.86,
+          "end": 121.04,
+          "word": " of"
+        },
+        {
+          "start": 121.04,
+          "end": 121.12,
+          "word": " the"
+        },
+        {
+          "start": 121.12,
+          "end": 121.46,
+          "word": " deployment,"
+        }
+      ]
+    },
+    {
+      "start": 121.78,
+      "end": 127.54,
+      "text": " back in the Mediterranean, the carrier had 24 British F-35Bs on board. At that point,",
+      "words": [
+        {
+          "start": 121.78,
+          "end": 121.88,
+          "word": " back"
+        },
+        {
+          "start": 121.88,
+          "end": 122.02,
+          "word": " in"
+        },
+        {
+          "start": 122.02,
+          "end": 122.08,
+          "word": " the"
+        },
+        {
+          "start": 122.08,
+          "end": 122.54,
+          "word": " Mediterranean,"
+        },
+        {
+          "start": 123.18,
+          "end": 123.2,
+          "word": " the"
+        },
+        {
+          "start": 123.2,
+          "end": 123.46,
+          "word": " carrier"
+        },
+        {
+          "start": 123.46,
+          "end": 123.78,
+          "word": " had"
+        },
+        {
+          "start": 123.78,
+          "end": 124.48,
+          "word": " 24"
+        },
+        {
+          "start": 124.48,
+          "end": 124.98,
+          "word": " British"
+        },
+        {
+          "start": 124.98,
+          "end": 125.3,
+          "word": " F"
+        },
+        {
+          "start": 125.3,
+          "end": 126.14,
+          "word": "-35Bs"
+        },
+        {
+          "start": 126.14,
+          "end": 126.24,
+          "word": " on"
+        },
+        {
+          "start": 126.24,
+          "end": 126.5,
+          "word": " board."
+        },
+        {
+          "start": 126.92,
+          "end": 127.08,
+          "word": " At"
+        },
+        {
+          "start": 127.08,
+          "end": 127.26,
+          "word": " that"
+        },
+        {
+          "start": 127.26,
+          "end": 127.54,
+          "word": " point,"
+        }
+      ]
+    },
+    {
+      "start": 127.8,
+      "end": 132.82,
+      "text": " it was the largest number of F-35Bs ever embarked on either of Britain's two Queen",
+      "words": [
+        {
+          "start": 127.8,
+          "end": 127.92,
+          "word": " it"
+        },
+        {
+          "start": 127.92,
+          "end": 128.06,
+          "word": " was"
+        },
+        {
+          "start": 128.06,
+          "end": 128.2,
+          "word": " the"
+        },
+        {
+          "start": 128.2,
+          "end": 128.58,
+          "word": " largest"
+        },
+        {
+          "start": 128.58,
+          "end": 128.94,
+          "word": " number"
+        },
+        {
+          "start": 128.94,
+          "end": 129.12,
+          "word": " of"
+        },
+        {
+          "start": 129.12,
+          "end": 129.36,
+          "word": " F"
+        },
+        {
+          "start": 129.36,
+          "end": 130.3,
+          "word": "-35Bs"
+        },
+        {
+          "start": 130.3,
+          "end": 130.62,
+          "word": " ever"
+        },
+        {
+          "start": 130.62,
+          "end": 131.18,
+          "word": " embarked"
+        },
+        {
+          "start": 131.18,
+          "end": 131.28,
+          "word": " on"
+        },
+        {
+          "start": 131.28,
+          "end": 131.7,
+          "word": " either"
+        },
+        {
+          "start": 131.7,
+          "end": 131.92,
+          "word": " of"
+        },
+        {
+          "start": 131.92,
+          "end": 132.3,
+          "word": " Britain's"
+        },
+        {
+          "start": 132.3,
+          "end": 132.54,
+          "word": " two"
+        },
+        {
+          "start": 132.54,
+          "end": 132.82,
+          "word": " Queen"
+        }
+      ]
+    },
+    {
+      "start": 132.82,
+      "end": 138.2,
+      "text": " Elizabeth class carriers. And that deployment revealed two important things about the Royal",
+      "words": [
+        {
+          "start": 132.82,
+          "end": 133.06,
+          "word": " Elizabeth"
+        },
+        {
+          "start": 133.06,
+          "end": 133.48,
+          "word": " class"
+        },
+        {
+          "start": 133.48,
+          "end": 133.92,
+          "word": " carriers."
+        },
+        {
+          "start": 134.6,
+          "end": 134.82,
+          "word": " And"
+        },
+        {
+          "start": 134.82,
+          "end": 135.1,
+          "word": " that"
+        },
+        {
+          "start": 135.1,
+          "end": 135.64,
+          "word": " deployment"
+        },
+        {
+          "start": 135.64,
+          "end": 136.1,
+          "word": " revealed"
+        },
+        {
+          "start": 136.1,
+          "end": 136.46,
+          "word": " two"
+        },
+        {
+          "start": 136.46,
+          "end": 137.1,
+          "word": " important"
+        },
+        {
+          "start": 137.1,
+          "end": 137.52,
+          "word": " things"
+        },
+        {
+          "start": 137.52,
+          "end": 137.8,
+          "word": " about"
+        },
+        {
+          "start": 137.8,
+          "end": 137.96,
+          "word": " the"
+        },
+        {
+          "start": 137.96,
+          "end": 138.2,
+          "word": " Royal"
+        }
+      ]
+    },
+    {
+      "start": 138.2,
+      "end": 144.3,
+      "text": " Navy today. First, the United Kingdom is still capable of organizing and leading a complex",
+      "words": [
+        {
+          "start": 138.2,
+          "end": 138.54,
+          "word": " Navy"
+        },
+        {
+          "start": 138.54,
+          "end": 138.84,
+          "word": " today."
+        },
+        {
+          "start": 139.56,
+          "end": 139.82,
+          "word": " First,"
+        },
+        {
+          "start": 140.36,
+          "end": 140.48,
+          "word": " the"
+        },
+        {
+          "start": 140.48,
+          "end": 140.72,
+          "word": " United"
+        },
+        {
+          "start": 140.72,
+          "end": 141.1,
+          "word": " Kingdom"
+        },
+        {
+          "start": 141.1,
+          "end": 141.4,
+          "word": " is"
+        },
+        {
+          "start": 141.4,
+          "end": 141.74,
+          "word": " still"
+        },
+        {
+          "start": 141.74,
+          "end": 142.14,
+          "word": " capable"
+        },
+        {
+          "start": 142.14,
+          "end": 142.4,
+          "word": " of"
+        },
+        {
+          "start": 142.4,
+          "end": 142.8,
+          "word": " organizing"
+        },
+        {
+          "start": 142.8,
+          "end": 143.3,
+          "word": " and"
+        },
+        {
+          "start": 143.3,
+          "end": 143.6,
+          "word": " leading"
+        },
+        {
+          "start": 143.6,
+          "end": 143.88,
+          "word": " a"
+        },
+        {
+          "start": 143.88,
+          "end": 144.3,
+          "word": " complex"
+        }
+      ]
+    },
+    {
+      "start": 144.3,
+      "end": 151.04,
+      "text": " naval operation on the other side of the world. That is no small achievement. It requires logistics,",
+      "words": [
+        {
+          "start": 144.3,
+          "end": 144.64,
+          "word": " naval"
+        },
+        {
+          "start": 144.64,
+          "end": 145.2,
+          "word": " operation"
+        },
+        {
+          "start": 145.2,
+          "end": 145.48,
+          "word": " on"
+        },
+        {
+          "start": 145.48,
+          "end": 145.6,
+          "word": " the"
+        },
+        {
+          "start": 145.6,
+          "end": 145.92,
+          "word": " other"
+        },
+        {
+          "start": 145.92,
+          "end": 146.24,
+          "word": " side"
+        },
+        {
+          "start": 146.24,
+          "end": 146.36,
+          "word": " of"
+        },
+        {
+          "start": 146.36,
+          "end": 146.42,
+          "word": " the"
+        },
+        {
+          "start": 146.42,
+          "end": 146.82,
+          "word": " world."
+        },
+        {
+          "start": 147.3,
+          "end": 147.64,
+          "word": " That"
+        },
+        {
+          "start": 147.64,
+          "end": 147.96,
+          "word": " is"
+        },
+        {
+          "start": 147.96,
+          "end": 148.4,
+          "word": " no"
+        },
+        {
+          "start": 148.4,
+          "end": 148.84,
+          "word": " small"
+        },
+        {
+          "start": 148.84,
+          "end": 149.34,
+          "word": " achievement."
+        },
+        {
+          "start": 149.92,
+          "end": 150.08,
+          "word": " It"
+        },
+        {
+          "start": 150.08,
+          "end": 150.48,
+          "word": " requires"
+        },
+        {
+          "start": 150.48,
+          "end": 151.04,
+          "word": " logistics,"
+        }
+      ]
+    },
+    {
+      "start": 151.56,
+      "end": 157.56,
+      "text": " maintenance, fuel, ammunition, escorts, and the ability to keep everything operating for months",
+      "words": [
+        {
+          "start": 151.56,
+          "end": 151.88,
+          "word": " maintenance,"
+        },
+        {
+          "start": 152.44,
+          "end": 152.74,
+          "word": " fuel,"
+        },
+        {
+          "start": 153.1,
+          "end": 153.36,
+          "word": " ammunition,"
+        },
+        {
+          "start": 153.96,
+          "end": 154.38,
+          "word": " escorts,"
+        },
+        {
+          "start": 154.66,
+          "end": 155.04,
+          "word": " and"
+        },
+        {
+          "start": 155.04,
+          "end": 155.16,
+          "word": " the"
+        },
+        {
+          "start": 155.16,
+          "end": 155.48,
+          "word": " ability"
+        },
+        {
+          "start": 155.48,
+          "end": 155.68,
+          "word": " to"
+        },
+        {
+          "start": 155.68,
+          "end": 155.84,
+          "word": " keep"
+        },
+        {
+          "start": 155.84,
+          "end": 156.36,
+          "word": " everything"
+        },
+        {
+          "start": 156.36,
+          "end": 156.9,
+          "word": " operating"
+        },
+        {
+          "start": 156.9,
+          "end": 157.16,
+          "word": " for"
+        },
+        {
+          "start": 157.16,
+          "end": 157.56,
+          "word": " months"
+        }
+      ]
+    },
+    {
+      "start": 157.56,
+      "end": 162.44,
+      "text": " at a time, thousands of miles from home. But the second point is just as important.",
+      "words": [
+        {
+          "start": 157.56,
+          "end": 157.74,
+          "word": " at"
+        },
+        {
+          "start": 157.74,
+          "end": 157.84,
+          "word": " a"
+        },
+        {
+          "start": 157.84,
+          "end": 158.18,
+          "word": " time,"
+        },
+        {
+          "start": 158.5,
+          "end": 158.88,
+          "word": " thousands"
+        },
+        {
+          "start": 158.88,
+          "end": 159.12,
+          "word": " of"
+        },
+        {
+          "start": 159.12,
+          "end": 159.36,
+          "word": " miles"
+        },
+        {
+          "start": 159.36,
+          "end": 159.58,
+          "word": " from"
+        },
+        {
+          "start": 159.58,
+          "end": 159.88,
+          "word": " home."
+        },
+        {
+          "start": 160.26,
+          "end": 160.48,
+          "word": " But"
+        },
+        {
+          "start": 160.48,
+          "end": 160.62,
+          "word": " the"
+        },
+        {
+          "start": 160.62,
+          "end": 160.92,
+          "word": " second"
+        },
+        {
+          "start": 160.92,
+          "end": 161.26,
+          "word": " point"
+        },
+        {
+          "start": 161.26,
+          "end": 161.52,
+          "word": " is"
+        },
+        {
+          "start": 161.52,
+          "end": 161.86,
+          "word": " just"
+        },
+        {
+          "start": 161.86,
+          "end": 162.04,
+          "word": " as"
+        },
+        {
+          "start": 162.04,
+          "end": 162.44,
+          "word": " important."
+        }
+      ]
+    },
+    {
+      "start": 163.06,
+      "end": 168.58,
+      "text": " Britain increasingly does this alongside its allies. The original formation, for example,",
+      "words": [
+        {
+          "start": 163.06,
+          "end": 163.4,
+          "word": " Britain"
+        },
+        {
+          "start": 163.4,
+          "end": 164.18,
+          "word": " increasingly"
+        },
+        {
+          "start": 164.18,
+          "end": 164.56,
+          "word": " does"
+        },
+        {
+          "start": 164.56,
+          "end": 164.84,
+          "word": " this"
+        },
+        {
+          "start": 164.84,
+          "end": 165.4,
+          "word": " alongside"
+        },
+        {
+          "start": 165.4,
+          "end": 165.86,
+          "word": " its"
+        },
+        {
+          "start": 165.86,
+          "end": 166.26,
+          "word": " allies."
+        },
+        {
+          "start": 166.9,
+          "end": 167.02,
+          "word": " The"
+        },
+        {
+          "start": 167.02,
+          "end": 167.32,
+          "word": " original"
+        },
+        {
+          "start": 167.32,
+          "end": 167.86,
+          "word": " formation,"
+        },
+        {
+          "start": 168.16,
+          "end": 168.24,
+          "word": " for"
+        },
+        {
+          "start": 168.24,
+          "end": 168.58,
+          "word": " example,"
+        }
+      ]
+    },
+    {
+      "start": 168.9,
+      "end": 173.9,
+      "text": " included frigates from Norway and Canada, as well as a Norwegian support ship. That cooperation",
+      "words": [
+        {
+          "start": 168.9,
+          "end": 169.2,
+          "word": " included"
+        },
+        {
+          "start": 169.2,
+          "end": 169.6,
+          "word": " frigates"
+        },
+        {
+          "start": 169.6,
+          "end": 169.8,
+          "word": " from"
+        },
+        {
+          "start": 169.8,
+          "end": 170.08,
+          "word": " Norway"
+        },
+        {
+          "start": 170.08,
+          "end": 170.44,
+          "word": " and"
+        },
+        {
+          "start": 170.44,
+          "end": 170.84,
+          "word": " Canada,"
+        },
+        {
+          "start": 171.14,
+          "end": 171.32,
+          "word": " as"
+        },
+        {
+          "start": 171.32,
+          "end": 171.5,
+          "word": " well"
+        },
+        {
+          "start": 171.5,
+          "end": 171.66,
+          "word": " as"
+        },
+        {
+          "start": 171.66,
+          "end": 171.74,
+          "word": " a"
+        },
+        {
+          "start": 171.74,
+          "end": 172.04,
+          "word": " Norwegian"
+        },
+        {
+          "start": 172.04,
+          "end": 172.42,
+          "word": " support"
+        },
+        {
+          "start": 172.42,
+          "end": 172.8,
+          "word": " ship."
+        },
+        {
+          "start": 173.28,
+          "end": 173.44,
+          "word": " That"
+        },
+        {
+          "start": 173.44,
+          "end": 173.9,
+          "word": " cooperation"
+        }
+      ]
+    },
+    {
+      "start": 173.9,
+      "end": 178.72,
+      "text": " strengthens the group's defenses, improves logistics, and spreads some of the burden across",
+      "words": [
+        {
+          "start": 173.9,
+          "end": 174.82,
+          "word": " strengthens"
+        },
+        {
+          "start": 174.82,
+          "end": 174.94,
+          "word": " the"
+        },
+        {
+          "start": 174.94,
+          "end": 175.24,
+          "word": " group's"
+        },
+        {
+          "start": 175.24,
+          "end": 175.66,
+          "word": " defenses,"
+        },
+        {
+          "start": 176.02,
+          "end": 176.32,
+          "word": " improves"
+        },
+        {
+          "start": 176.32,
+          "end": 176.86,
+          "word": " logistics,"
+        },
+        {
+          "start": 177.2,
+          "end": 177.38,
+          "word": " and"
+        },
+        {
+          "start": 177.38,
+          "end": 177.68,
+          "word": " spreads"
+        },
+        {
+          "start": 177.68,
+          "end": 177.96,
+          "word": " some"
+        },
+        {
+          "start": 177.96,
+          "end": 178.06,
+          "word": " of"
+        },
+        {
+          "start": 178.06,
+          "end": 178.14,
+          "word": " the"
+        },
+        {
+          "start": 178.14,
+          "end": 178.42,
+          "word": " burden"
+        },
+        {
+          "start": 178.42,
+          "end": 178.72,
+          "word": " across"
+        }
+      ]
+    },
+    {
+      "start": 178.72,
+      "end": 183.7,
+      "text": " several countries. But that doesn't automatically mean the United Kingdom is incapable of",
+      "words": [
+        {
+          "start": 178.72,
+          "end": 179.14,
+          "word": " several"
+        },
+        {
+          "start": 179.14,
+          "end": 179.58,
+          "word": " countries."
+        },
+        {
+          "start": 180.08,
+          "end": 180.3,
+          "word": " But"
+        },
+        {
+          "start": 180.3,
+          "end": 180.46,
+          "word": " that"
+        },
+        {
+          "start": 180.46,
+          "end": 180.8,
+          "word": " doesn't"
+        },
+        {
+          "start": 180.8,
+          "end": 181.38,
+          "word": " automatically"
+        },
+        {
+          "start": 181.38,
+          "end": 181.74,
+          "word": " mean"
+        },
+        {
+          "start": 181.74,
+          "end": 181.9,
+          "word": " the"
+        },
+        {
+          "start": 181.9,
+          "end": 182.12,
+          "word": " United"
+        },
+        {
+          "start": 182.12,
+          "end": 182.56,
+          "word": " Kingdom"
+        },
+        {
+          "start": 182.56,
+          "end": 182.8,
+          "word": " is"
+        },
+        {
+          "start": 182.8,
+          "end": 183.3,
+          "word": " incapable"
+        },
+        {
+          "start": 183.3,
+          "end": 183.7,
+          "word": " of"
+        }
+      ]
+    },
+    {
+      "start": 183.7,
+      "end": 188.64,
+      "text": " conducting an operation on its own. To understand how much independence Britain actually has,",
+      "words": [
+        {
+          "start": 183.7,
+          "end": 184.06,
+          "word": " conducting"
+        },
+        {
+          "start": 184.06,
+          "end": 184.24,
+          "word": " an"
+        },
+        {
+          "start": 184.24,
+          "end": 184.6,
+          "word": " operation"
+        },
+        {
+          "start": 184.6,
+          "end": 184.88,
+          "word": " on"
+        },
+        {
+          "start": 184.88,
+          "end": 185.02,
+          "word": " its"
+        },
+        {
+          "start": 185.02,
+          "end": 185.26,
+          "word": " own."
+        },
+        {
+          "start": 185.82,
+          "end": 185.96,
+          "word": " To"
+        },
+        {
+          "start": 185.96,
+          "end": 186.36,
+          "word": " understand"
+        },
+        {
+          "start": 186.36,
+          "end": 186.66,
+          "word": " how"
+        },
+        {
+          "start": 186.66,
+          "end": 186.9,
+          "word": " much"
+        },
+        {
+          "start": 186.9,
+          "end": 187.34,
+          "word": " independence"
+        },
+        {
+          "start": 187.34,
+          "end": 187.7,
+          "word": " Britain"
+        },
+        {
+          "start": 187.7,
+          "end": 188.22,
+          "word": " actually"
+        },
+        {
+          "start": 188.22,
+          "end": 188.64,
+          "word": " has,"
+        }
+      ]
+    },
+    {
+      "start": 188.64,
+      "end": 193.16,
+      "text": " we need to look at another question. How many British ships are really available?",
+      "words": [
+        {
+          "start": 188.64,
+          "end": 189.18,
+          "word": " we"
+        },
+        {
+          "start": 189.18,
+          "end": 189.34,
+          "word": " need"
+        },
+        {
+          "start": 189.34,
+          "end": 189.46,
+          "word": " to"
+        },
+        {
+          "start": 189.46,
+          "end": 189.62,
+          "word": " look"
+        },
+        {
+          "start": 189.62,
+          "end": 189.76,
+          "word": " at"
+        },
+        {
+          "start": 189.76,
+          "end": 190.04,
+          "word": " another"
+        },
+        {
+          "start": 190.04,
+          "end": 190.48,
+          "word": " question."
+        },
+        {
+          "start": 191.14,
+          "end": 191.3,
+          "word": " How"
+        },
+        {
+          "start": 191.3,
+          "end": 191.48,
+          "word": " many"
+        },
+        {
+          "start": 191.48,
+          "end": 191.74,
+          "word": " British"
+        },
+        {
+          "start": 191.74,
+          "end": 192.1,
+          "word": " ships"
+        },
+        {
+          "start": 192.1,
+          "end": 192.34,
+          "word": " are"
+        },
+        {
+          "start": 192.34,
+          "end": 192.72,
+          "word": " really"
+        },
+        {
+          "start": 192.72,
+          "end": 193.16,
+          "word": " available?"
+        }
+      ]
+    },
+    {
+      "start": 193.88,
+      "end": 198.82,
+      "text": " And more importantly, how long can the country sustain an operation of this size before it",
+      "words": [
+        {
+          "start": 193.88,
+          "end": 193.94,
+          "word": " And"
+        },
+        {
+          "start": 193.94,
+          "end": 194.1,
+          "word": " more"
+        },
+        {
+          "start": 194.1,
+          "end": 194.5,
+          "word": " importantly,"
+        },
+        {
+          "start": 195.04,
+          "end": 195.26,
+          "word": " how"
+        },
+        {
+          "start": 195.26,
+          "end": 195.6,
+          "word": " long"
+        },
+        {
+          "start": 195.6,
+          "end": 195.8,
+          "word": " can"
+        },
+        {
+          "start": 195.8,
+          "end": 195.9,
+          "word": " the"
+        },
+        {
+          "start": 195.9,
+          "end": 196.16,
+          "word": " country"
+        },
+        {
+          "start": 196.16,
+          "end": 196.62,
+          "word": " sustain"
+        },
+        {
+          "start": 196.62,
+          "end": 196.82,
+          "word": " an"
+        },
+        {
+          "start": 196.82,
+          "end": 197.16,
+          "word": " operation"
+        },
+        {
+          "start": 197.16,
+          "end": 197.48,
+          "word": " of"
+        },
+        {
+          "start": 197.48,
+          "end": 197.7,
+          "word": " this"
+        },
+        {
+          "start": 197.7,
+          "end": 198.12,
+          "word": " size"
+        },
+        {
+          "start": 198.12,
+          "end": 198.6,
+          "word": " before"
+        },
+        {
+          "start": 198.6,
+          "end": 198.82,
+          "word": " it"
+        }
+      ]
+    },
+    {
+      "start": 198.82,
+      "end": 201.24,
+      "text": " starts putting serious pressure on the rest of the fleet?",
+      "words": [
+        {
+          "start": 198.82,
+          "end": 199.0,
+          "word": " starts"
+        },
+        {
+          "start": 199.0,
+          "end": 199.28,
+          "word": " putting"
+        },
+        {
+          "start": 199.28,
+          "end": 199.8,
+          "word": " serious"
+        },
+        {
+          "start": 199.8,
+          "end": 200.28,
+          "word": " pressure"
+        },
+        {
+          "start": 200.28,
+          "end": 200.46,
+          "word": " on"
+        },
+        {
+          "start": 200.46,
+          "end": 200.56,
+          "word": " the"
+        },
+        {
+          "start": 200.56,
+          "end": 200.76,
+          "word": " rest"
+        },
+        {
+          "start": 200.76,
+          "end": 200.88,
+          "word": " of"
+        },
+        {
+          "start": 200.88,
+          "end": 200.96,
+          "word": " the"
+        },
+        {
+          "start": 200.96,
+          "end": 201.24,
+          "word": " fleet?"
+        }
+      ]
+    }
+  ]
+}

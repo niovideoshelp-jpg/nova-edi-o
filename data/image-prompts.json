@@ -1,0 +1,42 @@
+{
+  "carrier": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: scientific-educational. Asset type: isolated transparent PNG hero for a Royal Navy documentary motion graphic. Subject: one British Queen Elizabeth-class aircraft carrier, recognizable two separate starboard island superstructures, full broad flight deck with ski-jump bow, accurate overall proportions, viewed elevated three-quarter from port bow. Beautiful detailed editorial 3D illustration, realistic engineering silhouette but simplified clean matte surfaces. Steel blue #3A6EA5 and navy #0B1A2E hull with pale #F4F7FA highlights; very small muted brass deck details. Full ship entirely visible, centered, long horizontal composition, generous transparent margin. Soft studio rim lighting, crisp silhouette. No ocean, no water wake, no sky, no floor, no backdrop, no shadow plane, no labels, no text, no badge, no decorative frame. Genuine alpha background. This is an illustrative cutout asset, not a photograph."
+  },
+  "f35b": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: scientific-educational. Asset type: isolated transparent PNG hero for a Royal Navy documentary motion graphic. Subject: one F-35B Lightning II stealth fighter, gear retracted in flight, three-quarter view slightly above its left front so its angular wings, cockpit canopy, twin canted tail fins, single engine and recognizable F-35 proportions are clear. Detailed premium editorial 3D illustration with clean matte surfaces, steel blue #3A6EA5 and cool pale gray #F4F7FA, deep navy shadows #0B1A2E, very subtle warm canopy highlight. Aircraft alone, full wings and tail entirely in frame, centered with transparent margin on every side. Match a clean modern naval documentary cutout illustration system. No weapons firing, no contrails, no environment, no floor, no shadow plane, no text, no decorative badge or frame. Genuine alpha background."
+  },
+  "merlin": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: scientific-educational. Asset type: isolated transparent PNG hero for a Royal Navy documentary motion graphic. Subject: a single Royal Navy Merlin HM2 / AW101 anti-submarine helicopter, full aircraft including long tail and all rotor blades visible, side three-quarter view from front left, five-bladed main rotor depicted clearly, correct large three-engine naval helicopter silhouette and wheel landing gear. Detailed premium editorial 3D illustration with clean matte steel blue #3A6EA5 and pale gray #F4F7FA surfaces, navy shadows #0B1A2E. Centered horizontally with generous transparent margins. Soft studio lighting, crisp clean silhouette. No sky, no ground, no sea, no floor, no shadow plane, no labels, no text, no decorative badge or frame. Genuine alpha background."
+  },
+  "sailing-ship": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: historical-scene. Asset type: transparent PNG cutout illustration for an editorial Royal Navy history documentary. One majestic late eighteenth-century British three-masted ship of the line, viewed elevated three-quarter, full hull, three tall masts, detailed rigging and billowing cream square sails, authentic gun decks, restrained brass accents. Premium semi-realistic 3D editorial illustration with matte surfaces and crisp contours. Color system navy #0B1A2E, steel blue #3A6EA5, ivory #F4F7FA and muted gold #D4A94A. The whole ship must fit with ample margin. Isolate only the ship and rigging on true transparent alpha. No sea, sky, horizon, floor, cast shadow, atmospheric glow, haze, text, graphic badge or frame."
+  },
+  "numenor": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: illustration-story. Asset type: transparent PNG cutout for a brief Tolkien comparison in a naval documentary. A single compact legendary island civilization inspired by Númenor, viewed isometrically from above: star-shaped rocky island landmass with terraced pale stone maritime city, slender central tower, tiny harbor integrated into shore, blue slate roofs and restrained gold highlights. Premium detailed miniature editorial 3D illustration, clean readable forms, cool palette #0B1A2E #3A6EA5 #F4F7FA with tiny #D4A94A accents. Keep this a single coherent island, entire silhouette visible and centered. No surrounding ocean or waves, no floor, no scene background, no sky, no fog or halo, no text, no logo, no badge. Genuine transparent alpha background."
+  },
+  "logistics": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: productivity-visual. Asset type: transparent-background editorial icon for a Royal Navy operational logistics scene. One compact realistic naval resupply cargo module: a large steel-blue rugged shipping crate with reinforced corners, two neatly secured matte navy fuel canisters attached to the right side of the crate as a single coherent supply load, canvas webbing strap over the whole module. Three-quarter isometric view, clean premium 3D icon, tangible materials, subtle pale white edge highlights, small brass latches. Navy #0B1A2E, steel #3A6EA5, white #F4F7FA, minimal muted gold. Full object visible and centered. No letters, numbers, labels, background, ground, shadow plane, cast shadow, haze, glow, decorative frame or badge. Actual transparent alpha cutout."
+  },
+  "anchor": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: productivity-visual. Single premium 3D editorial naval anchor icon, isolated on genuine transparent alpha background. A heavy polished-but-matte steel-blue anchor with a brass ring at the top, curved flukes, sturdy stock and clean maritime geometry. Navy #0B1A2E, steel blue #3A6EA5, pale #F4F7FA edge highlights, selective gold #D4A94A only on the ring. Slight three-quarter turn, soft studio rim lighting, readable at small size, entire icon centered with ample space. No base, shadow plane, ground, ocean, background, halo, glow, text, badge or extra objects. Match a refined semi-realistic Royal Navy documentary illustration system."
+  },
+  "globe": {
+    "tool": "built-in image_gen",
+    "transparent_background": true,
+    "prompt": "Use case: scientific-educational. Single premium editorial 3D globe icon for a documentary about British maritime global reach. A beautiful spherical Earth with solid matte dark navy #0B1A2E oceans and raised pale steel-blue #3A6EA5 and ivory #F4F7FA landmasses. Geographic silhouettes recognizable, view centered on Europe and Africa with the Atlantic and part of Asia visible. Thin restrained gold #D4A94A maritime great-circle route embedded over its surface, not floating outside. No stand or base. Soft studio highlights, clean crisp silhouette, centered with ample transparent margin. Genuine transparent alpha background, no floor, no cast shadow, no glow, no fog, no starfield, no text or labels. Detailed refined 3D illustration rather than line-art SVG."
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "61611955": {
+        "pageid": 61611955,
+        "ns": 6,
+        "title": "File:Aerial view of HMS Queen Elizabeth (R08) off Scotland on 28 June 2017 (4516752).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg/1920px-Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1067,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg/3840px-Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg/1920px-Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1067,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg/3840px-Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Aerial_view_of_HMS_Queen_Elizabeth_%28R08%29_off_Scotland_on_28_June_2017_%284516752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_HMS_Queen_Elizabeth_(R08)_off_Scotland_on_28_June_2017_(4516752).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61611955",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-08-11 11:33:41",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Aerial view of HMS Queen Elizabeth (R08) off Scotland on 28 June 2017 (4516752)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "OGL v1.0|Photos by User:TheArmchairSoldier|Top views of naval ships|HMS Queen Elizabeth (R08) general views of",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "An aerial view of the Royal Navy aircraft carrier HMS <i>Queen Elizabeth</i> (R08) as she conducts vital system tests off the coast of Scotland on 28 June 2017.<br><b>Original caption:</b> HMS <i>Queen Elizabeth</i> left Rosyth, where she has been under construction since 2014, to conduct sea trials. Type 23 frigates <i>Sutherland</i> and <i>Iron Duke</i> joined the 65,000-tonne aircraft carrier, along with <i>Merlin</i> Mk2 helicopters of the Fleet Air Arm, to guard the seas as the trials get under way. The <i>Queen Elizabeth</i>-class carriers are the biggest warships ever built for the Royal Navy - four acres of sovereign territory, deployable across the globe to serve the United Kingdom on operations for 50 years. HMS <i>Queen Elizabeth</i> and HMS <i>Prince of Wales</i> will be the most advanced warships in the Royal Navy fleet. They are the future flagships of the nation. Initially the ships will carry helicopters. The vast flight deck and hangar can accommodate any helicopter in Britain’s military inventory.From 2020, however, our punch will be delivered by the F-35 <i>Lightning II</i>, the world’s most advanced stealth fighter-bomber.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.defenceimagery.mod.uk/fotoweb/Grid.fwx?archiveId=5042&amp;columns=4&amp;rows=7&amp;search=\">UK Ministry of Defence</a> photo <a rel=\"nofollow\" class=\"external text\" href=\"http://www.defenceimagery.mod.uk/fotoweb/archives/5042-Downloadable%20Stock%20Images/Archive/Royal%20Navy/45162/45162752.jpg\">45162752</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Fleet Air Arm aircrew",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "OGL v1.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Open Government License version 1.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "26911083": {
+        "pageid": 26911083,
+        "ns": 6,
+        "title": "File:HMS Daring and Dauntless MOD 45151055.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/HMS_Daring_and_Dauntless_MOD_45151055.jpg/1920px-HMS_Daring_and_Dauntless_MOD_45151055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 2000,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/de/HMS_Daring_and_Dauntless_MOD_45151055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/HMS_Daring_and_Dauntless_MOD_45151055.jpg/1920px-HMS_Daring_and_Dauntless_MOD_45151055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 2000,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/de/HMS_Daring_and_Dauntless_MOD_45151055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/HMS_Daring_and_Dauntless_MOD_45151055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:HMS_Daring_and_Dauntless_MOD_45151055.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26911083",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-06-27 14:21:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "HMS Daring and Dauntless MOD 45151055",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D3|OGL v1.0|HMS Dauntless (D33)|HMS Daring (D32)|Images from MoD uploaded by Fæ|Images from Defence Imagery|Chase's temporary check category",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Type 45 destroyers together for the first time.\n<p>HMS Daring (rear) and Dauntless (front) conduct Officer of the Watch manoeuvres south of the Isle of Wight.\nThe Royal Navy’s two new formidable air defence destroyers performed side by side for the first time.\n</p><p>The pair sailed at high speeds to simulate the defence of a high value warship and also put their communications equipment to the test as a warm up to intensive operational sea training later this year.\n</p>\n<ul><li>Organization: Royal Navy</li>\n<li>Object Name: FX100065007</li>\n<li>Category: RN</li>\n<li>Supplemental Categories: Type 45, Destroyers, Ships</li>\n<li>Keywords: HMS Dauntless, HMS Daring, DDG, Destroyer, Ship, Equipment, Royal Navy, Manoeuvres, Type 45, Dauntless, Daring, Convoy</li>\n<li>Country: UK</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-02-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li>Photo <a rel=\"nofollow\" class=\"external text\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg?ForceSaveDialog=no&amp;D=A81D8793137680C0E66D08E8E606BD1F11732CAD1490F960D1DA871986B1F9663B985DAF6425EE16CAAA2B3AA2B030D852712EB1B11DAC16910A2D0D9AC01DBDFD4FF8B88BBB8DFBB7B853A1DDC5B802541203B7EA261E943AD41CBFD817443531EBF3F41844717C6D8B7D14E1DA85FC1D77D3527AC2E94D2CBED32D1E4B20F3D1A4BB899F76D9396B7199226538B04669FE4492BD85E39C\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg</a></li>\n<li>Metadata source: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45151055.jpg\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45151055.jpg</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "LA(Phot) Ian Simpson",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Images are downloadable at high resolution, made available at <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk\">http://www.defenceimagery.mod.uk</a> for reuse under the OGL (Open Government License).",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "OGL v1.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Open Government License version 1.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Photo: LA(Phot) Ian Simpson/MOD",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "27612410": {
+        "pageid": 27612410,
+        "ns": 6,
+        "title": "File:Royal Navy Merlin Mark 2 Helicopter MOD 45155783.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg/1920px-Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1600,
+            "thumbheight": 1067,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg/1920px-Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1600,
+              "height": 1067,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Royal_Navy_Merlin_Mark_2_Helicopter_MOD_45155783.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27612410",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-08-07 23:10:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Royal Navy Merlin Mark 2 Helicopter MOD 45155783",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D4|OGL v1.0|Images from MoD uploaded by Fæ (check needed)|Images from MoD uploaded by Fæ|Images from Defence Imagery|Chase's temporary check category|ZH862 (aircraft)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Royal Navy Merlin Mark 2 helicopter.\n<p>The first of the UK’s fleet of next generation anti-submarine maritime patrol Merlin helicopters have been handed over to the Royal Navy.\n</p><p>The delivery of the five helicopters, which have been upgraded as part of a £750M Lockheed Martin contract, to the Navy’s Fleet Air Arm marks a significant milestone. Fitted with a state-of-the-art glass cockpit and improved aircrew console and avionics, the Merlin Mk 2 will have advanced touch screen displays, and an improved ability to detect and track targets and share data with other aircraft and ships while airborne. \n</p><p>These improvements will also enable the helicopters to carry out counter piracy and casualty evacuation roles.\n</p>\n<ul><li>Organization: ROYAL NAVY</li>\n<li>Object Name: DES-2013-095-0812</li>\n<li>Category: MOD</li>\n<li>Supplemental Categories: Equipment, Aircraft, Helicopters, Merlin</li>\n<li>Keywords: Royal Navy, Equipment, Aircraft, Helicopter, Merlin , Mk2</li>\n<li>Country: England</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-07-23 16:08:53",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li>Photo <a rel=\"nofollow\" class=\"external text\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg?ForceSaveDialog=no&amp;D=A81D8793137680C0E66D08E8E606BD1F11732CAD1490F960D1DA871986B1F9663B985DAF6425EE16CAAA2B3AA2B030D852712EB1B11DAC16910A2D0D9AC01DBDFD4FF8B88BBB8DFBB7B853A1DDC5B802541203B7EA261E94F4A5F853024A53A6B8DABB5898F0393DDE0DF28E245D19141D77D3527AC2E94D2CBED32D1E4B20F3D1A4BB899F76D9396B7199226538B04669FE4492BD85E39C\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg</a></li>\n<li>Metadata source: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45155783.jpg\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45155783.jpg</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Andrew Linnett",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Images are downloadable at high resolution, made available at <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk\">http://www.defenceimagery.mod.uk</a> for reuse under the OGL (Open Government License).",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "OGL v1.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Open Government License version 1.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Photo: Andrew Linnett/MOD",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
