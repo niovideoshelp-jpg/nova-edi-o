@@ -1,9 +1,13 @@
 import fs from "node:fs";
 import assert from "node:assert/strict";
+import ts from "typescript";
 const t = JSON.parse(fs.readFileSync("data/timeline.json", "utf8"));
 const words = JSON.parse(fs.readFileSync("data/words.json", "utf8"));
 const plans = JSON.parse(fs.readFileSync("data/visual-plan.json", "utf8"));
 const atlas = JSON.parse(fs.readFileSync("data/geography/atlas.json", "utf8"));
+const documentary = JSON.parse(
+  fs.readFileSync("data/documentary-timeline.json", "utf8"),
+);
 let prev = null;
 for (const s of t.scenes) {
   assert(
@@ -41,7 +45,7 @@ assert.equal(t.scenes[0].startFrame, 0);
 assert.equal(prev.endFrame, t.durationInFrames);
 assert.equal(Math.ceil(t.audioDurationSeconds * 30), t.durationInFrames);
 console.log(
-  `PASS: ${t.scenes.length} continuous 2–4s scenes; 4-frame icon anticipation; no adjacent repeated main assets, entries or exits; ${words.length} aligned words; audio duration covered.`,
+  `PASS: ${t.scenes.length} continuous 2–4s narration cues; original 4-frame trigger lead metadata; ${words.length} word timestamps; complete audio coverage.`,
 );
 assert.equal(atlas.views.colonies.routes.length, 5);
 for (const r of atlas.views.colonies.routes) {
@@ -62,15 +66,54 @@ assert(
   "Detailed UK coastline required",
 );
 for (const file of [
-  "src/Scene.tsx",
-  "src/MapAtlas.tsx",
-  "src/NavalGraphic.tsx",
+  "src/documentary/NarrationCue.tsx",
+  "src/documentary/HistoryChapter.tsx",
+  "src/documentary/FleetChapter.tsx",
+  "src/documentary/OperationsChapter.tsx",
+  "src/documentary/EnduranceChapter.tsx",
 ]) {
   const source = fs.readFileSync(file, "utf8");
   assert(/from ["']@remotion\/gsap["']/.test(source));
   assert(source.includes("useGsapTimeline<"));
   assert(!source.includes("gsap.timeline("));
+  const ast = ts.createSourceFile(
+    file,
+    source,
+    ts.ScriptTarget.Latest,
+    true,
+    ts.ScriptKind.TSX,
+  );
+  const visit = (node) => {
+    if (
+      ts.isCallExpression(node) &&
+      ts.isPropertyAccessExpression(node.expression) &&
+      node.expression.name.text === "set"
+    ) {
+      assert(
+        node.arguments.length >= 3,
+        `${file}: GSAP set() must have an explicit timeline position to avoid late resets`,
+      );
+    }
+    ts.forEachChild(node, visit);
+  };
+  visit(ast);
 }
 console.log(
-  "PASS: Natural Earth UK detail, five Turf geodesics and endpoints; official GSAP hook active in scene, map and SVG renderers.",
+  "PASS: Natural Earth coastline, Turf geodesics; official GSAP hook in all four documentary environments and cue renderer.",
+);
+assert.equal(documentary.chapters[0].startFrame, 0);
+assert.equal(documentary.chapters.at(-1).endFrame, t.durationInFrames);
+documentary.chapters.forEach((c, i) => {
+  if (i) assert.equal(documentary.chapters[i - 1].endFrame, c.startFrame);
+});
+const film = fs.readFileSync("src/Film.tsx", "utf8");
+assert.equal((film.match(/<NarrationCue /g) || []).length, 62);
+assert(!film.includes("NavalGraphic"));
+assert(!film.includes("from './scenes/"));
+assert.equal(documentary.transitionOverlapFrames, 12);
+assert.equal(documentary.width, 1920);
+assert.equal(documentary.height, 1080);
+assert.equal(documentary.fps, 30);
+console.log(
+  "PASS: Four continuous environments, 62 editable cue Sequences, chapter overlaps, 1920x1080 at 30 fps.",
 );

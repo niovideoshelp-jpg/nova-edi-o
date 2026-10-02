@@ -1,68 +1,79 @@
-# Revised visual direction
+# Royal Navy — revisão 4
 
-62 individually timed scenes. Precise cartography replaces hand-drawn country shapes and every globe. Balances are removed. Modern route lines are schematic geographic connections, not a reconstruction of the actual voyage. Historical links show representative former colonies using modern geography.
+A narração organiza 62 marcações de 2–4 segundos dentro de quatro ambientes contínuos. A mudança de marcação troca o foco, a câmera ou a anotação; não desmonta automaticamente o cenário. Os três limites entre ambientes têm sobreposição de 12 frames.
 
-| Scene | Time | Visual | Narrative purpose |
-|---|---|---|---|
-| S01 | 0.00 s | map: uk-paint | Coastline draw and liquid ink fill |
-| S02 | 3.77 s | graphic: archive | Naval logbook |
-| S03 | 6.20 s | cutout: anchor | Royal Navy identity |
-| S04 | 9.30 s | cutout: sailing-ship | Age of sail |
-| S05 | 12.33 s | map: colonies | UK connections to five former colonies |
-| S06 | 15.93 s | title: empire-title | British Empire typographic punctuation |
-| S07 | 19.27 s | map: daylight | Daylight travels across connected continents |
-| S08 | 22.63 s | graphic: manuscript | Tolkien manuscript |
-| S09 | 25.17 s | cutout: numenor | Fictional island miniature |
-| S10 | 28.17 s | graphic: compass | Fictional world orientation |
-| S11 | 31.10 s | graphic: harbor | Maritime civilization |
-| S12 | 34.07 s | graphic: island-distance | Small island in a wide ocean |
-| S13 | 37.63 s | graphic: naval-influence | Sailing fleet influence |
-| S14 | 40.23 s | title: tolkien-title | Author name |
-| S15 | 43.80 s | graphic: inquiry | Uncertain historical inspiration |
-| S16 | 46.67 s | map: comparison | British geography grounds the comparison |
-| S17 | 50.20 s | map: europe | Pull out to show the island off Europe |
-| S18 | 53.50 s | graphic: broadside | Naval power, ship broadside |
-| S19 | 56.83 s | map: reach | Connections across oceans |
-| S20 | 60.63 s | graphic: era-change | Shift to a modern hull |
-| S21 | 63.87 s | graphic: capability | Present carrier capability |
-| S22 | 67.20 s | graphic: flagship | Modern Royal Navy silhouette |
-| S23 | 70.97 s | graphic: formation | Carrier with escorts |
-| S24 | 74.20 s | graphic: deck-plan | Carrier flight deck in plan |
-| S25 | 76.97 s | map: home-range | Ocean scale from home |
-| S26 | 80.17 s | photo: queen-elizabeth | HMS Queen Elizabeth, archival photograph |
-| S27 | 82.90 s | photo: prince-of-wales | HMS Prince of Wales, archival photograph |
-| S28 | 86.77 s | graphic: ski-jump | Deck and departure path |
-| S29 | 90.77 s | photo: daring-dauntless | Ships deploy together |
-| S30 | 93.70 s | photo: merlin-hm2 | Merlin helicopter, documentary photograph |
-| S31 | 96.00 s | graphic: supply | Underway replenishment |
-| S32 | 98.83 s | graphic: command | Command links around flagship |
-| S33 | 101.33 s | graphic: sonar | Anti-submarine search |
-| S34 | 104.60 s | graphic: defense-ring | Layered escort coverage |
-| S35 | 107.43 s | title: year | 2025 chapter marker |
-| S36 | 110.87 s | graphic: highmast | Flagship leads operation |
-| S37 | 114.57 s | graphic: eight-months | Eight-month timeline |
-| S38 | 118.40 s | map: indo-pacific | Regional geographic connections |
-| S39 | 121.93 s | map: mediterranean | Accurate Mediterranean coastline |
-| S40 | 124.83 s | cutout: f35b | Aircraft and spoken count |
-| S41 | 128.07 s | graphic: airwing | Twenty-four aircraft on one deck |
-| S42 | 131.80 s | cutout: carrier | Queen Elizabeth class, closer view |
-| S43 | 135.50 s | graphic: reveal | Scanning the deployment |
-| S44 | 139.43 s | map: leadership | United Kingdom, first finding |
-| S45 | 143.17 s | graphic: communications | Command coordinates the operation |
-| S46 | 146.30 s | map: distance | UK to the other side of the world |
-| S47 | 149.80 s | cutout: logistics | Supplies, maintenance and fuel |
-| S48 | 152.97 s | graphic: ammunition | Ammunition inventory |
-| S49 | 156.23 s | graphic: endurance | Operating across time |
-| S50 | 159.00 s | map: return | Distance from home |
-| S51 | 161.90 s | photo: replenishment | Replenishment at sea replaces the balance metaphor |
-| S52 | 165.73 s | map: allies | United Kingdom, Norway and Canada |
-| S53 | 169.07 s | graphic: frigate | Allied frigates |
-| S54 | 171.90 s | map: norway | Norwegian support |
-| S55 | 175.10 s | graphic: interoperability | Overlapping allied defensive coverage |
-| S56 | 178.00 s | graphic: burden | Distributed operational load |
-| S57 | 181.77 s | map: sovereignty | United Kingdom, precise outline |
-| S58 | 184.90 s | graphic: autonomy | Single sovereign carrier capability |
-| S59 | 188.50 s | graphic: availability | Fleet availability question |
-| S60 | 191.60 s | graphic: dockyard | Ships in dock |
-| S61 | 195.13 s | graphic: sustain | Operational endurance |
-| S62 | 198.70 s | graphic: fleet-pressure | Pressure on the remaining fleet |
+| Ambiente | Tempo | Movimento |
+|---|---|---|
+| History and geography | 0.00–63.87 s | UK liquid reveal, geographic pullback, sailship parallax, island comparison |
+| Carrier strike capability | 63.87–110.87 s | Carrier camera traversal, photo panorama, flight path, layered maritime defense |
+| Highmast and logistics | 110.87–165.73 s | Geographic route following, aircraft count, deck closeup, supply transfers |
+| Allies and endurance | 165.73–201.57 s | Atlantic connections, independent sailing, dock-to-sea split, time pressure |
+
+Mapas geográficos reais com contornos Natural Earth e processamento Turf. Linhas são conexões esquemáticas, não rastreamentos. Recortes gerados são ilustrações; fotos documentais preservam os créditos em IMAGE-SOURCES.md. A comparação com Númenor é ilustrativa, não uma afirmação de influência literária comprovada.
+
+| Cena | Início | Fim | Gatilho | Texto |
+|---|---:|---:|---|---|
+| S01 | 0.000 | 3.767 | United | United Kingdom |
+| S02 | 3.767 | 6.200 | history, | — |
+| S03 | 6.200 | 9.300 | Royal | Royal Navy |
+| S04 | 9.300 | 12.333 | centuries, | — |
+| S05 | 12.333 | 15.933 | stretched | — |
+| S06 | 15.933 | 19.267 | vast | British Empire |
+| S07 | 19.267 | 22.633 | sun | — |
+| S08 | 22.633 | 25.167 | Tolkien's | J. R. R. Tolkien |
+| S09 | 25.167 | 28.167 | island | Númenor |
+| S10 | 28.167 | 31.100 | Middle | Middle-earth |
+| S11 | 31.100 | 34.067 | civilizations | — |
+| S12 | 34.067 | 37.633 | island, | — |
+| S13 | 37.633 | 40.233 | naval | — |
+| S14 | 40.233 | 43.800 | Tolkien | J. R. R. Tolkien |
+| S15 | 43.800 | 46.667 | Well, | — |
+| S16 | 46.667 | 50.200 | comparison. | — |
+| S17 | 50.200 | 53.500 | small | — |
+| S18 | 53.500 | 56.833 | powerful | — |
+| S19 | 56.833 | 60.633 | every | — |
+| S20 | 60.633 | 63.867 | world | — |
+| S21 | 63.867 | 67.200 | power | — |
+| S22 | 67.200 | 70.967 | Royal | Royal Navy |
+| S23 | 70.967 | 74.200 | remains | — |
+| S24 | 74.200 | 76.967 | carrier | — |
+| S25 | 76.967 | 80.167 | away | — |
+| S26 | 80.167 | 82.900 | HMS | HMS Queen Elizabeth |
+| S27 | 82.900 | 86.767 | Wales, | HMS Prince of Wales |
+| S28 | 86.767 | 90.767 | And | — |
+| S29 | 90.767 | 93.700 | alone. | — |
+| S30 | 93.700 | 96.000 | Merlin | Merlin |
+| S31 | 96.000 | 98.833 | support | — |
+| S32 | 98.833 | 101.333 | command | — |
+| S33 | 101.333 | 104.600 | -submarine | — |
+| S34 | 104.600 | 107.433 | very | — |
+| S35 | 107.433 | 110.867 | 2025, | 2025 |
+| S36 | 110.867 | 114.567 | Wales | Operation Highmast |
+| S37 | 114.567 | 118.400 | eight | 8 months |
+| S38 | 118.400 | 121.933 | Indo | Indo-Pacific |
+| S39 | 121.933 | 124.833 | Mediterranean, | Mediterranean |
+| S40 | 124.833 | 128.067 | F | 24 F-35Bs |
+| S41 | 128.067 | 131.800 | largest | — |
+| S42 | 131.800 | 135.500 | Britain's | Queen Elizabeth class |
+| S43 | 135.500 | 139.433 | revealed | — |
+| S44 | 139.433 | 143.167 | First, | 1 |
+| S45 | 143.167 | 146.300 | leading | — |
+| S46 | 146.300 | 149.800 | world. | — |
+| S47 | 149.800 | 152.967 | It | — |
+| S48 | 152.967 | 156.233 | ammunition, | — |
+| S49 | 156.233 | 159.000 | operating | — |
+| S50 | 159.000 | 161.900 | miles | — |
+| S51 | 161.900 | 165.733 | important. | — |
+| S52 | 165.733 | 169.067 | allies. | — |
+| S53 | 169.067 | 171.900 | frigates | — |
+| S54 | 171.900 | 175.100 | support | — |
+| S55 | 175.100 | 178.000 | defenses, | — |
+| S56 | 178.000 | 181.767 | burden | — |
+| S57 | 181.767 | 184.900 | United | United Kingdom |
+| S58 | 184.900 | 188.500 | own. | — |
+| S59 | 188.500 | 191.600 | we | — |
+| S60 | 191.600 | 195.133 | ships | How many ships? |
+| S61 | 195.133 | 198.700 | long | — |
+| S62 | 198.700 | 201.567 | starts | — |
+
+As variantes de texto e os frames exatos estão em data/documentary-timeline.json. Os timestamps por palavra continuam em data/words.json.

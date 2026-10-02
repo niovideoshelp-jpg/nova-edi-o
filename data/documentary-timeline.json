@@ -1,0 +1,860 @@
+{
+  "revision": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 6047,
+  "transitionOverlapFrames": 12,
+  "chapters": [
+    {
+      "id": "history",
+      "name": "History and geography",
+      "component": "HistoryChapter",
+      "startFrame": 0,
+      "endFrame": 1916,
+      "motion": "UK liquid reveal, geographic pullback, sailship parallax, island comparison"
+    },
+    {
+      "id": "fleet",
+      "name": "Carrier strike capability",
+      "component": "FleetChapter",
+      "startFrame": 1916,
+      "endFrame": 3326,
+      "motion": "Carrier camera traversal, photo panorama, flight path, layered maritime defense"
+    },
+    {
+      "id": "operations",
+      "name": "Highmast and logistics",
+      "component": "OperationsChapter",
+      "startFrame": 3326,
+      "endFrame": 4972,
+      "motion": "Geographic route following, aircraft count, deck closeup, supply transfers"
+    },
+    {
+      "id": "endurance",
+      "name": "Allies and endurance",
+      "component": "EnduranceChapter",
+      "startFrame": 4972,
+      "endFrame": 6047,
+      "motion": "Atlantic connections, independent sailing, dock-to-sea split, time pressure"
+    }
+  ],
+  "cues": [
+    {
+      "id": "S01",
+      "startFrame": 0,
+      "endFrame": 113,
+      "trigger": "United",
+      "wordId": 5,
+      "triggerFrame": 28,
+      "visualAnticipationFrame": 24,
+      "text": "United Kingdom",
+      "textFrame": 28,
+      "variants": []
+    },
+    {
+      "id": "S02",
+      "startFrame": 113,
+      "endFrame": 186,
+      "trigger": "history,",
+      "wordId": 15,
+      "triggerFrame": 117,
+      "visualAnticipationFrame": 113,
+      "text": "",
+      "textFrame": 117,
+      "variants": []
+    },
+    {
+      "id": "S03",
+      "startFrame": 186,
+      "endFrame": 279,
+      "trigger": "Royal",
+      "wordId": 23,
+      "triggerFrame": 190,
+      "visualAnticipationFrame": 186,
+      "text": "Royal Navy",
+      "textFrame": 190,
+      "variants": []
+    },
+    {
+      "id": "S04",
+      "startFrame": 279,
+      "endFrame": 370,
+      "trigger": "centuries,",
+      "wordId": 31,
+      "triggerFrame": 283,
+      "visualAnticipationFrame": 279,
+      "text": "",
+      "textFrame": 283,
+      "variants": []
+    },
+    {
+      "id": "S05",
+      "startFrame": 370,
+      "endFrame": 478,
+      "trigger": "stretched",
+      "wordId": 40,
+      "triggerFrame": 374,
+      "visualAnticipationFrame": 370,
+      "text": "",
+      "textFrame": 374,
+      "variants": []
+    },
+    {
+      "id": "S06",
+      "startFrame": 478,
+      "endFrame": 578,
+      "trigger": "vast",
+      "wordId": 48,
+      "triggerFrame": 482,
+      "visualAnticipationFrame": 478,
+      "text": "British Empire",
+      "textFrame": 482,
+      "variants": []
+    },
+    {
+      "id": "S07",
+      "startFrame": 578,
+      "endFrame": 679,
+      "trigger": "sun",
+      "wordId": 58,
+      "triggerFrame": 582,
+      "visualAnticipationFrame": 578,
+      "text": "",
+      "textFrame": 582,
+      "variants": []
+    },
+    {
+      "id": "S08",
+      "startFrame": 679,
+      "endFrame": 755,
+      "trigger": "Tolkien's",
+      "wordId": 66,
+      "triggerFrame": 683,
+      "visualAnticipationFrame": 679,
+      "text": "J. R. R. Tolkien",
+      "textFrame": 683,
+      "variants": []
+    },
+    {
+      "id": "S09",
+      "startFrame": 755,
+      "endFrame": 845,
+      "trigger": "island",
+      "wordId": 73,
+      "triggerFrame": 759,
+      "visualAnticipationFrame": 755,
+      "text": "Númenor",
+      "textFrame": 759,
+      "variants": []
+    },
+    {
+      "id": "S10",
+      "startFrame": 845,
+      "endFrame": 933,
+      "trigger": "Middle",
+      "wordId": 85,
+      "triggerFrame": 849,
+      "visualAnticipationFrame": 845,
+      "text": "Middle-earth",
+      "textFrame": 849,
+      "variants": []
+    },
+    {
+      "id": "S11",
+      "startFrame": 933,
+      "endFrame": 1022,
+      "trigger": "civilizations",
+      "wordId": 96,
+      "triggerFrame": 937,
+      "visualAnticipationFrame": 933,
+      "text": "",
+      "textFrame": 937,
+      "variants": []
+    },
+    {
+      "id": "S12",
+      "startFrame": 1022,
+      "endFrame": 1129,
+      "trigger": "island,",
+      "wordId": 103,
+      "triggerFrame": 1026,
+      "visualAnticipationFrame": 1022,
+      "text": "",
+      "textFrame": 1026,
+      "variants": []
+    },
+    {
+      "id": "S13",
+      "startFrame": 1129,
+      "endFrame": 1207,
+      "trigger": "naval",
+      "wordId": 113,
+      "triggerFrame": 1133,
+      "visualAnticipationFrame": 1129,
+      "text": "",
+      "textFrame": 1133,
+      "variants": []
+    },
+    {
+      "id": "S14",
+      "startFrame": 1207,
+      "endFrame": 1314,
+      "trigger": "Tolkien",
+      "wordId": 118,
+      "triggerFrame": 1211,
+      "visualAnticipationFrame": 1207,
+      "text": "J. R. R. Tolkien",
+      "textFrame": 1211,
+      "variants": []
+    },
+    {
+      "id": "S15",
+      "startFrame": 1314,
+      "endFrame": 1400,
+      "trigger": "Well,",
+      "wordId": 129,
+      "triggerFrame": 1318,
+      "visualAnticipationFrame": 1314,
+      "text": "",
+      "textFrame": 1318,
+      "variants": []
+    },
+    {
+      "id": "S16",
+      "startFrame": 1400,
+      "endFrame": 1506,
+      "trigger": "comparison.",
+      "wordId": 138,
+      "triggerFrame": 1404,
+      "visualAnticipationFrame": 1400,
+      "text": "",
+      "textFrame": 1404,
+      "variants": []
+    },
+    {
+      "id": "S17",
+      "startFrame": 1506,
+      "endFrame": 1605,
+      "trigger": "small",
+      "wordId": 147,
+      "triggerFrame": 1510,
+      "visualAnticipationFrame": 1506,
+      "text": "",
+      "textFrame": 1510,
+      "variants": []
+    },
+    {
+      "id": "S18",
+      "startFrame": 1605,
+      "endFrame": 1705,
+      "trigger": "powerful",
+      "wordId": 159,
+      "triggerFrame": 1609,
+      "visualAnticipationFrame": 1605,
+      "text": "",
+      "textFrame": 1609,
+      "variants": []
+    },
+    {
+      "id": "S19",
+      "startFrame": 1705,
+      "endFrame": 1819,
+      "trigger": "every",
+      "wordId": 169,
+      "triggerFrame": 1709,
+      "visualAnticipationFrame": 1705,
+      "text": "",
+      "textFrame": 1709,
+      "variants": []
+    },
+    {
+      "id": "S20",
+      "startFrame": 1819,
+      "endFrame": 1916,
+      "trigger": "world",
+      "wordId": 178,
+      "triggerFrame": 1823,
+      "visualAnticipationFrame": 1819,
+      "text": "",
+      "textFrame": 1823,
+      "variants": []
+    },
+    {
+      "id": "S21",
+      "startFrame": 1916,
+      "endFrame": 2016,
+      "trigger": "power",
+      "wordId": 188,
+      "triggerFrame": 1920,
+      "visualAnticipationFrame": 1916,
+      "text": "",
+      "textFrame": 1920,
+      "variants": []
+    },
+    {
+      "id": "S22",
+      "startFrame": 2016,
+      "endFrame": 2129,
+      "trigger": "Royal",
+      "wordId": 198,
+      "triggerFrame": 2020,
+      "visualAnticipationFrame": 2016,
+      "text": "Royal Navy",
+      "textFrame": 2020,
+      "variants": []
+    },
+    {
+      "id": "S23",
+      "startFrame": 2129,
+      "endFrame": 2226,
+      "trigger": "remains",
+      "wordId": 208,
+      "triggerFrame": 2133,
+      "visualAnticipationFrame": 2129,
+      "text": "",
+      "textFrame": 2142,
+      "variants": []
+    },
+    {
+      "id": "S24",
+      "startFrame": 2226,
+      "endFrame": 2309,
+      "trigger": "carrier",
+      "wordId": 221,
+      "triggerFrame": 2230,
+      "visualAnticipationFrame": 2226,
+      "text": "",
+      "textFrame": 2230,
+      "variants": []
+    },
+    {
+      "id": "S25",
+      "startFrame": 2309,
+      "endFrame": 2405,
+      "trigger": "away",
+      "wordId": 230,
+      "triggerFrame": 2313,
+      "visualAnticipationFrame": 2309,
+      "text": "",
+      "textFrame": 2313,
+      "variants": []
+    },
+    {
+      "id": "S26",
+      "startFrame": 2405,
+      "endFrame": 2487,
+      "trigger": "HMS",
+      "wordId": 240,
+      "triggerFrame": 2409,
+      "visualAnticipationFrame": 2405,
+      "text": "HMS Queen Elizabeth",
+      "textFrame": 2409,
+      "variants": [
+        {
+          "frame": 2459,
+          "text": "HMS Prince of Wales"
+        }
+      ]
+    },
+    {
+      "id": "S27",
+      "startFrame": 2487,
+      "endFrame": 2603,
+      "trigger": "Wales,",
+      "wordId": 247,
+      "triggerFrame": 2491,
+      "visualAnticipationFrame": 2487,
+      "text": "HMS Prince of Wales",
+      "textFrame": 2459,
+      "variants": []
+    },
+    {
+      "id": "S28",
+      "startFrame": 2603,
+      "endFrame": 2723,
+      "trigger": "And",
+      "wordId": 257,
+      "triggerFrame": 2607,
+      "visualAnticipationFrame": 2603,
+      "text": "",
+      "textFrame": 2607,
+      "variants": []
+    },
+    {
+      "id": "S29",
+      "startFrame": 2723,
+      "endFrame": 2811,
+      "trigger": "alone.",
+      "wordId": 272,
+      "triggerFrame": 2727,
+      "visualAnticipationFrame": 2723,
+      "text": "",
+      "textFrame": 2727,
+      "variants": [
+        {
+          "frame": 2759,
+          "text": "F-35B"
+        }
+      ]
+    },
+    {
+      "id": "S30",
+      "startFrame": 2811,
+      "endFrame": 2880,
+      "trigger": "Merlin",
+      "wordId": 278,
+      "triggerFrame": 2815,
+      "visualAnticipationFrame": 2811,
+      "text": "Merlin",
+      "textFrame": 2815,
+      "variants": [
+        {
+          "frame": 2851,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "S31",
+      "startFrame": 2880,
+      "endFrame": 2965,
+      "trigger": "support",
+      "wordId": 282,
+      "triggerFrame": 2884,
+      "visualAnticipationFrame": 2880,
+      "text": "",
+      "textFrame": 2884,
+      "variants": [
+        {
+          "frame": 2931,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "S32",
+      "startFrame": 2965,
+      "endFrame": 3040,
+      "trigger": "command",
+      "wordId": 290,
+      "triggerFrame": 2969,
+      "visualAnticipationFrame": 2965,
+      "text": "",
+      "textFrame": 2969,
+      "variants": [
+        {
+          "frame": 3006,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "S33",
+      "startFrame": 3040,
+      "endFrame": 3138,
+      "trigger": "-submarine",
+      "wordId": 297,
+      "triggerFrame": 3044,
+      "visualAnticipationFrame": 3040,
+      "text": "",
+      "textFrame": 3044,
+      "variants": []
+    },
+    {
+      "id": "S34",
+      "startFrame": 3138,
+      "endFrame": 3223,
+      "trigger": "very",
+      "wordId": 306,
+      "triggerFrame": 3142,
+      "visualAnticipationFrame": 3138,
+      "text": "",
+      "textFrame": 3142,
+      "variants": []
+    },
+    {
+      "id": "S35",
+      "startFrame": 3223,
+      "endFrame": 3326,
+      "trigger": "2025,",
+      "wordId": 315,
+      "triggerFrame": 3227,
+      "visualAnticipationFrame": 3223,
+      "text": "2025",
+      "textFrame": 3227,
+      "variants": []
+    },
+    {
+      "id": "S36",
+      "startFrame": 3326,
+      "endFrame": 3437,
+      "trigger": "Wales",
+      "wordId": 326,
+      "triggerFrame": 3330,
+      "visualAnticipationFrame": 3326,
+      "text": "Operation Highmast",
+      "textFrame": 3358,
+      "variants": []
+    },
+    {
+      "id": "S37",
+      "startFrame": 3437,
+      "endFrame": 3552,
+      "trigger": "eight",
+      "wordId": 335,
+      "triggerFrame": 3441,
+      "visualAnticipationFrame": 3437,
+      "text": "8 months",
+      "textFrame": 3441,
+      "variants": []
+    },
+    {
+      "id": "S38",
+      "startFrame": 3552,
+      "endFrame": 3658,
+      "trigger": "Indo",
+      "wordId": 349,
+      "triggerFrame": 3556,
+      "visualAnticipationFrame": 3552,
+      "text": "Indo-Pacific",
+      "textFrame": 3556,
+      "variants": []
+    },
+    {
+      "id": "S39",
+      "startFrame": 3658,
+      "endFrame": 3745,
+      "trigger": "Mediterranean,",
+      "wordId": 361,
+      "triggerFrame": 3662,
+      "visualAnticipationFrame": 3658,
+      "text": "Mediterranean",
+      "textFrame": 3662,
+      "variants": [
+        {
+          "frame": 3713,
+          "text": "24"
+        }
+      ]
+    },
+    {
+      "id": "S40",
+      "startFrame": 3745,
+      "endFrame": 3842,
+      "trigger": "F",
+      "wordId": 367,
+      "triggerFrame": 3749,
+      "visualAnticipationFrame": 3745,
+      "text": "24 F-35Bs",
+      "textFrame": 3749,
+      "variants": []
+    },
+    {
+      "id": "S41",
+      "startFrame": 3842,
+      "endFrame": 3954,
+      "trigger": "largest",
+      "wordId": 377,
+      "triggerFrame": 3846,
+      "visualAnticipationFrame": 3842,
+      "text": "",
+      "textFrame": 3846,
+      "variants": []
+    },
+    {
+      "id": "S42",
+      "startFrame": 3954,
+      "endFrame": 4065,
+      "trigger": "Britain's",
+      "wordId": 387,
+      "triggerFrame": 3958,
+      "visualAnticipationFrame": 3954,
+      "text": "Queen Elizabeth class",
+      "textFrame": 3976,
+      "variants": []
+    },
+    {
+      "id": "S43",
+      "startFrame": 4065,
+      "endFrame": 4183,
+      "trigger": "revealed",
+      "wordId": 396,
+      "triggerFrame": 4069,
+      "visualAnticipationFrame": 4065,
+      "text": "",
+      "textFrame": 4069,
+      "variants": []
+    },
+    {
+      "id": "S44",
+      "startFrame": 4183,
+      "endFrame": 4295,
+      "trigger": "First,",
+      "wordId": 405,
+      "triggerFrame": 4187,
+      "visualAnticipationFrame": 4183,
+      "text": "1",
+      "textFrame": 4187,
+      "variants": []
+    },
+    {
+      "id": "S45",
+      "startFrame": 4295,
+      "endFrame": 4389,
+      "trigger": "leading",
+      "wordId": 415,
+      "triggerFrame": 4299,
+      "visualAnticipationFrame": 4295,
+      "text": "",
+      "textFrame": 4299,
+      "variants": []
+    },
+    {
+      "id": "S46",
+      "startFrame": 4389,
+      "endFrame": 4494,
+      "trigger": "world.",
+      "wordId": 426,
+      "triggerFrame": 4393,
+      "visualAnticipationFrame": 4389,
+      "text": "",
+      "textFrame": 4393,
+      "variants": []
+    },
+    {
+      "id": "S47",
+      "startFrame": 4494,
+      "endFrame": 4589,
+      "trigger": "It",
+      "wordId": 432,
+      "triggerFrame": 4498,
+      "visualAnticipationFrame": 4494,
+      "text": "",
+      "textFrame": 4498,
+      "variants": [
+        {
+          "frame": 4543,
+          "text": ""
+        },
+        {
+          "frame": 4569,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "S48",
+      "startFrame": 4589,
+      "endFrame": 4687,
+      "trigger": "ammunition,",
+      "wordId": 437,
+      "triggerFrame": 4593,
+      "visualAnticipationFrame": 4589,
+      "text": "",
+      "textFrame": 4593,
+      "variants": [
+        {
+          "frame": 4615,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "S49",
+      "startFrame": 4687,
+      "endFrame": 4770,
+      "trigger": "operating",
+      "wordId": 445,
+      "triggerFrame": 4691,
+      "visualAnticipationFrame": 4687,
+      "text": "",
+      "textFrame": 4691,
+      "variants": []
+    },
+    {
+      "id": "S50",
+      "startFrame": 4770,
+      "endFrame": 4857,
+      "trigger": "miles",
+      "wordId": 453,
+      "triggerFrame": 4774,
+      "visualAnticipationFrame": 4770,
+      "text": "",
+      "textFrame": 4774,
+      "variants": [
+        {
+          "frame": 4819,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "id": "S51",
+      "startFrame": 4857,
+      "endFrame": 4972,
+      "trigger": "important.",
+      "wordId": 463,
+      "triggerFrame": 4861,
+      "visualAnticipationFrame": 4857,
+      "text": "",
+      "textFrame": 4819,
+      "variants": []
+    },
+    {
+      "id": "S52",
+      "startFrame": 4972,
+      "endFrame": 5072,
+      "trigger": "allies.",
+      "wordId": 470,
+      "triggerFrame": 4976,
+      "visualAnticipationFrame": 4972,
+      "text": "",
+      "textFrame": 4976,
+      "variants": []
+    },
+    {
+      "id": "S53",
+      "startFrame": 5072,
+      "endFrame": 5157,
+      "trigger": "frigates",
+      "wordId": 477,
+      "triggerFrame": 5076,
+      "visualAnticipationFrame": 5072,
+      "text": "",
+      "textFrame": 5076,
+      "variants": [
+        {
+          "frame": 5094,
+          "text": "Norway"
+        },
+        {
+          "frame": 5113,
+          "text": "Canada"
+        },
+        {
+          "frame": 5152,
+          "text": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "S54",
+      "startFrame": 5157,
+      "endFrame": 5253,
+      "trigger": "support",
+      "wordId": 487,
+      "triggerFrame": 5161,
+      "visualAnticipationFrame": 5157,
+      "text": "",
+      "textFrame": 5161,
+      "variants": [
+        {
+          "frame": 5161,
+          "text": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "S55",
+      "startFrame": 5253,
+      "endFrame": 5340,
+      "trigger": "defenses,",
+      "wordId": 494,
+      "triggerFrame": 5257,
+      "visualAnticipationFrame": 5253,
+      "text": "",
+      "textFrame": 5257,
+      "variants": []
+    },
+    {
+      "id": "S56",
+      "startFrame": 5340,
+      "endFrame": 5453,
+      "trigger": "burden",
+      "wordId": 502,
+      "triggerFrame": 5344,
+      "visualAnticipationFrame": 5340,
+      "text": "",
+      "textFrame": 5344,
+      "variants": []
+    },
+    {
+      "id": "S57",
+      "startFrame": 5453,
+      "endFrame": 5547,
+      "trigger": "United",
+      "wordId": 512,
+      "triggerFrame": 5457,
+      "visualAnticipationFrame": 5453,
+      "text": "United Kingdom",
+      "textFrame": 5457,
+      "variants": []
+    },
+    {
+      "id": "S58",
+      "startFrame": 5547,
+      "endFrame": 5655,
+      "trigger": "own.",
+      "wordId": 522,
+      "triggerFrame": 5551,
+      "visualAnticipationFrame": 5547,
+      "text": "",
+      "textFrame": 5551,
+      "variants": []
+    },
+    {
+      "id": "S59",
+      "startFrame": 5655,
+      "endFrame": 5748,
+      "trigger": "we",
+      "wordId": 531,
+      "triggerFrame": 5659,
+      "visualAnticipationFrame": 5655,
+      "text": "",
+      "textFrame": 5659,
+      "variants": [
+        {
+          "frame": 5734,
+          "text": "How many ships?"
+        }
+      ]
+    },
+    {
+      "id": "S60",
+      "startFrame": 5748,
+      "endFrame": 5854,
+      "trigger": "ships",
+      "wordId": 541,
+      "triggerFrame": 5752,
+      "visualAnticipationFrame": 5748,
+      "text": "How many ships?",
+      "textFrame": 5734,
+      "variants": []
+    },
+    {
+      "id": "S61",
+      "startFrame": 5854,
+      "endFrame": 5961,
+      "trigger": "long",
+      "wordId": 549,
+      "triggerFrame": 5858,
+      "visualAnticipationFrame": 5854,
+      "text": "",
+      "textFrame": 5858,
+      "variants": []
+    },
+    {
+      "id": "S62",
+      "startFrame": 5961,
+      "endFrame": 6047,
+      "trigger": "starts",
+      "wordId": 561,
+      "triggerFrame": 5965,
+      "visualAnticipationFrame": 5961,
+      "text": "",
+      "textFrame": 5965,
+      "variants": []
+    }
+  ]
+}

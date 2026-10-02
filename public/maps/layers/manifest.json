@@ -1,0 +1,182 @@
+{
+  "source": "data/geography/atlas.json",
+  "note": "Geometry is copied verbatim. Country bases exclude GBR; the live component draws its animated coastline above these cached layers.",
+  "views": {
+    "uk-paint": [
+      "uk-paint.land.svg",
+      "uk-paint.dark.plain.countries.svg",
+      "uk-paint.dark.plain.isles.svg",
+      "uk-paint.dark.routes.countries.svg",
+      "uk-paint.dark.routes.isles.svg",
+      "uk-paint.light.plain.countries.svg",
+      "uk-paint.light.plain.isles.svg",
+      "uk-paint.light.routes.countries.svg",
+      "uk-paint.light.routes.isles.svg"
+    ],
+    "colonies": [
+      "colonies.land.svg",
+      "colonies.dark.plain.countries.svg",
+      "colonies.dark.plain.isles.svg",
+      "colonies.dark.routes.countries.svg",
+      "colonies.dark.routes.isles.svg",
+      "colonies.light.plain.countries.svg",
+      "colonies.light.plain.isles.svg",
+      "colonies.light.routes.countries.svg",
+      "colonies.light.routes.isles.svg"
+    ],
+    "empire": [
+      "empire.land.svg",
+      "empire.dark.plain.countries.svg",
+      "empire.dark.plain.isles.svg",
+      "empire.dark.routes.countries.svg",
+      "empire.dark.routes.isles.svg",
+      "empire.light.plain.countries.svg",
+      "empire.light.plain.isles.svg",
+      "empire.light.routes.countries.svg",
+      "empire.light.routes.isles.svg"
+    ],
+    "daylight": [
+      "daylight.land.svg",
+      "daylight.dark.plain.countries.svg",
+      "daylight.dark.plain.isles.svg",
+      "daylight.dark.routes.countries.svg",
+      "daylight.dark.routes.isles.svg",
+      "daylight.light.plain.countries.svg",
+      "daylight.light.plain.isles.svg",
+      "daylight.light.routes.countries.svg",
+      "daylight.light.routes.isles.svg"
+    ],
+    "comparison": [
+      "comparison.land.svg",
+      "comparison.dark.plain.countries.svg",
+      "comparison.dark.plain.isles.svg",
+      "comparison.dark.routes.countries.svg",
+      "comparison.dark.routes.isles.svg",
+      "comparison.light.plain.countries.svg",
+      "comparison.light.plain.isles.svg",
+      "comparison.light.routes.countries.svg",
+      "comparison.light.routes.isles.svg"
+    ],
+    "europe": [
+      "europe.land.svg",
+      "europe.dark.plain.countries.svg",
+      "europe.dark.plain.isles.svg",
+      "europe.dark.routes.countries.svg",
+      "europe.dark.routes.isles.svg",
+      "europe.light.plain.countries.svg",
+      "europe.light.plain.isles.svg",
+      "europe.light.routes.countries.svg",
+      "europe.light.routes.isles.svg"
+    ],
+    "reach": [
+      "reach.land.svg",
+      "reach.dark.plain.countries.svg",
+      "reach.dark.plain.isles.svg",
+      "reach.dark.routes.countries.svg",
+      "reach.dark.routes.isles.svg",
+      "reach.light.plain.countries.svg",
+      "reach.light.plain.isles.svg",
+      "reach.light.routes.countries.svg",
+      "reach.light.routes.isles.svg"
+    ],
+    "home-range": [
+      "home-range.land.svg",
+      "home-range.dark.plain.countries.svg",
+      "home-range.dark.plain.isles.svg",
+      "home-range.dark.routes.countries.svg",
+      "home-range.dark.routes.isles.svg",
+      "home-range.light.plain.countries.svg",
+      "home-range.light.plain.isles.svg",
+      "home-range.light.routes.countries.svg",
+      "home-range.light.routes.isles.svg"
+    ],
+    "indo-pacific": [
+      "indo-pacific.land.svg",
+      "indo-pacific.dark.plain.countries.svg",
+      "indo-pacific.dark.plain.isles.svg",
+      "indo-pacific.dark.routes.countries.svg",
+      "indo-pacific.dark.routes.isles.svg",
+      "indo-pacific.light.plain.countries.svg",
+      "indo-pacific.light.plain.isles.svg",
+      "indo-pacific.light.routes.countries.svg",
+      "indo-pacific.light.routes.isles.svg"
+    ],
+    "mediterranean": [
+      "mediterranean.land.svg",
+      "mediterranean.dark.plain.countries.svg",
+      "mediterranean.dark.plain.isles.svg",
+      "mediterranean.dark.routes.countries.svg",
+      "mediterranean.dark.routes.isles.svg",
+      "mediterranean.light.plain.countries.svg",
+      "mediterranean.light.plain.isles.svg",
+      "mediterranean.light.routes.countries.svg",
+      "mediterranean.light.routes.isles.svg"
+    ],
+    "leadership": [
+      "leadership.land.svg",
+      "leadership.dark.plain.countries.svg",
+      "leadership.dark.plain.isles.svg",
+      "leadership.dark.routes.countries.svg",
+      "leadership.dark.routes.isles.svg",
+      "leadership.light.plain.countries.svg",
+      "leadership.light.plain.isles.svg",
+      "leadership.light.routes.countries.svg",
+      "leadership.light.routes.isles.svg"
+    ],
+    "distance": [
+      "distance.land.svg",
+      "distance.dark.plain.countries.svg",
+      "distance.dark.plain.isles.svg",
+      "distance.dark.routes.countries.svg",
+      "distance.dark.routes.isles.svg",
+      "distance.light.plain.countries.svg",
+      "distance.light.plain.isles.svg",
+      "distance.light.routes.countries.svg",
+      "distance.light.routes.isles.svg"
+    ],
+    "return": [
+      "return.land.svg",
+      "return.dark.plain.countries.svg",
+      "return.dark.plain.isles.svg",
+      "return.dark.routes.countries.svg",
+      "return.dark.routes.isles.svg",
+      "return.light.plain.countries.svg",
+      "return.light.plain.isles.svg",
+      "return.light.routes.countries.svg",
+      "return.light.routes.isles.svg"
+    ],
+    "allies": [
+      "allies.land.svg",
+      "allies.dark.plain.countries.svg",
+      "allies.dark.plain.isles.svg",
+      "allies.dark.routes.countries.svg",
+      "allies.dark.routes.isles.svg",
+      "allies.light.plain.countries.svg",
+      "allies.light.plain.isles.svg",
+      "allies.light.routes.countries.svg",
+      "allies.light.routes.isles.svg"
+    ],
+    "norway": [
+      "norway.land.svg",
+      "norway.dark.plain.countries.svg",
+      "norway.dark.plain.isles.svg",
+      "norway.dark.routes.countries.svg",
+      "norway.dark.routes.isles.svg",
+      "norway.light.plain.countries.svg",
+      "norway.light.plain.isles.svg",
+      "norway.light.routes.countries.svg",
+      "norway.light.routes.isles.svg"
+    ],
+    "sovereignty": [
+      "sovereignty.land.svg",
+      "sovereignty.dark.plain.countries.svg",
+      "sovereignty.dark.plain.isles.svg",
+      "sovereignty.dark.routes.countries.svg",
+      "sovereignty.dark.routes.isles.svg",
+      "sovereignty.light.plain.countries.svg",
+      "sovereignty.light.plain.isles.svg",
+      "sovereignty.light.routes.countries.svg",
+      "sovereignty.light.routes.isles.svg"
+    ]
+  }
+}

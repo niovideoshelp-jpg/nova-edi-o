@@ -1,0 +1,26 @@
+{
+  "type": "Frames decoded from the final airwing motion excerpt to inspect numeric cue continuity",
+  "source": "docs/preview-airwing-v4.mp4",
+  "resolution": "960x540",
+  "fps": 30,
+  "frames": [
+    {
+      "frame": 3744,
+      "relativeFrame": 34,
+      "file": "out/review-v4/counter-3744.png",
+      "sha256": "f5633b2981dfbb8016915065503ec60654d1dd189e4cc2497a477e8b1792d571"
+    },
+    {
+      "frame": 3745,
+      "relativeFrame": 35,
+      "file": "out/review-v4/counter-3745.png",
+      "sha256": "8b6915bb766679ab5614db95077f4467f19f3a9a97a1572e45218cec30d49dca"
+    },
+    {
+      "frame": 3750,
+      "relativeFrame": 40,
+      "file": "out/review-v4/counter-3750.png",
+      "sha256": "f054063206ff86a6bec1e64b70a3aad8dde89e94a448e08b6bb182f85ce2c8c1"
+    }
+  ]
+}

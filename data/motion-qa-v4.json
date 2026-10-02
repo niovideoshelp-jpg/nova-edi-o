@@ -1,0 +1,23 @@
+{
+  "resolution": "960x540",
+  "fps": 30,
+  "type": "Continuous motion review excerpts; composition remains 1920x1080",
+  "clips": [
+    {
+      "file": "motion-test.mp4",
+      "start": 180,
+      "end": 359
+    },
+    {
+      "file": "02-carrier.mp4",
+      "start": 2460,
+      "end": 2699
+    },
+    {
+      "file": "03-airwing.mp4",
+      "start": 3710,
+      "end": 3949
+    }
+  ],
+  "warnings": []
+}

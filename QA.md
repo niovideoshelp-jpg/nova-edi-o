@@ -1,6 +1,31 @@
-# Production checks
+# Verificação de produção
 
-## Visual revision 3
+## Revisão 4 — composição atual
+
+- Formato mantido: **1920×1080, 30 fps, 6047 frames**. A montagem usa quatro capítulos visuais contínuos e **62 Sequences de marcação da narração**, com sobreposição de 12 frames entre capítulos. [Manifesto ativo](data/documentary-timeline.json).
+- Animações de câmera, elementos, máscaras e textos usam a integração oficial **`@remotion/gsap` / `useGsapTimeline()`**, sincronizada aos frames do Remotion.
+- Foram renderizados **62 quadros finais em 1920×1080**, com **zero warnings** registrados pelo navegador. O [manifesto dos quadros](data/visual-qa-v4.json) identifica os frames, arquivos e hashes. Uma seleção está na [folha de contato](docs/preview-v4.jpg).
+- Foram gerados os três excertos contínuos abaixo, em **960×540, 30 fps**, com zero warnings no [manifesto de movimento](data/motion-qa-v4.json). A composição principal conserva a resolução de 1920×1080.
+- **ESLint, TypeScript e `npm run check` passaram.**
+- A passagem de “24” para “24 F-35Bs” conserva o número entre as marcações, evitando reinício do contador. Três quadros adicionais foram decodificados do excerto final em 960×540 para verificar essa continuidade: 3744, 3745 e 3750, registrados em `data/visual-qa-v4-fixes.json`. A tentativa separada de renderizar esses três stills em 1920×1080 foi interrompida após produzir somente o frame 3745; ela não é contada como uma renderização completa.
+
+| Excerto local | Frames globais, inclusive | Duração |
+|---|---|---|
+| `out/review-v4/motion-test.mp4` | 180–359 | 6 s |
+| `out/review-v4/02-carrier.mp4` | 2460–2699 | 8 s |
+| `out/review-v4/03-airwing.mp4` | 3710–3949 | 8 s |
+
+Os excertos de [porta-aviões](docs/preview-carrier-v4.mp4) e [ala aérea](docs/preview-airwing-v4.mp4) também estão disponíveis em `docs`. FFprobe confirmou, em ambos, 240 frames, 8 segundos e áudio AAC. A sequência de imagens do excerto do porta-aviões foi inspecionada, incluindo a passagem da fotografia para a aproximação do convés.
+
+A cobertura desta revisão consiste nos quadros amostrados e nos três trechos indicados. **Não foi assistido nem exportado um MP4 do filme inteiro.** A ausência de warnings confirma a execução dessas renderizações; não certifica, por si só, a qualidade de toda a animação.
+
+**Não foi realizado um teste de repetição de hashes após buscas não sequenciais na revisão 4.** Os hashes do manifesto identificam os arquivos produzidos. O teste de repetibilidade descrito abaixo pertence à revisão 3 e não deve ser atribuído à montagem atual.
+
+O alinhamento das palavras continua baseado em ASR. A precisão acústica de **±3 frames para todas as palavras não foi certificada manualmente**. As fotografias são históricas e ilustram equipamentos e operações; não são registros identificados como Highmast 2025. Os recortes gerados e diagramas são ilustrações editoriais, e os trajetos geográficos são representações ilustrativas. Fontes e créditos permanecem em [IMAGE-SOURCES.md](IMAGE-SOURCES.md).
+
+## Histórico — revisão visual 3
+
+Os registros desta seção descrevem a montagem anterior e seus componentes, testes e limitações. Não são resultados de validação da revisão 4.
 
 - Removed every globe and both balance illustrations from the active storyboard. Replaced the old hand-drawn country assets and removed the obsolete SVG library.
 - 15 geographic scenes built from Natural Earth polygons; UK/Ireland detail at 1:10 million. Turf.js generates the geodesics and verifies route endpoints; D3 projects coordinates. Five historical connections run from London to representative former colonies.
@@ -13,7 +38,7 @@
 - Studio preview checked via its WebMCP interface at frame 450: no error overlay. Fixed the background wrapper so the navy field, grain and vignette also appear in Studio, matching the still renderer.
 - No complete MP4 was exported. The editable preview, narration, timing and export command remain available.
 
-## Visual revision 2
+## Histórico — revisão visual 2
 
 - Eight generated transparent PNGs and three OGL photographs integrated into the film; 22 main scenes now use raster imagery, with additional changes inside the rapid inventory shots.
 - Alpha-channel presence and transparent pixels checked for all generated assets; results in `data/image-alpha-check.json`.
@@ -22,7 +47,7 @@
 - TypeScript, ESLint and timeline checks passed after the visual update.
 - Image provenance, licensing and generation prompts recorded in `IMAGE-SOURCES.md` and `data/image-prompts.json`.
 
-## Base production
+## Histórico — produção inicial
 
 - Format: 1920×1080, 30 fps, 6047 frames (201.567 seconds).
 - Timeline: 62 contiguous shots, each 60–120 frames; original audio fully covered.
