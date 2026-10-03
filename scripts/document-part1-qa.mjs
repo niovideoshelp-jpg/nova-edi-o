@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const frames=fs.readdirSync('out/review-part1').filter(f=>/^frame-\d+\.png$/.test(f)).map(f=>Number(f.match(/\d+/)[0])).sort((a,b)=>a-b);
+const report={composition:'RoyalNavyPart1',stills:{width:1920,height:1080,frames,inspection:'Contact sheets and full-resolution targeted frames; all four chapters and transition overlaps sampled.'},motionProbes:[{from:3950,to:4279,scale:.5},{from:4110,to:4175,scale:.5}],corrections:['Separated 6,000+ and men without overlap.','Removed modern internal political borders from historical map bases.','Softened map image edges without moving geographic coordinates.','Made the incoming archival film plane opaque during passage to avoid a hard background change.','Started the escort drawing during the outgoing air-power passage to eliminate an empty interval.'],browserWarnings:JSON.parse(fs.readFileSync('out/review-part1/report.json','utf8')).warnings,audio:{decodedPeakDb:-1.1,decodedMeanVolumeDb:-17,narration:'Unchanged source, loudness normalized only in the mix',voiceTargetLufs:-16,musicGainDb:-22,sfxGainDb:-18,ducking:true},timing:'Word alignment is an automatic estimate. This report does not certify phonetic alignment to +/-3 frames.',renderReport:'data/part1/render.json'};
+fs.writeFileSync('data/part1/visual-qa.json',JSON.stringify(report,null,2));
+const assets=JSON.parse(fs.readFileSync('data/part1/assets.json','utf8'));
+assets.svgExports='data/part1/svg-assets.json';
+assets.generatedImagePrompt='data/part1/image-prompt.json';
+assets.additionalMap={file:'public/maps/part1/war-world.svg',generator:'scripts/cache-part1-war-map.mjs',note:'Same projected outlines as the WorldWar route coordinate system; country boundary strokes removed.'};
+const fx=assets.audio.find(a=>a.id==='part1-effects');
+fx.file='public/audio/part1/sfx-source.mp3';fx.usage='Exported original synthesized effects stem; generator writes an ignored WAV intermediate.';
+fs.writeFileSync('data/part1/assets.json',JSON.stringify(assets,null,2));
+for(const file of [report.renderReport,...assets.audio.map(a=>a.file)])if(file!==report.renderReport&&!fs.existsSync(path.resolve(file)))throw new Error(`Missing ${file}`);
+console.log(`Recorded ${frames.length} sampled frames, two motion probes, corrections and assets`);

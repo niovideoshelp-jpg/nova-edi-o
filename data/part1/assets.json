@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "composition": "RoyalNavyPart1",
+  "resolution": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "durationInFrames": 5390,
+  "narrationDurationSeconds": 179.644063,
+  "wordCount": 495,
+  "editorialBeatCount": 62,
+  "chapterCount": 4,
+  "timing": "Automatic word-alignment estimates. Continuous editorial beats inside four chapter Sequences, not 62 hard cuts.",
+  "provenanceLedger": "data/part1/media-sources.json",
+  "activeImages": [
+    {
+      "id": "early-battleship",
+      "file": "public/images/part1/generated/early-battleship.png",
+      "kind": "generated-transparent-illustration",
+      "chapter": "origins",
+      "approximateWindowSeconds": [
+        3,
+        8
+      ],
+      "creator": "OpenAI image generation",
+      "depicts": "Generic early-20th-century battleship",
+      "historicalPhotograph": false,
+      "identificationConstraint": "Never identify this illustration as HMS Prince of Wales, HMS Repulse or any specific actual vessel; not a technical plan."
+    },
+    {
+      "id": "grand-fleet-highres",
+      "file": "public/images/part1/grand-fleet-highres.jpg",
+      "kind": "historical-photograph",
+      "chapter": "origins",
+      "depicts": "Grand Fleet, North Sea, First World War",
+      "credit": "Royal Navy official photographer / IWM Q18121",
+      "mediaSourceId": "grand-fleet-highres",
+      "license": "Public domain — expired UK Crown copyright (PD-UKGov), as documented in individual Commons record"
+    },
+    {
+      "id": "jutland-lion",
+      "file": "public/images/part1/jutland-lion.jpg",
+      "kind": "historical-photograph",
+      "chapter": "jutland",
+      "depicts": "HMS Lion during Jutland, 31 May 1916",
+      "credit": "IWM SP1704",
+      "mediaSourceId": "jutland-lion",
+      "license": "Public domain — expired UK Crown copyright (PD-UKGov), as documented in individual Commons record"
+    },
+    {
+      "id": "prince-of-wales-1941",
+      "file": "public/images/part1/prince-of-wales-1941.jpg",
+      "kind": "historical-photograph",
+      "chapter": "transformation",
+      "depicts": "Battleship HMS Prince of Wales, Singapore, 4 December 1941",
+      "credit": "H. J. Abrahams / Royal Navy / IWM A6784",
+      "mediaSourceId": "prince-of-wales-1941",
+      "license": "Public domain — expired UK Crown copyright (PD-UKGov), as documented in individual Commons record"
+    },
+    {
+      "id": "repulse-1941",
+      "file": "public/images/part1/repulse-1941.jpg",
+      "kind": "historical-photograph",
+      "chapter": "transformation",
+      "depicts": "HMS Repulse leaving Singapore, 8 December 1941",
+      "credit": "W. L. G. Adams / IWM A29069",
+      "mediaSourceId": "repulse-1941",
+      "license": "Public domain — expired UK Crown copyright (PD-UKGov), as documented in individual Commons record"
+    }
+  ],
+  "activeVideos": [
+    {
+      "id": "pow-arrival",
+      "file": "public/video/pow-arrival.mp4",
+      "chapter": "origins",
+      "availableFrames": 270,
+      "usedSequenceFrames": [
+        0,
+        107
+      ],
+      "sourceLedger": "data/video-sources.json",
+      "sourceId": "pow",
+      "sourceStartSeconds": 65,
+      "credit": "Bryan Weyers / U.S. Navy / DVIDS899101, 2023-09-30",
+      "depicts": "Modern aircraft carrier HMS Prince of Wales at Norfolk",
+      "license": "DVIDS PUBLIC DOMAIN"
+    },
+    {
+      "id": "atlantic-convoy",
+      "file": "public/video/part1/atlantic-convoy.mp4",
+      "chapter": "world-war",
+      "availableFrames": 210,
+      "usedSequenceFrames": [
+        2966,
+        3083
+      ],
+      "sourceId": "iceland",
+      "mediaSourceId": "atlantic-convoy",
+      "depicts": "Atlantic convoy toward Halifax, 1941–1942",
+      "license": "Public domain; see individual source ledger",
+      "loop": false,
+      "audio": "muted"
+    },
+    {
+      "id": "pow-modern",
+      "file": "public/video/part1/pow-modern.mp4",
+      "chapter": "transformation",
+      "availableFrames": 120,
+      "usedSequenceFrames": [
+        4029,
+        4149
+      ],
+      "sourceId": "pow",
+      "mediaSourceId": "pow-modern",
+      "depicts": "Modern HMS Prince of Wales R09 island detail, Norfolk 2023",
+      "license": "Public domain; see individual source ledger",
+      "loop": false,
+      "audio": "muted"
+    },
+    {
+      "id": "atlantic-air-cover",
+      "file": "public/video/part1/atlantic-air-cover.mp4",
+      "chapter": "transformation",
+      "availableFrames": 120,
+      "usedSequenceFrames": [
+        4118,
+        4238
+      ],
+      "sourceId": "iceland",
+      "mediaSourceId": "atlantic-air-cover",
+      "depicts": "Atlantic patrol flying boat, 1941–1942; not Force Z attack footage",
+      "license": "Public domain; see individual source ledger",
+      "loop": false,
+      "audio": "muted"
+    },
+    {
+      "id": "us-shipyards",
+      "file": "public/video/part1/us-shipyards.mp4",
+      "chapter": "transformation",
+      "availableFrames": 150,
+      "usedSequenceFrames": [
+        4795,
+        4945
+      ],
+      "sourceId": "shipyards",
+      "mediaSourceId": "us-shipyards",
+      "depicts": "Cargo-ship launch, Superior, Wisconsin, 1943-05-09",
+      "license": "Public domain; see individual source ledger",
+      "loop": false,
+      "audio": "muted"
+    },
+    {
+      "id": "atlantic-refueling",
+      "file": "public/video/part1/atlantic-refueling.mp4",
+      "chapter": "transformation",
+      "availableFrames": 210,
+      "usedSequenceFrames": [
+        5116,
+        5236
+      ],
+      "sourceId": "iceland",
+      "mediaSourceId": "atlantic-refueling",
+      "depicts": "Mid-ocean refueling in Atlantic, 1941–1942",
+      "license": "Public domain; see individual source ledger",
+      "loop": false,
+      "audio": "muted"
+    }
+  ],
+  "vectorFamilies": [
+    {
+      "id": "geography-and-routes",
+      "kind": "geographic-svg-and-animated-routes",
+      "files": [
+        "public/maps/part1/world.svg",
+        "public/maps/part1/atlantic.svg",
+        "public/maps/part1/malaya.svg"
+      ],
+      "components": [
+        "src/part1/OriginsChapter.tsx",
+        "src/part1/WorldWarChapter.tsx",
+        "src/part1/JutlandVectors.tsx",
+        "src/part1/TransformationChapter.tsx"
+      ],
+      "data": [
+        "data/part1/geography.json",
+        "data/geography/world-50m.json",
+        "data/geography/british-isles-10m.json",
+        "data/geography/atlas.json"
+      ],
+      "generator": "scripts/build-part1-geography.mjs",
+      "provider": "Natural Earth public domain",
+      "processing": "Turf.js geometry processing, great-circle paths and route sampling; D3 geographic projection",
+      "scope": "Real geographic context with schematic connections. Does not reconstruct wartime political borders or exact historical operational tracks."
+    },
+    {
+      "id": "jutland-vectors",
+      "file": "src/part1/JutlandVectors.tsx",
+      "kind": "original-editorial-svg",
+      "exports": [
+        "NorthSeaCoast",
+        "JutlandDreadnought",
+        "JutlandToken",
+        "DreadnoughtPlan"
+      ],
+      "scope": "Dreadnought silhouettes and quantitative tokens; no named-vessel technical plans."
+    },
+    {
+      "id": "war-vectors",
+      "file": "src/part1/WarVectors.tsx",
+      "kind": "original-editorial-svg",
+      "exports": [
+        "CapitalShip",
+        "FleetCarrier",
+        "PropellerAircraft",
+        "MerchantPlan",
+        "EscortPlan",
+        "SubmarineProfile"
+      ],
+      "scope": "WWII fleet categories, supply and escort diagrams."
+    },
+    {
+      "id": "warfare-vectors",
+      "file": "src/part1/WarfareVectors.tsx",
+      "kind": "original-editorial-svg",
+      "exports": [
+        "BattlePlan",
+        "PatrolAircraft",
+        "EscortSide",
+        "Submarine"
+      ],
+      "scope": "Schematic air threat, escort, radar and antisubmarine systems; not a literal reconstruction of the Force Z attack."
+    }
+  ],
+  "presentation": [
+    {
+      "id": "grain",
+      "file": "public/grain.png",
+      "kind": "original-procedural-texture",
+      "generator": "scripts/audio.py",
+      "opacity": 0.026
+    },
+    {
+      "id": "inter",
+      "family": "Inter",
+      "package": "@fontsource-variable/inter",
+      "kind": "font"
+    },
+    {
+      "id": "chapter-style",
+      "file": "src/part1/Shared.tsx",
+      "kind": "emotion-layout-and-gsap-animation",
+      "animationHook": "@remotion/gsap useGsapTimeline"
+    }
+  ],
+  "audio": [
+    {
+      "id": "part1-mix",
+      "file": "public/audio/part1/mix.mp3",
+      "usage": "active playback",
+      "generator": "scripts/audio-part1.py"
+    },
+    {
+      "id": "narration",
+      "file": "public/audio/part1/1.mp3",
+      "usage": "original supplied narration / mix input"
+    },
+    {
+      "id": "ambient",
+      "file": "public/audio/ambient-source.mp3",
+      "usage": "original project music / mix input",
+      "gainDb": -22
+    },
+    {
+      "id": "part1-effects",
+      "file": "public/audio/part1/sfx-source.mp3",
+      "usage": "Exported original synthesized effects stem; generator writes an ignored WAV intermediate.",
+      "gainDb": -18
+    }
+  ],
+  "availableNotUsed": [
+    {
+      "file": "public/video/part1/arctic-convoy-1942.mp4",
+      "reason": "Optional Arctic convoy source; not used by default Part1 composition. Do not relabel as Atlantic/Halifax."
+    },
+    {
+      "file": "public/images/part1/grand-fleet.jpg",
+      "reason": "Superseded low-resolution scouting image."
+    }
+  ],
+  "historicalChecks": [
+    {
+      "subject": "Battle of Jutland, 31 May–1 June 1916",
+      "britishShips": 151,
+      "germanShips": 99,
+      "britishShipsLost": 14,
+      "britishDeathsNarration": "more than 6,000",
+      "scope": "Ships engaged in this battle, not total Royal Navy strength.",
+      "source": "https://www.royalnavy.mod.uk/news/2016/june/02/160602-the-royal-and-german-navy-remember-the-battle-of-jutland",
+      "publisher": "Royal Navy",
+      "checked": "2026-10-03"
+    }
+  ],
+  "svgExports": "data/part1/svg-assets.json",
+  "generatedImagePrompt": "data/part1/image-prompt.json",
+  "additionalMap": {
+    "file": "public/maps/part1/war-world.svg",
+    "generator": "scripts/cache-part1-war-map.mjs",
+    "note": "Same projected outlines as the WorldWar route coordinate system; country boundary strokes removed."
+  }
+}

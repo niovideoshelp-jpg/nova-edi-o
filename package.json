@@ -41,6 +41,9 @@
     "check": "node scripts/check.mjs",
     "lint": "eslint src && tsc --noEmit",
     "review:v5": "node scripts/review-v5.mjs",
-    "render:reviewed": "node scripts/render-full.mjs"
+    "render:reviewed": "node scripts/render-full.mjs",
+    "review:part1": "node scripts/review-part1.mjs",
+    "render:part1": "node scripts/render-part1.mjs",
+    "check:part1": "node scripts/check-part1.mjs"
   }
 }

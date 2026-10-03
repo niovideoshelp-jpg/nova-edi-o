@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "generator": "scripts/export-part1-vectors.mjs",
+  "assetCount": 15,
+  "componentCount": 12,
+  "format": "SVG",
+  "background": "transparent",
+  "usage": "Standalone files contain static vector artwork. The video animates the same source components with the official @remotion/gsap useGsapTimeline() hook.",
+  "boundsReview": "Explicit viewBoxes include all inspected component geometry and stroke extents, including wakes, smoke, turrets and negative coordinates.",
+  "assets": [
+    {
+      "file": "public/svg-part1/capital-ship.svg",
+      "publicPath": "svg-part1/capital-ship.svg",
+      "component": "CapitalShip",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {
+        "detail": true
+      },
+      "viewBox": "-8 10 644 182",
+      "width": 644,
+      "height": 182,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "b22dc8257666009b901424015a6e9d98ff857ee0ed8eeb6785185eca6322004a"
+    },
+    {
+      "file": "public/svg-part1/capital-ship-fleet.svg",
+      "publicPath": "svg-part1/capital-ship-fleet.svg",
+      "component": "CapitalShip",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {
+        "detail": false
+      },
+      "viewBox": "-8 10 644 182",
+      "width": 644,
+      "height": 182,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "3e8fb7439ba0fc590c41976f9d43839a7c19728b2bcfe296b74aab74e01ca950"
+    },
+    {
+      "file": "public/svg-part1/fleet-carrier.svg",
+      "publicPath": "svg-part1/fleet-carrier.svg",
+      "component": "FleetCarrier",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {
+        "detail": true
+      },
+      "viewBox": "10 -7 602 154",
+      "width": 602,
+      "height": 154,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "f2f649b9bb2d166b85c197107033dde74661cbaf334b1e0bc0515ecb8447f586"
+    },
+    {
+      "file": "public/svg-part1/merchant-plan.svg",
+      "publicPath": "svg-part1/merchant-plan.svg",
+      "component": "MerchantPlan",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {
+        "small": false
+      },
+      "viewBox": "-20 -39 40 100",
+      "width": 40,
+      "height": 100,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "d3bf0f88ff32f95dccc07f2ac89a13c599882176425cd04e0a0e9279f71bfcdf"
+    },
+    {
+      "file": "public/svg-part1/merchant-plan-small.svg",
+      "publicPath": "svg-part1/merchant-plan-small.svg",
+      "component": "MerchantPlan",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {
+        "small": true
+      },
+      "viewBox": "-16 -38 32 78",
+      "width": 32,
+      "height": 78,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "1d6802f090a17be91aa97ea561d8bb0bff76d213a52e38ef86875783d1fa5d05"
+    },
+    {
+      "file": "public/svg-part1/escort-plan.svg",
+      "publicPath": "svg-part1/escort-plan.svg",
+      "component": "EscortPlan",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {},
+      "viewBox": "-40 -136 80 318",
+      "width": 80,
+      "height": 318,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "425ae8711cb87c23bc3b5454a34fc0ddd6ac3eef0f02e200a5c865d30102f411"
+    },
+    {
+      "file": "public/svg-part1/submarine-profile.svg",
+      "publicPath": "svg-part1/submarine-profile.svg",
+      "component": "SubmarineProfile",
+      "source": "src/part1/WarVectors.tsx",
+      "sourceSha256": "aa47bf136135bb794bee73d4f605d5050d3b2dbfcd7d2e4f5fed9b6b7b37445f",
+      "props": {},
+      "viewBox": "10 42 598 141",
+      "width": 598,
+      "height": 141,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/WorldWarChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "9b636f71b822125d87b8725b6d02186f4cfab4e9572f9d273dd04b56ab543554"
+    },
+    {
+      "file": "public/svg-part1/battle-plan.svg",
+      "publicPath": "svg-part1/battle-plan.svg",
+      "component": "BattlePlan",
+      "source": "src/part1/WarfareVectors.tsx",
+      "sourceSha256": "72fd1f6c4298c6e9efedb731d5046b44629c5b6cca0170d3b4132663c31dab9e",
+      "props": {
+        "small": false
+      },
+      "viewBox": "42 0 116 560",
+      "width": 116,
+      "height": 560,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/TransformationChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "7997b5246882ec667ee171f4f857a4119261264614905a249360f09f5644a24c"
+    },
+    {
+      "file": "public/svg-part1/patrol-aircraft.svg",
+      "publicPath": "svg-part1/patrol-aircraft.svg",
+      "component": "PatrolAircraft",
+      "source": "src/part1/WarfareVectors.tsx",
+      "sourceSha256": "72fd1f6c4298c6e9efedb731d5046b44629c5b6cca0170d3b4132663c31dab9e",
+      "props": {},
+      "viewBox": "-112 -85 224 184",
+      "width": 224,
+      "height": 184,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/TransformationChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "ec9f30954d2258cf02af9b7cb629f936972c78150215be2307cbc91d75f909ef"
+    },
+    {
+      "file": "public/svg-part1/escort-side.svg",
+      "publicPath": "svg-part1/escort-side.svg",
+      "component": "EscortSide",
+      "source": "src/part1/WarfareVectors.tsx",
+      "sourceSha256": "72fd1f6c4298c6e9efedb731d5046b44629c5b6cca0170d3b4132663c31dab9e",
+      "props": {},
+      "viewBox": "6 -6 591 201",
+      "width": 591,
+      "height": 201,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/TransformationChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "a35b8c34a4de7d46e16ea2ea72c4aa0e449e8d439a228fd6342bb0a93da24c74"
+    },
+    {
+      "file": "public/svg-part1/submarine.svg",
+      "publicPath": "svg-part1/submarine.svg",
+      "component": "Submarine",
+      "source": "src/part1/WarfareVectors.tsx",
+      "sourceSha256": "72fd1f6c4298c6e9efedb731d5046b44629c5b6cca0170d3b4132663c31dab9e",
+      "props": {},
+      "viewBox": "5 -12 421 138",
+      "width": 421,
+      "height": 138,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/TransformationChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "6a9b26f2ce0ae099a4b089b2f33bc458d8006e06338277f23e7493dcda0ff5f1"
+    },
+    {
+      "file": "public/svg-part1/jutland-dreadnought.svg",
+      "publicPath": "svg-part1/jutland-dreadnought.svg",
+      "component": "JutlandDreadnought",
+      "source": "src/part1/JutlandVectors.tsx",
+      "sourceSha256": "8ade2144e98e01dac2030c69dbcbd06e8b547eca764d2def467c18369635ddcb",
+      "props": {},
+      "viewBox": "0 -5 1205 365",
+      "width": 1205,
+      "height": 365,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/JutlandChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "8097a69a58856897ea3be70c98a4e6fa74f9a3bf6324a9a8b4b6fe51f029ecf7"
+    },
+    {
+      "file": "public/svg-part1/dreadnought-plan.svg",
+      "publicPath": "svg-part1/dreadnought-plan.svg",
+      "component": "DreadnoughtPlan",
+      "source": "src/part1/JutlandVectors.tsx",
+      "sourceSha256": "8ade2144e98e01dac2030c69dbcbd06e8b547eca764d2def467c18369635ddcb",
+      "props": {},
+      "viewBox": "-14 -30 28 62",
+      "width": 28,
+      "height": 62,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/JutlandChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "311f600c77e5e977757b448624750b72b6ffd73ba27f60a8553ab672e42b5aa3"
+    },
+    {
+      "file": "public/svg-part1/jutland-token-british.svg",
+      "publicPath": "svg-part1/jutland-token-british.svg",
+      "component": "JutlandToken",
+      "source": "src/part1/JutlandVectors.tsx",
+      "sourceSha256": "8ade2144e98e01dac2030c69dbcbd06e8b547eca764d2def467c18369635ddcb",
+      "props": {
+        "color": "#B1CBDA"
+      },
+      "viewBox": "-12 -20 24 40",
+      "width": 24,
+      "height": 40,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/JutlandChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "6d57ac656f5ce987fcb22ee086d62677443bccf4e9b2e2c84d2e925284672558"
+    },
+    {
+      "file": "public/svg-part1/jutland-token-german.svg",
+      "publicPath": "svg-part1/jutland-token-german.svg",
+      "component": "JutlandToken",
+      "source": "src/part1/JutlandVectors.tsx",
+      "sourceSha256": "8ade2144e98e01dac2030c69dbcbd06e8b547eca764d2def467c18369635ddcb",
+      "props": {
+        "color": "#C4B17D"
+      },
+      "viewBox": "-12 -20 24 40",
+      "width": 24,
+      "height": 40,
+      "background": "transparent",
+      "geometry": "ReactDOMServer export of the active component; no paths redrawn",
+      "standaloneAnimation": false,
+      "animation": {
+        "chapter": "src/part1/JutlandChapter.tsx",
+        "integration": "@remotion/gsap",
+        "hook": "useGsapTimeline()"
+      },
+      "sha256": "1d5293567d27e7f14912a912eb779bdcc895cee7e6ee78bd7f713b4be7f70b5a"
+    }
+  ]
+}

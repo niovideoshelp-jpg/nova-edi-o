@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparentBackground": true,
+  "file": "public/images/part1/generated/early-battleship.png",
+  "onScreenUse": "Origins, approximately 3–8 seconds: generic early twentieth-century battleship illustration.",
+  "review": "The generated structure did not match the requested named 1941 battleship accurately enough. It was retained only as a generic early battleship illustration in the opening historical comparison. The named Prince of Wales and Repulse scenes use authenticated historical photographs instead.",
+  "prompt": "Create a single isolated documentary editorial cutout illustration of the historic Royal Navy battleship HMS Prince of Wales, King George V class, as in 1941, NOT the contemporary aircraft carrier. Three-quarter side view seen slightly from above, bow pointing left, entire hull clearly visible with comfortable transparent margin. Historically recognizable compact British battleship: two forward main turrets one quadruple and one twin, one quadruple turret aft, tall blocky bridge superstructure, two funnels, secondary twin gun turrets, no flight deck. Beautiful precise naval modeling, restrained flat-shaded but dimensional illustrated rendering, finely drawn engraved details, uniform navy technical linework, slate blue #3A6EA5 and off-white #F4F7FA highlights, charcoal hull. Pure transparent background, no ocean, no wake, no shadows outside ship, no frame, no typography, no labels, no numbers, no decorative symbols. Side profile long horizontal object suitable for a professional animated history documentary on a deep navy background. Sharp clear silhouette, coherent geometry, excellent craft. This is an illustrative asset, not a photograph."
+}

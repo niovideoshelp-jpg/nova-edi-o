@@ -2,6 +2,11 @@ import { Composition, Folder, Sequence } from "remotion";
 import { Film } from "./Film";
 import timeline from "../data/timeline.json";
 import "./style.css";
+import { Part1Film } from "./part1/Part1Film";
+import { OriginsChapter } from "./part1/OriginsChapter";
+import { JutlandChapter } from "./part1/JutlandChapter";
+import { WorldWarChapter } from "./part1/WorldWarChapter";
+import { TransformationChapter } from "./part1/TransformationChapter";
 const ScenePreview = ({ index }: { index: number }) => (
   <Sequence from={-timeline.scenes[index].startFrame}>
     <Film />
@@ -9,6 +14,49 @@ const ScenePreview = ({ index }: { index: number }) => (
 );
 export const RemotionRoot = () => (
   <>
+    <Composition
+      id="RoyalNavyPart1"
+      component={Part1Film}
+      durationInFrames={5390}
+      fps={30}
+      width={1920}
+      height={1080}
+      defaultProps={{ reviewMuted: false }}
+    />
+    <Folder name="Part1-Chapters">
+      <Composition
+        id="P1-Origins"
+        component={OriginsChapter}
+        durationInFrames={884}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P1-Jutland"
+        component={JutlandChapter}
+        durationInFrames={1344}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P1-WorldWar"
+        component={WorldWarChapter}
+        durationInFrames={1452}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P1-Transformation"
+        component={TransformationChapter}
+        durationInFrames={1782}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </Folder>
     <Composition
       id="RoyalNavy"
       component={Film}

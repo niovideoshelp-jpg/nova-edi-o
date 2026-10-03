@@ -1,0 +1,46 @@
+{
+  "durationSeconds": 179.66666666666666,
+  "narration": "public/audio/part1/1.mp3",
+  "narrationTargetLUFS": -16,
+  "musicGainDb": -22,
+  "sfxGainDb": -18,
+  "ducking": {
+    "ratio": 5,
+    "attackMs": 25,
+    "releaseMs": 350
+  },
+  "events": [
+    [
+      28.666666666666668,
+      "whoosh"
+    ],
+    [
+      72.66666666666667,
+      "whoosh"
+    ],
+    [
+      120.26666666666667,
+      "whoosh"
+    ],
+    [
+      38.06666666666667,
+      "hit"
+    ],
+    [
+      53.93333333333333,
+      "hit"
+    ],
+    [
+      55.63333333333333,
+      "hit"
+    ],
+    [
+      81.86666666666666,
+      "hit"
+    ],
+    [
+      83.76666666666667,
+      "hit"
+    ]
+  ]
+}

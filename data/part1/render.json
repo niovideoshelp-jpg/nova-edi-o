@@ -1,0 +1,13 @@
+{
+  "file": "out/RoyalNavy-Part1.mp4",
+  "bytes": 93544538,
+  "sha256": "0d4d57dac39e2ff98daf685b174a1d3331a6ab3a6bd5b083b38f0634fb46597f",
+  "duration": 179.66666666666666,
+  "frames": 5390,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "fullDecodeExitCode": 0,
+  "warnings": [],
+  "elapsedSeconds": 962
+}

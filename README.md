@@ -1,5 +1,23 @@
 # Royal Navy — power at sea
 
+## Parte 1 — guerras mundiais
+
+Novo vídeo baseado em **1.mp3**: **1920×1080 · 30 fps · 5390 frames · 2:59,667**. Selecione **RoyalNavyPart1** no Studio. Os quatro capítulos também têm composições próprias na pasta **Part1-Chapters**.
+
+A edição combina fotografias da Grand Fleet e de Jutland, os navios históricos Prince of Wales e Repulse, filmagens de comboios e construção naval, mapas geográficos e diagramas animados com a integração oficial `@remotion/gsap`. Os detalhes do projeto estão em [docs/PART1.md](docs/PART1.md); a transcrição, a timeline e as fontes ficam em [data/part1](data/part1).
+
+![Quadros da Parte 1](docs/preview-part1.jpg)
+
+```sh
+npm run check:part1
+npm run review:part1
+npm run render:part1
+```
+
+O render usa o bundle revisado e salva **out/RoyalNavy-Part1.mp4**. As cenas e o MP4 da introdução continuam disponíveis abaixo.
+
+## Introdução — Royal Navy hoje
+
 Composição Remotion editável, sincronizada à narração **Intro.mp3**.
 
 **1920×1080 · 30 fps · 6047 frames · 3:21,567**
