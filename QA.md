@@ -1,6 +1,21 @@
 # Verificação de produção
 
-## Revisão 4 — composição atual
+## Revisão 5 — composição atual
+
+- Formato preservado: 1920×1080, 30 fps, 6047 frames. Quatro ambientes contínuos, 62 Sequences de narração e três passagens de 24 frames.
+- 40 quadros em resolução completa renderizados e inspecionados, incluindo a formação naval, sonar, saída de 2025, entradas de filmagem e limites entre capítulos. [Manifesto](data/visual-qa-v5.json).
+- Três excertos contínuos renderizados em 960×540: frota (2385–2800), passagem para Highmast (3260–3399), suprimentos/aliados (4660–5059). Foram inspecionadas sequências de imagens desses excertos; isso não é uma afirmação de reprodução humana integral em tempo real.
+- Zero avisos ou erros de navegador nessas renderizações. ESLint, TypeScript e npm run check passaram.
+- A QA encontrou e corrigiu a ancoragem do sonar junto à roda, o corte das escoltas durante o recuo da câmera e um resíduo da camada submersa na passagem para 2025. Quadros posteriores confirmaram as correções. Os símbolos de embarcação no mapa histórico também foram reduzidos e verificados nos frames 1638, 1650 e 1675 para eliminar sobreposição.
+- Seis filmagens locais 1920×1080/30 fps verificadas com FFprobe. As fontes têm duração suficiente para cada janela e não entram em loop. Autoria, datas, intervalos e hashes estão em [VIDEO-SOURCES.md](VIDEO-SOURCES.md) e [data/video-sources.json](data/video-sources.json).
+- A contagem foi conferida como grade de 8×3 = 24. Navios de disponibilidade são esquemas qualitativos, sem inventar percentuais operacionais.
+- MP4 completo exportado: H.264, 1920×1080, 30 fps, 6047 frames, 201,566667 s e 160.779.472 bytes. Áudio AAC 48 kHz, início em 0, duração 201,566 s. A decodificação integral de vídeo e áudio passou sem erros; zero avisos de navegador. [Relatório final e SHA-256](data/render-v5.json).
+- Foram decodificados e inspecionados 62 quadros do MP4 final, um por cue, em quatro folhas de contato. As junções 1916/3326/4972 e o último frame 6046 também foram extraídos do MP4. A inspeção permanece por amostragem; não é uma afirmação de visualização humana integral em tempo real.
+
+Os timestamps continuam derivados de ASR: a precisão acústica de ±3 frames para todas as palavras não foi certificada manualmente. A mixagem original foi preservada. As filmagens de 2022/2023 mostram equipamentos; o abastecimento está datado em 2025. Nenhum desses planos é apresentado como prova de avaria ou indisponibilidade.
+
+---
+## Histórico — revisão 4
 
 - Formato mantido: **1920×1080, 30 fps, 6047 frames**. A montagem usa quatro capítulos visuais contínuos e **62 Sequences de marcação da narração**, com sobreposição de 12 frames entre capítulos. [Manifesto ativo](data/documentary-timeline.json).
 - Animações de câmera, elementos, máscaras e textos usam a integração oficial **`@remotion/gsap` / `useGsapTimeline()`**, sincronizada aos frames do Remotion.

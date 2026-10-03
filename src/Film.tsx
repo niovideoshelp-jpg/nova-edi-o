@@ -13,25 +13,49 @@ import { EnduranceChapter } from "./documentary/EnduranceChapter";
 const ChapterBlend = ({
   children,
   enter = true,
+  passage = "match",
 }: {
   children: ReactNode;
   enter?: boolean;
+  passage?: "match" | "east" | "rise";
 }) => {
   const scope = useGsapTimeline<HTMLDivElement>(
     ({ timeline, selector }) => {
-      if (enter)
+      if (enter) {
         timeline.fromTo(
           selector("[data-chapter-plane]"),
           { opacity: 0 },
-          { opacity: 1, duration: 0.4, ease: "power1.inOut" },
+          { opacity: 1, duration: 0.8, ease: "power2.inOut" },
           0,
         );
+        if (passage !== "match") {
+          timeline.fromTo(
+            selector("[data-chapter-plane]"),
+            {
+              clipPath:
+                passage === "east"
+                  ? "inset(0% 94% 0% 0%)"
+                  : "inset(88% 0% 0% 0%)",
+            },
+            {
+              clipPath: "inset(0% 0% 0% 0%)",
+              duration: 0.8,
+              ease: "power3.inOut",
+            },
+            0,
+          );
+        }
+      }
     },
-    { dependencies: [enter] },
+    { dependencies: [enter, passage] },
   );
   return (
     <div ref={scope} style={{ position: "absolute", inset: 0 }}>
-      <div data-chapter-plane style={{ position: "absolute", inset: 0 }}>
+      <div
+        data-chapter-plane
+        style={{ position: "absolute", inset: 0, backgroundColor: "#0B1A2E" }}
+      >
+        <Background />
         {children}
       </div>
     </div>
@@ -49,27 +73,27 @@ export const Film = ({ reviewMuted = false }: { reviewMuted?: boolean }) => (
   >
     <Background />
     {!reviewMuted && <Audio src={staticFile("audio/mix.mp3")} />}
-    <Sequence durationInFrames={1928} name="History and geography">
+    <Sequence durationInFrames={1940} name="History and geography">
       <ChapterBlend enter={false}>
         <HistoryChapter />
       </ChapterBlend>
     </Sequence>
     <Sequence
       from={1916}
-      durationInFrames={1422}
+      durationInFrames={1434}
       name="Carrier strike capability"
     >
       <ChapterBlend enter={true}>
         <FleetChapter />
       </ChapterBlend>
     </Sequence>
-    <Sequence from={3326} durationInFrames={1658} name="Highmast and logistics">
-      <ChapterBlend enter={true}>
+    <Sequence from={3326} durationInFrames={1670} name="Highmast and logistics">
+      <ChapterBlend enter={true} passage="east">
         <OperationsChapter />
       </ChapterBlend>
     </Sequence>
     <Sequence from={4972} durationInFrames={1075} name="Allies and endurance">
-      <ChapterBlend enter={true}>
+      <ChapterBlend enter={true} passage="rise">
         <EnduranceChapter />
       </ChapterBlend>
     </Sequence>

@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+const folder=path.resolve('out/full-v5');
+const final=path.resolve('out/RoyalNavy-v5.mp4');
+const binaries=path.resolve('node_modules/@remotion/compositor-win32-x64-msvc');
+const ffprobe=path.join(binaries,'ffprobe.exe');
+const ffmpeg=path.join(binaries,'ffmpeg.exe');
+const metadata=spawnSync(ffprobe,['-v','error','-show_entries','stream=codec_name,width,height,nb_frames,avg_frame_rate,pix_fmt,sample_rate,channels,start_time,duration:format=duration,size','-of','json',final],{encoding:'utf8'});
+assert.equal(metadata.status,0,metadata.stderr);
+const details=JSON.parse(metadata.stdout);
+const video=details.streams.find(s=>s.codec_name==='h264');
+const audio=details.streams.find(s=>s.codec_name==='aac');
+assert(video&&audio,'Expected H.264 video and AAC narration');
+assert.equal(video.width,1920);assert.equal(video.height,1080);
+assert.equal(video.avg_frame_rate,'30/1');assert.equal(Number(video.nb_frames),6047);
+assert(['yuv420p','yuvj420p'].includes(video.pix_fmt));
+assert.equal(Number(audio.sample_rate),48000);
+assert(Math.abs(Number(audio.start_time))<1/30);
+assert(Math.abs(Number(audio.duration)-6047/30)<0.05);
+console.log('Verified 6047 frames, 1920x1080, 30fps, H.264 and continuous AAC audio');
+const decode=spawnSync(ffmpeg,['-hide_banner','-loglevel','error','-xerror','-i',final,'-map','0:v:0','-map','0:a:0','-c:v','rawvideo','-c:a','pcm_s16le','-f','null','NUL'],{encoding:'utf8'});
+assert.equal(decode.status,0,decode.stderr);
+console.log('Full video and audio decode completed without errors');
+for(const frame of [1916,3326,4972,6046]){
+ const output=path.join(folder,`join-${frame}.png`);
+ const snapshot=spawnSync(ffmpeg,['-hide_banner','-loglevel','error','-y','-ss',String(frame/30),'-i',final,'-frames:v','1',output],{encoding:'utf8'});
+ assert.equal(snapshot.status,0,snapshot.stderr);
+ assert(fs.statSync(output).size>1000);
+}
+fs.writeFileSync(path.join(folder,'final-verification.json'),JSON.stringify({file:final,bytes:fs.statSync(final).size,metadata:details,fullDecodeExitCode:decode.status,inspectedFrames:[1916,3326,4972,6046]},null,2));
+console.log('FINAL MP4 VERIFIED');

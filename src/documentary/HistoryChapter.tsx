@@ -1,25 +1,70 @@
 import { Img, staticFile } from "remotion";
 import { useGsapTimeline } from "@remotion/gsap";
 import { Atlas, liquidCoast } from "./Atlas";
+import atlas from "../../data/geography/atlas.json";
+import {
+  EuropeNavigation,
+  europeSeaRoutes,
+  FantasyNavigation,
+  fantasyInfluence,
+  fantasyPassage,
+  SailNavigation,
+  WorldSignals,
+  type Point,
+} from "./HistoryNavigation";
 
 const image = (name: string) => staticFile(`images/generated/${name}.png`);
 const full = { position: "absolute" as const, inset: 0 };
 
-/** The camera stays in an environment across narration cues instead of restarting per icon. */
+/** Sustained camera moves reveal a mechanism at each cue; camera and diagram share a coordinate space. */
 export const HistoryChapter = () => {
   const scope = useGsapTimeline<HTMLDivElement>(
     ({ timeline, selector }) => {
       const q = (name: string) => selector(`[data-h="${name}"]`);
+      const travel = (
+        name: string,
+        points: number[][],
+        start: number,
+        duration: number,
+      ) => {
+        timeline.set(
+          q(name),
+          { attr: { cx: points[0][0], cy: points[0][1] } },
+          0,
+        );
+        timeline.fromTo(
+          q(name),
+          { opacity: 0 },
+          { opacity: 1, duration: 0.12, ease: "power3.out" },
+          start,
+        );
+        points.slice(1).forEach((point, index) =>
+          timeline.to(
+            q(name),
+            {
+              attr: { cx: point[0], cy: point[1] },
+              duration: duration / (points.length - 1),
+              ease: "none",
+            },
+            start + (index * duration) / (points.length - 1),
+          ),
+        );
+        timeline.to(
+          q(name),
+          { opacity: 0, duration: 0.25, ease: "power2.in" },
+          start + duration + 0.1,
+        );
+      };
 
-      // An overhead map resolves into pigment, then the camera travels towards the coast.
+      // The coastline paints in on "United". A single dolly then approaches the sea.
       timeline.fromTo(
         q("uk-camera"),
-        { opacity: 0, scale: 1.35, x: -80, y: 50 },
+        { opacity: 0, scale: 1.26, x: -45, y: 35 },
         {
           opacity: 1,
-          scale: 1.13,
+          scale: 1.1,
           x: 0,
-          y: 0,
+          y: -20,
           duration: 1.3,
           ease: "power3.out",
         },
@@ -60,227 +105,262 @@ export const HistoryChapter = () => {
       );
       timeline.to(
         q("uk-camera"),
-        { scale: 1.5, x: -210, y: -210, duration: 2.5, ease: "sine.inOut" },
-        3.35,
+        { scale: 1.43, x: -235, y: -185, duration: 3.3, ease: "sine.inOut" },
+        2.35,
       );
       timeline.to(
         q("uk-camera"),
         {
-          scale: 1.72,
-          x: -530,
-          y: -230,
-          opacity: 0.13,
-          duration: 1.3,
+          scale: 1.65,
+          x: -505,
+          y: -205,
+          opacity: 0.14,
+          duration: 1.2,
           ease: "power2.inOut",
         },
-        5.45,
+        5.55,
       );
       timeline.to(
         q("uk-camera"),
-        { opacity: 0, x: -610, duration: 0.8, ease: "power2.in" },
-        10.9,
+        { opacity: 0, x: -585, duration: 0.7, ease: "power2.in" },
+        11.0,
       );
 
-      // A close sail fills the camera before the entire ship is revealed over the same sea.
+      // The ship fits the safe frame. Wind and a trailing wake animate navigation internally.
       timeline.fromTo(
         q("sail"),
-        { opacity: 0, scale: 1.53, x: 520, y: 150, rotation: -3 },
+        { opacity: 0, scale: 1.03, x: 290, y: 90, rotation: -1.2 },
         {
           opacity: 1,
-          scale: 1.13,
-          x: 140,
-          y: 45,
-          rotation: -1,
-          duration: 1.55,
+          scale: 0.89,
+          x: 55,
+          y: -40,
+          rotation: -0.3,
+          duration: 1.25,
           ease: "power3.out",
         },
-        5.9,
+        6.2,
       );
       timeline.to(
         q("sail"),
         {
-          scale: 1.02,
-          x: 75,
-          y: 9,
-          rotation: 0.6,
-          duration: 2.1,
-          ease: "sine.inOut",
+          scale: 0.94,
+          x: 105,
+          y: -60,
+          rotation: 0.35,
+          duration: 2.3,
+          ease: "none",
         },
         7.45,
       );
       timeline.to(
         q("sail"),
         {
-          scale: 0.76,
-          x: -465,
-          y: 205,
-          rotation: -1.1,
-          duration: 2.1,
+          scale: 0.61,
+          x: -385,
+          y: 35,
+          rotation: -0.4,
+          duration: 2.75,
           ease: "power2.inOut",
         },
-        9.55,
+        9.75,
       );
       timeline.to(
         q("sail"),
-        {
-          scale: 0.43,
-          x: -635,
-          y: 330,
-          opacity: 0,
-          duration: 1.7,
-          ease: "power2.inOut",
-        },
-        11.65,
+        { opacity: 0, x: -620, duration: 0.55, ease: "power2.in" },
+        12.15,
       );
       timeline.fromTo(
-        q("wake"),
-        { opacity: 0, x: 260, scaleX: 0.1 },
-        { opacity: 0.7, x: -90, scaleX: 1, duration: 3.7, ease: "power2.out" },
-        7.65,
+        q("sail-wind"),
+        { opacity: 0 },
+        { opacity: 0.72, duration: 0.5, ease: "power3.out" },
+        7.2,
+      );
+      for (let i = 0; i < 3; i++) {
+        timeline.fromTo(
+          q(`wind-${i}`),
+          { strokeDashoffset: 100 },
+          { strokeDashoffset: 0, duration: 1.35, repeat: 2, ease: "none" },
+          7.25 + i * 0.13,
+        );
+      }
+      timeline.fromTo(
+        q("sail-course"),
+        { opacity: 0 },
+        { opacity: 0.6, duration: 0.5 },
+        7.7,
       );
       timeline.to(
-        q("wake"),
-        { x: -510, opacity: 0, duration: 1.45, ease: "power2.in" },
-        11.45,
+        q("wake-0"),
+        { strokeDashoffset: -65, duration: 4, ease: "none" },
+        7.75,
+      );
+      timeline.to(
+        q("wake-1"),
+        { strokeDashoffset: -40, duration: 3.7, ease: "none" },
+        8.1,
       );
 
-      // London remains the visual origin as the camera opens out to the empire's connections.
+      // Bright signals follow the same Turf samples as the dotted connections.
       timeline.fromTo(
         q("empire"),
-        { opacity: 0, scale: 2.4, x: 120, y: 335 },
+        { opacity: 0, scale: 2.22, x: 80, y: 270 },
         {
           opacity: 1,
-          scale: 1.08,
-          x: 0,
-          y: 0,
-          duration: 1.9,
+          scale: 1.06,
+          x: 12,
+          y: -26,
+          duration: 1.65,
           ease: "power3.inOut",
         },
-        11.25,
+        11.3,
       );
       timeline.to(
         q("empire"),
-        { scale: 1.15, x: 50, y: 23, duration: 3.1, ease: "sine.inOut" },
-        13.15,
+        { scale: 1.12, x: -70, y: -22, duration: 6.1, ease: "none" },
+        12.95,
       );
-      for (let i = 0; i < 5; i++) {
+      atlas.views.colonies.routes.forEach((route, i) => {
+        const start = 12.34 + i * 0.42;
         timeline.to(
           selector(`[data-h="empire"] [data-atlas-route-mask="${i}"]`),
-          { strokeDashoffset: 0, duration: 1.35, ease: "power2.inOut" },
-          12.34 + i * 0.42,
+          { strokeDashoffset: 0, duration: 1.5, ease: "none" },
+          start,
         );
         timeline.fromTo(
           selector(`[data-h="empire"] [data-atlas-destination="${i}"]`),
           { opacity: 0 },
-          { opacity: 1, duration: 0.4, ease: "power3.out" },
-          13.38 + i * 0.42,
+          { opacity: 1, duration: 0.35, ease: "power3.out" },
+          start + 1.23,
         );
-      }
+        travel(`empire-signal-${i}`, route.samples, start, 1.5);
+      });
       timeline.to(
         q("empire"),
-        { scale: 1.02, x: -40, y: 25, duration: 2.4, ease: "sine.inOut" },
-        16.25,
+        { scale: 1.16, x: -130, y: -16, duration: 2.8, ease: "sine.inOut" },
+        19.05,
       );
+      // Move only the light, keeping the land mask registered to its coastline.
       timeline.fromTo(
         selector('[data-h="empire"] [data-atlas-daylight]'),
-        { opacity: 0, x: -380 },
-        { opacity: 1, x: 1430, duration: 5.8, ease: "none" },
-        16.8,
+        { opacity: 0 },
+        { opacity: 1, duration: 0.5 },
+        19.12,
       );
-      timeline.to(
-        q("empire"),
-        { scale: 1.18, x: -170, y: -5, duration: 2.75, ease: "sine.inOut" },
-        19.1,
+      timeline.fromTo(
+        selector('[data-h="empire"] [data-atlas-daylight] rect'),
+        { x: -280 },
+        { x: 1710, duration: 3.55, ease: "none" },
+        19.13,
       );
       timeline.to(
         q("empire"),
         {
           opacity: 0,
-          scale: 1.6,
-          x: -430,
-          y: 10,
-          duration: 1.35,
+          scale: 1.36,
+          x: -300,
+          y: -12,
+          duration: 1,
           ease: "power2.inOut",
         },
-        21.85,
+        22.0,
       );
 
-      // The painted atlas becomes a book leaf. The island is inspected with wide, tower and harbour views.
+      // Fictional illustration -> separated island -> outward influence, with routes anchored to its harbour.
       timeline.fromTo(
         q("fantasy"),
-        { opacity: 0, x: 1270, rotation: 8, scale: 0.82 },
-        {
-          opacity: 1,
-          x: 0,
-          rotation: 0,
-          scale: 1,
-          duration: 1.25,
-          ease: "power3.inOut",
-        },
-        22.2,
+        { opacity: 0 },
+        { opacity: 1, duration: 0.65, ease: "power3.out" },
+        22.3,
       );
       timeline.fromTo(
         q("island"),
-        { scale: 0.84, x: 170, y: 70 },
-        { scale: 1.02, x: 70, y: 20, duration: 3.05, ease: "sine.inOut" },
+        { scale: 1.12, x: 135, y: 15 },
+        { scale: 0.92, x: 55, y: -80, duration: 2.9, ease: "sine.inOut" },
         22.5,
       );
       timeline.to(
         q("island"),
-        { scale: 0.74, x: -130, y: 150, duration: 2.1, ease: "power2.inOut" },
-        25.55,
+        { scale: 0.76, x: -170, y: -70, duration: 2.25, ease: "power2.inOut" },
+        25.4,
       );
       timeline.to(
         q("island"),
-        { scale: 0.68, x: -285, y: 140, duration: 2.1, ease: "sine.inOut" },
+        { scale: 0.73, x: -190, y: -75, duration: 2.7, ease: "none" },
         27.65,
       );
       timeline.fromTo(
-        q("separation"),
-        { opacity: 0, strokeDashoffset: 100 },
-        {
-          opacity: 0.8,
-          strokeDashoffset: 0,
-          duration: 1.3,
-          ease: "power2.inOut",
-        },
+        q("island-passage"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.4, ease: "power3.out" },
         28.16,
       );
       timeline.to(
-        q("island"),
-        { scale: 1.43, x: -80, y: 200, duration: 2.4, ease: "power2.inOut" },
-        30.15,
+        q("island-passage-line"),
+        { strokeDashoffset: 0, duration: 1.65, ease: "none" },
+        28.16,
       );
-      timeline.to(q("separation"), { opacity: 0, duration: 0.6 }, 30.4);
+      travel("island-passage-token", fantasyPassage.samples, 28.16, 1.65);
       timeline.to(
-        q("island"),
-        { scale: 1.34, x: -145, y: 170, duration: 1.5, ease: "sine.inOut" },
-        32.55,
-      );
-      timeline.to(
-        q("island"),
-        { scale: 0.72, x: -120, y: 88, duration: 2, ease: "power2.inOut" },
-        34.05,
+        q("island-destination"),
+        { opacity: 1, duration: 0.35, ease: "power3.out" },
+        29.53,
       );
       timeline.to(
+        q("island-passage"),
+        { opacity: 0, duration: 0.35, ease: "power2.in" },
+        30.6,
+      );
+      timeline.to(
         q("island"),
-        { scale: 0.78, x: -120, y: 60, duration: 1.5, ease: "sine.inOut" },
-        36.05,
+        { scale: 1.18, x: -20, y: 85, duration: 2.1, ease: "power2.inOut" },
+        30.35,
+      );
+      timeline.to(
+        q("island"),
+        { scale: 1.2, x: -78, y: 72, duration: 1.55, ease: "none" },
+        32.45,
+      );
+      timeline.to(
+        q("island"),
+        { scale: 0.67, x: -40, y: -145, duration: 2.15, ease: "power2.inOut" },
+        34.0,
+      );
+      timeline.to(
+        q("island"),
+        { scale: 0.72, x: -60, y: -153, duration: 3.35, ease: "none" },
+        36.15,
       );
       timeline.fromTo(
-        q("influence"),
-        { opacity: 0, scale: 0.28 },
-        { opacity: 0.66, scale: 1.1, duration: 2.4, ease: "power2.out" },
-        36.5,
+        q("influence-net"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.4 },
+        36.7,
       );
+      fantasyInfluence.forEach((route, i) => {
+        const start = 36.85 + i * 0.26;
+        timeline.to(
+          q(`influence-route-${i}`),
+          { strokeDashoffset: 0, duration: 1.45, ease: "none" },
+          start,
+        );
+        travel(`influence-token-${i}`, route.samples, start, 1.45);
+        timeline.to(
+          q(`influence-port-${i}`),
+          { opacity: 1, duration: 0.3 },
+          start + 1.2,
+        );
+      });
       timeline.to(
-        q("influence"),
-        { opacity: 0, scale: 1.24, duration: 1.5, ease: "power2.in" },
-        38.9,
+        q("influence-net"),
+        { opacity: 0, duration: 0.45, ease: "power2.in" },
+        39.42,
       );
+
+      // Both subjects settle onto one lower alignment before the camera chooses Britain.
       timeline.to(
         q("island"),
-        { scale: 0.58, x: -435, y: 135, duration: 1.65, ease: "power3.inOut" },
+        { scale: 0.51, x: -490, y: 25, duration: 1.55, ease: "power3.inOut" },
         39.5,
       );
       timeline.to(
@@ -288,59 +368,57 @@ export const HistoryChapter = () => {
         { backgroundColor: "#152B40", duration: 1.2, ease: "sine.inOut" },
         39.65,
       );
-
-      // Side by side comparison is a camera composition, not a balance symbol.
       timeline.fromTo(
         q("comparison"),
-        { opacity: 0, scale: 0.84, x: 690, y: 70 },
+        { opacity: 0, scale: 0.84, x: 610, y: 40 },
         {
           opacity: 1,
           scale: 0.9,
           x: 360,
           y: 0,
-          duration: 1.5,
+          duration: 1.2,
           ease: "power3.inOut",
         },
-        39.9,
+        39.95,
       );
       timeline.to(
         q("comparison"),
-        { scale: 0.96, x: 350, y: -25, duration: 2.25, ease: "sine.inOut" },
-        41.4,
-      );
-      timeline.to(
-        q("island"),
-        { scale: 0.62, x: -460, y: 130, duration: 3.1, ease: "sine.inOut" },
+        { scale: 0.92, x: 344, y: -8, duration: 3.5, ease: "none" },
         41.15,
       );
       timeline.to(
         q("island"),
-        { x: -1520, scale: 0.7, duration: 1.6, ease: "power2.inOut" },
-        44.15,
+        { scale: 0.525, x: -494, y: 19, duration: 3.5, ease: "none" },
+        41.05,
+      );
+      timeline.to(
+        q("island"),
+        { x: -1510, scale: 0.61, duration: 1.7, ease: "power2.inOut" },
+        44.25,
       );
       timeline.to(
         q("comparison"),
-        { scale: 1.25, x: -170, y: -95, duration: 2, ease: "power2.inOut" },
-        44.55,
+        { scale: 1.22, x: -165, y: -78, duration: 2.05, ease: "power2.inOut" },
+        44.6,
       );
       timeline.to(
         q("fantasy"),
-        { opacity: 0, duration: 1.1, ease: "power2.in" },
-        45.6,
+        { opacity: 0, duration: 0.9, ease: "power2.in" },
+        45.75,
       );
       timeline.to(
         q("comparison"),
-        { scale: 1.15, x: -190, y: -45, duration: 2.7, ease: "sine.inOut" },
-        46.55,
+        { scale: 1.16, x: -178, y: -38, duration: 2.55, ease: "sine.inOut" },
+        46.65,
       );
 
-      // The map pulls back from the accurate coastline to the European context.
+      // A moving chart explains naval projection instead of repeating the hero ship.
       timeline.fromTo(
         q("europe"),
-        { opacity: 0, scale: 1.9, x: 330, y: 150 },
+        { opacity: 0, scale: 1.86, x: 320, y: 145 },
         {
           opacity: 1,
-          scale: 1.18,
+          scale: 1.17,
           x: 0,
           y: -5,
           duration: 1.7,
@@ -352,9 +430,9 @@ export const HistoryChapter = () => {
         q("comparison"),
         {
           opacity: 0,
-          scale: 0.56,
-          x: -105,
-          y: 80,
+          scale: 0.58,
+          x: -95,
+          y: 65,
           duration: 1.45,
           ease: "power2.inOut",
         },
@@ -362,52 +440,64 @@ export const HistoryChapter = () => {
       );
       timeline.to(
         q("europe"),
-        { scale: 1.29, x: -70, y: -22, duration: 2.75, ease: "sine.inOut" },
+        { scale: 1.25, x: 72, y: -8, duration: 3.2, ease: "none" },
         50.7,
       );
       timeline.to(
         q("europe"),
-        {
-          opacity: 0.18,
-          scale: 1.5,
-          x: -270,
-          y: -70,
-          duration: 1.45,
-          ease: "power2.inOut",
-        },
-        53.1,
+        { scale: 1.15, x: 125, y: 35, duration: 2.4, ease: "sine.inOut" },
+        53.9,
       );
       timeline.fromTo(
-        q("return-sail"),
-        { opacity: 0, scale: 1.8, x: 1200, y: 350 },
-        {
-          opacity: 1,
-          scale: 1.02,
-          x: 35,
-          y: 5,
-          duration: 1.75,
-          ease: "power3.inOut",
-        },
-        53.15,
+        q("sea-network"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.45, ease: "power3.out" },
+        53.4,
       );
+      europeSeaRoutes.forEach((route, i) => {
+        const start = 53.5 + i * 0.18;
+        const segments = route.samples.length - 1;
+        const direction = (from: Point, to: Point) =>
+          (Math.atan2(to[0] - from[0], -(to[1] - from[1])) * 180) / Math.PI;
+        timeline.set(
+          q(`sea-vessel-${i}`),
+          {
+            x: route.samples[0][0],
+            y: route.samples[0][1],
+            rotation: direction(route.samples[0], route.samples[1]),
+            svgOrigin: "0 0",
+          },
+          0,
+        );
+        timeline.to(
+          q(`sea-route-${i}`),
+          { strokeDashoffset: 0, duration: 1.85, ease: "none" },
+          start,
+        );
+        timeline.to(
+          q(`sea-vessel-${i}`),
+          { opacity: 1, duration: 0.3, ease: "power3.out" },
+          start,
+        );
+        route.samples.slice(1).forEach((point, index) =>
+          timeline.to(
+            q(`sea-vessel-${i}`),
+            {
+              x: point[0],
+              y: point[1],
+              rotation: direction(route.samples[index], point),
+              duration: 2.25 / segments,
+              ease: "none",
+            },
+            start + (index * 2.25) / segments,
+          ),
+        );
+      });
       timeline.to(
-        q("return-sail"),
-        { scale: 0.64, x: -490, y: 210, duration: 2, ease: "power2.inOut" },
-        54.9,
+        q("europe"),
+        { opacity: 0, duration: 1.15, ease: "power2.in" },
+        56.25,
       );
-      timeline.to(
-        q("return-sail"),
-        {
-          opacity: 0,
-          scale: 0.45,
-          x: -960,
-          y: 350,
-          duration: 1.35,
-          ease: "power2.in",
-        },
-        56.9,
-      );
-      timeline.to(q("europe"), { opacity: 0, duration: 1.2 }, 56.2);
       timeline.fromTo(
         q("reach"),
         { opacity: 0, scale: 2, x: -40, y: 190 },
@@ -421,18 +511,20 @@ export const HistoryChapter = () => {
         },
         56.35,
       );
-      for (let i = 0; i < 3; i++) {
+      atlas.views.reach.routes.forEach((route, i) => {
+        const start = 56.9 + i * 0.17;
         timeline.to(
           selector(`[data-h="reach"] [data-atlas-route-mask="${i}"]`),
-          { strokeDashoffset: 0, duration: 1.1, ease: "power2.inOut" },
-          56.9 + i * 0.17,
+          { strokeDashoffset: 0, duration: 1.55, ease: "none" },
+          start,
         );
         timeline.to(
           selector(`[data-h="reach"] [data-atlas-destination="${i}"]`),
-          { opacity: 1, duration: 0.4 },
-          57.8 + i * 0.17,
+          { opacity: 1, duration: 0.35 },
+          start + 1.25,
         );
-      }
+        travel(`reach-signal-${i}`, route.samples, start, 1.55);
+      });
       timeline.to(
         q("reach"),
         { scale: 1.2, x: -115, y: -45, duration: 2.15, ease: "sine.inOut" },
@@ -450,6 +542,8 @@ export const HistoryChapter = () => {
         },
         60.2,
       );
+
+      // FleetChapter's shared handoff: geometry and timings intentionally unchanged from v4.
       timeline.fromTo(
         q("modern"),
         { opacity: 0, x: 800, y: 240, scale: 1.02 },
@@ -458,7 +552,7 @@ export const HistoryChapter = () => {
           x: 50,
           y: 30,
           scale: 1.16,
-          duration: 2.0,
+          duration: 2,
           ease: "power3.inOut",
         },
         60.65,
@@ -488,28 +582,6 @@ export const HistoryChapter = () => {
       >
         <Atlas mode="uk-paint" liquid onlyUk />
       </div>
-
-      <svg
-        data-h="wake"
-        width="1800"
-        height="470"
-        viewBox="0 0 1800 470"
-        style={{
-          position: "absolute",
-          left: 80,
-          top: 650,
-          opacity: 0,
-          transformOrigin: "90% 50%",
-        }}
-      >
-        <path
-          d="M20 305 C310 322 785 300 1340 167 M70 340 C470 378 975 321 1430 186 M180 366 C620 429 1090 332 1490 208"
-          fill="none"
-          stroke="#AFCFE1"
-          strokeWidth="2"
-          opacity=".55"
-        />
-      </svg>
       <div
         data-h="sail"
         style={{
@@ -524,15 +596,10 @@ export const HistoryChapter = () => {
       >
         <Img
           src={image("sailing-ship")}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain",
-            filter: "drop-shadow(0px 28px 25px rgba(0,0,0,.38))",
-          }}
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
         />
+        <SailNavigation />
       </div>
-
       <div
         data-h="empire"
         style={{
@@ -546,12 +613,9 @@ export const HistoryChapter = () => {
         }}
       >
         <Atlas mode="colonies" routes routeLabels />
+        <WorldSignals mode="colonies" prefix="empire-signal" />
       </div>
-
-      <div
-        data-h="fantasy"
-        style={{ ...full, opacity: 0, transformOrigin: "80% 60%" }}
-      >
+      <div data-h="fantasy" style={{ ...full, opacity: 0 }}>
         <div
           data-h="fantasy-paper"
           style={{ ...full, background: "#233B4C" }}
@@ -567,51 +631,6 @@ export const HistoryChapter = () => {
           src={staticFile("grain.png")}
           style={{ ...full, width: 1920, height: 1080, opacity: 0.045 }}
         />
-        <svg
-          width="1920"
-          height="1080"
-          style={{ ...full, overflow: "visible" }}
-        >
-          <path
-            data-h="separation"
-            d="M925 645 C1100 540 1320 540 1510 598"
-            fill="none"
-            stroke="#D4A94A"
-            strokeWidth="4"
-            strokeDasharray="100"
-            pathLength="100"
-            strokeDashoffset="100"
-            opacity="0"
-          />
-        </svg>
-        <svg
-          data-h="influence"
-          width="1800"
-          height="900"
-          viewBox="0 0 1800 900"
-          style={{
-            position: "absolute",
-            left: 50,
-            top: 180,
-            opacity: 0,
-            transformOrigin: "49% 52%",
-          }}
-        >
-          {[0, 1, 2].map((i) => (
-            <ellipse
-              key={i}
-              cx="880"
-              cy="470"
-              rx={440 + i * 145}
-              ry={210 + i * 90}
-              fill="none"
-              stroke="#D4A94A"
-              strokeWidth={2.2 - i * 0.4}
-              strokeDasharray="3 13"
-              opacity={0.85 - i * 0.15}
-            />
-          ))}
-        </svg>
         <div
           data-h="island"
           style={{
@@ -627,9 +646,9 @@ export const HistoryChapter = () => {
             src={image("numenor")}
             style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
+          <FantasyNavigation />
         </div>
       </div>
-
       <div
         data-h="comparison"
         style={{
@@ -659,28 +678,7 @@ export const HistoryChapter = () => {
         }}
       >
         <Atlas mode="europe" />
-      </div>
-      <div
-        data-h="return-sail"
-        style={{
-          position: "absolute",
-          left: 240,
-          top: 160,
-          width: 1360,
-          height: 920,
-          opacity: 0,
-          transformOrigin: "55% 65%",
-        }}
-      >
-        <Img
-          src={image("sailing-ship")}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain",
-            filter: "drop-shadow(0px 26px 24px rgba(0,0,0,.4))",
-          }}
-        />
+        <EuropeNavigation />
       </div>
       <div
         data-h="reach"
@@ -695,6 +693,7 @@ export const HistoryChapter = () => {
         }}
       >
         <Atlas mode="reach" routes />
+        <WorldSignals mode="reach" prefix="reach-signal" />
       </div>
       <div
         data-h="modern"

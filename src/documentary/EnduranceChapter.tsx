@@ -1,430 +1,513 @@
-import type { CSSProperties } from "react";
-import { Img, staticFile } from "remotion";
+import { useId } from "react";
+import { Img, Sequence, staticFile } from "remotion";
 import { useGsapTimeline } from "@remotion/gsap";
 import atlas from "../../data/geography/atlas.json";
 import { atlasLayerPath } from "./Atlas";
+import { NavalProfile, VesselPlan } from "./NavalDiagramsV5";
+import { FootageShot } from "./FootageShot";
 
-const fill: CSSProperties = { position: "absolute", inset: 0 };
-const navy = "#0B1A2E";
+const fill = { position: "absolute" as const, inset: 0 };
 const gold = "#D4A94A";
+const white = "#F4F7FA";
 const allies = atlas.views.allies;
-const local = (global: number) => (global - 4972) / 30;
+const local = (globalFrame: number) => (globalFrame - 4972) / 30;
 
-/** One spatial argument: allied connections → independent sailing → time in dock. */
+/** Partners become a coordinated group; one operating cycle explains availability. */
 export const EnduranceChapter = () => {
+  const uid = useId().replace(/:/g, "");
   const scope = useGsapTimeline<HTMLDivElement>(
     ({ timeline: t, selector: s }) => {
-      t.fromTo(
-        s("[data-atlantic]"),
-        { scale: 1.35, x: -280, y: -260 },
-        { scale: 1.1, x: -80, y: -165, duration: 3.35, ease: "power2.inOut" },
+      const q = (n: string) => s(`[data-end="${n}"]`);
+      t.set(
+        q("atlantic-camera"),
+        { scale: 1.15, x: -145, y: -80, transformOrigin: "0 0" },
+        0,
+      );
+      t.to(
+        q("atlantic-camera"),
+        { scale: 1.02, x: -8, y: -45, duration: 3.3, ease: "power2.inOut" },
         0,
       );
       t.fromTo(
-        s("[data-link]"),
+        s('[data-country-route="0"]'),
         { strokeDashoffset: 100 },
-        {
-          strokeDashoffset: 0,
-          duration: 1.1,
-          stagger: 0.42,
-          ease: "power3.out",
-        },
-        local(5058),
+        { strokeDashoffset: 0, duration: 0.6, ease: "power3.out" },
+        local(5090),
+      );
+      t.fromTo(
+        s('[data-country-route="1"]'),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.6, ease: "power3.out" },
+        local(5109),
       );
       t.fromTo(
         s("[data-country-pin]"),
-        { scale: 0, opacity: 0 },
-        {
-          scale: 1,
-          opacity: 1,
-          duration: 0.45,
-          stagger: 0.38,
-          transformOrigin: "center",
-          ease: "expo.out",
-        },
-        local(5076),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.4, stagger: 0.63, ease: "power3.out" },
+        local(5090),
       );
       t.to(
-        s("[data-atlantic]"),
-        { x: -580, y: -330, scale: 1.65, duration: 2.7, ease: "power2.inOut" },
-        local(5142),
+        q("atlantic-camera"),
+        { scale: 1.48, x: -740, y: -245, duration: 2.5, ease: "power3.inOut" },
+        local(5157) - 0.35,
       );
-      // The same connections gather toward the task group rather than cutting to another icon.
       t.to(
-        s("[data-atlantic]"),
-        {
-          scale: 0.75,
-          x: -300,
-          y: 15,
-          opacity: 0.28,
-          duration: 2,
-          ease: "power3.inOut",
-        },
-        local(5253),
+        q("atlantic"),
+        { opacity: 0, scale: 0.93, duration: 0.8, ease: "power3.inOut" },
+        local(5253) - 0.35,
+      );
+
+      t.fromTo(
+        q("cooperation"),
+        { opacity: 0, scale: 1.1, y: 65 },
+        { opacity: 1, scale: 1, y: 0, duration: 0.8, ease: "power3.out" },
+        local(5253) - 0.25,
       );
       t.fromTo(
-        s("[data-group]"),
-        { x: 2200, y: 80, scale: 1.22 },
-        { x: 0, y: 0, scale: 1, duration: 1.25, ease: "power3.out" },
-        local(5239),
+        s("[data-allied-ship]"),
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.55, stagger: 0.14, ease: "power3.out" },
+        local(5253) - 0.12,
       );
       t.fromTo(
-        s("[data-cooperation]"),
-        { strokeDashoffset: 100, opacity: 0 },
-        {
-          strokeDashoffset: 0,
-          opacity: 0.8,
-          duration: 1.2,
-          stagger: 0.14,
-          ease: "power2.out",
-        },
-        local(5270),
+        q("command-links"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.9, ease: "power3.out" },
+        local(5253) + 0.1,
       );
-      t.to(
-        s("[data-group]"),
-        { x: -130, y: -30, scale: 0.83, duration: 3.1, ease: "power2.inOut" },
+      t.fromTo(
+        q("command-flow"),
+        { opacity: 0, strokeDashoffset: 0 },
+        { opacity: 1, strokeDashoffset: -310, duration: 6.3, ease: "none" },
+        local(5253) + 0.35,
+      );
+      t.fromTo(
+        q("support-node"),
+        { opacity: 0, y: 65 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" },
+        local(5340) - 0.12,
+      );
+      t.fromTo(
+        q("support-link"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.65, ease: "power3.out" },
         local(5340),
       );
-      t.to(s("[data-atlantic]"), { opacity: 0, duration: 0.5 }, local(5420));
-      t.to(s("[data-cooperation]"), { opacity: 0, duration: 0.5 }, local(5453));
-      t.fromTo(
-        s("[data-uk]"),
-        { x: -470, scale: 1.5, opacity: 0 },
-        { x: 0, scale: 1, opacity: 0.8, duration: 1.3, ease: "power3.out" },
-        local(5440),
+      t.to(
+        q("cooperation-camera"),
+        { scale: 1.035, x: -16, y: -10, duration: 5.3, ease: "none" },
+        local(5253) + 0.4,
       );
       t.to(
-        s("[data-group]"),
-        { x: 420, y: 30, scale: 0.94, duration: 3.5, ease: "power2.inOut" },
+        q("cooperation"),
+        { opacity: 0, x: -100, duration: 0.75, ease: "power3.inOut" },
+        local(5453) - 0.3,
+      );
+
+      t.fromTo(
+        q("independence"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.65, ease: "power3.out" },
+        local(5453) - 0.2,
+      );
+      t.fromTo(
+        q("home-map"),
+        { x: -110, scale: 1.08 },
+        { x: 0, scale: 1, duration: 1.1, ease: "power3.out" },
+        local(5453) - 0.2,
+      );
+      t.fromTo(
+        q("independent-vessel"),
+        { x: -290, y: 22 },
+        { x: 170, y: -12, duration: 5.6, ease: "power1.inOut" },
         local(5453),
       );
       t.fromTo(
-        s("[data-home-line]"),
+        q("independent-trail"),
         { strokeDashoffset: 100 },
-        { strokeDashoffset: 0, duration: 3.5, ease: "none" },
-        local(5480),
-      );
-      // Follow the vessel back through a photographic dock, then reveal the cost of time away.
-      t.fromTo(
-        s("[data-dock]"),
-        { x: -2000 },
-        { x: 0, duration: 1.2, ease: "power3.inOut" },
-        local(5637),
+        { strokeDashoffset: 0, duration: 4.4, ease: "none" },
+        local(5453) + 0.4,
       );
       t.to(
-        s("[data-uk], [data-home-line]"),
-        { opacity: 0, duration: 0.4 },
-        local(5655),
-      );
-      t.to(
-        s("[data-group]"),
-        {
-          x: 1020,
-          scale: 1.6,
-          y: 100,
-          opacity: 0,
-          duration: 1.2,
-          ease: "power3.inOut",
-        },
+        q("independence"),
+        { opacity: 0, x: 90, duration: 0.8, ease: "power3.inOut" },
         local(5637),
       );
+
+      // A single representative vessel leaves a berth and occupies the operating
+      // cycle. This is a qualitative availability explanation, not a fleet count.
       t.fromTo(
-        s("[data-dock-photo]"),
-        { scale: 1.34, x: -200, y: -30 },
-        { scale: 1.08, x: 20, y: 10, duration: 5.8, ease: "power1.inOut" },
-        local(5637),
+        q("availability"),
+        { opacity: 0, y: 60 },
+        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" },
+        local(5785) - 0.65,
       );
       t.fromTo(
-        s("[data-sea-window]"),
-        { clipPath: "inset(0 0 0 100%)" },
-        { clipPath: "inset(0 0 0 52%)", duration: 1.6, ease: "power3.inOut" },
-        local(5825),
+        q("cycle-draw"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 1.45, ease: "power3.out" },
+        local(5785) - 0.2,
       );
       t.fromTo(
-        s("[data-sea-carrier]"),
-        { x: -80, y: 45, scale: 0.84 },
-        { x: 145, y: -35, scale: 1.06, duration: 5.9, ease: "power1.inOut" },
-        local(5825),
+        q("cycle-vessel"),
+        { x: 0 },
+        { x: 970, duration: 3.1, ease: "power3.inOut" },
+        local(5785) + 0.25,
       );
       t.fromTo(
-        s("[data-endurance-line]"),
-        { scaleX: 0 },
-        { scaleX: 1, duration: 5.7, ease: "none", transformOrigin: "left" },
+        q("sea-flow"),
+        { strokeDashoffset: 0 },
+        { strokeDashoffset: -145, duration: 8.9, ease: "none" },
+        local(5785) - 0.2,
+      );
+      t.fromTo(
+        q("time-flow"),
+        { opacity: 0, strokeDashoffset: 0 },
+        { opacity: 1, strokeDashoffset: -480, duration: 6.3, ease: "none" },
         local(5854),
       );
       t.fromTo(
-        s("[data-pressure]"),
-        { scaleX: 0 },
-        {
-          scaleX: 1,
-          duration: 1.1,
-          ease: "power2.inOut",
-          transformOrigin: "left",
-        },
-        local(5961),
+        q("long-question"),
+        { opacity: 0, y: 45 },
+        { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" },
+        local(5854),
       );
       t.fromTo(
-        s("[data-question]"),
-        { yPercent: 110, opacity: 0 },
-        { yPercent: 0, opacity: 1, duration: 0.5, ease: "power3.out" },
-        local(5851),
+        q("pressure"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 1.9, ease: "power2.inOut" },
+        local(5961),
+      );
+      t.to(
+        q("availability-camera"),
+        { scale: 1.035, x: -20, y: -6, duration: 7.4, ease: "none" },
+        local(5785) + 0.5,
       );
     },
-    { dependencies: [] },
+    { dependencies: [uid] },
   );
+
   return (
     <div ref={scope} style={{ ...fill, overflow: "hidden" }}>
-      <div
-        data-atlantic
-        style={{
-          position: "absolute",
-          left: 0,
-          top: 0,
-          width: 1920,
-          height: 1216,
-          transformOrigin: "960px 608px",
-          maskImage:
-            "radial-gradient(ellipse at center, black 40%, transparent 77%)",
-        }}
-      >
-        <Img
-          src={staticFile(atlasLayerPath("allies", { routes: true }))}
-          style={{ position: "absolute", inset: 0, width: 1920, height: 1216 }}
-        />
-        <svg
-          viewBox="0 0 1200 760"
-          width="1920"
-          height="1216"
-          style={{ position: "absolute", inset: 0 }}
+      <div data-end="atlantic" style={fill}>
+        <div
+          data-end="atlantic-camera"
+          style={{ ...fill, transformOrigin: "0 0" }}
         >
-          <defs>
-            {allies.routes.map((r, i) => (
-              <mask key={r.name} id={`end-route-${i}`}>
-                <path
-                  data-link
-                  d={r.d}
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="9"
-                  pathLength={100}
-                  strokeDasharray="100"
-                  strokeDashoffset="100"
-                />
-              </mask>
-            ))}
-          </defs>
-          <path
-            d={allies.uk}
-            fill="#3A6EA5"
-            stroke="#6E8EAF"
-            strokeWidth=".65"
+          <Img
+            src={staticFile(atlasLayerPath("allies"))}
+            style={{ ...fill, width: 1920, height: 1216 }}
           />
-          {allies.routes.map((r, i) => (
-            <g key={r.name}>
-              <path
-                d={r.d}
-                fill="none"
-                stroke={gold}
-                strokeWidth="2.3"
-                strokeDasharray="1 7"
-                strokeLinecap="round"
-                mask={`url(#end-route-${i})`}
-              />
-              <circle
-                data-country-pin
-                cx={r.to[0]}
-                cy={r.to[1]}
-                r="6"
-                fill="#F4F7FA"
-                stroke={gold}
-                strokeWidth="2"
-              />
+          <svg width="1920" height="1216" viewBox="0 0 1200 760" style={fill}>
+            <defs>
+              {allies.routes.map((r, i) => (
+                <mask
+                  key={r.name}
+                  id={`${uid}-allied-${i}`}
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="1200"
+                  height="760"
+                >
+                  <path
+                    data-country-route={i}
+                    d={r.d}
+                    fill="none"
+                    stroke="white"
+                    strokeWidth="10"
+                    pathLength="100"
+                    strokeDasharray="100"
+                    strokeDashoffset="100"
+                  />
+                </mask>
+              ))}
+            </defs>
+            <path d={allies.uk} fill={gold} />
+            {allies.routes.map((r, i) => (
+              <g key={r.name}>
+                <path
+                  d={r.d}
+                  stroke={gold}
+                  strokeWidth="2.5"
+                  fill="none"
+                  strokeDasharray="1 6"
+                  strokeLinecap="round"
+                  mask={`url(#${uid}-allied-${i})`}
+                />
+                <circle
+                  data-country-pin
+                  cx={r.to[0]}
+                  cy={r.to[1]}
+                  r="6"
+                  fill={white}
+                  stroke={gold}
+                  strokeWidth="2"
+                  opacity="0"
+                />
+              </g>
+            ))}
+          </svg>
+        </div>
+      </div>
+
+      <div data-end="cooperation" style={{ ...fill, opacity: 0 }}>
+        <div
+          data-end="cooperation-camera"
+          style={{ ...fill, transformOrigin: "50% 60%" }}
+        >
+          <svg viewBox="0 0 1920 1080" width="1920" height="1080" style={fill}>
+            <path
+              data-end="command-links"
+              d="M520 485 C520 600 760 560 960 640 M1400 485 C1400 600 1160 560 960 640"
+              stroke={gold}
+              strokeWidth="3"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-end="command-flow"
+              d="M520 485 C520 600 760 560 960 640 M1400 485 C1400 600 1160 560 960 640"
+              stroke={white}
+              strokeWidth="3"
+              fill="none"
+              strokeDasharray="6 34"
+              opacity="0"
+            />
+            <path
+              data-end="support-link"
+              d="M960 859 L960 757"
+              stroke={gold}
+              strokeWidth="4"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <g data-allied-ship opacity="0">
+              <g transform="translate(238 308) scale(.94)">
+                <NavalProfile kind="escort" />
+              </g>
+              <text
+                x="520"
+                y="313"
+                textAnchor="middle"
+                fill="#9EB6C9"
+                fontSize="26"
+              >
+                Canada
+              </text>
             </g>
-          ))}
+            <g data-allied-ship opacity="0">
+              <g transform="translate(1118 308) scale(.94)">
+                <NavalProfile kind="escort" />
+              </g>
+              <text
+                x="1400"
+                y="313"
+                textAnchor="middle"
+                fill="#9EB6C9"
+                fontSize="26"
+              >
+                Norway
+              </text>
+            </g>
+            <g data-allied-ship opacity="0">
+              <g transform="translate(612 548) scale(1.16)">
+                <NavalProfile kind="carrier" tone="#416F94" />
+              </g>
+              <text
+                x="960"
+                y="541"
+                textAnchor="middle"
+                fill="#B6CBDC"
+                fontSize="27"
+              >
+                United Kingdom
+              </text>
+            </g>
+            <g data-end="support-node" opacity="0">
+              <g transform="translate(678 785) scale(.94)">
+                <NavalProfile kind="supply" />
+              </g>
+              <text
+                x="960"
+                y="986"
+                textAnchor="middle"
+                fill="#9EB6C9"
+                fontSize="26"
+              >
+                Norway
+              </text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div data-end="independence" style={{ ...fill, opacity: 0 }}>
+        <div
+          data-end="home-map"
+          style={{
+            position: "absolute",
+            left: 100,
+            top: 260,
+            width: 790,
+            height: 655,
+          }}
+        >
+          <svg width="790" height="655" viewBox="0 0 1200 760">
+            <path
+              d={atlas.views["uk-paint"].uk}
+              fill="#3A6EA5"
+              stroke="#B1CBDD"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+        <svg viewBox="0 0 1920 1080" width="1920" height="1080" style={fill}>
+          <path
+            data-end="independent-trail"
+            d="M562 728 Q840 815 1414 759"
+            stroke={gold}
+            strokeWidth="3"
+            fill="none"
+            pathLength="100"
+            strokeDasharray="100"
+            strokeDashoffset="100"
+          />
+          <g data-end="independent-vessel">
+            <g transform="translate(860 505) scale(1.2)">
+              <NavalProfile kind="carrier" />
+            </g>
+          </g>
         </svg>
       </div>
-      <svg
-        data-uk
-        viewBox="0 0 1200 760"
-        style={{
-          position: "absolute",
-          left: -140,
-          top: 145,
-          width: 1230,
-          height: 780,
-          opacity: 0,
-        }}
+
+      <Sequence
+        from={665}
+        durationInFrames={148}
+        name="Highmast 2025 — deck preparation"
       >
-        <path
-          d={atlas.views["uk-paint"].uk}
-          fill="#3A6EA5"
-          stroke="#B2C8DA"
-          strokeWidth="1.5"
+        <FootageShot
+          asset="ordnance-deck"
+          durationInFrames={148}
+          direction="starboard"
         />
-      </svg>
-      <svg viewBox="0 0 1920 1080" style={fill}>
-        <path
-          data-home-line
-          d="M580 590 C830 760 1080 750 1370 630"
-          fill="none"
-          stroke={gold}
-          strokeWidth="3"
-          strokeDasharray="100"
-          strokeDashoffset="100"
-          pathLength="100"
-        />
-        <path
-          data-cooperation
-          d="M365 405 Q650 320 860 580 M260 760 Q640 820 860 580 M1360 440 Q1150 320 860 580"
-          fill="none"
-          stroke={gold}
-          strokeWidth="3"
-          pathLength="100"
-          strokeDasharray="100"
-          strokeDashoffset="100"
-          opacity="0"
-        />
-      </svg>
-      <div
-        data-group
-        style={{
-          position: "absolute",
-          left: 330,
-          top: 330,
-          width: 1280,
-          height: 640,
-          transform: "translateX(2200px)",
-        }}
-      >
-        <Img
-          src={staticFile("images/generated/carrier.png")}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain",
-            filter: "drop-shadow(0 32px 20px #020b1988)",
-          }}
-        />
+      </Sequence>
+
+      <div data-end="availability" style={{ ...fill, opacity: 0 }}>
+        <div
+          data-end="availability-camera"
+          style={{ ...fill, transformOrigin: "50% 60%" }}
+        >
+          <svg width="1920" height="1080" viewBox="0 0 1920 1080" style={fill}>
+            <g stroke="#56758E" fill="none" strokeWidth="2">
+              <path d="M205 400 H620 V586 H600 V751 H620 V920 H205 M235 586 H615 M235 751 H615" />
+              <path
+                d="M258 424 V559 M307 424 V559 M356 424 V559 M405 424 V559 M454 424 V559 M503 424 V559 M552 424 V559"
+                strokeOpacity=".45"
+              />
+              <path
+                d="M258 778 V891 M307 778 V891 M356 778 V891 M405 778 V891 M454 778 V891 M503 778 V891 M552 778 V891"
+                strokeOpacity=".45"
+              />
+              <path
+                d="M612 423 H677 V541 M645 424 V507 M628 522 H686"
+                stroke="#9AB2C7"
+              />
+            </g>
+            <g
+              data-end="sea-flow"
+              stroke="#5C7E98"
+              fill="none"
+              strokeWidth="2"
+              strokeDasharray="72 12"
+              opacity=".6"
+            >
+              {[421, 469, 517, 804, 852, 900].map((y) => (
+                <path key={y} d={`M1100 ${y} q80 -17 160 0 t160 0 t160 0`} />
+              ))}
+            </g>
+            <path
+              data-end="cycle-draw"
+              d="M600 665 H1520 Q1640 665 1640 787 Q1640 920 1500 920 H775 Q696 920 696 820 V750"
+              stroke="#698AA4"
+              strokeWidth="3"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-end="time-flow"
+              d="M600 665 H1520 Q1640 665 1640 787 Q1640 920 1500 920 H775 Q696 920 696 820 V750"
+              stroke={gold}
+              strokeWidth="4"
+              fill="none"
+              strokeDasharray="10 38"
+              opacity="0"
+            />
+            <path
+              data-end="pressure"
+              d="M1500 920 H775 Q696 920 696 820 V750"
+              stroke="#C8102E"
+              strokeWidth="5"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <g data-end="cycle-vessel">
+              <g transform="translate(585 592) rotate(90) scale(.65)">
+                <VesselPlan kind="escort" tone="#4C7898" />
+              </g>
+            </g>
+            <text
+              x="410"
+              y="350"
+              textAnchor="middle"
+              fill="#9EB8CB"
+              fontSize="30"
+            >
+              United Kingdom
+            </text>
+          </svg>
+        </div>
       </div>
       <div
-        data-dock
-        style={{ ...fill, background: navy, transform: "translateX(-2000px)" }}
+        style={{
+          position: "absolute",
+          left: 154,
+          top: 110,
+          height: 112,
+          overflow: "hidden",
+          zIndex: 1,
+        }}
       >
         <div
+          data-end="long-question"
           style={{
-            position: "absolute",
-            left: 0,
-            top: 235,
-            right: 0,
-            bottom: 0,
-            overflow: "hidden",
+            opacity: 0,
+            color: white,
+            fontSize: 82,
+            fontWeight: 620,
+            letterSpacing: "-.055em",
+            lineHeight: 1.12,
           }}
         >
-          <Img
-            data-dock-photo
-            src={staticFile("images/web/prince-of-wales.jpg")}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "50% 65%",
-              filter: "saturate(.5) contrast(1.08) brightness(.68)",
-            }}
-          />
-          <div
-            style={{
-              ...fill,
-              background:
-                "linear-gradient(90deg, #0B1A2E22, transparent 45%, #0B1A2E77)",
-            }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              bottom: 48,
-              left: 154,
-              fontSize: 17,
-              color: "#F4F7FAaa",
-            }}
-          >
-            Alex Ceolin / UK MOD · OGL
-          </div>
-        </div>
-        <div
-          data-sea-window
-          style={{
-            ...fill,
-            background:
-              "radial-gradient(ellipse at 75% 55%, #29496B, #0B1A2E 75%)",
-            clipPath: "inset(0 0 0 100%)",
-          }}
-        >
-          <Img
-            data-sea-carrier
-            src={staticFile("images/generated/carrier.png")}
-            style={{ position: "absolute", width: 1100, left: 900, top: 400 }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              left: 998,
-              top: 240,
-              width: 2,
-              height: 720,
-              background: "#F4F7FA30",
-            }}
-          />
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            left: 154,
-            top: 890,
-            right: 154,
-            height: 7,
-            background: "#F4F7FA33",
-          }}
-        >
-          <div
-            data-endurance-line
-            style={{ ...fill, background: gold, transform: "scaleX(0)" }}
-          />
-          <div
-            data-pressure
-            style={{
-              position: "absolute",
-              left: "65%",
-              right: 0,
-              top: 0,
-              bottom: 0,
-              background: "#C8102E",
-              transform: "scaleX(0)",
-            }}
-          />
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            left: 154,
-            top: 117,
-            height: 130,
-            overflow: "hidden",
-          }}
-        >
-          <div
-            data-question
-            style={{
-              fontSize: 94,
-              fontWeight: 650,
-              letterSpacing: "-.05em",
-              color: "#F4F7FA",
-              opacity: 0,
-            }}
-          >
-            How long?
-          </div>
+          How long?
         </div>
       </div>
+      <div
+        style={{
+          ...fill,
+          pointerEvents: "none",
+          background:
+            "linear-gradient(180deg,#0B1A2E 0%,#0B1A2Edc 7%,#0B1A2E00 28%,#0B1A2E00 91%,#0B1A2E66 100%)",
+        }}
+      />
     </div>
   );
 };

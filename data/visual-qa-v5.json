@@ -1,0 +1,237 @@
+{
+  "revision": 5,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "frames": [
+    {
+      "frame": 236,
+      "file": "out/review-v5/frame-236.png",
+      "sha256": "3abe5e7816d15f7cdc45c9f5ecde1a5d612b30b5bf99364598294d2aeaa965be"
+    },
+    {
+      "frame": 592,
+      "file": "out/review-v5/frame-592.png",
+      "sha256": "19cbe2b9a79f33e17b26771f0bbf936bdef98bc6511bb0adcb89e09cf08afc0b"
+    },
+    {
+      "frame": 869,
+      "file": "out/review-v5/frame-869.png",
+      "sha256": "59a75beab042b6025552b0b4a88f50e60094c94eed64addb63fd21468e9b2d60"
+    },
+    {
+      "frame": 1150,
+      "file": "out/review-v5/frame-1150.png",
+      "sha256": "492cdd12274a2e7877f48e66531e70a82ea71cc10a36aebbe6544b9b72cd9a25"
+    },
+    {
+      "frame": 1270,
+      "file": "out/review-v5/frame-1270.png",
+      "sha256": "e8b43f496b151b555373f1816230195bfeb21ac765ec50b692bf18299b25d591"
+    },
+    {
+      "frame": 1638,
+      "file": "out/review-v5/frame-1638.png",
+      "sha256": "3fb45dc3b54de8548bdd292df45e0f4c1140e136abb6dfb4d882f1ade378adbf"
+    },
+    {
+      "frame": 1650,
+      "file": "out/review-v5/frame-1650.png",
+      "sha256": "9a0fd421f51e95967a93a209ecc92fc29437c34934942ccfb9e30a06adac2045"
+    },
+    {
+      "frame": 1675,
+      "file": "out/review-v5/frame-1675.png",
+      "sha256": "010085fb777f0c7953207bcff6045fbacbd1ae814ab9c4ea2bc211b2bd706173"
+    },
+    {
+      "frame": 1916,
+      "file": "out/review-v5/frame-1916.png",
+      "sha256": "27d4d3d44e7f3fcf46c7623dae9bb30412164861f3de8d06246be70518bf6bcc"
+    },
+    {
+      "frame": 1939,
+      "file": "out/review-v5/frame-1939.png",
+      "sha256": "d6c184df3f722fc3faf73314c3f56c83cd598a086bad81a345fd22b1abb507d6"
+    },
+    {
+      "frame": 2440,
+      "file": "out/review-v5/frame-2440.png",
+      "sha256": "21686e4a86a8eb8224fefb0f31794772528bea3bdf26151e61e2a9733c7ab965"
+    },
+    {
+      "frame": 2505,
+      "file": "out/review-v5/frame-2505.png",
+      "sha256": "12202bdeed66f267a522bc217658dd828a2f59443290ff104fb926c149b76dc9"
+    },
+    {
+      "frame": 2690,
+      "file": "out/review-v5/frame-2690.png",
+      "sha256": "54b9cb013e829b88e473deca684896158efdf50392b1a8e6d242e96e0e2e916a"
+    },
+    {
+      "frame": 2815,
+      "file": "out/review-v5/frame-2815.png",
+      "sha256": "89948d9b18fbc19075c15a0f8c29d6c5955ef2c59f623b391937750d32a51270"
+    },
+    {
+      "frame": 2875,
+      "file": "out/review-v5/frame-2875.png",
+      "sha256": "1ae179b9e46c89fd7876740b9b7d8d9e3be9f3eedd8c0f7438e3190633d3a764"
+    },
+    {
+      "frame": 2940,
+      "file": "out/review-v5/frame-2940.png",
+      "sha256": "f6bdbe5af81f2918901e82625185e27dc99d99a73acfa9f7c6420cdcbcdc1234"
+    },
+    {
+      "frame": 2990,
+      "file": "out/review-v5/frame-2990.png",
+      "sha256": "5ffae4753178d7bf610fe52e7d0ab039fb8cc4347e4c90061549991f4df5223c"
+    },
+    {
+      "frame": 3100,
+      "file": "out/review-v5/frame-3100.png",
+      "sha256": "8764069e67cc43a6f95004fa696cc3ccc0922ac5394a3c90dddd3a0f6b464c11"
+    },
+    {
+      "frame": 3300,
+      "file": "out/review-v5/frame-3300.png",
+      "sha256": "3e6529e120342e58126df7e934ca162bb2298220e33bca2a42628e83cbbcbcf2"
+    },
+    {
+      "frame": 3326,
+      "file": "out/review-v5/frame-3326.png",
+      "sha256": "7b97a34cca11dfa3d52205fd290af2ba4616cfab3cc390d8052508fdb64669e4"
+    },
+    {
+      "frame": 3338,
+      "file": "out/review-v5/frame-3338.png",
+      "sha256": "0cb5ae66ef3148f98927a4d348beb3f6eb4f60dadd4e511b93c888c6f221bfdd"
+    },
+    {
+      "frame": 3349,
+      "file": "out/review-v5/frame-3349.png",
+      "sha256": "13c0e7142e00cc16a005a86f273614e877b4cba833d058a7e3ac173c4d73e5fd"
+    },
+    {
+      "frame": 3470,
+      "file": "out/review-v5/frame-3470.png",
+      "sha256": "1c9eb9acb10f1b2ee0872dfd9926799accfcbc85b18f22da150c0396af9f9f63"
+    },
+    {
+      "frame": 3780,
+      "file": "out/review-v5/frame-3780.png",
+      "sha256": "069f2529213d9759ea8534a2d9f67714b6cb8fec006b8d5b4565153aa1768948"
+    },
+    {
+      "frame": 3890,
+      "file": "out/review-v5/frame-3890.png",
+      "sha256": "c05c8da5d1542749167a5756254c18e7c37b7b9645ded44f0b990415c0956e2d"
+    },
+    {
+      "frame": 4040,
+      "file": "out/review-v5/frame-4040.png",
+      "sha256": "eebc27913a12a43b98e16afa7fead508846e6faa0cfdb969f3e1c2718b9409ff"
+    },
+    {
+      "frame": 4380,
+      "file": "out/review-v5/frame-4380.png",
+      "sha256": "7e4d25b34f13be6688f1240296aeb211d8f2b20ed94bb862ef7c8aa55fdd61bc"
+    },
+    {
+      "frame": 4575,
+      "file": "out/review-v5/frame-4575.png",
+      "sha256": "5189fc27eb69e396f14c9bdbd03167d3b2218061f82b2e595105adb1c9966118"
+    },
+    {
+      "frame": 4650,
+      "file": "out/review-v5/frame-4650.png",
+      "sha256": "64a4f94655cc513b534488aff4ebcf032a6ba67c10e762a142f56ecb1deb8388"
+    },
+    {
+      "frame": 4860,
+      "file": "out/review-v5/frame-4860.png",
+      "sha256": "c7f5ebdb2fa1997c36c8d0c8941af9e0c05ea894043638603b68ccea99cad0aa"
+    },
+    {
+      "frame": 4972,
+      "file": "out/review-v5/frame-4972.png",
+      "sha256": "0f2fa61746824a6e4ba72b3c632f1263fe3661e94c7fdc5a25df79ac5281cb44"
+    },
+    {
+      "frame": 4995,
+      "file": "out/review-v5/frame-4995.png",
+      "sha256": "2edc73e25e53a82d93833d3c81ca050b42f6252756f1b73cf13bdb84092405e9"
+    },
+    {
+      "frame": 5120,
+      "file": "out/review-v5/frame-5120.png",
+      "sha256": "13e8a871ec0a7f82fc99a3c34a86405e9602136e78283ecbeb826dd356ab9e85"
+    },
+    {
+      "frame": 5300,
+      "file": "out/review-v5/frame-5300.png",
+      "sha256": "af545dd4e6afeabf55755fa733cbae8f29bebf21fe495379ac345e1b1537c4d1"
+    },
+    {
+      "frame": 5380,
+      "file": "out/review-v5/frame-5380.png",
+      "sha256": "f7867134a60235829b00a343bfbae934d0d90eacafdac68de9978e421bd9d6c0"
+    },
+    {
+      "frame": 5560,
+      "file": "out/review-v5/frame-5560.png",
+      "sha256": "c34fda52ad7d175a5da5563fa16c6da6a0c0433af0f8de18614128cb30031d35"
+    },
+    {
+      "frame": 5700,
+      "file": "out/review-v5/frame-5700.png",
+      "sha256": "8272bc25aa9849d85a583195182b840875e98de0c942696331e592870744795d"
+    },
+    {
+      "frame": 5820,
+      "file": "out/review-v5/frame-5820.png",
+      "sha256": "f616c289a1739313ffa7a4e40ddad163fa582e329a28d4a3d65fe3e5a76fc3c0"
+    },
+    {
+      "frame": 5900,
+      "file": "out/review-v5/frame-5900.png",
+      "sha256": "de730ca3ed5ef3dfbacce0f5ca7a33f0c6c9d7bbca6179737196150fe482fc9e"
+    },
+    {
+      "frame": 6010,
+      "file": "out/review-v5/frame-6010.png",
+      "sha256": "20e982c93c4b860b00fbbdb3b8f2633fcd2dabbf99b06d2e5e1e1714e7185797"
+    }
+  ],
+  "warnings": [],
+  "fixes": [
+    "Sonar attachment moved from landing wheel to belly, including transducer and rings",
+    "Task-group pullback completed before frame2930; hulls fit safe layout",
+    "Submerged-plane residue removed above departure shot",
+    "Historical map vessel glyphs reduced inside their animation transforms; separation confirmed at1638/1650/1675"
+  ],
+  "motionClips": [
+    {
+      "file": "docs/preview-fleet-v5.mp4",
+      "startFrame": 2385,
+      "endFrame": 2801
+    },
+    {
+      "file": "out/review-v5/handoff-motion.mp4",
+      "startFrame": 3260,
+      "endFrame": 3400
+    },
+    {
+      "file": "out/review-v5/supply-motion.mp4",
+      "startFrame": 4660,
+      "endFrame": 5060
+    }
+  ],
+  "reviewMethod": "Rendered stills plus sampled consecutive strips of three continuous excerpts; not a claim of human real-time viewing",
+  "reviewedHistoryCorrectionFrames": [
+    1638,
+    1650,
+    1675
+  ]
+}

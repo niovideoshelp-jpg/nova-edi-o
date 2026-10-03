@@ -71,6 +71,7 @@ for (const file of [
   "src/documentary/FleetChapter.tsx",
   "src/documentary/OperationsChapter.tsx",
   "src/documentary/EnduranceChapter.tsx",
+  "src/documentary/FootageShot.tsx",
 ]) {
   const source = fs.readFileSync(file, "utf8");
   assert(/from ["']@remotion\/gsap["']/.test(source));
@@ -110,10 +111,27 @@ const film = fs.readFileSync("src/Film.tsx", "utf8");
 assert.equal((film.match(/<NarrationCue /g) || []).length, 62);
 assert(!film.includes("NavalGraphic"));
 assert(!film.includes("from './scenes/"));
-assert.equal(documentary.transitionOverlapFrames, 12);
+assert.equal(documentary.transitionOverlapFrames, 24);
 assert.equal(documentary.width, 1920);
 assert.equal(documentary.height, 1080);
 assert.equal(documentary.fps, 30);
 console.log(
   "PASS: Four continuous environments, 62 editable cue Sequences, chapter overlaps, 1920x1080 at 30 fps.",
+);
+const footage = JSON.parse(fs.readFileSync("data/video-sources.json", "utf8"));
+assert.equal(footage.shots.length, 6);
+for (const shot of footage.shots) {
+  assert(fs.existsSync(shot.file), `Missing local footage: ${shot.file}`);
+  const video = shot.probe.streams.find((s) => s.codec_name === "h264");
+  assert(video, shot.id);
+  assert.equal(video.width, 1920);
+  assert.equal(video.height, 1080);
+  assert.equal(video.avg_frame_rate, "30/1");
+  assert(
+    Number(video.nb_frames) >= shot.endFrame - shot.startFrame,
+    `${shot.id}: footage too short`,
+  );
+}
+console.log(
+  "PASS: Six local HD footage clips at 30 fps; every shot fits its source without looping.",
 );

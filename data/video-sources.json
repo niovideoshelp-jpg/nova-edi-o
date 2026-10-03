@@ -1,0 +1,195 @@
+{
+  "retrieved": "2026-10-03",
+  "license": "DVIDS PUBLIC DOMAIN; verified per work",
+  "copyright": "https://www.dvidshub.net/about/copyright",
+  "sources": {
+    "qe": {
+      "page": "https://www.dvidshub.net/video/858017/hms-queen-elizabeth-pulls-into-naval-station-norfolk",
+      "author": "PO2 David Glotzbach / U.S. Navy",
+      "date": "2022-09-20",
+      "url": "https://d34w7g4gy10iej.cloudfront.net/video/2209/DOD_109227618/DOD_109227618.mp4"
+    },
+    "pow": {
+      "page": "https://www.dvidshub.net/video/899101/hms-prince-wales-r09-arrives-naval-station-norfolk",
+      "author": "Senior Chief Petty Officer Bryan Weyers / U.S. Navy",
+      "date": "2023-09-30",
+      "url": "https://d34w7g4gy10iej.cloudfront.net/video/2309/DOD_109916464/DOD_109916464-1920x1080-9000k.mp4"
+    },
+    "f35": {
+      "page": "https://www.dvidshub.net/video/901194/f-35-test-pilot-flies-first-roll-landing-aboard-hms-prince-wales",
+      "author": "Kyra Helwick / F-35 Lightning II Pax River ITF",
+      "date": "2023-10-19",
+      "url": "https://d34w7g4gy10iej.cloudfront.net/video/2310/DOD_109952664/DOD_109952664.mp4"
+    },
+    "supply": {
+      "page": "https://www.dvidshub.net/video/973325/mrf-d-253-b-roll-marines-offload-ordnance-onto-hms-prince-wales",
+      "author": "Cpl. Anita Ramos / U.S. Marine Corps",
+      "date": "2025-07-21",
+      "url": "https://d34w7g4gy10iej.cloudfront.net/video/2508/DOD_111222665/DOD_111222665.mp4"
+    }
+  },
+  "shots": [
+    {
+      "id": "qe-arrival",
+      "file": "public/video/qe-arrival.mp4",
+      "source": "qe",
+      "sourceStartSeconds": 12,
+      "durationSeconds": 9,
+      "startFrame": 2405,
+      "endFrame": 2497,
+      "bytes": 5112854,
+      "sha256": "11b77bf25da3765eaefc10033b050959e42df5e52d457b4aaa9e3255e947601c",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      }
+    },
+    {
+      "id": "pow-arrival",
+      "file": "public/video/pow-arrival.mp4",
+      "source": "pow",
+      "sourceStartSeconds": 65,
+      "durationSeconds": 9,
+      "startFrame": 2455,
+      "endFrame": 2625,
+      "bytes": 3636341,
+      "sha256": "bd668b6da3fb978b6e759274bb16a492206e5a0525840eb6559e5b586ba47d5a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      }
+    },
+    {
+      "id": "f35-landing",
+      "file": "public/video/f35-landing.mp4",
+      "source": "f35",
+      "sourceStartSeconds": 8,
+      "durationSeconds": 9,
+      "startFrame": 2603,
+      "endFrame": 2777,
+      "bytes": 2552175,
+      "sha256": "b54961bb8dbe5371f3a382cb43af00fab13442d159a5cded15a830f858484a89",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      }
+    },
+    {
+      "id": "qe-bow",
+      "file": "public/video/qe-bow.mp4",
+      "source": "qe",
+      "sourceStartSeconds": 81,
+      "durationSeconds": 9,
+      "startFrame": 3954,
+      "endFrame": 4183,
+      "bytes": 4041610,
+      "sha256": "9366ac770d9b36b2277c031fa1435f9ad963d551b71451a5da5134c61208f95f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      }
+    },
+    {
+      "id": "ordnance-lift",
+      "file": "public/video/ordnance-lift.mp4",
+      "source": "supply",
+      "sourceStartSeconds": 99,
+      "durationSeconds": 9,
+      "startFrame": 4770,
+      "endFrame": 4996,
+      "bytes": 7455262,
+      "sha256": "3f8f1e5710dda19565ebcb0455291644edc31ef3cddc5fca5de518ebd9c686ed",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000"
+        }
+      }
+    },
+    {
+      "id": "ordnance-deck",
+      "file": "public/video/ordnance-deck.mp4",
+      "source": "supply",
+      "sourceStartSeconds": 134,
+      "durationSeconds": 7,
+      "startFrame": 5637,
+      "endFrame": 5785,
+      "bytes": 3759118,
+      "sha256": "023b63c0c31f87586779a562dbce05f0ad853a9f8567097aad9c57a389c6a83a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30/1",
+            "nb_frames": "210"
+          }
+        ],
+        "format": {
+          "duration": "7.000000"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "source": "src/documentary/NavalDiagramsV5.tsx",
+  "assets": [
+    {
+      "file": "public/svg-v5/carrier-profile.svg",
+      "component": "NavalProfile",
+      "kind": "carrier",
+      "viewBox": "0 0 600 200",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    },
+    {
+      "file": "public/svg-v5/carrier-plan.svg",
+      "component": "VesselPlan",
+      "kind": "carrier",
+      "viewBox": "0 0 200 550",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    },
+    {
+      "file": "public/svg-v5/escort-profile.svg",
+      "component": "NavalProfile",
+      "kind": "escort",
+      "viewBox": "0 0 600 200",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    },
+    {
+      "file": "public/svg-v5/escort-plan.svg",
+      "component": "VesselPlan",
+      "kind": "escort",
+      "viewBox": "0 0 200 550",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    },
+    {
+      "file": "public/svg-v5/supply-profile.svg",
+      "component": "NavalProfile",
+      "kind": "supply",
+      "viewBox": "0 0 600 200",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    },
+    {
+      "file": "public/svg-v5/supply-plan.svg",
+      "component": "VesselPlan",
+      "kind": "supply",
+      "viewBox": "0 0 200 550",
+      "background": "transparent",
+      "animation": "Authored in OperationsChapter and EnduranceChapter using useGsapTimeline"
+    }
+  ]
+}

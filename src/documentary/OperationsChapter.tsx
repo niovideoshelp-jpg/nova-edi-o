@@ -1,348 +1,253 @@
 import { useId } from "react";
-import { Img, staticFile } from "remotion";
+import { Img, Sequence, staticFile } from "remotion";
 import { useGsapTimeline } from "@remotion/gsap";
 import atlas from "../../data/geography/atlas.json";
 import { atlasLayerPath } from "./Atlas";
+import { AircraftUnit, VesselPlan } from "./NavalDiagramsV5";
+import { FootageShot } from "./FootageShot";
 
 const gold = "#D4A94A";
 const white = "#F4F7FA";
 const world = atlas.views.distance;
 const route = world.routes[0];
-const sec = (absoluteFrame: number) => (absoluteFrame - 3326) / 30;
+const sec = (globalFrame: number) => (globalFrame - 3326) / 30;
+const fill = { position: "absolute" as const, inset: 0 };
+const MapBase = () => (
+  <Img
+    src={staticFile(atlasLayerPath("distance"))}
+    style={{ ...fill, width: 1920, height: 1216 }}
+  />
+);
 
-/**
- * One continuous editorial camera for Operation Highmast and its supply chain.
- * Geography and geodesic samples are frozen Natural Earth / Turf output.
- * The line illustrates reach; it is not a claimed navigation track.
- */
+/** Reach, an air-wing count, physical replenishment, then documentary evidence. */
 export const OperationsChapter = () => {
   const uid = useId().replace(/:/g, "");
   const scope = useGsapTimeline<HTMLDivElement>(
-    ({ timeline, selector }) => {
-      const el = (name: string) => selector(`[data-ops="${name}"]`);
-      // All environments stay mounted. Their shared movement carries the edit,
-      // instead of making every three-second annotation restart an entrance.
-      timeline.fromTo(
-        el("map"),
-        { opacity: 1 },
-        { opacity: 1, duration: 0.1 },
+    ({ timeline: t, selector: s }) => {
+      const q = (n: string) => s(`[data-ops="${n}"]`);
+      // Explicit zero-time transforms avoid inheriting a future SVG origin on seek.
+      t.set(
+        q("theatre-camera"),
+        { scale: 1.68, x: -770, y: -75, transformOrigin: "0 0" },
         0,
       );
-      timeline.fromTo(
-        el("map-camera"),
-        { scale: 2.05, x: -1040, y: -25.6, transformOrigin: "0 0" },
-        { scale: 1.85, x: -864, y: -8, duration: 3.7, ease: "none" },
+      t.to(
+        q("theatre-camera"),
+        { scale: 1.55, x: -660, y: -40, duration: 3.7, ease: "none" },
         0,
       );
-      timeline.to(
-        el("map-camera"),
-        { scale: 1.15, x: -168, y: 96, duration: 1.7, ease: "power3.inOut" },
+      t.to(
+        q("theatre-camera"),
+        { scale: 1.04, x: -45, y: 75, duration: 1.7, ease: "power3.inOut" },
         sec(3437),
       );
-      timeline.to(
-        el("map-camera"),
-        { scale: 1.67, x: -1400, y: -176, duration: 2.3, ease: "power3.inOut" },
-        sec(3552) - 0.8,
+      t.to(
+        q("theatre-camera"),
+        { scale: 1.6, x: -1280, y: -165, duration: 2.3, ease: "power3.inOut" },
+        sec(3552) - 0.55,
       );
-      timeline.to(
-        el("map-camera"),
-        { scale: 2.3, x: -1392, y: -272, duration: 1.55, ease: "power3.inOut" },
-        sec(3658) - 0.7,
+      t.to(
+        q("theatre-camera"),
+        { scale: 2.16, x: -1250, y: -226, duration: 1.4, ease: "power3.inOut" },
+        sec(3658) - 0.5,
       );
-      timeline.fromTo(
-        el("route-mask"),
+      t.fromTo(
+        q("theatre-line"),
         { strokeDashoffset: 100 },
-        { strokeDashoffset: 0, duration: 7.8, ease: "none" },
-        2.1,
+        { strokeDashoffset: 0, duration: 1.25, ease: "power3.out" },
+        0.16,
       );
-      timeline.fromTo(
-        el("route-pulse"),
+      t.fromTo(
+        q("theatre-pulse"),
         { strokeDashoffset: 0 },
-        { strokeDashoffset: -180, duration: 12.8, ease: "none" },
+        { strokeDashoffset: -210, duration: 13, ease: "none" },
         0,
       );
-      route.samples.slice(1).forEach((p, i) => {
-        timeline.to(
-          el("position"),
-          { attr: { cx: p[0], cy: p[1] }, duration: 7.8 / 24, ease: "none" },
-          2.1 + (i * 7.8) / 24,
-        );
-      });
-      timeline.fromTo(
-        el("month-rule"),
-        { scaleX: 0, transformOrigin: "left center" },
-        { scaleX: 1, duration: 0.8, ease: "power3.out" },
+      t.fromTo(
+        q("months"),
+        { opacity: 0, y: 35 },
+        { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" },
         sec(3437),
       );
-      timeline.fromTo(
-        selector("[data-month]"),
-        { scaleY: 0, opacity: 0, transformOrigin: "center bottom" },
-        {
-          scaleY: 1,
-          opacity: 1,
-          stagger: 0.085,
-          duration: 0.45,
-          ease: "power3.out",
-        },
-        sec(3437) + 0.12,
+      t.fromTo(
+        s("[data-month-unit]"),
+        { scaleX: 0, transformOrigin: "left" },
+        { scaleX: 1, duration: 0.45, stagger: 0.09, ease: "power3.out" },
+        sec(3437),
       );
-      timeline.to(
-        el("months"),
-        { y: 60, opacity: 0, duration: 0.4, ease: "power2.in" },
+      t.to(
+        q("months"),
+        { opacity: 0, y: 35, duration: 0.35, ease: "power2.in" },
         sec(3552),
       );
-      timeline.fromTo(
-        el("mission-carrier"),
-        { x: -90, y: 15, scale: 1.06 },
-        { x: 150, y: -25, scale: 0.92, duration: 8.5, ease: "none" },
+
+      // A unit chart replaces 24 copies of an AI close-up. The marks are counting
+      // glyphs, never dimensioned or technically annotated aircraft drawings.
+      t.fromTo(
+        q("airwing"),
+        { opacity: 0, y: 80 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" },
+        sec(3713) - 0.12,
+      );
+      t.to(
+        q("theatre"),
+        { x: -120, opacity: 0, duration: 0.6, ease: "power3.inOut" },
+        sec(3713),
+      );
+      t.set(
+        q("count-camera"),
+        { scale: 2.5, x: 890, y: 90, transformOrigin: "0 0" },
         0,
       );
-      timeline.to(
-        el("mission-carrier"),
-        {
-          x: 490,
-          y: -125,
-          scale: 0.28,
-          opacity: 0,
-          duration: 1.3,
-          ease: "power3.inOut",
-        },
-        8.5,
-      );
-
-      // A close F-35 becomes the first unit of the visual count, then the camera
-      // pulls back to reveal the complete 24-aircraft arrangement.
-      timeline.fromTo(
-        el("airwing"),
-        { opacity: 0, x: 550 },
-        { opacity: 1, x: 0, duration: 0.7, ease: "power3.out" },
-        sec(3713) - 0.2,
-      );
-      timeline.to(
-        el("map"),
-        { x: -190, opacity: 0, duration: 0.75, ease: "power3.inOut" },
+      t.fromTo(
+        s('[data-air-unit="0"]'),
+        { opacity: 0, y: 35 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" },
         sec(3713),
       );
-      timeline.fromTo(
-        el("jet-hero"),
-        { x: 60, y: 70, scale: 1.08 },
-        { x: -10, y: -20, scale: 1.015, duration: 2.7, ease: "none" },
-        sec(3713),
+      t.to(
+        q("count-camera"),
+        { scale: 1, x: 0, y: 0, duration: 1.8, ease: "power3.inOut" },
+        sec(3745) + 0.7,
       );
-      timeline.to(
-        el("jet-hero"),
-        { x: -555, y: -155, scale: 0.185, duration: 1.2, ease: "power3.inOut" },
-        sec(3842) - 0.8,
+      t.fromTo(
+        s('[data-air-unit]:not([data-air-unit="0"])'),
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.4, stagger: 0.045, ease: "power3.out" },
+        sec(3745) + 1.05,
       );
-      timeline.to(
-        el("jet-hero"),
-        { opacity: 0, duration: 0.15 },
-        sec(3842) + 0.3,
+      t.to(
+        q("count-camera"),
+        { scale: 1.035, x: -18, y: -8, duration: 3.1, ease: "none" },
+        sec(3842),
       );
-      timeline.fromTo(
-        el("airwing-grid"),
-        { scale: 1.4, x: 130, y: 125 },
-        { scale: 1, x: 0, y: 0, duration: 2.5, ease: "power3.inOut" },
-        sec(3842) - 0.8,
+      t.fromTo(
+        q("count-bracket"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.65, ease: "power3.out" },
+        sec(3842),
       );
-      timeline.fromTo(
-        selector("[data-aircraft]"),
-        { opacity: 0, x: 70, y: 45, scale: 0.85 },
-        {
-          opacity: 1,
-          x: 0,
-          y: 0,
-          scale: 1,
-          duration: 0.5,
-          stagger: 0.055,
-          ease: "power3.out",
-        },
-        sec(3842) - 0.15,
-      );
-      timeline.to(
-        el("airwing-grid"),
-        { x: 95, y: -8, scale: 1.065, duration: 2.2, ease: "none" },
-        sec(3842) + 1.7,
-      );
-      timeline.to(
-        el("airwing"),
-        {
-          x: -570,
-          scale: 0.73,
-          opacity: 0,
-          duration: 0.9,
-          ease: "power3.inOut",
-        },
-        sec(3954) - 0.2,
-      );
-
-      // Match the aircraft's direction into a close crop of the carrier.
-      timeline.fromTo(
-        el("deck"),
-        { x: 750, opacity: 0, scale: 1.35 },
-        { x: 0, opacity: 1, scale: 1, duration: 1.15, ease: "power3.inOut" },
-        sec(3954) - 0.4,
-      );
-      timeline.fromTo(
-        el("deck-carrier"),
-        { x: 170, y: 50, scale: 1.08 },
-        { x: -95, y: -25, scale: 1.18, duration: 3.7, ease: "none" },
+      t.to(
+        q("airwing"),
+        { y: -95, opacity: 0, duration: 0.8, ease: "power3.inOut" },
         sec(3954),
       );
-      timeline.to(
-        el("deck-carrier"),
-        { x: -150, y: -45, scale: 1.28, duration: 3.8, ease: "power3.inOut" },
-        sec(4065),
-      );
-      timeline.to(
-        el("deck"),
-        {
-          scale: 0.16,
-          x: 600,
-          y: 135,
-          opacity: 0,
-          duration: 1.3,
-          ease: "power3.inOut",
-        },
+
+      // The second geographic view starts at home and reveals operating reach.
+      // A signal travels this geodesic; no ship is shown sailing over land.
+      t.fromTo(
+        q("reach"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.65, ease: "power3.out" },
         sec(4183) - 0.35,
       );
-
-      // The pull-out explains the first finding: a fleet operating across a world
-      // map. The same geodesic then becomes a visible logistics connection.
-      timeline.set(el("map"), { x: 0 }, sec(4183) - 0.5);
-      timeline.set(
-        el("map-camera"),
-        { scale: 2.7, x: -2944, y: -832 },
-        sec(4183) - 0.5,
+      t.set(
+        q("reach-camera"),
+        { scale: 2.3, x: -1330, y: -135, transformOrigin: "0 0" },
+        0,
       );
-      timeline.to(el("map"), { opacity: 1, duration: 1 }, sec(4183) - 0.5);
-      timeline.to(
-        el("map-camera"),
-        { scale: 1.12, x: -139.2, y: 56, duration: 3.2, ease: "power3.inOut" },
-        sec(4183) - 0.4,
+      t.to(
+        q("reach-camera"),
+        { scale: 1.04, x: -40, y: 42, duration: 3.5, ease: "power3.inOut" },
+        sec(4183) - 0.3,
       );
-      timeline.to(
-        el("map-camera"),
-        { scale: 1.2, x: -227.2, y: 12.8, duration: 4.4, ease: "none" },
+      t.to(
+        q("reach-camera"),
+        { scale: 1.18, x: -240, y: -30, duration: 4.8, ease: "none" },
         sec(4295),
       );
-      timeline.to(
-        el("route-pulse"),
-        { strokeDashoffset: -750, duration: 11.6, ease: "none" },
-        sec(4183),
-      );
-      timeline.fromTo(
-        el("remote-carrier"),
-        { opacity: 0, x: 70, y: 30, scale: 0.85 },
-        { opacity: 1, x: 0, y: 0, scale: 1, duration: 1, ease: "power3.out" },
-        sec(4295) - 0.3,
-      );
-      timeline.to(
-        el("remote-carrier"),
-        { x: 38, y: -18, scale: 1.05, duration: 6.3, ease: "none" },
-        sec(4295) + 0.7,
-      );
-      timeline.to(
-        el("remote-carrier"),
-        { x: 45, y: -170, scale: 1.45, duration: 1.5, ease: "power3.inOut" },
-        sec(4494) - 0.5,
-      );
-      timeline.to(
-        el("map"),
-        {
-          opacity: 0.1,
-          y: 180,
-          scale: 1.18,
-          duration: 1.3,
-          ease: "power3.inOut",
-        },
-        sec(4494) - 0.5,
-      );
-      timeline.fromTo(
-        el("supply"),
-        { opacity: 0, x: -290, y: 120, scale: 0.7 },
-        { opacity: 1, x: 0, y: 0, scale: 1, duration: 1.1, ease: "power3.out" },
-        sec(4494) - 0.12,
-      );
-      timeline.fromTo(
-        el("supply-line"),
+      t.fromTo(
+        q("reach-draw"),
         { strokeDashoffset: 100 },
-        { strokeDashoffset: 0, duration: 0.7, ease: "power3.out" },
-        sec(4543) - 0.12,
+        { strokeDashoffset: 0, duration: 2.35, ease: "power2.inOut" },
+        sec(4295) - 0.5,
       );
-      timeline.fromTo(
-        el("fuel-line"),
-        { strokeDashoffset: 100 },
-        { strokeDashoffset: 0, duration: 0.8, ease: "power3.out" },
-        sec(4569) - 0.12,
-      );
-      timeline.fromTo(
-        el("ammo-line"),
-        { strokeDashoffset: 100 },
-        { strokeDashoffset: 0, duration: 0.8, ease: "power3.out" },
-        sec(4589) - 0.12,
-      );
-      timeline.fromTo(
-        el("flow"),
-        { opacity: 0 },
-        { opacity: 1, duration: 0.3 },
-        sec(4569),
-      );
-      timeline.fromTo(
-        el("flow"),
+      t.fromTo(
+        q("reach-flow"),
         { strokeDashoffset: 0 },
-        { strokeDashoffset: -220, duration: 7.5, ease: "none" },
+        { strokeDashoffset: -400, duration: 7.5, ease: "none" },
+        sec(4295),
+      );
+      t.fromTo(
+        s("[data-reach-ring]"),
+        { attr: { r: 2 }, opacity: 0.8 },
+        {
+          attr: { r: 40 },
+          opacity: 0.12,
+          duration: 3.2,
+          stagger: 0.7,
+          ease: "power2.out",
+        },
+        sec(4295),
+      );
+      t.to(
+        q("reach"),
+        { opacity: 0, x: -180, duration: 0.7, ease: "power3.inOut" },
+        sec(4494) - 0.35,
+      );
+
+      // Aligned ship plans establish the physical geometry of transfer alongside.
+      t.fromTo(
+        q("replenishment-plan"),
+        { opacity: 0, y: 100, scale: 0.94 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.8, ease: "power3.out" },
+        sec(4494) - 0.2,
+      );
+      t.fromTo(
+        s("[data-supply-plan] [data-vessel-outline]"),
+        { strokeDasharray: 1400, strokeDashoffset: 1400, fillOpacity: 0.15 },
+        {
+          strokeDashoffset: 0,
+          fillOpacity: 1,
+          duration: 0.9,
+          ease: "power3.out",
+        },
+        sec(4494) - 0.15,
+      );
+      t.fromTo(
+        q("service-line"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.55, ease: "power3.out" },
+        sec(4543),
+      );
+      t.fromTo(
+        q("fuel-line"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.55, ease: "power3.out" },
         sec(4569),
       );
-      timeline.to(
-        el("supply"),
-        { x: 35, y: -25, scale: 1.06, duration: 6, ease: "none" },
-        sec(4494) + 1,
+      t.fromTo(
+        q("cargo-line"),
+        { strokeDashoffset: 100 },
+        { strokeDashoffset: 0, duration: 0.55, ease: "power3.out" },
+        sec(4589),
       );
-      timeline.fromTo(
-        el("escort"),
-        { x: 170, y: 100, opacity: 0 },
-        { x: 0, y: 0, opacity: 1, duration: 0.8, ease: "power3.out" },
-        sec(4615) - 0.12,
+      t.fromTo(
+        q("transfer-flow"),
+        { opacity: 0, strokeDashoffset: 0 },
+        { opacity: 1, strokeDashoffset: -180, duration: 5.8, ease: "none" },
+        sec(4569),
       );
-      timeline.to(
-        el("escort"),
-        { x: -70, y: -25, duration: 5.5, ease: "none" },
-        sec(4615) + 0.7,
+      t.fromTo(
+        q("escort-plan"),
+        { opacity: 0, y: 160 },
+        { opacity: 1, y: 0, duration: 0.65, ease: "power3.out" },
+        sec(4615),
       );
-      // Expand the transfer hose into the documentary photograph of the same
-      // physical action. It lasts through the handoff to the allies chapter.
-      timeline.fromTo(
-        el("replenishment"),
-        { clipPath: "inset(50% 43% 49% 43%)", opacity: 0 },
-        {
-          clipPath: "inset(0% 0% 0% 0%)",
-          opacity: 1,
-          duration: 1.55,
-          ease: "power3.inOut",
-        },
-        sec(4770) - 0.45,
+      t.fromTo(
+        q("wake"),
+        { strokeDashoffset: 0 },
+        { strokeDashoffset: -130, duration: 9, ease: "none" },
+        sec(4494),
       );
-      timeline.fromTo(
-        el("replenishment-image"),
-        { scale: 1.24, x: -80, y: 40 },
-        { scale: 1.04, x: 15, y: 0, duration: 7.4, ease: "power2.out" },
-        sec(4770) - 0.45,
+      t.to(
+        q("plan-camera"),
+        { scale: 1.045, x: -25, y: -10, duration: 7.8, ease: "none" },
+        sec(4494) + 0.4,
       );
-      timeline.to(
-        el("supply"),
-        { x: -310, opacity: 0, duration: 1, ease: "power3.inOut" },
-        sec(4770) - 0.45,
-      );
-      timeline.to(
-        el("remote-carrier"),
-        { x: 370, opacity: 0, duration: 1, ease: "power3.inOut" },
-        sec(4770) - 0.45,
-      );
-      timeline.to(el("escort"), { opacity: 0, duration: 0.4 }, sec(4770));
-      timeline.to(
-        el("supply-network"),
-        { opacity: 0, duration: 0.5 },
+      t.to(
+        q("replenishment-plan"),
+        { scale: 1.14, opacity: 0, duration: 0.8, ease: "power3.inOut" },
         sec(4770),
       );
     },
@@ -350,374 +255,303 @@ export const OperationsChapter = () => {
   );
 
   return (
-    <div
-      ref={scope}
-      style={{ position: "absolute", inset: 0, overflow: "hidden" }}
-    >
-      <div data-ops="map" style={{ position: "absolute", inset: 0 }}>
+    <div ref={scope} style={{ ...fill, overflow: "hidden" }}>
+      <div data-ops="theatre" style={fill}>
         <div
-          data-ops="map-camera"
-          style={{ position: "absolute", inset: 0, transformOrigin: "0 0" }}
+          data-ops="theatre-camera"
+          style={{ ...fill, transformOrigin: "0 0" }}
         >
-          <Img
-            src={staticFile(atlasLayerPath("distance"))}
-            style={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              width: 1920,
-              height: 1216,
-            }}
-          />
-          <svg
-            width="1920"
-            height="1080"
-            viewBox="0 0 1200 675"
-            style={{ position: "absolute", inset: 0 }}
-          >
+          <MapBase />
+          <svg viewBox="0 0 1200 675" width="1920" height="1080" style={fill}>
+            <path d={world.uk} fill={gold} />
+            <path
+              data-ops="theatre-line"
+              d="M598 217 Q620 242 650 271 Q778 352 924 390"
+              fill="none"
+              stroke={gold}
+              strokeWidth="1.8"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-ops="theatre-pulse"
+              d="M598 217 Q620 242 650 271 Q778 352 924 390"
+              fill="none"
+              stroke={white}
+              strokeWidth="2.2"
+              strokeDasharray="2 38"
+            />
+            {[
+              [598, 217],
+              [650, 271],
+              [924, 390],
+            ].map(([x, y], i) => (
+              <g key={i}>
+                <circle
+                  cx={x}
+                  cy={y}
+                  r="6"
+                  fill={gold}
+                  stroke="#0B1A2E"
+                  strokeWidth="2"
+                />
+                <circle
+                  cx={x}
+                  cy={y}
+                  r="11"
+                  fill="none"
+                  stroke={gold}
+                  strokeWidth="1"
+                  strokeOpacity=".45"
+                />
+              </g>
+            ))}
+          </svg>
+        </div>
+        <div
+          data-ops="months"
+          style={{
+            position: "absolute",
+            left: 154,
+            top: 910,
+            width: 1612,
+            display: "flex",
+            gap: 18,
+            opacity: 0,
+          }}
+        >
+          {Array.from({ length: 8 }, (_, i) => (
+            <div
+              key={i}
+              data-month-unit
+              style={{
+                flex: 1,
+                height: 16,
+                borderTop: `2px solid ${gold}`,
+                background: "linear-gradient(#D4A94A50,transparent)",
+                transform: "scaleX(0)",
+              }}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div data-ops="airwing" style={{ ...fill, opacity: 0 }}>
+        <div
+          data-ops="count-camera"
+          style={{
+            position: "absolute",
+            left: 224,
+            top: 294,
+            width: 1472,
+            height: 660,
+            transformOrigin: "0 0",
+          }}
+        >
+          <svg viewBox="0 0 1472 660" width="1472" height="660">
+            {Array.from({ length: 24 }, (_, i) => (
+              <g
+                key={i}
+                transform={`translate(${(i % 8) * 188} ${Math.floor(i / 8) * 202})`}
+              >
+                <g data-air-unit={i} opacity="0">
+                  <path d="M13 171 H145" stroke="#6B88A2" strokeWidth="1.5" />
+                  <g transform="translate(10 0) scale(1.12)">
+                    <AircraftUnit />
+                  </g>
+                </g>
+              </g>
+            ))}
+            <path
+              data-ops="count-bracket"
+              d="M10 621 V639 H1462 V621"
+              fill="none"
+              stroke={gold}
+              strokeWidth="3"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <Sequence
+        from={628}
+        durationInFrames={229}
+        name="Queen Elizabeth class — documentary footage"
+      >
+        <FootageShot asset="qe-bow" durationInFrames={229} direction="port" />
+      </Sequence>
+
+      <div data-ops="reach" style={{ ...fill, opacity: 0 }}>
+        <div
+          data-ops="reach-camera"
+          style={{ ...fill, transformOrigin: "0 0" }}
+        >
+          <MapBase />
+          <svg viewBox="0 0 1200 675" width="1920" height="1080" style={fill}>
             <defs>
-              <mask id={`${uid}-route`}>
+              <mask
+                id={`${uid}-reach`}
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="1200"
+                height="760"
+              >
                 <path
-                  data-ops="route-mask"
+                  data-ops="reach-draw"
                   d={route.d}
                   fill="none"
                   stroke="white"
-                  strokeWidth="10"
+                  strokeWidth="12"
                   pathLength="100"
                   strokeDasharray="100"
                   strokeDashoffset="100"
                 />
               </mask>
             </defs>
-            <g>
-              <path
-                d={world.uk}
-                fill={gold}
-                stroke="#698399"
-                strokeWidth=".65"
-              />
-              <path
-                d={route.d}
-                fill="none"
-                stroke={gold}
-                strokeWidth="2.2"
-                strokeDasharray="1 5"
-                strokeLinecap="round"
-                mask={`url(#${uid}-route)`}
-              />
-              <path
-                data-ops="route-pulse"
-                d={route.d}
-                fill="none"
-                stroke={white}
-                strokeWidth="1.35"
-                strokeDasharray="6 100"
-                strokeLinecap="round"
-                mask={`url(#${uid}-route)`}
-              />
-              <circle
-                cx={route.from[0]}
-                cy={route.from[1]}
-                r="5"
-                fill={gold}
-                stroke="#0B1A2E"
-                strokeWidth="2"
-              />
-              <circle
-                data-ops="position"
-                cx={route.from[0]}
-                cy={route.from[1]}
-                r="4.5"
-                fill={white}
-                stroke={gold}
-                strokeWidth="1.5"
-              />
-              <circle cx={route.to[0]} cy={route.to[1]} r="4" fill={gold} />
-            </g>
+            <path d={world.uk} fill={gold} />
+            <path
+              d={route.d}
+              fill="none"
+              stroke={gold}
+              strokeWidth="2.3"
+              strokeDasharray="1 6"
+              strokeLinecap="round"
+              mask={`url(#${uid}-reach)`}
+            />
+            <path
+              data-ops="reach-flow"
+              d={route.d}
+              fill="none"
+              stroke={white}
+              strokeWidth="2.4"
+              strokeDasharray="5 58"
+              mask={`url(#${uid}-reach)`}
+            />
+            {[route.from, route.to].map(([x, y], i) => (
+              <g key={i}>
+                <circle cx={x} cy={y} r="5" fill={gold} />
+                {[0, 1, 2].map((j) => (
+                  <circle
+                    key={j}
+                    data-reach-ring
+                    cx={x}
+                    cy={y}
+                    r="2"
+                    fill="none"
+                    stroke={gold}
+                    strokeWidth="1"
+                    opacity="0"
+                  />
+                ))}
+              </g>
+            ))}
           </svg>
         </div>
       </div>
-      <div
-        data-ops="mission-carrier"
-        style={{
-          position: "absolute",
-          left: 220,
-          top: 380,
-          width: 1080,
-          filter: "drop-shadow(0 34px 25px #0007)",
-        }}
-      >
-        <Img
-          src={staticFile("images/generated/carrier.png")}
-          style={{ width: "100%" }}
-        />
-      </div>
-      <div
-        data-ops="months"
-        style={{
-          position: "absolute",
-          left: 320,
-          top: 910,
-          width: 1280,
-          height: 70,
-        }}
-      >
+
+      <div data-ops="replenishment-plan" style={{ ...fill, opacity: 0 }}>
         <div
-          data-ops="month-rule"
-          style={{
-            height: 2,
-            background: "#F4F7FA66",
-            width: "100%",
-            transform: "scaleX(0)",
-          }}
-        />
-        {Array.from({ length: 8 }, (_, i) => (
-          <div
-            key={i}
-            data-month={i}
-            style={{
-              position: "absolute",
-              width: 90,
-              height: 32,
-              top: -15,
-              left: i * 164,
-              borderLeft: `3px solid ${gold}`,
-              background: "linear-gradient(90deg, #D4A94A55, transparent)",
-              opacity: 0,
-            }}
-          />
-        ))}
-      </div>
-      <div
-        data-ops="airwing"
-        style={{ position: "absolute", inset: 0, opacity: 0 }}
-      >
-        <div
-          data-ops="jet-hero"
-          style={{
-            position: "absolute",
-            left: 265,
-            top: 220,
-            width: 1390,
-            filter: "drop-shadow(0 28px 24px #0008)",
-            transformOrigin: "center",
-          }}
+          data-ops="plan-camera"
+          style={{ ...fill, transformOrigin: "50% 55%" }}
         >
-          <Img
-            src={staticFile("images/generated/f35b.png")}
-            style={{ width: "100%" }}
-          />
-        </div>
-        <div
-          data-ops="airwing-grid"
-          style={{
-            position: "absolute",
-            left: 210,
-            top: 300,
-            width: 1510,
-            height: 680,
-            transformOrigin: "center",
-          }}
-        >
-          {Array.from({ length: 24 }, (_, i) => (
-            <div
-              key={i}
-              data-aircraft={i}
-              style={{
-                position: "absolute",
-                left: (i % 6) * 242,
-                top: Math.floor(i / 6) * 163,
-                width: 218,
-                height: 150,
-                opacity: 0,
-              }}
+          <svg viewBox="0 0 1920 1080" width="1920" height="1080" style={fill}>
+            <g
+              data-ops="wake"
+              fill="none"
+              stroke="#627F98"
+              strokeWidth="2"
+              strokeDasharray="25 16"
+              opacity=".22"
             >
-              <div
-                style={{
-                  position: "absolute",
-                  left: 23,
-                  right: 19,
-                  bottom: 10,
-                  height: 1,
-                  background: "#F4F7FA33",
-                }}
-              />
-              <Img
-                src={staticFile("images/generated/f35b.png")}
-                style={{
-                  width: "100%",
-                  filter: "drop-shadow(0 9px 6px #0008)",
-                }}
-              />
-            </div>
-          ))}
+              <path d="M504 390 Q466 720 442 974 M716 390 Q754 720 778 974 M1104 390 Q1066 720 1042 974 M1316 390 Q1354 720 1378 974" />
+            </g>
+            <g data-supply-plan transform="translate(482 286) scale(1.26)">
+              <VesselPlan kind="supply" />
+            </g>
+            <g data-supply-plan transform="translate(1082 286) scale(1.26)">
+              <VesselPlan kind="carrier" />
+            </g>
+            <g data-ops="escort-plan" opacity="0">
+              <g transform="translate(1535 464) scale(.72)">
+                <VesselPlan kind="escort" tone="#2A506D" />
+              </g>
+            </g>
+            <path
+              data-ops="service-line"
+              d="M691 526 C829 558 991 558 1125 526"
+              stroke={white}
+              strokeWidth="3"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-ops="fuel-line"
+              d="M691 632 C829 686 991 686 1125 632"
+              stroke={gold}
+              strokeWidth="6"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-ops="cargo-line"
+              d="M691 738 C829 770 991 770 1125 738"
+              stroke="#8BB1D0"
+              strokeWidth="3"
+              fill="none"
+              pathLength="100"
+              strokeDasharray="100"
+              strokeDashoffset="100"
+            />
+            <path
+              data-ops="transfer-flow"
+              d="M691 632 C829 686 991 686 1125 632"
+              stroke={white}
+              strokeWidth="3"
+              fill="none"
+              strokeDasharray="7 26"
+              opacity="0"
+            />
+            {[
+              [691, 526],
+              [1125, 526],
+              [691, 632],
+              [1125, 632],
+              [691, 738],
+              [1125, 738],
+            ].map(([x, y], i) => (
+              <circle key={i} cx={x} cy={y} r="4" fill={gold} />
+            ))}
+          </svg>
         </div>
       </div>
-      <div
-        data-ops="deck"
-        style={{
-          position: "absolute",
-          inset: 0,
-          opacity: 0,
-          transformOrigin: "72% 60%",
-        }}
+
+      <Sequence
+        from={1444}
+        durationInFrames={226}
+        name="Highmast 2025 — material handling"
       >
-        <div
-          data-ops="deck-carrier"
-          style={{
-            position: "absolute",
-            width: 1810,
-            left: 55,
-            top: 165,
-            filter: "drop-shadow(0 45px 32px #0008)",
-          }}
-        >
-          <Img
-            src={staticFile("images/generated/carrier.png")}
-            style={{ width: "100%" }}
-          />
-        </div>
-      </div>
-      <div
-        data-ops="remote-carrier"
-        style={{
-          position: "absolute",
-          left: 1030,
-          top: 555,
-          width: 690,
-          opacity: 0,
-          filter: "drop-shadow(0 25px 18px #0007)",
-        }}
-      >
-        <Img
-          src={staticFile("images/generated/carrier.png")}
-          style={{ width: "100%" }}
+        <FootageShot
+          asset="ordnance-lift"
+          durationInFrames={226}
+          direction="deck"
+          holdExit
         />
-      </div>
-      <div
-        data-ops="supply"
-        style={{
-          position: "absolute",
-          left: 120,
-          top: 330,
-          width: 820,
-          opacity: 0,
-          filter: "drop-shadow(0 20px 15px #0009)",
-        }}
-      >
-        <Img
-          src={staticFile("images/generated/logistics.png")}
-          style={{ width: "100%" }}
-        />
-      </div>
-      <svg
-        data-ops="supply-network"
-        width="1920"
-        height="1080"
-        style={{ position: "absolute", inset: 0 }}
-      >
-        <path
-          data-ops="supply-line"
-          d="M710 585 C945 585 930 550 1150 550"
-          fill="none"
-          stroke={white}
-          strokeWidth="3"
-          pathLength="100"
-          strokeDasharray="100"
-          strokeDashoffset="100"
-        />
-        <path
-          data-ops="fuel-line"
-          d="M745 680 C1010 680 920 600 1190 600"
-          fill="none"
-          stroke={gold}
-          strokeWidth="7"
-          pathLength="100"
-          strokeDasharray="100"
-          strokeDashoffset="100"
-        />
-        <path
-          data-ops="ammo-line"
-          d="M735 790 C1030 790 920 650 1220 650"
-          fill="none"
-          stroke="#7CA8CB"
-          strokeWidth="3"
-          pathLength="100"
-          strokeDasharray="100"
-          strokeDashoffset="100"
-        />
-        <path
-          data-ops="flow"
-          d="M745 680 C1010 680 920 600 1190 600"
-          fill="none"
-          stroke={white}
-          strokeWidth="4"
-          strokeDasharray="4 34"
-          strokeLinecap="round"
-          opacity="0"
-        />
-      </svg>
-      <div
-        data-ops="escort"
-        style={{
-          position: "absolute",
-          left: 1190,
-          top: 705,
-          width: 490,
-          height: 255,
-          overflow: "hidden",
-          opacity: 0,
-          borderTop: `3px solid ${gold}`,
-          transform: "rotate(-4deg)",
-        }}
-      >
-        <Img
-          src={staticFile("images/web/daring-dauntless.jpg")}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: "center 69%",
-          }}
-        />
-      </div>
-      <div
-        data-ops="replenishment"
-        style={{
-          position: "absolute",
-          left: 135,
-          top: 260,
-          width: 1650,
-          height: 720,
-          overflow: "hidden",
-          opacity: 0,
-        }}
-      >
-        <Img
-          data-ops="replenishment-image"
-          src={staticFile("images/web/replenishment.jpg")}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: "center 48%",
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "linear-gradient(180deg,#0B1A2E00 70%,#0B1A2E55)",
-          }}
-        />
-      </div>
+      </Sequence>
       <div
         style={{
-          position: "absolute",
-          inset: 0,
+          ...fill,
           pointerEvents: "none",
           background:
-            "linear-gradient(180deg, #0B1A2E 0%, #0B1A2Eee 7%, #0B1A2E00 29%, #0B1A2E00 88%, #0B1A2E77 100%)",
+            "linear-gradient(180deg,#0B1A2E 0%,#0B1A2Edc 10%,#0B1A2E00 28%,#0B1A2E00 90%,#0B1A2E55 100%)",
         }}
       />
     </div>

@@ -1,25 +1,47 @@
-# Assets — revisão 4
+# Assets — revisão 5
 
-A composição ativa combina **seis recortes gerados**, **cinco fotografias documentais**, cartografia real e diagramas vetoriais desenhados dentro dos capítulos. Os 35 SVGs da revisão 3 permanecem arquivados e não são usados na montagem atual.
+A composição ativa `RoyalNavy` combina **quatro recortes gerados**, **seis trechos de filmagens documentais**, cartografia real e diagramas vetoriais animados. A lista foi conferida nos imports e elementos usados por `Film.tsx` e seus quatro capítulos. Os outros quatro recortes gerados, as cinco fotografias e os 35 SVGs da revisão 3 permanecem arquivados, fora da montagem atual.
 
 ## Recortes gerados em uso
 
 PNGs com canal alfa, criados com a ferramenta de geração de imagens. São ilustrações editoriais, não fotografias de exemplares ou acontecimentos específicos. [Prompts completos](data/image-prompts.json) e [informações de origem](IMAGE-SOURCES.md).
 
-| Asset | Uso na revisão 4 |
+| Asset | Uso na revisão 5 |
 |---|---|
-| [carrier.png](public/images/generated/carrier.png) | Continuidade entre história e frota, aproximações do convés, operações e disponibilidade |
-| [f35b.png](public/images/generated/f35b.png) | Passagem da aeronave e composição da ala aérea |
-| [merlin.png](public/images/generated/merlin.png) | Contexto aéreo da representação de sonar |
-| [sailing-ship.png](public/images/generated/sailing-ship.png) | Navegação histórica e transição para o poder naval atual |
+| [carrier.png](public/images/generated/carrier.png) | Continuidade entre HistoryChapter e FleetChapter e aproximações do porta-aviões no capítulo da frota |
+| [f35b.png](public/images/generated/f35b.png) | Passagem da aeronave em FleetChapter; a contagem de 24 usa vetores próprios |
+| [sailing-ship.png](public/images/generated/sailing-ship.png) | Navegação histórica em uma aparição principal, com vento e esteira vetoriais |
 | [numenor.png](public/images/generated/numenor.png) | Interpretação visual da ilha fictícia mencionada na narração |
-| [logistics.png](public/images/generated/logistics.png) | Suprimentos e sustentação da operação |
 
-[anchor.png](public/images/generated/anchor.png) e [globe.png](public/images/generated/globe.png) continuam disponíveis como arquivos anteriores, sem uso na composição ativa.
+[grain.png](public/grain.png) continua ativo como textura discreta de fundo; não é um recorte ilustrativo.
 
-## Fotografias em uso
+## Filmagens documentais em uso
 
-As cinco fotografias foram obtidas sob **Open Government Licence v1.0**, com créditos completos e páginas de origem em [IMAGE-SOURCES.md](IMAGE-SOURCES.md). Os JPEGs preservam os arquivos baixados; máscaras, enquadramento e movimento são aplicados na composição.
+Seis recortes locais H.264, 1920×1080 e 30 fps, sem áudio e sem loop. As fontes estão identificadas como **PUBLIC DOMAIN** no manifesto consultado. Autoria, páginas de origem, datas e recortes da fonte estão em [VIDEO-SOURCES.md](VIDEO-SOURCES.md); metadados técnicos e hashes estão em [data/video-sources.json](data/video-sources.json).
+
+| Arquivo | Conteúdo e registro | Capítulo ativo |
+|---|---|---|
+| [qe-arrival.mp4](public/video/qe-arrival.mp4) | HMS Queen Elizabeth chegando a Norfolk, 2022 | FleetChapter |
+| [pow-arrival.mp4](public/video/pow-arrival.mp4) | HMS Prince of Wales chegando a Norfolk, 2023 | FleetChapter |
+| [f35-landing.mp4](public/video/f35-landing.mp4) | Teste de pouso de F-35 em HMS Prince of Wales, 2023 | FleetChapter |
+| [qe-bow.mp4](public/video/qe-bow.mp4) | Proa de HMS Queen Elizabeth, 2022 | OperationsChapter |
+| [ordnance-lift.mp4](public/video/ordnance-lift.mp4) | Movimentação de munição para HMS Prince of Wales, 2025 | OperationsChapter |
+| [ordnance-deck.mp4](public/video/ordnance-deck.mp4) | Trabalho no convés durante movimentação de munição, 2025 | EnduranceChapter |
+
+[FootageShot.tsx](src/documentary/FootageShot.tsx) reproduz os arquivos locais, aplica enquadramento, movimento, máscara de entrada e crédito com a data do registro. Os planos de 2022 e 2023 ilustram os equipamentos; não são apresentados como registros de Highmast 2025. As filmagens de munição não constituem evidência de manutenção, defeito ou indisponibilidade.
+
+## Recortes e fotografias arquivados
+
+Estes quatro PNGs não são importados nem exibidos pelos capítulos ativos:
+
+| Recorte | Situação na revisão 5 |
+|---|---|
+| [merlin.png](public/images/generated/merlin.png) | Substituído pelo helicóptero SVG animado de FleetHelicopter |
+| [logistics.png](public/images/generated/logistics.png) | Substituído por diagramas de abastecimento e filmagens documentais |
+| [anchor.png](public/images/generated/anchor.png) | Asset anterior, sem uso atual |
+| [globe.png](public/images/generated/globe.png) | Asset anterior, sem uso atual; a montagem utiliza cartografia real |
+
+As cinco fotografias abaixo também estão fora da montagem ativa. Foram obtidas sob **Open Government Licence v1.0**, com créditos completos e páginas de origem preservados em [IMAGE-SOURCES.md](IMAGE-SOURCES.md).
 
 | Fotografia | Conteúdo |
 |---|---|
@@ -29,7 +51,7 @@ As cinco fotografias foram obtidas sob **Open Government Licence v1.0**, com cr�
 | [merlin-hm2.jpg](public/images/web/merlin-hm2.jpg) | Helicóptero Merlin Mark 2 em voo |
 | [replenishment.jpg](public/images/web/replenishment.jpg) | Reabastecimento entre HMS Cumberland e RFA Wave Knight |
 
-São imagens históricas de equipamentos e operações; não constituem registros identificados como Highmast 2025. Autores e licença devem acompanhar a distribuição do vídeo.
+Os JPEGs originais continuam disponíveis para reaproveitamento. Seus créditos e licença devem acompanhar eventual reutilização; não constituem registros identificados como Highmast 2025.
 
 ## Vetores ativos na composição
 
@@ -38,14 +60,28 @@ Os mapas e diagramas são SVGs editáveis em React, animados por `useGsapTimelin
 | Arquivo | Elementos vetoriais |
 |---|---|
 | [Atlas.tsx](src/documentary/Atlas.tsx) | Costas geográficas, máscara de pintura líquida, rotas, pontos de origem e destino |
-| [HistoryChapter.tsx](src/documentary/HistoryChapter.tsx) | Apresentação histórica, relações entre as ilhas e deslocamentos cartográficos |
-| [FleetChapter.tsx](src/documentary/FleetChapter.tsx) | Trajetória sobre o convés, conexões de comando, cobertura aérea, linha d’água, sonar e submarino |
-| [OperationsChapter.tsx](src/documentary/OperationsChapter.tsx) | Rota, transferências de suprimentos e marcações da operação |
-| [EnduranceChapter.tsx](src/documentary/EnduranceChapter.tsx) | Conexões entre aliados e diagramas de disponibilidade e tempo |
+| [HistoryNavigation.tsx](src/documentary/HistoryNavigation.tsx) | Vento e esteira do veleiro, sinais sobre os geodésicos Turf, conexões esquemáticas do porto de Númenor e embarcações seguindo corredores marítimos ilustrativos |
+| [HistoryChapter.tsx](src/documentary/HistoryChapter.tsx) | Animação dos diagramas históricos, pintura líquida, luz sobre o mapa, comparação das ilhas e movimentos de câmera |
+| [FleetHelicopter.tsx](src/documentary/FleetHelicopter.tsx) | Helicóptero vetorial com rotores principal e de cauda animados e ponto de ligação ao sonar |
+| [FleetSystems.tsx](src/documentary/FleetSystems.tsx) | Planta esquemática do porta-aviões, escoltas, apoio, ligações de comando, sinais e cobertura aérea; inclui FleetCarrierPlan |
+| [FleetChapter.tsx](src/documentary/FleetChapter.tsx) | Trajetória no convés, transição pela linha d’água, cabo e sonda de sonar, ondas e submarino |
+| [NavalDiagramsV5.tsx](src/documentary/NavalDiagramsV5.tsx) | Perfis de porta-aviões, escolta e apoio, vistas superiores de embarcações e unidade vetorial de aeronave; geometrias animadas pelos capítulos |
+| [OperationsChapter.tsx](src/documentary/OperationsChapter.tsx) | Contagem de 24 aeronaves vetoriais, alcance geográfico, reabastecimento lado a lado e transferência de suprimentos |
+| [EnduranceChapter.tsx](src/documentary/EnduranceChapter.tsx) | Formação multinacional, conexões entre aliados, disponibilidade das embarcações e evolução da pressão sobre a frota |
 
 Os diagramas navais são representações editoriais, não plantas técnicas nem indicação de quantidades operacionais reais. A contagem de 24 aeronaves segue o trecho específico da narração.
 
+As conexões de Númenor são esquemáticas, sem pretensão de reproduzir a cartografia canônica de Middle-earth. O diagrama europeu usa a projeção do atlas e corredores marítimos ilustrativos. Os sinais que cruzam o mapa mundial representam conexões geográficas, não navios navegando por terra.
+
 ## Cartografia e exportações disponíveis
+
+Também estão disponíveis seis SVGs transparentes exportados da geometria ativa da revisão 5. São estados estáticos reutilizáveis; a animação permanece nos componentes Remotion/GSAP.
+
+- [carrier-profile.svg](public/svg-v5/carrier-profile.svg) · [carrier-plan.svg](public/svg-v5/carrier-plan.svg)
+- [escort-profile.svg](public/svg-v5/escort-profile.svg) · [escort-plan.svg](public/svg-v5/escort-plan.svg)
+- [supply-profile.svg](public/svg-v5/supply-profile.svg) · [supply-plan.svg](public/svg-v5/supply-plan.svg)
+
+[Manifesto](data/svg-v5.json) · [Gerador](scripts/export-documentary-vectors.mjs).
 
 Natural Earth, domínio público. Turf.js processa polígonos e trajetos geodésicos; D3 realiza a projeção. O mundo usa detalhe 1:50 milhões e Reino Unido/Irlanda, 1:10 milhões. [Dados congelados e origem](data/geography/sources.json) · [atlas utilizado pelos componentes](data/geography/atlas.json).
 

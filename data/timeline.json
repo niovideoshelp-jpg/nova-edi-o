@@ -1793,7 +1793,7 @@
       }
     }
   ],
-  "visualRevision": 4,
+  "visualRevision": 5,
   "imageCredits": "IMAGE-SOURCES.md",
   "animationIntegration": "@remotion/gsap 4.0.532: useGsapTimeline()",
   "geography": {
@@ -1804,6 +1804,6 @@
     "historicalConnections": "Five representative former colonies, not exhaustive and not a dated territorial map",
     "modernConnections": "Schematic geographic links, not recorded ship tracks"
   },
-  "visualArchitecture": "Four continuous documentary environments with 62 individually editable narrative cue Sequences; 12-frame chapter overlaps",
+  "visualArchitecture": "Four continuous documentary environments; six archival footage shots; 62 narration cue Sequences; 24-frame chapter transitions",
   "activeVisualPlan": "data/documentary-timeline.json"
 }

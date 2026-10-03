@@ -4,16 +4,15 @@ Composição Remotion editável, sincronizada à narração **Intro.mp3**.
 
 **1920×1080 · 30 fps · 6047 frames · 3:21,567**
 
-A revisão 4 reorganiza o filme em **quatro ambientes contínuos**, com movimentos de câmera que ligam mapas, navios, fotografias e diagramas. Aproximações do convés, deslocamentos sobre os mapas, passagens de aeronaves e a travessia da linha d’água dão continuidade à ação. Fotografias documentais e recortes gerados ocupam o quadro; a montagem anterior de 35 ícones SVG foi retirada da composição ativa.
+A revisão 5 combina **quatro ambientes contínuos, seis tomadas documentais e diagramas SVG animados**. Rotores, sonar, navegação, comunicações e transferências de material têm movimento próprio. As câmeras aproximam o assunto e conduzem a passagem para o plano seguinte. Foram corrigidos o enquadramento do veleiro, o alinhamento das comparações e as conexões entre embarcações; os recortes repetidos da segunda metade foram substituídos.
 
-As **62 Sequences de marcação da narração** permanecem editáveis individualmente. Elas controlam os textos e os gatilhos das palavras, enquanto a imagem continua se movimentando entre as marcações. As três passagens entre capítulos têm sobreposição de 12 frames.
+As **62 Sequences de marcação da narração** permanecem editáveis individualmente. Elas controlam os textos e os gatilhos das palavras, enquanto a imagem continua se movimentando entre as marcações. As três passagens entre capítulos têm sobreposição de **24 frames**: continuidade do porta-aviões, revelação do mapa para leste e passagem do abastecimento à rede de aliados.
 
-![Seleção de quadros da revisão 4](docs/preview-v4.jpg)
+![Seleção de quadros da revisão 5](docs/preview-v5.jpg)
 
-Trechos em movimento, cada um com 8 segundos, áudio e 240 frames em 960×540 a 30 fps:
+O MP4 completo é exportado localmente em `out/RoyalNavy-v5.mp4`. As seis tomadas incorporadas ao projeto estão em [public/video](public/video), com autoria, datas e recortes em [VIDEO-SOURCES.md](VIDEO-SOURCES.md).
 
-- [Fotografia e aproximação do convés](docs/preview-carrier-v4.mp4)
-- [Ala aérea e contagem de aeronaves](docs/preview-airwing-v4.mp4)
+- [Prévia da montagem com filmagens](docs/preview-fleet-v5.mp4)
 
 ## Abrir a prévia
 
@@ -30,15 +29,15 @@ Para exportar:
 npm run render
 ```
 
-O destino é `out/RoyalNavy.mp4`. O Remotion pode baixar o Chrome Headless Shell; também aceita um Chrome instalado por meio de `--browser-executable`.
+O destino é `out/RoyalNavy-v5.mp4`. O Remotion pode baixar o Chrome Headless Shell; também aceita um Chrome instalado por meio de `--browser-executable`.
 
 ## Estrutura ativa
 
 | Capítulo | Intervalo principal | Movimento |
 |---|---|---|
 | HistoryChapter | 0:00–1:03,87 | Pintura líquida do Reino Unido, recuo para o mapa mundial, navegação histórica e comparação com Númenor |
-| FleetChapter | 1:03,87–1:50,87 | Travelling sobre o porta-aviões, panorama de fotografias, passagem do F-35B e mergulho para a representação de sonar |
-| OperationsChapter | 1:50,87–2:45,73 | Acompanhamento da rota, contagem de aeronaves, aproximação do convés e transferências de suprimentos |
+| FleetChapter | 1:03,87–1:50,87 | Continuidade do porta-aviões, filmagens, grupo naval, rotores e sonar animados |
+| OperationsChapter | 1:50,87–2:45,73 | Acompanhamento geográfico, grade de 24 aeronaves, filmagens e transferências de suprimentos |
 | EnduranceChapter | 2:45,73–3:21,57 | Conexões entre aliados, operação independente, relação entre doca, mar e tempo disponível |
 
 | Conteúdo | Arquivo |
@@ -54,8 +53,9 @@ O destino é `out/RoyalNavy.mp4`. O Remotion pode baixar o Chrome Headless Shell
 | Transcrição corrigida | [data/transcript.txt](data/transcript.txt) |
 | Imagens, vetores e arquivos de referência | [ASSETS.md](ASSETS.md) |
 | Créditos das fotografias e prompts | [IMAGE-SOURCES.md](IMAGE-SOURCES.md) |
+| Filmagens, autoria, datas e hashes | [VIDEO-SOURCES.md](VIDEO-SOURCES.md) · [data/video-sources.json](data/video-sources.json) |
 | Narração original e mixagem | [public/audio/Intro.mp3](public/audio/Intro.mp3) · [public/audio/mix.mp3](public/audio/mix.mp3) |
-| Gerador da montagem atual | [scripts/build-documentary.mjs](scripts/build-documentary.mjs) |
+| Gerador das marcações e prévias | [scripts/build-documentary.mjs](scripts/build-documentary.mjs) |
 
 `src/scenes`, `src/Scene.tsx`, `src/NavalGraphic.tsx`, `src/MapAtlas.tsx` e `public/svg-v3` são arquivos da revisão anterior. Não integram a renderização atual. Os campos visuais antigos preservados na timeline também não definem a direção visual dos novos capítulos.
 
@@ -94,19 +94,21 @@ npm run check
 npm run lint
 ```
 
-As verificações de código e timeline são distintas da avaliação do movimento. [scripts/review-documentary.mjs](scripts/review-documentary.mjs) gera amostras de frames; a opção `--motion` gera trechos contínuos para revisão. Os registros e limitações da revisão ficam em [QA.md](QA.md). A geração de um trecho, por si só, não comprova a qualidade da animação.
+As verificações de código e timeline são distintas da avaliação do movimento. [scripts/review-v5.mjs](scripts/review-v5.mjs) gera amostras de frames; a opção `--motion` gera trechos contínuos para revisão. Os registros da revisão ficam em [QA.md](QA.md). O render sequencial para máquinas com pouca memória usa `node scripts/render-full.mjs` após a criação do bundle pelo script de revisão.
 
-Para recriar a montagem, as prévias S01–S62 e o manifesto da revisão 4:
+Para atualizar as prévias S01–S62 e o manifesto da revisão 5:
 
 ```sh
 node scripts/build-documentary.mjs
 ```
 
-Esse comando reescreve `src/Film.tsx`, `src/Root.tsx` e os manifestos a partir da marcação existente. Os movimentos de cada capítulo são editados em `src/documentary`. `build-design.mjs`, `revise-storyboard.mjs` e `export-vectors.mjs` pertencem à montagem anterior e podem recriar arquivos da revisão 3.
+Esse comando reescreve `src/Root.tsx` e os manifestos a partir da marcação existente. A montagem autoral em `src/Film.tsx` é preservada. Os movimentos de cada capítulo são editados em `src/documentary`. `build-design.mjs`, `revise-storyboard.mjs` e `export-vectors.mjs` pertencem à montagem anterior e podem recriar arquivos da revisão 3.
 
 `scripts/build-geography.mjs` recompõe as vistas a partir dos dados geográficos locais. Não é necessário baixar novamente as fontes para abrir ou renderizar o projeto.
 
 ## Fontes e licenças
+
+Filmagens: seis recortes de quatro obras identificadas como domínio público no DVIDS, com autores governamentais e datas verificados. Veja [VIDEO-SOURCES.md](VIDEO-SOURCES.md), incluindo a declaração de ausência de endosso. O projeto conserva os créditos e usa os arquivos localmente, sem depender de streaming na renderização.
 
 Fotografias: © Crown copyright / Ministry of Defence, sob **Open Government Licence v1.0**. Autores, páginas de origem e condições estão em [IMAGE-SOURCES.md](IMAGE-SOURCES.md); esses créditos devem acompanhar a publicação do vídeo. Os recortes gerados são ilustrações, não fotografias documentais. Natural Earth é de domínio público. A narração é material fornecido pelo usuário.
 

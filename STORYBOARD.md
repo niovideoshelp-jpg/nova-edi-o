@@ -1,15 +1,15 @@
-# Royal Navy — revisão 4
+# Royal Navy — revisão 5
 
-A narração organiza 62 marcações de 2–4 segundos dentro de quatro ambientes contínuos. A mudança de marcação troca o foco, a câmera ou a anotação; não desmonta automaticamente o cenário. Os três limites entre ambientes têm sobreposição de 12 frames.
+A narração organiza 62 marcações de 2–4 segundos dentro de quatro ambientes contínuos. A mudança de marcação troca o foco, a câmera ou a anotação; não desmonta automaticamente o cenário. Os três limites entre ambientes têm sobreposição de 24 frames.
 
 | Ambiente | Tempo | Movimento |
 |---|---|---|
-| History and geography | 0.00–63.87 s | UK liquid reveal, geographic pullback, sailship parallax, island comparison |
-| Carrier strike capability | 63.87–110.87 s | Carrier camera traversal, photo panorama, flight path, layered maritime defense |
-| Highmast and logistics | 110.87–165.73 s | Geographic route following, aircraft count, deck closeup, supply transfers |
-| Allies and endurance | 165.73–201.57 s | Atlantic connections, independent sailing, dock-to-sea split, time pressure |
+| History and geography | 0.00–63.87 s | UK liquid reveal, historical ship wake, geodesic signals, island influence and maritime corridors |
+| Carrier strike capability | 63.87–110.87 s | Carrier match, three archival shots, animated task group, rotor/sonar action and vector departure |
+| Highmast and logistics | 110.87–165.73 s | Geographic reach, 24-unit chart, archival carrier class footage, aligned supply transfer and material handling |
+| Allies and endurance | 165.73–201.57 s | Allied command network, independent operation, deck work, berth departure and operating/return cycle |
 
-Mapas geográficos reais com contornos Natural Earth e processamento Turf. Linhas são conexões esquemáticas, não rastreamentos. Recortes gerados são ilustrações; fotos documentais preservam os créditos em IMAGE-SOURCES.md. A comparação com Númenor é ilustrativa, não uma afirmação de influência literária comprovada.
+Mapas geográficos reais com contornos Natural Earth e processamento Turf. Linhas são conexões esquemáticas, não rastreamentos. Recortes gerados são ilustrações; filmagens documentais preservam os créditos em VIDEO-SOURCES.md. A comparação com Númenor é ilustrativa, não uma afirmação de influência literária comprovada.
 
 | Cena | Início | Fim | Gatilho | Texto |
 |---|---:|---:|---|---|

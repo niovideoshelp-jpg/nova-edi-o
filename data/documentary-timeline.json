@@ -1,10 +1,10 @@
 {
-  "revision": 4,
+  "revision": 5,
   "fps": 30,
   "width": 1920,
   "height": 1080,
   "durationInFrames": 6047,
-  "transitionOverlapFrames": 12,
+  "transitionOverlapFrames": 24,
   "chapters": [
     {
       "id": "history",
@@ -12,7 +12,7 @@
       "component": "HistoryChapter",
       "startFrame": 0,
       "endFrame": 1916,
-      "motion": "UK liquid reveal, geographic pullback, sailship parallax, island comparison"
+      "motion": "UK liquid reveal, historical ship wake, geodesic signals, island influence and maritime corridors"
     },
     {
       "id": "fleet",
@@ -20,7 +20,7 @@
       "component": "FleetChapter",
       "startFrame": 1916,
       "endFrame": 3326,
-      "motion": "Carrier camera traversal, photo panorama, flight path, layered maritime defense"
+      "motion": "Carrier match, three archival shots, animated task group, rotor/sonar action and vector departure"
     },
     {
       "id": "operations",
@@ -28,7 +28,7 @@
       "component": "OperationsChapter",
       "startFrame": 3326,
       "endFrame": 4972,
-      "motion": "Geographic route following, aircraft count, deck closeup, supply transfers"
+      "motion": "Geographic reach, 24-unit chart, archival carrier class footage, aligned supply transfer and material handling"
     },
     {
       "id": "endurance",
@@ -36,7 +36,7 @@
       "component": "EnduranceChapter",
       "startFrame": 4972,
       "endFrame": 6047,
-      "motion": "Atlantic connections, independent sailing, dock-to-sea split, time pressure"
+      "motion": "Allied command network, independent operation, deck work, berth departure and operating/return cycle"
     }
   ],
   "cues": [
@@ -856,5 +856,23 @@
       "textFrame": 5965,
       "variants": []
     }
-  ]
+  ],
+  "transitions": [
+    {
+      "frame": 1916,
+      "type": "matched-carrier",
+      "frames": 24
+    },
+    {
+      "frame": 3326,
+      "type": "eastward-map-reveal",
+      "frames": 24
+    },
+    {
+      "frame": 4972,
+      "type": "supply-to-allied-network",
+      "frames": 24
+    }
+  ],
+  "footageManifest": "data/video-sources.json"
 }
