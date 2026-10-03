@@ -1,0 +1,386 @@
+{
+  "generator": "scripts/export-part2-vectors.mjs",
+  "assetCount": 22,
+  "assets": [
+    {
+      "name": "carrier-plan",
+      "component": "ShipPlan",
+      "source": "PresentVectors",
+      "viewBox": "-75 -175 150 350",
+      "props": {
+        "kind": "carrier"
+      },
+      "file": "public/svg-part2/carrier-plan.svg",
+      "width": 150,
+      "height": 350,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "7d4eb860b044e34a74bc14843d9e6b8242899d0422d68a80bf496f462bf96e95",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "destroyer-plan",
+      "component": "ShipPlan",
+      "source": "PresentVectors",
+      "viewBox": "-75 -175 150 350",
+      "props": {
+        "kind": "destroyer"
+      },
+      "file": "public/svg-part2/destroyer-plan.svg",
+      "width": 150,
+      "height": 350,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "4a76acaa3a2983513ddfbc2fe5a7b8c7469ef418e7c3a41ac834ef2707351f40",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "frigate-plan",
+      "component": "ShipPlan",
+      "source": "PresentVectors",
+      "viewBox": "-75 -175 150 350",
+      "props": {
+        "kind": "frigate"
+      },
+      "file": "public/svg-part2/frigate-plan.svg",
+      "width": 150,
+      "height": 350,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "f89b4d064bfbecd6752e809ee3bbe8c3663483eefb4ea574fa2c88dd6e5a8492",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "supply-plan",
+      "component": "ShipPlan",
+      "source": "PresentVectors",
+      "viewBox": "-75 -175 150 350",
+      "props": {
+        "kind": "supply"
+      },
+      "file": "public/svg-part2/supply-plan.svg",
+      "width": 150,
+      "height": 350,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "87f4c816ea631977e1f61a76a23bbcbc692412aaef17ec2e7739ed494b0916e8",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "destroyer-profile",
+      "component": "ShipSide",
+      "source": "PresentVectors",
+      "viewBox": "-315 -115 630 205",
+      "props": {
+        "kind": "destroyer"
+      },
+      "file": "public/svg-part2/destroyer-profile.svg",
+      "width": 630,
+      "height": 205,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "45a645a159bade16ffbe6291a3f259461e1e4c4c155720f2e5c3e1ee5a8dc938",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "patrol-profile",
+      "component": "ShipSide",
+      "source": "PresentVectors",
+      "viewBox": "-315 -115 630 205",
+      "props": {
+        "kind": "patrol"
+      },
+      "file": "public/svg-part2/patrol-profile.svg",
+      "width": 630,
+      "height": 205,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "6974d84f368cee929054a307753dc43acd11fd0695dbf9d448c47741dc23f596",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "mine-profile",
+      "component": "ShipSide",
+      "source": "PresentVectors",
+      "viewBox": "-315 -115 630 205",
+      "props": {
+        "kind": "mine"
+      },
+      "file": "public/svg-part2/mine-profile.svg",
+      "width": 630,
+      "height": 205,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "bec4de742912d7a104f7df22cb35ff90ae74679c392b395d1044a94627b28bf9",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "supply-profile",
+      "component": "ShipSide",
+      "source": "PresentVectors",
+      "viewBox": "-315 -115 630 205",
+      "props": {
+        "kind": "supply"
+      },
+      "file": "public/svg-part2/supply-profile.svg",
+      "width": 630,
+      "height": 205,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "c1946d562cc5507a3b7936cf07933b7095240ca0f0ffd1960fbceada9452fd72",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "merlin-plan",
+      "component": "MerlinPlan",
+      "source": "PresentVectors",
+      "viewBox": "-60 -60 120 130",
+      "props": {},
+      "file": "public/svg-part2/merlin-plan.svg",
+      "width": 120,
+      "height": 130,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "ebda753785bbc667bce1a5e372bc526d94bd8da7dd710959160b1cd33949250d",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "attack-submarine-plan",
+      "component": "SubmarinePlan",
+      "source": "PresentVectors",
+      "viewBox": "-52 -157 104 320",
+      "props": {},
+      "file": "public/svg-part2/attack-submarine-plan.svg",
+      "width": 104,
+      "height": 320,
+      "background": "transparent",
+      "sourceFile": "src/part2/PresentVectors.tsx",
+      "sourceSha256": "d331a7357db162dc269af7c9ce968d4497a192c20fe8a046485e095253982949",
+      "sha256": "680250fbfbd599175ba8754757b43b9af10f1c591d73ee3cadfac2dc37940b86",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "type23-profile",
+      "component": "FrigateProfile",
+      "source": "FutureVectors",
+      "viewBox": "0 0 1200 360",
+      "props": {
+        "kind": "type23"
+      },
+      "file": "public/svg-part2/type23-profile.svg",
+      "width": 1200,
+      "height": 360,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "a94e339e0a54dbba17b458091ab9342eb9f4757688b9d4971d5c28ccb05d9001",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "type26-profile",
+      "component": "FrigateProfile",
+      "source": "FutureVectors",
+      "viewBox": "0 0 1200 360",
+      "props": {
+        "kind": "type26"
+      },
+      "file": "public/svg-part2/type26-profile.svg",
+      "width": 1200,
+      "height": 360,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "f417147dfdff042cf070a536d5da1347600b0bd2ecd3e385a8a757f518af9d69",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "type31-profile",
+      "component": "FrigateProfile",
+      "source": "FutureVectors",
+      "viewBox": "0 0 1200 360",
+      "props": {
+        "kind": "type31"
+      },
+      "file": "public/svg-part2/type31-profile.svg",
+      "width": 1200,
+      "height": 360,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "e771d5f315b8279770aef27606eceee37bf00f3a9f0c52f5a1695a71a26c09ee",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "astute-profile",
+      "component": "AstuteProfile",
+      "source": "FutureVectors",
+      "viewBox": "0 0 1200 330",
+      "props": {},
+      "file": "public/svg-part2/astute-profile.svg",
+      "width": 1200,
+      "height": 330,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "3d614e1a325c63357d5ccfae161cfb2982251ad5e5b0fb874df99aae020167a2",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "future-submarine-symbol",
+      "component": "PlannedBoat",
+      "source": "FutureVectors",
+      "viewBox": "0 0 220 70",
+      "props": {},
+      "file": "public/svg-part2/future-submarine-symbol.svg",
+      "width": 220,
+      "height": 70,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "36496f3ba6a18714a81ec4ca65dd7b960ca34f8ba4797f6504d83c81e73b0b5b",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "naval-yard",
+      "component": "YardRig",
+      "source": "FutureVectors",
+      "viewBox": "0 0 1600 800",
+      "props": {},
+      "file": "public/svg-part2/naval-yard.svg",
+      "width": 1600,
+      "height": 800,
+      "background": "transparent",
+      "sourceFile": "src/part2/FutureVectors.tsx",
+      "sourceSha256": "876ba9b5e9fd28ea12cf17ac62d19275d1c829fc3a402c65a52b863526aabed9",
+      "sha256": "98bf018860e3407b8a1d8448324f88a357651835f59461ac139c358307266bb8",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "maintenance-shaft",
+      "component": "MaintenanceShaft",
+      "source": "AvailabilityChapter",
+      "viewBox": "0 0 1920 1080",
+      "props": {},
+      "file": "public/svg-part2/maintenance-shaft.svg",
+      "width": 1920,
+      "height": 1080,
+      "background": "transparent",
+      "sourceFile": "src/part2/AvailabilityChapter.tsx",
+      "sourceSha256": "30bc233b72a2d5359bd7e005e0cb3dbd02cbd617d2532fb0f1aef1b2a83b485c",
+      "sha256": "27fc2e9424cf466783f88f9469a53c625feafd77f3616afbc2dcd5b84b04dab6",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "vanguard-profile",
+      "component": "VanguardProfile",
+      "source": "NuclearVectors",
+      "viewBox": "0 0 1400 350",
+      "props": {},
+      "file": "public/svg-part2/vanguard-profile.svg",
+      "width": 1400,
+      "height": 350,
+      "background": "transparent",
+      "sourceFile": "src/part2/NuclearVectors.tsx",
+      "sourceSha256": "0a8d9f214d592fc0863175ccb511cbd23712c9916c4d05c54de7734243f198e7",
+      "sha256": "5bf5f5c35c6e7bf9130fc831d40599327cbf1b129c652210e0e252d2370fe321",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "inventory-surface",
+      "component": "InventoryHull",
+      "source": "NuclearVectors",
+      "viewBox": "0 0 70 190",
+      "props": {
+        "kind": "surface"
+      },
+      "file": "public/svg-part2/inventory-surface.svg",
+      "width": 70,
+      "height": 190,
+      "background": "transparent",
+      "sourceFile": "src/part2/NuclearVectors.tsx",
+      "sourceSha256": "0a8d9f214d592fc0863175ccb511cbd23712c9916c4d05c54de7734243f198e7",
+      "sha256": "7daa4025e5c7f591b2943a55ed4a624e4394577043e46b122fd8ee2ad94265c2",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "inventory-supply",
+      "component": "InventoryHull",
+      "source": "NuclearVectors",
+      "viewBox": "0 0 70 190",
+      "props": {
+        "kind": "supply"
+      },
+      "file": "public/svg-part2/inventory-supply.svg",
+      "width": 70,
+      "height": 190,
+      "background": "transparent",
+      "sourceFile": "src/part2/NuclearVectors.tsx",
+      "sourceSha256": "0a8d9f214d592fc0863175ccb511cbd23712c9916c4d05c54de7734243f198e7",
+      "sha256": "05d751742bcacdf2bfebfe06e69dd8bdf4829f2f41cecf524a912e885e207d0b",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "inventory-submarine",
+      "component": "InventoryHull",
+      "source": "NuclearVectors",
+      "viewBox": "0 0 210 72",
+      "props": {
+        "kind": "submarine"
+      },
+      "file": "public/svg-part2/inventory-submarine.svg",
+      "width": 210,
+      "height": 72,
+      "background": "transparent",
+      "sourceFile": "src/part2/NuclearVectors.tsx",
+      "sourceSha256": "0a8d9f214d592fc0863175ccb511cbd23712c9916c4d05c54de7734243f198e7",
+      "sha256": "5f10d18b4ad4fe791044fa286b969bfb67003e2890f55086e5c9e83365ad3307",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    },
+    {
+      "name": "inventory-water",
+      "component": "InventoryWater",
+      "source": "NuclearVectors",
+      "viewBox": "0 0 1920 1080",
+      "props": {},
+      "file": "public/svg-part2/inventory-water.svg",
+      "width": 1920,
+      "height": 1080,
+      "background": "transparent",
+      "sourceFile": "src/part2/NuclearVectors.tsx",
+      "sourceSha256": "0a8d9f214d592fc0863175ccb511cbd23712c9916c4d05c54de7734243f198e7",
+      "sha256": "77cc200fda81e7eaaf4fea7ab943f76a8bf489a217b458a6e8064b25c02a93f4",
+      "standaloneAnimation": false,
+      "animation": "The video animates these exact source components with @remotion/gsap useGsapTimeline; static files are reusable geometry."
+    }
+  ]
+}

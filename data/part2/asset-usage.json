@@ -1,0 +1,150 @@
+{
+  "composition": "RoyalNavyPart2",
+  "checkedAgainst": [
+    "src/part2/InventoryChapter.tsx",
+    "src/part2/ReadinessChapter.tsx",
+    "src/part2/OperationsChapter.tsx",
+    "src/part2/RenewalChapter.tsx",
+    "src/part2/IndustryChapter.tsx",
+    "src/part2/AtlanticChapter.tsx",
+    "src/part2/AvailabilityChapter.tsx"
+  ],
+  "note": "Semantic references associate assets with the cue and its continuous transition. They are not an exact per-frame visibility list. Static SVG exports are reusable copies of inline animated component geometry, not separate footage loaded by the renderer. Common audio, grain and font apply throughout.",
+  "acquired": [
+    {
+      "file": "public/images/part2/anson-2022.jpg",
+      "used": true,
+      "cueIds": [
+        "industry-astute-transition"
+      ]
+    },
+    {
+      "file": "public/images/part2/glasgow-construction-2021.jpg",
+      "used": true,
+      "cueIds": [
+        "industry-preserved-capability",
+        "industry-industrial-value"
+      ]
+    },
+    {
+      "file": "public/images/part2/tiderace-ras-2021.jpg",
+      "used": true,
+      "cueIds": [
+        "escort-logistics"
+      ]
+    },
+    {
+      "file": "public/images/part2/proteus-2025.jpg",
+      "used": true,
+      "cueIds": [
+        "atlantic-defense-review",
+        "atlantic-north-atlantic"
+      ]
+    },
+    {
+      "file": "public/images/part2/diamond-2024.jpg",
+      "used": false,
+      "cueIds": [],
+      "reason": "Researched alternative. The mounted Type 45 insert uses the clearer HMS Daring profile photograph."
+    },
+    {
+      "file": "public/images/part2/merlin-hm2-2025.jpg",
+      "used": true,
+      "cueIds": [
+        "escort-asw-team"
+      ]
+    },
+    {
+      "file": "public/images/part2/daring-profile.jpg",
+      "used": true,
+      "cueIds": [
+        "escort-type-45",
+        "escort-air-defense"
+      ]
+    },
+    {
+      "file": "public/video/part2/richmond-broadside.mp4",
+      "used": false,
+      "cueIds": [],
+      "reason": "Acquired alternative angle; Renewal mounts richmond-bow.mp4 only."
+    },
+    {
+      "file": "public/video/part2/richmond-bow.mp4",
+      "used": true,
+      "cueIds": [
+        "renewal-renewing"
+      ]
+    },
+    {
+      "file": "public/video/part2/lyme-bay-deck.mp4",
+      "used": true,
+      "cueIds": [
+        "availability-supplies"
+      ]
+    },
+    {
+      "file": "public/video/part2/lyme-bay-transfer.mp4",
+      "used": false,
+      "cueIds": [],
+      "reason": "Acquired alternative transfer shot; Availability mounts lyme-bay-deck.mp4 for supplies."
+    },
+    {
+      "file": "public/video/part2/merlin-mk3-crew.mp4",
+      "used": true,
+      "cueIds": [
+        "availability-crews"
+      ]
+    },
+    {
+      "file": "public/video/part2/merlin-mk3-flight.mp4",
+      "used": true,
+      "cueIds": [
+        "availability-military-value",
+        "availability-capabilities"
+      ]
+    }
+  ],
+  "generated": [
+    {
+      "file": "public/images/part2/generated/naval-industry.png",
+      "used": true,
+      "cueIds": [
+        "industry-industrial-value",
+        "industry-design-build",
+        "industry-aukus"
+      ]
+    },
+    {
+      "file": "public/images/part2/generated/subsea-cable.png",
+      "used": true,
+      "cueIds": [
+        "atlantic-cable-infrastructure"
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "file": "public/maps/part2/north-atlantic.svg",
+      "used": true,
+      "cueIds": [
+        "atlantic-north-atlantic"
+      ]
+    },
+    {
+      "file": "public/maps/part2/uk.svg",
+      "used": false,
+      "cueIds": [],
+      "reason": "Prepared standalone UK view; the active chapters use world.svg and north-atlantic.svg."
+    },
+    {
+      "file": "public/maps/part2/world.svg",
+      "used": true,
+      "cueIds": [
+        "industry-aukus",
+        "industry-partners",
+        "industry-2025-announcement",
+        "industry-up-to-12"
+      ]
+    }
+  ]
+}

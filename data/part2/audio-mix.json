@@ -1,0 +1,153 @@
+{
+  "durationInFrames": 6593,
+  "fps": 30,
+  "durationSeconds": 219.76666666666668,
+  "narration": "public/audio/part2/2.mp3",
+  "narrationSourceSha256": "128d7180411bc24f82499f91bc69728f49d460b05126652c192a4e25d9dda76c",
+  "narrationTargetLUFS": -16,
+  "musicGainDb": -22,
+  "sfxGainDb": -18,
+  "musicSource": "public/audio/ambient-source.mp3",
+  "musicSourceProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "duration": "201.566667"
+      }
+    ],
+    "format": {
+      "duration": "201.566667"
+    }
+  },
+  "musicExtension": {
+    "method": "append internal excerpt with equal-power crossfade",
+    "excerptStartSeconds": 60,
+    "excerptDurationSeconds": 30,
+    "crossfadeSeconds": 4,
+    "curveOut": "qsin",
+    "curveIn": "qsin",
+    "extendedDurationSeconds": 219.76666666666668,
+    "output": "public/audio/part2/ambient-extended.mp3"
+  },
+  "ducking": {
+    "threshold": 0.02,
+    "ratio": 5,
+    "attackMs": 25,
+    "releaseMs": 350
+  },
+  "events": [
+    {
+      "atFrame": 84,
+      "kind": "hit",
+      "cueId": "inventory-surface-57",
+      "atSeconds": 2.8,
+      "durationSeconds": 0.5,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 1026,
+      "kind": "whoosh",
+      "cueId": "readiness",
+      "atSeconds": 34.2,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 1771,
+      "kind": "whoosh",
+      "cueId": "escort",
+      "atSeconds": 59.03333333333333,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 2403,
+      "kind": "whoosh",
+      "cueId": "capacity",
+      "atSeconds": 80.1,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 3226,
+      "kind": "whoosh",
+      "cueId": "renewal",
+      "atSeconds": 107.53333333333333,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 3347,
+      "kind": "hit",
+      "cueId": "renewal-type26-eight",
+      "atSeconds": 111.56666666666666,
+      "durationSeconds": 0.5,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 4360,
+      "kind": "whoosh",
+      "cueId": "industry",
+      "atSeconds": 145.33333333333334,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 4923,
+      "kind": "hit",
+      "cueId": "industry-up-to-12",
+      "atSeconds": 164.1,
+      "durationSeconds": 0.5,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 5461,
+      "kind": "whoosh",
+      "cueId": "atlantic",
+      "atSeconds": 182.03333333333333,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    },
+    {
+      "atFrame": 5903,
+      "kind": "whoosh",
+      "cueId": "availability",
+      "atSeconds": 196.76666666666668,
+      "durationSeconds": 0.42,
+      "gainDb": -18
+    }
+  ],
+  "mix": "public/audio/part2/mix.mp3",
+  "mixProbe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "duration": "219.682585"
+      }
+    ],
+    "format": {
+      "duration": "219.682585"
+    }
+  },
+  "loudnessMeasurement": {
+    "input_i": "-16.95",
+    "input_tp": "-1.20",
+    "input_lra": "2.50",
+    "input_thresh": "-27.18",
+    "output_i": "-16.32",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-26.54",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "reproduction": "python scripts/audio-part2.py"
+}

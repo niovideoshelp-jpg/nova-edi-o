@@ -44,6 +44,9 @@
     "render:reviewed": "node scripts/render-full.mjs",
     "review:part1": "node scripts/review-part1.mjs",
     "render:part1": "node scripts/render-part1.mjs",
-    "check:part1": "node scripts/check-part1.mjs"
+    "check:part1": "node scripts/check-part1.mjs",
+    "review:part2": "node scripts/review-part2.mjs",
+    "render:part2": "node scripts/render-part2.mjs",
+    "check:part2": "node scripts/check-part2.mjs"
   }
 }

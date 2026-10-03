@@ -1,0 +1,277 @@
+{
+  "composition": "RoyalNavyPart2",
+  "generatedAt": "2026-10-03T18:40:13.291Z",
+  "deliverable": {
+    "file": "out/RoyalNavy-Part2.mp4",
+    "bytes": 100659859,
+    "sha256": "c90b7722b1ba8bf014afc3ec6406e2fecfdfb563f50682d47dd51c8a61ce4a7f",
+    "duration": 219.76666666666668,
+    "frames": 6593,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "fullDecodeExitCode": 0,
+    "warnings": [],
+    "elapsedSeconds": 1084
+  },
+  "stillReview": {
+    "frames": [
+      36,
+      48,
+      140,
+      226,
+      308,
+      403,
+      480,
+      561,
+      653,
+      760,
+      861,
+      936,
+      1000,
+      1038,
+      1081,
+      1167,
+      1258,
+      1370,
+      1490,
+      1594,
+      1679,
+      1747,
+      1783,
+      1843,
+      1950,
+      2031,
+      2095,
+      2176,
+      2267,
+      2363,
+      2415,
+      2466,
+      2545,
+      2633,
+      2744,
+      2835,
+      2929,
+      3027,
+      3125,
+      3202,
+      3238,
+      3296,
+      3395,
+      3466,
+      3539,
+      3639,
+      3753,
+      3840,
+      3925,
+      4022,
+      4132,
+      4252,
+      4336,
+      4372,
+      4425,
+      4517,
+      4613,
+      4699,
+      4779,
+      4876,
+      4963,
+      5052,
+      5164,
+      5275,
+      5360,
+      5431,
+      5533,
+      5653,
+      5738,
+      5800,
+      5871,
+      5915,
+      5941,
+      6037,
+      6138,
+      6210,
+      6270,
+      6333,
+      6421,
+      6504,
+      6569,
+      6592
+    ],
+    "method": "Rendered editorial-beat stills, chapter overlaps and targeted corrections; contact sheets and selected 1920x1080 frames inspected visually.",
+    "reviewedAreas": [
+      "Framing and safe margins",
+      "Title legibility and alignment",
+      "Ship identity and photographic context",
+      "Map and wave layer edges",
+      "Valid images under overlapping transitions"
+    ],
+    "corrections": [
+      "Separated fixed SVG placement from the carrier GSAP entry transform.",
+      "Extended the Inventory water geometry to cover camera translation.",
+      "Kept Type23 inside the safe margin during the renewal comparison; removed its residual offscreen silhouette.",
+      "Kept Proteus credit outside its photo camera and feathered the Atlantic map lower edge."
+    ]
+  },
+  "motionReview": {
+    "probes": [
+      {
+        "frameRange": [
+          1735,
+          1854
+        ],
+        "audio": true
+      },
+      {
+        "frameRange": [
+          5680,
+          5860
+        ],
+        "audio": true
+      }
+    ],
+    "method": "H.264 probes with mixed audio; sampled temporal filmstrips inspected for continuity. Audio alignment measured against the source mix.",
+    "probeAudio": {
+      "method": "PCM waveform correlation against approved mix; ±50ms search, <1 frame offset required",
+      "sampleRate": 8000,
+      "results": [
+        {
+          "file": "out/review-part2/motion-1735-1854.mp4",
+          "sourceStartSeconds": 57.833333333333336,
+          "checks": [
+            {
+              "atSeconds": 0.5,
+              "correlation": 0.996736,
+              "offsetMilliseconds": -25.125
+            }
+          ]
+        },
+        {
+          "file": "out/review-part2/motion-5680-5860.mp4",
+          "sourceStartSeconds": 189.33333333333334,
+          "checks": [
+            {
+              "atSeconds": 0.5,
+              "correlation": 0.994241,
+              "offsetMilliseconds": -25.125
+            }
+          ]
+        }
+      ]
+    },
+    "seekChecks": [
+      {
+        "file": "frame-653.png",
+        "match": true,
+        "hash": "A9220802395BAF40869FAE1918CAF27C3DB71077BBFC63AB6A3C5D3A7AEA5BD5"
+      },
+      {
+        "file": "frame-1843.png",
+        "match": true,
+        "hash": "7A474A7BD1C5EE14C3DCCCBD78E6900B5E22F1CBC69EABA85B0163FF9303EE42"
+      },
+      {
+        "file": "frame-3840.png",
+        "match": true,
+        "hash": "83C9A8BA68180F8061E112FB4EAB15E5CDA71FDF5E2AFB3CCEA6AF6021871A67"
+      },
+      {
+        "file": "frame-5653.png",
+        "match": true,
+        "hash": "FC794AD14884533C142E8EFFD0990959BFF644821C33A130F0E3755B5FB76BF5"
+      }
+    ]
+  },
+  "finalMp4Review": {
+    "decodedFrames": [
+      90,
+      140,
+      440,
+      653,
+      1026,
+      1480,
+      1995,
+      2031,
+      2450,
+      3240,
+      3530,
+      4066,
+      4613,
+      4650,
+      4779,
+      4935,
+      5370,
+      5595,
+      5653,
+      5840,
+      5871,
+      6195,
+      6210,
+      6248,
+      6479,
+      6592
+    ],
+    "preview": "docs/preview-part2.jpg",
+    "audio": {
+      "method": "PCM waveform correlation against approved mix; ±50ms search, <1 frame offset required",
+      "sampleRate": 8000,
+      "results": [
+        {
+          "file": "out/RoyalNavy-Part2.mp4",
+          "sourceStartSeconds": 0,
+          "checks": [
+            {
+              "atSeconds": 1,
+              "correlation": 0.999944,
+              "offsetMilliseconds": 0
+            },
+            {
+              "atSeconds": 35,
+              "correlation": 0.999896,
+              "offsetMilliseconds": 0
+            },
+            {
+              "atSeconds": 80,
+              "correlation": 0.999961,
+              "offsetMilliseconds": 0
+            },
+            {
+              "atSeconds": 145,
+              "correlation": 0.999899,
+              "offsetMilliseconds": 0
+            },
+            {
+              "atSeconds": 183,
+              "correlation": 0.999879,
+              "offsetMilliseconds": 0
+            },
+            {
+              "atSeconds": 210,
+              "correlation": 0.999976,
+              "offsetMilliseconds": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "synchronization": {
+    "wordCount": 590,
+    "editorialBeats": 74,
+    "chapters": 8,
+    "iconAnticipationFrames": 4,
+    "note": "Word landmarks are reviewed automatic alignment, not a manual phonetic annotation of every frame. PCM correlation separately verifies that muxing did not displace the approved mix."
+  },
+  "checks": [
+    "ESLint",
+    "TypeScript noEmit",
+    "Timeline coverage and 2–4 second editorial beats",
+    "Deterministic GSAP initial states",
+    "Four forward/reverse PNG hashes match",
+    "Full final video and audio decode",
+    "Final 1920x1080 / 30fps / 6593 frames",
+    "Rendered audio PCM alignment"
+  ],
+  "priorCompositions": "Intro and Part1 composition sources and assets preserved."
+}

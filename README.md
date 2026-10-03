@@ -1,5 +1,23 @@
 # Royal Navy — power at sea
 
+## Parte 2 — frota, prontidão e renovação
+
+Vídeo independente baseado em **2.mp3**: **1920×1080 · 30 fps · 6593 frames · 3:39,767**. Selecione **RoyalNavyPart2** no Studio; os oito capítulos também aparecem em **Part2-Chapters**.
+
+A edição distingue inventário, situação administrativa e disponibilidade, acompanha a renovação das fragatas e apresenta AUKUS como programa futuro. Combina novas tomadas documentais, fotografias oficiais, dois recortes gerados, mapas Natural Earth/Turf e SVGs animados com `@remotion/gsap` / `useGsapTimeline()`.
+
+Os números da frota são o recorte narrado de **abril de 2025**. As imagens de arquivo conservam suas datas e não comprovam disponibilidade atual. Transcrição, 590 palavras alinhadas, 74 momentos editoriais, fontes e licenças estão em [data/part2](data/part2); instruções em [docs/PART2.md](docs/PART2.md).
+
+![Quadros da Parte 2](docs/preview-part2.jpg)
+
+```sh
+npm run check:part2
+npm run review:part2
+npm run render:part2
+```
+
+O render usa o bundle revisado e salva **out/RoyalNavy-Part2.mp4**. `scripts/package-part2.py` gera o ZIP completo editável. A introdução e a Parte 1 permanecem disponíveis.
+
 ## Parte 1 — guerras mundiais
 
 Novo vídeo baseado em **1.mp3**: **1920×1080 · 30 fps · 5390 frames · 2:59,667**. Selecione **RoyalNavyPart1** no Studio. Os quatro capítulos também têm composições próprias na pasta **Part1-Chapters**.

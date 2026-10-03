@@ -1,0 +1,42 @@
+{
+  "method": "PCM waveform correlation against approved mix; \u00b150ms search, <1 frame offset required",
+  "sampleRate": 8000,
+  "results": [
+    {
+      "file": "out/RoyalNavy-Part2.mp4",
+      "sourceStartSeconds": 0,
+      "checks": [
+        {
+          "atSeconds": 1,
+          "correlation": 0.999944,
+          "offsetMilliseconds": 0.0
+        },
+        {
+          "atSeconds": 35,
+          "correlation": 0.999896,
+          "offsetMilliseconds": 0.0
+        },
+        {
+          "atSeconds": 80,
+          "correlation": 0.999961,
+          "offsetMilliseconds": 0.0
+        },
+        {
+          "atSeconds": 145,
+          "correlation": 0.999899,
+          "offsetMilliseconds": 0.0
+        },
+        {
+          "atSeconds": 183,
+          "correlation": 0.999879,
+          "offsetMilliseconds": 0.0
+        },
+        {
+          "atSeconds": 210,
+          "correlation": 0.999976,
+          "offsetMilliseconds": 0.0
+        }
+      ]
+    }
+  ]
+}

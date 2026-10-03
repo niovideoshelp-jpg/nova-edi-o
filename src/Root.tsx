@@ -7,6 +7,14 @@ import { OriginsChapter } from "./part1/OriginsChapter";
 import { JutlandChapter } from "./part1/JutlandChapter";
 import { WorldWarChapter } from "./part1/WorldWarChapter";
 import { TransformationChapter } from "./part1/TransformationChapter";
+import { Part2Film } from "./part2/Part2Film";
+import { InventoryChapter } from "./part2/InventoryChapter";
+import { ReadinessChapter } from "./part2/ReadinessChapter";
+import { EscortChapter, CapacityChapter } from "./part2/OperationsChapter";
+import { RenewalChapter } from "./part2/RenewalChapter";
+import { IndustryChapter } from "./part2/IndustryChapter";
+import { AtlanticChapter } from "./part2/AtlanticChapter";
+import { AvailabilityChapter } from "./part2/AvailabilityChapter";
 const ScenePreview = ({ index }: { index: number }) => (
   <Sequence from={-timeline.scenes[index].startFrame}>
     <Film />
@@ -14,6 +22,81 @@ const ScenePreview = ({ index }: { index: number }) => (
 );
 export const RemotionRoot = () => (
   <>
+    <Composition
+      id="RoyalNavyPart2"
+      component={Part2Film}
+      durationInFrames={6593}
+      fps={30}
+      width={1920}
+      height={1080}
+      defaultProps={{ reviewMuted: false }}
+    />
+    <Folder name="Part2-Chapters">
+      <Composition
+        id="P2-Inventory"
+        component={InventoryChapter}
+        durationInFrames={1050}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Readiness"
+        component={ReadinessChapter}
+        durationInFrames={769}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Escort"
+        component={EscortChapter}
+        durationInFrames={656}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Capacity"
+        component={CapacityChapter}
+        durationInFrames={847}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Renewal"
+        component={RenewalChapter}
+        durationInFrames={1158}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Industry"
+        component={IndustryChapter}
+        durationInFrames={1125}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Atlantic"
+        component={AtlanticChapter}
+        durationInFrames={466}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="P2-Availability"
+        component={AvailabilityChapter}
+        durationInFrames={690}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </Folder>
     <Composition
       id="RoyalNavyPart1"
       component={Part1Film}

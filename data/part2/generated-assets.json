@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "id": "naval-industry",
+      "file": "public/images/part2/generated/naval-industry.png",
+      "source": "Built-in image_gen tool",
+      "role": "Generic explanatory naval shipbuilding illustration, not a photograph or an identified shipyard/vessel.",
+      "prompt": "Modern naval gantry crane, separate steel hull sections, partly built generic frigate. Transparent cutout, steel blue/navy/off-white, small gold lighting, realistic miniature editorial illustration, no text/logos.",
+      "alphaReview": "RGBA verified; open gaps and surrounding background alpha0. First generation selected; later variant not used.",
+      "bytes": 2170400,
+      "sha256": "924d9f0411a2443e80998c10efa3081658ce1e5ef03494a21758370e61e927e3"
+    },
+    {
+      "id": "subsea-cable",
+      "file": "public/images/part2/generated/subsea-cable.png",
+      "source": "Built-in image_gen tool",
+      "role": "Generic explanatory fiber-optic subsea cable section, not a technical specification of an actual cable.",
+      "prompt": "Isolated curved armored undersea fiber-optic cable, exposed concentric cross-section, studio miniature editorial illustration on fully transparent background; navy, steel, copper/gold, no text/arrows.",
+      "alphaReview": "RGBA verified; transparent exterior, complete silhouette.",
+      "bytes": 1465562,
+      "sha256": "27d166a6ffdfc32bf3e5dd02f617673383be57c411f62cc0627b28bec478a890"
+    }
+  ]
+}

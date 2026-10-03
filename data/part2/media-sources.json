@@ -1,0 +1,753 @@
+{
+  "version": 1,
+  "retrieved": "2026-10-03",
+  "scope": "Royal Navy Part2 local media. Archival dates remain explicit; media do not document April2025 operational availability.",
+  "processing": "Photos retain original aspect and are reduced to <=3840px. Videos retain native dimensions/aspect, 30fps, silent H.264, no loops or retiming. No generative alteration. Original sources are in ignored out/part2-research.",
+  "photos": [
+    {
+      "id": "anson-2022",
+      "title": "File:HMS Anson August 2022.jpg",
+      "role": "HMS Anson, Astute-class attack submarine. Commissioning at Barrow, not an SSBN or SSN-AUKUS.",
+      "date": "2022-08-31",
+      "kind": "photo",
+      "file": "public/images/part2/anson-2022.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:HMS_Anson_August_2022.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/HMS_Anson_August_2022.jpg",
+      "width": 3840,
+      "height": 2562,
+      "author": "Ministry of Defence",
+      "license": "OGL v1.0",
+      "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "credit": "https://www.defenceimagery.mod.uk/",
+      "description": "Pictured: HMS ANSON.Australian submariners to join Royal Navy crews as UK and Australia deepen defence ties through AUKUS pact.The Defence Secretary Ben Wallace and the Deputy Prime Minister of Australia, Richard Marles were today at the commissioning ceremony of the fifth Astute Class submarine, HMS Anson in Barrow-In-Furness.Royal Australian Navy crews will train on the newly commissioned HMS Anson and other Astute-Class submarines, the Prime Minister has announced today.It came as he and Defence Secretary Ben Wallace emphasised the importance of the deep defence ties between the UK and Australia, following the development of the trilateral AUKUS partnership working with the United States, who were represented today by their Defence Attaché Captain Leland.Hosting Australian Deputy Prime Minister Richard Marles on his first official visit to the UK since the new Australian government came to power, the Prime Minister and Ministers attended the commissioning of the fifth of seven new Astute-Class Royal Navy submarines, HMS Anson.The world’s most advanced hunter-killer submarine was today welcomed into the Royal Navy fleet at a ceremony in Barrow.HMS Anson is£1.3bn of both naval stealth and striking power – able to gather vital intelligence, protect other Royal Navy vessels from threats above and below the waves and destroy enemy military infrastructure with pinpoint accuracy.Anson is the fifth of the new Astute-class submarines to join the Royal Navy fleet, joining HMS Astute, Ambush, Artful and Audacious.",
+      "permission": "",
+      "originalSha256": "954466f27adb8a278aaee146dc6c58f4fd0607c23e91c2153fc7ef6cbcffa786",
+      "originalMetadata": {
+        "DateTime": {
+          "value": "2022-11-06 19:46:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "HMS Anson August 2022",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "OGL v1.0|Photos by User:TheArmchairSoldier|HMS Anson (S123)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pictured: HMS ANSON.Australian submariners to join Royal Navy crews as UK and Australia deepen defence ties through AUKUS pact.The Defence Secretary Ben Wallace and the Deputy Prime Minister of Australia, Richard Marles were today at the commissioning ceremony of the fifth Astute Class submarine, HMS Anson in Barrow-In-Furness.Royal Australian Navy crews will train on the newly commissioned HMS Anson and other Astute-Class submarines, the Prime Minister has announced today.It came as he and Defence Secretary Ben Wallace emphasised the importance of the deep defence ties between the UK and Australia, following the development of the trilateral AUKUS partnership working with the United States, who were represented today by their Defence Attaché Captain Leland.Hosting Australian Deputy Prime Minister Richard Marles on his first official visit to the UK since the new Australian government came to power, the Prime Minister and Ministers attended the commissioning of the fifth of seven new Astute-Class Royal Navy submarines, HMS Anson.The world’s most advanced hunter-killer submarine was today welcomed into the Royal Navy fleet at a ceremony in Barrow.HMS Anson is£1.3bn of both naval stealth and striking power – able to gather vital intelligence, protect other Royal Navy vessels from threats above and below the waves and destroy enemy military infrastructure with pinpoint accuracy.Anson is the fifth of the new Astute-class submarines to join the Royal Navy fleet, joining HMS Astute, Ambush, Artful and Audacious.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-08-31 10:09:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.defenceimagery.mod.uk/\">https://www.defenceimagery.mod.uk/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Ministry of Defence",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "OGL v1.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Open Government License version 1.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        }
+      },
+      "embeddedXmp": "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 5.5.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\n            xmlns:aux=\"http://ns.adobe.com/exif/1.0/aux/\"\n            xmlns:photoshop=\"http://ns.adobe.com/photoshop/1.0/\"\n            xmlns:crs=\"http://ns.adobe.com/camera-raw-settings/1.0/\"\n            xmlns:fwu=\"http://ns.fotoware.com/iptcxmp-user/1.0/\"\n            xmlns:fwc=\"http://ns.fotoware.com/iptcxmp-custom/1.0/\"\n            xmlns:fwl=\"http://ns.fotoware.com/iptcxmp-legacy/1.0/\"\n            xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n            xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n            xmlns:tiff=\"http://ns.adobe.com/tiff/1.0/\"\n            xmlns:fwr=\"http://ns.fotoware.com/iptcxmp-reserved/1.0/\"\n            xmlns:cc=\"http://creativecommons.org/ns#\"\n            xmlns:xmpRights=\"http://ns.adobe.com/xap/1.0/rights/\">\n         <xmp:CreateDate>2022-08-31T10:09:52.18</xmp:CreateDate>\n         <xmp:MetadataDate>2022-08-31T16:34:50+01:00</xmp:MetadataDate>\n         <xmp:ModifyDate>2022-08-31T16:34:50+01:00</xmp:ModifyDate>\n         <xmp:CreatorTool>FotoWare FotoStation</xmp:CreatorTool>\n         <xmp:XMPFileStamps>\n            <rdf:Seq>\n               <rdf:li>2022-10-12T08:38:58+01:00</rdf:li>\n               <rdf:li>2022-10-12T08:38:34+01:00</rdf:li>\n            </rdf:Seq>\n         </xmp:XMPFileStamps>\n         <aux:InteroperabilityIndex>R98</aux:InteroperabilityIndex>\n         <aux:SerialNumber>043021001058</aux:SerialNumber>\n         <photoshop:LegacyIPTCDigest>994E4D5DA47AE793406B14F14596805A</photoshop:LegacyIPTCDigest>\n         <photoshop:ColorMode>3</photoshop:ColorMode>\n         <photoshop:ICCProfile>sRGB IEC61966-2.1</photoshop:ICCProfile>\n         <photoshop:DateCreated>2022-08-31</photoshop:DateCreated>\n         <photoshop:City>Barrow-in-Furness</photoshop:City>\n         <photoshop:State>Cumbria</photoshop:State>\n         <photoshop:Country>UK</photoshop:Country>\n         <photoshop:CaptionWriter>LPhot Kevin Walton</photoshop:CaptionWriter>\n         <photoshop:Headline>Australian submariners to join Royal Navy crews through AUKUS pact</photoshop:Headline>\n         <photoshop:Urgency>5</photoshop:Urgency>\n         <photoshop:Credit>UK MOD Crown copyright</photoshop:Credit>\n         <photoshop:Source>Royal Navy</photoshop:Source>\n         <crs:HasCrop>False</crs:HasCrop>\n         <crs:AlreadyApplied>True</crs:AlreadyApplied>\n         <fwu:UserDefined1>UK</fwu:UserDefined1>\n         <fwu:UserDefined2>Submarine Service</fwu:UserDefined2>\n         <fwu:UserDefined3>Submarine(SSBN)</fwu:UserDefined3>\n         <fwu:UserDefined4>Ceremonial</fwu:UserDefined4>\n         <fwu:UserDefined6>HMNB Portsmouth</fwu:UserDefined6>\n         <fwc:CustomField1>000074</fwc:CustomField1>\n         <fwc:CustomField2>K Walton, LPHOT</fwc:CustomField2>\n         <fwc:CustomField3>Photographic Section</fwc:CustomField3>\n         <fwc:CustomField7>KW_17499.JPG</fwc:CustomField7>\n         <fwc:CustomField9>Approved</fwc:CustomField9>\n         <fwc:CustomField11>Approved for Fotoweb</fwc:CustomField11>\n         <fwc:CustomField14>AR220026</fwc:CustomField14>\n         <fwc:CustomField10>31082022PT</fwc:CustomField10>\n         <fwc:CustomField20>RoyalNavyAdmin</fwc:CustomField20>\n         <fwl:EditStatus>Archived</fwl:EditStatus>\n         <fwl:ReleaseDate>2022-08-31</fwl:ReleaseDate>\n         <fwl:ReleaseTime>17:02:59</fwl:ReleaseTime>\n         <fwl:CreatedTime>100952+0000</fwl:CreatedTime>\n         <fwl:FixtureIdentifier>Free</fwl:FixtureIdentifier>\n         <dc:format>image/jpeg</dc:format>\n         <dc:title>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">FRPUE-20220831-AR0026</rdf:li>\n            </rdf:Alt>\n         </dc:title>\n         <dc:description>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Pictured: HMS ANSON.&#xA;&#xA;Australian submariners to join Royal Navy crews as UK and Australia deepen defence ties through AUKUS pact.&#xA;&#xA;The Defence Secretary Ben Wallace and the Deputy Prime Minister of Australia, Richard Marles were today at the commissioning ceremony of the fifth Astute Class submarine, HMS Anson in Barrow-In-Furness. &#xA;&#xA;Royal Australian Navy crews will train on the newly commissioned HMS Anson and other Astute-Class submarines, the Prime Minister has announced today.&#xA; &#xA;It came as he and Defence Secretary Ben Wallace emphasised the importance of the deep defence ties between the UK and Australia, following the development of the trilateral AUKUS partnership working with the United States, who were represented today by their Defence Attaché Captain Leland. &#xA; &#xA;Hosting Australian Deputy Prime Minister Richard Marles on his first official visit to the UK since the new Australian government came to power, the Prime Minister and Ministers attended the commissioning of the fifth of seven new Astute-Class Royal Navy submarines, HMS Anson. &#xA;&#xA;The world’s most advanced hunter-killer submarine was today welcomed into the Royal Navy fleet at a ceremony in Barrow.&#xA;&#xA;HMS Anson is £1.3bn of both naval stealth and striking power – able to gather vital intelligence, protect other Royal Navy vessels from threats above and below the waves and destroy enemy military infrastructure with pinpoint accuracy.&#xA;&#xA;Anson is the fifth of the new Astute-class submarines to join the Royal Navy fleet, joining HMS Astute, Ambush, Artful and Audacious.</rdf:li>\n            </rdf:Alt>\n         </dc:description>\n         <dc:rights>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">UK MOD © Crown copyright 2022</rdf:li>\n            </rdf:Alt>\n         </dc:rights>\n         <dc:subject>\n            <rdf:Bag>\n               <rdf:li>Anson</rdf:li>\n               <rdf:li>Attack Submarine</rdf:li>\n               <rdf:li>Barrow-in-Furness</rdf:li>\n               <rdf:li>Commission</rdf:li>\n               <rdf:li>Commissioning</rdf:li>\n               <rdf:li>FRPUE</rdf:li>\n               <rdf:li>HMS Anson</rdf:li>\n               <rdf:li>Royal Navy</rdf:li>\n               <rdf:li>Submarine</rdf:li>\n               <rdf:li>Ceremonial</rdf:li>\n               <rdf:li>Submarine Service</rdf:li>\n               <rdf:li>Submarine(SSBN)</rdf:li>\n               <rdf:li>UK</rdf:li>\n               <rdf:li>HMNB Portsmouth</rdf:li>\n            </rdf:Bag>\n         </dc:subject>\n         <dc:creator>\n            <rdf:Seq>\n               <rdf:li>LPhot Kevin Walton</rdf:li>\n            </rdf:Seq>\n         </dc:creator>\n         <xmpMM:DocumentID>24160376DDFC02DA297AD65D12AA1EB3</xmpMM:DocumentID>\n         <xmpMM:InstanceID>xmp.iid:9451b0c1-e299-b547-b293-b0cdcc1443cf</xmpMM:InstanceID>\n         <xmpMM:OriginalDocumentID>24160376DDFC02DA297AD65D12AA1EB3</xmpMM:OriginalDocumentID>\n         <exif:PixelXDimension>8192</exif:PixelXDimension>\n         <exif:PixelYDimension>5464</exif:PixelYDimension>\n         <exif:ExposureTime>1/125</exif:ExposureTime>\n         <exif:FNumber>71/10</exif:FNumber>\n         <exif:ExposureProgram>4</exif:ExposureProgram>\n         <exif:ExifVersion>52 56 53 48</exif:ExifVersion>\n         <exif:ShutterSpeedValue>6965784/1000000</exif:ShutterSpeedValue>\n         <exif:ApertureValue>5655638/1000000</exif:ApertureValue>\n         <exif:ExposureBiasValue>0/1</exif:ExposureBiasValue>\n         <exif:MeteringMode>5</exif:MeteringMode>\n         <exif:FocalLength>15/1</exif:FocalLength>\n         <exif:ColorSpace>1</exif:ColorSpace>\n         <exif:FocalPlaneXResolution>8192000/1419</exif:FocalPlaneXResolution>\n         <exif:FocalPlaneYResolution>5464000/947</exif:FocalPlaneYResolution>\n         <exif:FocalPlaneResolutionUnit>2</exif:FocalPlaneResolutionUnit>\n         <exif:CustomRendered>0</exif:CustomRendered>\n         <exif:ExposureMode>0</exif:ExposureMode>\n         <exif:WhiteBalance>0</exif:WhiteBalance>\n         <exif:SceneCaptureType>0</exif:SceneCaptureType>\n         <exif:GPSVersionID>2.3.0.0</exif:GPSVersionID>\n         <exif:DateTimeOriginal>2022-08-31T10:09:52</exif:DateTimeOriginal>\n         <exif:ISOSpeedRatings>\n            <rdf:Seq>\n               <rdf:li>100</rdf:li>\n            </rdf:Seq>\n         </exif:ISOSpeedRatings>\n         <exif:Flash rdf:parseType=\"Resource\">\n            <exif:Fired>False</exif:Fired>\n            <exif:Return>0</exif:Return>\n            <exif:Mode>0</exif:Mode>\n            <exif:RedEyeMode>False</exif:RedEyeMode>\n         </exif:Flash>\n         <tiff:Make>Canon</tiff:Make>\n         <tiff:Model>Canon EOS R5</tiff:Model>\n         <tiff:Orientation>1</tiff:Orientation>\n         <tiff:XResolution>30000000/100000</tiff:XResolution>\n         <tiff:YResolution>30000000/100000</tiff:YResolution>\n         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>\n         <fwr:UniqueId>6CE51E609DE94819 9B2431F52BF74765</fwr:UniqueId>\n         <fwr:ShortUniqueId>3437156297</fwr:ShortUniqueId>\n         <fwr:ContentValue>89976E698696994FD8</fwr:ContentValue>\n         <fwr:WorkflowInfo rdf:parseType=\"Resource\">\n            <fwr:TransferredBy>harland.quarrington@ddc-mod.org</fwr:TransferredBy>\n            <fwr:TransferredByFullName>Defence Imagery</fwr:TransferredByFullName>\n            <fwr:TransferredByEmail>hq@photos.mod.uk</fwr:TransferredByEmail>\n         </fwr:WorkflowInfo>\n         <fwr:History>\n            <rdf:Seq>\n               <rdf:li>E=LNC D=2022-08-31 T=16:24:11 U=LPhot%20Kevin%20Walton%20(WaltonK102%40FRPU-M18) V=PhotoShop</rdf:li>\n               <rdf:li>E=ACT D=2022-08-31 T=16:45:45 U=LPhot%20Kevin%20Walton%20(WaltonK102%40FRPU-M18) V=ToArchive</rdf:li>\n               <rdf:li>E=ACT D=2022-08-31 T=17:28:05 U=cpo%20phot%20owen%20cooban%20(coobano477%40FRPU-M45) V=Archive%20Images%20To%20Server</rdf:li>\n               <rdf:li>E=TXT D=2022-08-31 T=17:34:53 U=LPhot%20Kevin%20Walton%20(WaltonK102%40FRPU-M18)</rdf:li>\n               <rdf:li>E=ACT D=2022-08-31 T=17:47:50 U=cpo%20phot%20owen%20cooban%20(coobano477%40FRPU-M45) V=Approve%20Public%20Images</rdf:li>\n               <rdf:li>E=ACT D=2022-09-01 T=10:00:44 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205) V=FTP%20To%20MOD%20Holding</rdf:li>\n               <rdf:li>E=TXT D=2022-09-01 T=10:12:17 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=TXT D=2022-09-01 T=10:13:56 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=TXT D=2022-09-01 T=15:35:54 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=TXT D=2022-10-12 T=08:38:58 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n            </rdf:Seq>\n         </fwr:History>\n         <cc:license>http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</cc:license>\n         <xmpRights:UsageTerms>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Available under the terms of the OGL (Open Government License).</rdf:li>\n            </rdf:Alt>\n         </xmpRights:UsageTerms>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>",
+      "licenseNote": "Commons license box: OGL v1.0. Original UK MOD metadata specifies OGL v3.0 and Crown copyright. Both records preserved; attribute MOD/Crown and photographer; do not suggest endorsement.",
+      "bytes": 2170125,
+      "sha256": "5d314a812732dd3256bf9c422a8b8867b27567c74520975e0c8d5dc2e433bca7",
+      "inspected": true
+    },
+    {
+      "id": "glasgow-construction-2021",
+      "title": "File:HMS Glasgow under construction in Govan.jpg",
+      "role": "Type 26 shipbuilding at Govan in 2021; not the 2025 build state.",
+      "date": "2021-06-29",
+      "kind": "photo",
+      "file": "public/images/part2/glasgow-construction-2021.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:HMS_Glasgow_under_construction_in_Govan.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/HMS_Glasgow_under_construction_in_Govan.jpg",
+      "width": 3840,
+      "height": 2556,
+      "author": "Ministry of Defence",
+      "license": "OGL v1.0",
+      "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "credit": "https://www.defenceimagery.mod.uk/",
+      "description": "Image of HMS Glasgow, seen here under construction at BAE Systems’ shipyard in Govan on the River Clyde today (29/06/2021).The first steel has been cut for HMS Belfast, the third ship in the Royal Navy’s fleet of next generation Type 26 anti-submarine frigates.His Royal Highness, Prince William, Duke of Cambridge, cut the steel for the UK’s newest warship at a ceremony at BAE Systems’ shipyard in Govan on the River Clyde today, with Defence Minister Baroness Goldie and the Secretary of State for Northern Ireland Brandon Lewis in attendance, marking the official start of build on the third of eight Type 26 warships.This represents an important milestone for the Type 26 programme, the Royal Navy, UK defence and shipbuilding in Scotland. All eight Type 26 frigates will be built on the Clyde, with the work sustaining some 1,700 jobs in Scotland and 4,000 jobs across the wider UK maritime supply chain for decades to come.",
+      "permission": "",
+      "originalSha256": "ca0cee264a16ff29f8c6a9fdd8170472d8c503d271a9b1d66d8b55762b531a8d",
+      "originalMetadata": {
+        "DateTime": {
+          "value": "2021-08-14 16:43:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "HMS Glasgow under construction in Govan",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "OGL v1.0|Photos by User:TheArmchairSoldier|Govan Shipyards|HMS Glasgow (F88)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Image of HMS Glasgow, seen here under construction at BAE Systems’ shipyard in Govan on the River Clyde today (29/06/2021).The first steel has been cut for HMS Belfast, the third ship in the Royal Navy’s fleet of next generation Type 26 anti-submarine frigates.His Royal Highness, Prince William, Duke of Cambridge, cut the steel for the UK’s newest warship at a ceremony at BAE Systems’ shipyard in Govan on the River Clyde today, with Defence Minister Baroness Goldie and the Secretary of State for Northern Ireland Brandon Lewis in attendance, marking the official start of build on the third of eight Type 26 warships.This represents an important milestone for the Type 26 programme, the Royal Navy, UK defence and shipbuilding in Scotland. All eight Type 26 frigates will be built on the Clyde, with the work sustaining some 1,700 jobs in Scotland and 4,000 jobs across the wider UK maritime supply chain for decades to come.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-06-29 10:44:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.defenceimagery.mod.uk/\">https://www.defenceimagery.mod.uk/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Ministry of Defence",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "OGL v1.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Open Government License version 1.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        }
+      },
+      "embeddedXmp": "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 5.5.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\n            xmlns:aux=\"http://ns.adobe.com/exif/1.0/aux/\"\n            xmlns:photoshop=\"http://ns.adobe.com/photoshop/1.0/\"\n            xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\n            xmlns:stRef=\"http://ns.adobe.com/xap/1.0/sType/ResourceRef#\"\n            xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n            xmlns:Iptc4xmpCore=\"http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/\"\n            xmlns:xmpRights=\"http://ns.adobe.com/xap/1.0/rights/\"\n            xmlns:crs=\"http://ns.adobe.com/camera-raw-settings/1.0/\"\n            xmlns:fwu=\"http://ns.fotoware.com/iptcxmp-user/1.0/\"\n            xmlns:tiff=\"http://ns.adobe.com/tiff/1.0/\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n            xmlns:fwr=\"http://ns.fotoware.com/iptcxmp-reserved/1.0/\"\n            xmlns:fwc=\"http://ns.fotoware.com/iptcxmp-custom/1.0/\"\n            xmlns:fwl=\"http://ns.fotoware.com/iptcxmp-legacy/1.0/\"\n            xmlns:cc=\"http://creativecommons.org/ns#\"\n            xmlns:Iptc4xmpExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\">\n         <xmp:CreateDate>2021-06-29T10:44:21.75</xmp:CreateDate>\n         <xmp:ModifyDate>2021-06-29T14:31:05+01:00</xmp:ModifyDate>\n         <xmp:MetadataDate>2021-06-29T14:31:05+01:00</xmp:MetadataDate>\n         <xmp:Rating>2</xmp:Rating>\n         <xmp:CreatorTool>Color Factory 8.0</xmp:CreatorTool>\n         <xmp:XMPFileStamps>\n            <rdf:Seq>\n               <rdf:li>2021-08-12T11:54:51+01:00</rdf:li>\n               <rdf:li>2021-08-12T11:54:51+01:00</rdf:li>\n               <rdf:li>2021-08-12T11:55:01+01:00</rdf:li>\n               <rdf:li>2021-08-12T11:55:01+01:00</rdf:li>\n            </rdf:Seq>\n         </xmp:XMPFileStamps>\n         <aux:SerialNumber>2030206</aux:SerialNumber>\n         <aux:LensInfo>240/10 700/10 28/10 28/10</aux:LensInfo>\n         <aux:Lens>24.0-70.0 mm f/2.8</aux:Lens>\n         <aux:LensID>147</aux:LensID>\n         <aux:ImageNumber>48954</aux:ImageNumber>\n         <aux:ApproximateFocusDistance>4294967295/1</aux:ApproximateFocusDistance>\n         <aux:DistortionCorrectionAlreadyApplied>True</aux:DistortionCorrectionAlreadyApplied>\n         <aux:LateralChromaticAberrationCorrectionAlreadyApplied>True</aux:LateralChromaticAberrationCorrectionAlreadyApplied>\n         <aux:VignetteCorrectionAlreadyApplied>True</aux:VignetteCorrectionAlreadyApplied>\n         <photoshop:ICCProfile>Adobe RGB (1998)</photoshop:ICCProfile>\n         <photoshop:ColorMode>3</photoshop:ColorMode>\n         <photoshop:CaptionWriter>Jack Eckersley</photoshop:CaptionWriter>\n         <photoshop:DateCreated>2021-06-29</photoshop:DateCreated>\n         <photoshop:AuthorsPosition>DE&amp;S Photographer</photoshop:AuthorsPosition>\n         <photoshop:City>Glasgow</photoshop:City>\n         <photoshop:State>Lanarkshire</photoshop:State>\n         <photoshop:Country>Scotland</photoshop:Country>\n         <photoshop:Headline>Construction Type 26 HMS HMS Glasgow</photoshop:Headline>\n         <photoshop:Category>MOD</photoshop:Category>\n         <photoshop:Credit>UK Ministry of Defence 2021</photoshop:Credit>\n         <photoshop:Source>Royal Navy</photoshop:Source>\n         <xmpMM:DocumentID>xmp.did:d220a258-d5aa-4f60-8f88-0187d5de818e</xmpMM:DocumentID>\n         <xmpMM:OriginalDocumentID>D42AF2223853AC49FC3CC1D6E7038E8D</xmpMM:OriginalDocumentID>\n         <xmpMM:InstanceID>xmp.iid:d220a258-d5aa-4f60-8f88-0187d5de818e</xmpMM:InstanceID>\n         <xmpMM:DerivedFrom rdf:parseType=\"Resource\">\n            <stRef:instanceID>xmp.iid:4e73ffe8-c91e-4075-a88e-74087535e16e</stRef:instanceID>\n            <stRef:documentID>D42AF2223853AC49FC3CC1D6E7038E8D</stRef:documentID>\n            <stRef:originalDocumentID>D42AF2223853AC49FC3CC1D6E7038E8D</stRef:originalDocumentID>\n         </xmpMM:DerivedFrom>\n         <dc:format>image/jpeg</dc:format>\n         <dc:description>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Image of HMS Glasgow, seen here under construction at BAE Systems’ shipyard in Govan on the River Clyde today (29/06/2021).   &#xA;&#xA;The first steel has been cut for HMS Belfast, the third ship in the Royal Navy’s fleet of next generation Type 26 anti-submarine frigates.&#xA;&#xA;His Royal Highness, Prince William, Duke of Cambridge, cut the steel for the UK’s newest warship at a ceremony at BAE Systems’ shipyard in Govan on the River Clyde today, with Defence Minister Baroness Goldie and the Secretary of State for Northern Ireland Brandon Lewis in attendance, marking the official start of build on the third of eight Type 26 warships.&#xA;&#xA;This represents an important milestone for the Type 26 programme, the Royal Navy, UK defence and shipbuilding in Scotland. All eight Type 26 frigates will be built on the Clyde, with the work sustaining some 1,700 jobs in Scotland and 4,000 jobs across the wider UK maritime supply chain for decades to come.</rdf:li>\n            </rdf:Alt>\n         </dc:description>\n         <dc:title>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">21-042</rdf:li>\n            </rdf:Alt>\n         </dc:title>\n         <dc:rights>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">UK MOD © Crown copyright 2021. This image is made available under the terms of the OGL (Open Government License).</rdf:li>\n            </rdf:Alt>\n         </dc:rights>\n         <dc:subject>\n            <rdf:Bag>\n               <rdf:li>Ship building</rdf:li>\n               <rdf:li>Civilian</rdf:li>\n               <rdf:li>Industry Partners</rdf:li>\n               <rdf:li>Technology</rdf:li>\n               <rdf:li>Partners</rdf:li>\n               <rdf:li>Industry</rdf:li>\n               <rdf:li>Under Construction</rdf:li>\n               <rdf:li>HMS Glasgow</rdf:li>\n               <rdf:li>Batch 1</rdf:li>\n               <rdf:li>City Class Frigate</rdf:li>\n               <rdf:li>ASW</rdf:li>\n               <rdf:li>Anti Submarine Warfare</rdf:li>\n               <rdf:li>Global Combat Ship</rdf:li>\n               <rdf:li>Type 26</rdf:li>\n               <rdf:li>Future FFG</rdf:li>\n               <rdf:li>FFG</rdf:li>\n               <rdf:li>Frigate</rdf:li>\n               <rdf:li>Surface Fleet</rdf:li>\n               <rdf:li>Equipment</rdf:li>\n               <rdf:li>Royal Navy</rdf:li>\n            </rdf:Bag>\n         </dc:subject>\n         <dc:creator>\n            <rdf:Seq>\n               <rdf:li>Jack Eckersley</rdf:li>\n            </rdf:Seq>\n         </dc:creator>\n         <Iptc4xmpCore:Location>Govan Shipyard</Iptc4xmpCore:Location>\n         <Iptc4xmpCore:CreatorContactInfo rdf:parseType=\"Resource\">\n            <Iptc4xmpCore:CiAdrCity>BRISTOL</Iptc4xmpCore:CiAdrCity>\n            <Iptc4xmpCore:CiAdrExtadr>MOD ABBEYWOOD&#xA;FILTON ROAD&#xA;STOKE GIFFORD&#xA;</Iptc4xmpCore:CiAdrExtadr>\n            <Iptc4xmpCore:CiAdrPcode>BS34 8JH</Iptc4xmpCore:CiAdrPcode>\n            <Iptc4xmpCore:CiEmailWork>Jack.Eckersley102@mod.gov.uk</Iptc4xmpCore:CiEmailWork>\n            <Iptc4xmpCore:CiTelWork>07876683689</Iptc4xmpCore:CiTelWork>\n            <Iptc4xmpCore:CiAdrCtry>UK</Iptc4xmpCore:CiAdrCtry>\n            <Iptc4xmpCore:CiUrlWork>http://www.defenceimagery.mod.uk/fotoweb/ContactUs.fwx</Iptc4xmpCore:CiUrlWork>\n         </Iptc4xmpCore:CreatorContactInfo>\n         <xmpRights:Marked>True</xmpRights:Marked>\n         <xmpRights:UsageTerms>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Available under the terms of the Open Government Licence.</rdf:li>\n            </rdf:Alt>\n         </xmpRights:UsageTerms>\n         <crs:RawFileName>2021_042_156.NEF</crs:RawFileName>\n         <crs:Version>11.0</crs:Version>\n         <crs:ProcessVersion>11.0</crs:ProcessVersion>\n         <crs:WhiteBalance>As Shot</crs:WhiteBalance>\n         <crs:Temperature>5100</crs:Temperature>\n         <crs:Tint>+1</crs:Tint>\n         <crs:Saturation>-5</crs:Saturation>\n         <crs:Sharpness>40</crs:Sharpness>\n         <crs:LuminanceSmoothing>0</crs:LuminanceSmoothing>\n         <crs:ColorNoiseReduction>25</crs:ColorNoiseReduction>\n         <crs:VignetteAmount>0</crs:VignetteAmount>\n         <crs:ShadowTint>0</crs:ShadowTint>\n         <crs:RedHue>0</crs:RedHue>\n         <crs:RedSaturation>0</crs:RedSaturation>\n         <crs:GreenHue>0</crs:GreenHue>\n         <crs:GreenSaturation>0</crs:GreenSaturation>\n         <crs:BlueHue>0</crs:BlueHue>\n         <crs:BlueSaturation>0</crs:BlueSaturation>\n         <crs:Vibrance>+8</crs:Vibrance>\n         <crs:HueAdjustmentRed>0</crs:HueAdjustmentRed>\n         <crs:HueAdjustmentOrange>0</crs:HueAdjustmentOrange>\n         <crs:HueAdjustmentYellow>0</crs:HueAdjustmentYellow>\n         <crs:HueAdjustmentGreen>0</crs:HueAdjustmentGreen>\n         <crs:HueAdjustmentAqua>0</crs:HueAdjustmentAqua>\n         <crs:HueAdjustmentBlue>0</crs:HueAdjustmentBlue>\n         <crs:HueAdjustmentPurple>0</crs:HueAdjustmentPurple>\n         <crs:HueAdjustmentMagenta>0</crs:HueAdjustmentMagenta>\n         <crs:SaturationAdjustmentRed>0</crs:SaturationAdjustmentRed>\n         <crs:SaturationAdjustmentOrange>0</crs:SaturationAdjustmentOrange>\n         <crs:SaturationAdjustmentYellow>0</crs:SaturationAdjustmentYellow>\n         <crs:SaturationAdjustmentGreen>0</crs:SaturationAdjustmentGreen>\n         <crs:SaturationAdjustmentAqua>0</crs:SaturationAdjustmentAqua>\n         <crs:SaturationAdjustmentBlue>0</crs:SaturationAdjustmentBlue>\n         <crs:SaturationAdjustmentPurple>0</crs:SaturationAdjustmentPurple>\n         <crs:SaturationAdjustmentMagenta>0</crs:SaturationAdjustmentMagenta>\n         <crs:LuminanceAdjustmentRed>0</crs:LuminanceAdjustmentRed>\n         <crs:LuminanceAdjustmentOrange>0</crs:LuminanceAdjustmentOrange>\n         <crs:LuminanceAdjustmentYellow>0</crs:LuminanceAdjustmentYellow>\n         <crs:LuminanceAdjustmentGreen>0</crs:LuminanceAdjustmentGreen>\n         <crs:LuminanceAdjustmentAqua>0</crs:LuminanceAdjustmentAqua>\n         <crs:LuminanceAdjustmentBlue>0</crs:LuminanceAdjustmentBlue>\n         <crs:LuminanceAdjustmentPurple>0</crs:LuminanceAdjustmentPurple>\n         <crs:LuminanceAdjustmentMagenta>0</crs:LuminanceAdjustmentMagenta>\n         <crs:SplitToningShadowHue>0</crs:SplitToningShadowHue>\n         <crs:SplitToningShadowSaturation>0</crs:SplitToningShadowSaturation>\n         <crs:SplitToningHighlightHue>0</crs:SplitToningHighlightHue>\n         <crs:SplitToningHighlightSaturation>0</crs:SplitToningHighlightSaturation>\n         <crs:SplitToningBalance>0</crs:SplitToningBalance>\n         <crs:ParametricShadows>0</crs:ParametricShadows>\n         <crs:ParametricDarks>0</crs:ParametricDarks>\n         <crs:ParametricLights>0</crs:ParametricLights>\n         <crs:ParametricHighlights>0</crs:ParametricHighlights>\n         <crs:ParametricShadowSplit>25</crs:ParametricShadowSplit>\n         <crs:ParametricMidtoneSplit>50</crs:ParametricMidtoneSplit>\n         <crs:ParametricHighlightSplit>75</crs:ParametricHighlightSplit>\n         <crs:SharpenRadius>+1.0</crs:SharpenRadius>\n         <crs:SharpenDetail>25</crs:SharpenDetail>\n         <crs:SharpenEdgeMasking>0</crs:SharpenEdgeMasking>\n         <crs:PostCropVignetteAmount>-10</crs:PostCropVignetteAmount>\n         <crs:PostCropVignetteMidpoint>50</crs:PostCropVignetteMidpoint>\n         <crs:PostCropVignetteFeather>50</crs:PostCropVignetteFeather>\n         <crs:PostCropVignetteRoundness>0</crs:PostCropVignetteRoundness>\n         <crs:PostCropVignetteStyle>1</crs:PostCropVignetteStyle>\n         <crs:PostCropVignetteHighlightContrast>0</crs:PostCropVignetteHighlightContrast>\n         <crs:GrainAmount>0</crs:GrainAmount>\n         <crs:ColorNoiseReductionDetail>50</crs:ColorNoiseReductionDetail>\n         <crs:ColorNoiseReductionSmoothness>50</crs:ColorNoiseReductionSmoothness>\n         <crs:LensProfileEnable>1</crs:LensProfileEnable>\n         <crs:LensManualDistortionAmount>0</crs:LensManualDistortionAmount>\n         <crs:PerspectiveVertical>0</crs:PerspectiveVertical>\n         <crs:PerspectiveHorizontal>0</crs:PerspectiveHorizontal>\n         <crs:PerspectiveRotate>0.0</crs:PerspectiveRotate>\n         <crs:PerspectiveScale>100</crs:PerspectiveScale>\n         <crs:PerspectiveAspect>0</crs:PerspectiveAspect>\n         <crs:PerspectiveUpright>0</crs:PerspectiveUpright>\n         <crs:PerspectiveX>0.00</crs:PerspectiveX>\n         <crs:PerspectiveY>0.00</crs:PerspectiveY>\n         <crs:AutoLateralCA>1</crs:AutoLateralCA>\n         <crs:Exposure2012>+0.45</crs:Exposure2012>\n         <crs:Contrast2012>+14</crs:Contrast2012>\n         <crs:Highlights2012>-58</crs:Highlights2012>\n         <crs:Shadows2012>+49</crs:Shadows2012>\n         <crs:Whites2012>0</crs:Whites2012>\n         <crs:Blacks2012>-29</crs:Blacks2012>\n         <crs:Clarity2012>+8</crs:Clarity2012>\n         <crs:DefringePurpleAmount>0</crs:DefringePurpleAmount>\n         <crs:DefringePurpleHueLo>30</crs:DefringePurpleHueLo>\n         <crs:DefringePurpleHueHi>70</crs:DefringePurpleHueHi>\n         <crs:DefringeGreenAmount>0</crs:DefringeGreenAmount>\n         <crs:DefringeGreenHueLo>40</crs:DefringeGreenHueLo>\n         <crs:DefringeGreenHueHi>60</crs:DefringeGreenHueHi>\n         <crs:Dehaze>0</crs:Dehaze>\n         <crs:ToneMapStrength>0</crs:ToneMapStrength>\n         <crs:ConvertToGrayscale>False</crs:ConvertToGrayscale>\n         <crs:OverrideLookVignette>False</crs:OverrideLookVignette>\n         <crs:ToneCurveName>Medium Contrast</crs:ToneCurveName>\n         <crs:ToneCurveName2012>Linear</crs:ToneCurveName2012>\n         <crs:CameraProfile>Adobe Standard</crs:CameraProfile>\n         <crs:CameraProfileDigest>939B4E1427152B8FC65E6BBE46CF1813</crs:CameraProfileDigest>\n         <crs:LensProfileSetup>LensDefaults</crs:LensProfileSetup>\n         <crs:LensProfileName>Adobe (Nikon AF-S NIKKOR 24-70mm f/2.8G ED)</crs:LensProfileName>\n         <crs:LensProfileFilename>NIKON D3X (Nikon FX 24-70mm f2.8 G ED) - RAW.lcp</crs:LensProfileFilename>\n         <crs:LensProfileDigest>2C37822D89F890BFE462CB5DCB2E9631</crs:LensProfileDigest>\n         <crs:LensProfileDistortionScale>100</crs:LensProfileDistortionScale>\n         <crs:LensProfileChromaticAberrationScale>100</crs:LensProfileChromaticAberrationScale>\n         <crs:LensProfileVignettingScale>100</crs:LensProfileVignettingScale>\n         <crs:UprightVersion>151388160</crs:UprightVersion>\n         <crs:UprightCenterMode>0</crs:UprightCenterMode>\n         <crs:UprightCenterNormX>0.5</crs:UprightCenterNormX>\n         <crs:UprightCenterNormY>0.5</crs:UprightCenterNormY>\n         <crs:UprightFocalMode>0</crs:UprightFocalMode>\n         <crs:UprightFocalLength35mm>35</crs:UprightFocalLength35mm>\n         <crs:UprightPreview>False</crs:UprightPreview>\n         <crs:UprightTransformCount>6</crs:UprightTransformCount>\n         <crs:UprightFourSegmentsCount>0</crs:UprightFourSegmentsCount>\n         <crs:HasSettings>True</crs:HasSettings>\n         <crs:HasCrop>False</crs:HasCrop>\n         <crs:AlreadyApplied>True</crs:AlreadyApplied>\n         <crs:ToneCurve>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>32, 22</rdf:li>\n               <rdf:li>64, 56</rdf:li>\n               <rdf:li>128, 128</rdf:li>\n               <rdf:li>192, 196</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurve>\n         <crs:ToneCurveRed>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurveRed>\n         <crs:ToneCurveGreen>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurveGreen>\n         <crs:ToneCurveBlue>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurveBlue>\n         <crs:ToneCurvePV2012>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurvePV2012>\n         <crs:ToneCurvePV2012Red>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurvePV2012Red>\n         <crs:ToneCurvePV2012Green>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurvePV2012Green>\n         <crs:ToneCurvePV2012Blue>\n            <rdf:Seq>\n               <rdf:li>0, 0</rdf:li>\n               <rdf:li>255, 255</rdf:li>\n            </rdf:Seq>\n         </crs:ToneCurvePV2012Blue>\n         <crs:Look rdf:parseType=\"Resource\">\n            <crs:Name>Adobe Color</crs:Name>\n            <crs:Amount>1.000000</crs:Amount>\n            <crs:UUID>B952C231111CD8E0ECCF14B86BAA7077</crs:UUID>\n            <crs:SupportsAmount>false</crs:SupportsAmount>\n            <crs:SupportsMonochrome>false</crs:SupportsMonochrome>\n            <crs:SupportsOutputReferred>false</crs:SupportsOutputReferred>\n            <crs:Copyright>© 2018 Adobe Systems, Inc.</crs:Copyright>\n            <crs:Group>\n               <rdf:Alt>\n                  <rdf:li xml:lang=\"x-default\">Profiles</rdf:li>\n               </rdf:Alt>\n            </crs:Group>\n            <crs:Parameters rdf:parseType=\"Resource\">\n               <crs:Version>11.0</crs:Version>\n               <crs:ProcessVersion>11.0</crs:ProcessVersion>\n               <crs:ConvertToGrayscale>False</crs:ConvertToGrayscale>\n               <crs:CameraProfile>Adobe Standard</crs:CameraProfile>\n               <crs:LookTable>E1095149FDB39D7A057BAB208837E2E1</crs:LookTable>\n               <crs:ToneCurvePV2012>\n                  <rdf:Seq>\n                     <rdf:li>0, 0</rdf:li>\n                     <rdf:li>22, 16</rdf:li>\n                     <rdf:li>40, 35</rdf:li>\n                     <rdf:li>127, 127</rdf:li>\n                     <rdf:li>224, 230</rdf:li>\n                     <rdf:li>240, 246</rdf:li>\n                     <rdf:li>255, 255</rdf:li>\n                  </rdf:Seq>\n               </crs:ToneCurvePV2012>\n               <crs:ToneCurvePV2012Red>\n                  <rdf:Seq>\n                     <rdf:li>0, 0</rdf:li>\n                     <rdf:li>255, 255</rdf:li>\n                  </rdf:Seq>\n               </crs:ToneCurvePV2012Red>\n               <crs:ToneCurvePV2012Green>\n                  <rdf:Seq>\n                     <rdf:li>0, 0</rdf:li>\n                     <rdf:li>255, 255</rdf:li>\n                  </rdf:Seq>\n               </crs:ToneCurvePV2012Green>\n               <crs:ToneCurvePV2012Blue>\n                  <rdf:Seq>\n                     <rdf:li>0, 0</rdf:li>\n                     <rdf:li>255, 255</rdf:li>\n                  </rdf:Seq>\n               </crs:ToneCurvePV2012Blue>\n            </crs:Parameters>\n         </crs:Look>\n         <fwu:UserDefined6>DES-29062021-002-</fwu:UserDefined6>\n         <fwu:UserDefined62>20160301</fwu:UserDefined62>\n         <fwu:UserDefined63>201201</fwu:UserDefined63>\n         <fwu:UserDefined92>Govan Shipyard</fwu:UserDefined92>\n         <tiff:Make>NIKON CORPORATION</tiff:Make>\n         <tiff:Model>NIKON D4S</tiff:Model>\n         <tiff:XResolution>30000000/100000</tiff:XResolution>\n         <tiff:YResolution>30000000/100000</tiff:YResolution>\n         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>\n         <tiff:Orientation>1</tiff:Orientation>\n         <exif:ExposureTime>1/3200</exif:ExposureTime>\n         <exif:FNumber>35/10</exif:FNumber>\n         <exif:ExposureProgram>1</exif:ExposureProgram>\n         <exif:ExifVersion>48 50 51 48</exif:ExifVersion>\n         <exif:ShutterSpeedValue>11643856/1000000</exif:ShutterSpeedValue>\n         <exif:ApertureValue>361471/100000</exif:ApertureValue>\n         <exif:ExposureBiasValue>0/6</exif:ExposureBiasValue>\n         <exif:MaxApertureValue>30/10</exif:MaxApertureValue>\n         <exif:MeteringMode>5</exif:MeteringMode>\n         <exif:LightSource>0</exif:LightSource>\n         <exif:FocalLength>560/10</exif:FocalLength>\n         <exif:ColorSpace>65535</exif:ColorSpace>\n         <exif:FocalPlaneXResolution>44855751/32768</exif:FocalPlaneXResolution>\n         <exif:FocalPlaneYResolution>44855751/32768</exif:FocalPlaneYResolution>\n         <exif:FocalPlaneResolutionUnit>3</exif:FocalPlaneResolutionUnit>\n         <exif:SensingMethod>2</exif:SensingMethod>\n         <exif:CustomRendered>0</exif:CustomRendered>\n         <exif:ExposureMode>1</exif:ExposureMode>\n         <exif:WhiteBalance>0</exif:WhiteBalance>\n         <exif:DigitalZoomRatio>1/1</exif:DigitalZoomRatio>\n         <exif:FocalLengthIn35mmFilm>56</exif:FocalLengthIn35mmFilm>\n         <exif:SceneCaptureType>0</exif:SceneCaptureType>\n         <exif:GainControl>0</exif:GainControl>\n         <exif:Contrast>0</exif:Contrast>\n         <exif:Saturation>0</exif:Saturation>\n         <exif:Sharpness>0</exif:Sharpness>\n         <exif:SubjectDistanceRange>0</exif:SubjectDistanceRange>\n         <exif:PixelXDimension>4928</exif:PixelXDimension>\n         <exif:PixelYDimension>3280</exif:PixelYDimension>\n         <exif:DateTimeOriginal>2021-06-29T10:44:21.75</exif:DateTimeOriginal>\n         <exif:DateTimeDigitized>2021-06-29T10:44:21.75</exif:DateTimeDigitized>\n         <exif:ISOSpeedRatings>\n            <rdf:Seq>\n               <rdf:li>200</rdf:li>\n            </rdf:Seq>\n         </exif:ISOSpeedRatings>\n         <exif:Flash rdf:parseType=\"Resource\">\n            <exif:Fired>False</exif:Fired>\n            <exif:Return>0</exif:Return>\n            <exif:Mode>0</exif:Mode>\n            <exif:RedEyeMode>False</exif:RedEyeMode>\n         </exif:Flash>\n         <fwr:UniqueId>90C047FC50EE4D12 8D43FA9DDC595928</fwr:UniqueId>\n         <fwr:ShortUniqueId>3221345246</fwr:ShortUniqueId>\n         <fwr:ContentValue>7A95AF467ADA955EF4</fwr:ContentValue>\n         <fwr:History>\n            <rdf:Seq>\n               <rdf:li>E=TXT D=2021-06-29 T=16:38:41 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=TXT D=2021-06-29 T=16:39:04 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=TXT D=2021-07-09 T=13:27:53 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=ACT D=2021-08-10 T=08:52:28 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205) V=FTP%20into%20(To%20Be%20Edited)</rdf:li>\n               <rdf:li>E=TXT D=2021-08-12 T=11:09:27 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=TXT D=2021-08-12 T=11:09:53 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=TXT D=2021-08-12 T=11:10:37 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=ACT D=2021-08-12 T=11:11:26 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205) V=Move%20into%20(Awaiting%20Publishing)</rdf:li>\n               <rdf:li>E=TXT D=2021-08-12 T=11:54:20 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=ACT D=2021-08-12 T=11:54:51 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205) V=Publish%20to%20Stock</rdf:li>\n            </rdf:Seq>\n         </fwr:History>\n         <fwc:CustomField10>29062021A</fwc:CustomField10>\n         <fwc:CustomField20>ModAdmin</fwc:CustomField20>\n         <fwl:FixtureIdentifier>Free</fwl:FixtureIdentifier>\n         <cc:license>http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</cc:license>\n         <Iptc4xmpExt:PersonInImage>\n            <rdf:Bag>\n               <rdf:li>Steel cutting machine</rdf:li>\n            </rdf:Bag>\n         </Iptc4xmpExt:PersonInImage>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>",
+      "licenseNote": "Commons license box: OGL v1.0. Original UK MOD metadata specifies OGL v3.0 and Crown copyright. Both records preserved; attribute MOD/Crown and photographer; do not suggest endorsement.",
+      "bytes": 1493321,
+      "sha256": "9cc90c19c3a74d1e8e002462af3c0098d20e60f0b80c0dbd303993ed205cad6a",
+      "inspected": true
+    },
+    {
+      "id": "tiderace-ras-2021",
+      "title": "File:RFA Tiderace Dual RAS with HMS Lancaster and HMS Westminster.jpg",
+      "role": "Actual dual replenishment at sea: Tiderace between Lancaster and Westminster, Baltic region.",
+      "date": "2021-03-13",
+      "kind": "photo",
+      "file": "public/images/part2/tiderace-ras-2021.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:RFA_Tiderace_Dual_RAS_with_HMS_Lancaster_and_HMS_Westminster.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/RFA_Tiderace_Dual_RAS_with_HMS_Lancaster_and_HMS_Westminster.jpg",
+      "width": 3600,
+      "height": 2400,
+      "author": "Ministry of Defence",
+      "license": "OGL v1.0",
+      "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "credit": "https://www.defenceimagery.mod.uk/",
+      "description": "Pictured: HMS Lancaster (right) conducts a replenishment at sea in the Baltic Region with RFA Tide Race (centre) and HMS Westminster (left).HMS LANCASTER CONDUCTS REPLENISHMENT AT SEAOn Saturday 13th March 2021, HMS Lancaster conducted a replenishment at sea (RAS) with RFA Tide Race and HMS Westminster.The 'triple RAS' that took place was the last of the exercises the Royal Navy ships took part in whilst in transit with the Standard Nato Maritime Group 1 (SNMG1) over the last 24 hours.The RAS finalised with the Canadian Sikorsky CH-148 helicopter landing on and taking off utilising HMS Lancaster's Flight Deck.",
+      "permission": "",
+      "originalSha256": "bdca23a8246531488bac19b81e0afb71d307fbecd15684f747646d2a95b8549c",
+      "originalMetadata": {
+        "DateTime": {
+          "value": "2021-10-17 14:05:12",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "RFA Tiderace Dual RAS with HMS Lancaster and HMS Westminster",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "HMS Lancaster (F229)|OGL v1.0|HMS Westminster (F237)|RFA Tiderace (A137)|Underway replenishment",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pictured: HMS Lancaster (right) conducts a replenishment at sea in the Baltic Region with RFA Tide Race (centre) and HMS Westminster (left).HMS LANCASTER CONDUCTS REPLENISHMENT AT SEAOn Saturday 13th March 2021, HMS Lancaster conducted a replenishment at sea (RAS) with RFA Tide Race and HMS Westminster.The 'triple RAS' that took place was the last of the exercises the Royal Navy ships took part in whilst in transit with the Standard Nato Maritime Group 1 (SNMG1) over the last 24 hours.The RAS finalised with the Canadian Sikorsky CH-148 helicopter landing on and taking off utilising HMS Lancaster's Flight Deck.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-03-13 13:58:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.defenceimagery.mod.uk/\">https://www.defenceimagery.mod.uk/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Ministry of Defence",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "OGL v1.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Open Government License version 1.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        }
+      },
+      "embeddedXmp": "<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 5.5.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:xmpMM=\"http://ns.adobe.com/xap/1.0/mm/\"\n            xmlns:xmp=\"http://ns.adobe.com/xap/1.0/\"\n            xmlns:aux=\"http://ns.adobe.com/exif/1.0/aux/\"\n            xmlns:photoshop=\"http://ns.adobe.com/photoshop/1.0/\"\n            xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n            xmlns:exifEX=\"http://cipa.jp/exif/1.0/\"\n            xmlns:fwu=\"http://ns.fotoware.com/iptcxmp-user/1.0/\"\n            xmlns:fwc=\"http://ns.fotoware.com/iptcxmp-custom/1.0/\"\n            xmlns:crs=\"http://ns.adobe.com/camera-raw-settings/1.0/\"\n            xmlns:fwl=\"http://ns.fotoware.com/iptcxmp-legacy/1.0/\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n            xmlns:tiff=\"http://ns.adobe.com/tiff/1.0/\"\n            xmlns:fwr=\"http://ns.fotoware.com/iptcxmp-reserved/1.0/\"\n            xmlns:cc=\"http://creativecommons.org/ns#\"\n            xmlns:xmpRights=\"http://ns.adobe.com/xap/1.0/rights/\"\n            xmlns:Iptc4xmpCore=\"http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/\">\n         <xmpMM:DocumentID>xmp.did:1452F1D514BA4597 BB31FB970EA0BFBD</xmpMM:DocumentID>\n         <xmpMM:OriginalDocumentID>xmp.did:1452F1D514BA4597 BB31FB970EA0BFBD</xmpMM:OriginalDocumentID>\n         <xmpMM:InstanceID>xmp.iid:de25a002-e934-2f4e-b789-9b8de156d526</xmpMM:InstanceID>\n         <xmp:CreateDate>2021-03-13T13:58:26.40</xmp:CreateDate>\n         <xmp:ModifyDate>2021-03-14T14:23:39Z</xmp:ModifyDate>\n         <xmp:MetadataDate>2021-03-14T14:23:39Z</xmp:MetadataDate>\n         <xmp:CreatorTool>FotoWare FotoStation</xmp:CreatorTool>\n         <xmp:XMPFileStamps>\n            <rdf:Seq>\n               <rdf:li>2021-09-27T11:54:23+01:00</rdf:li>\n               <rdf:li>2021-09-27T11:54:23+01:00</rdf:li>\n               <rdf:li>2021-09-27T13:12:41+01:00</rdf:li>\n               <rdf:li>2021-09-30T13:59:10+01:00</rdf:li>\n               <rdf:li>2021-09-30T13:59:43+01:00</rdf:li>\n               <rdf:li>2021-09-30T13:59:39+01:00</rdf:li>\n            </rdf:Seq>\n         </xmp:XMPFileStamps>\n         <aux:SerialNumber>073022000543</aux:SerialNumber>\n         <aux:InteroperabilityIndex>R98</aux:InteroperabilityIndex>\n         <aux:LensInfo>28/1 300/1 0/0 0/0</aux:LensInfo>\n         <aux:Lens>EF28-300mm f/3.5-5.6L IS USM</aux:Lens>\n         <aux:LensID>233</aux:LensID>\n         <aux:LensSerialNumber>00002106a0</aux:LensSerialNumber>\n         <aux:ImageNumber>0</aux:ImageNumber>\n         <aux:ApproximateFocusDistance>4294967295/1</aux:ApproximateFocusDistance>\n         <aux:FlashCompensation>0/1</aux:FlashCompensation>\n         <aux:Firmware>1.0.1</aux:Firmware>\n         <photoshop:City>Baltic Sea</photoshop:City>\n         <photoshop:State>Baltic Region</photoshop:State>\n         <photoshop:CaptionWriter>LPhot Dan Rosenbaum</photoshop:CaptionWriter>\n         <photoshop:DateCreated>2021-03-13</photoshop:DateCreated>\n         <photoshop:LegacyIPTCDigest>3A6082571DBE4A4BF3B450D17E7D9DD4</photoshop:LegacyIPTCDigest>\n         <photoshop:ColorMode>3</photoshop:ColorMode>\n         <photoshop:ICCProfile>Adobe RGB (1998)</photoshop:ICCProfile>\n         <photoshop:Category>MOD</photoshop:Category>\n         <photoshop:Country>Baltic Sea</photoshop:Country>\n         <photoshop:Headline>HMS Lancaster at Sea</photoshop:Headline>\n         <photoshop:Urgency>5</photoshop:Urgency>\n         <photoshop:Credit>UK MOD Crown copyright</photoshop:Credit>\n         <photoshop:Source>Royal Navy</photoshop:Source>\n         <dc:format>image/jpeg</dc:format>\n         <dc:rights>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">UK MOD © Crown copyright 2021</rdf:li>\n            </rdf:Alt>\n         </dc:rights>\n         <dc:title>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">BG210027</rdf:li>\n            </rdf:Alt>\n         </dc:title>\n         <dc:description>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Pictured: HMS Lancaster (right) conducts a replenishment at sea in the Baltic Region with RFA Tide Race (centre) and HMS Westminster (left).&#xA;&#xA;HMS LANCASTER CONDUCTS REPLENISHMENT AT SEA&#xA;&#xA;On Saturday 13th March 2021, HMS Lancaster conducted a replenishment at sea (RAS) with RFA Tide Race and HMS Westminster. &#xA;&#xA;The 'triple RAS' that took place was the last of the exercises the Royal Navy ships took part in whilst in transit with the Standard Nato Maritime Group 1 (SNMG1) over the last 24 hours.&#xA;&#xA;The RAS finalised with the Canadian Sikorsky CH-148 helicopter landing on and taking off utilising HMS Lancaster's Flight Deck.&#xA;</rdf:li>\n            </rdf:Alt>\n         </dc:description>\n         <dc:subject>\n            <rdf:Bag>\n               <rdf:li>High North</rdf:li>\n               <rdf:li>HMS Lancaster</rdf:li>\n               <rdf:li>Replenishment At Sea</rdf:li>\n               <rdf:li>Royal Navy</rdf:li>\n               <rdf:li>Type 23 Frigate</rdf:li>\n               <rdf:li>Surface Ship</rdf:li>\n               <rdf:li>Equipment</rdf:li>\n               <rdf:li>Surface Fleet</rdf:li>\n               <rdf:li>Frigate</rdf:li>\n               <rdf:li>FFG</rdf:li>\n               <rdf:li>Type 23</rdf:li>\n               <rdf:li>Duke Class</rdf:li>\n               <rdf:li>HMS Westminster</rdf:li>\n               <rdf:li>F237</rdf:li>\n               <rdf:li>Royal Fleet Auxiliary</rdf:li>\n               <rdf:li>RFA</rdf:li>\n               <rdf:li>Replenishment</rdf:li>\n               <rdf:li>Replenishment Tanker</rdf:li>\n               <rdf:li>Fast Fleet Tanker</rdf:li>\n               <rdf:li>RFA Tidespring</rdf:li>\n               <rdf:li>A136</rdf:li>\n               <rdf:li>F229</rdf:li>\n            </rdf:Bag>\n         </dc:subject>\n         <dc:creator>\n            <rdf:Seq>\n               <rdf:li>LPhot Dan Rosenbaum</rdf:li>\n            </rdf:Seq>\n         </dc:creator>\n         <exifEX:LensModel>EF28-300mm f/3.5-5.6L IS USM</exifEX:LensModel>\n         <fwu:UserDefined1>Baltic Region</fwu:UserDefined1>\n         <fwu:UserDefined2>Surface Ship</fwu:UserDefined2>\n         <fwu:UserDefined3>Type 23 Frigate</fwu:UserDefined3>\n         <fwu:UserDefined4>People at Work</fwu:UserDefined4>\n         <fwu:UserDefined6>Lancaster</fwu:UserDefined6>\n         <fwc:CustomField1>000039</fwc:CustomField1>\n         <fwc:CustomField2>Rosenbaum</fwc:CustomField2>\n         <fwc:CustomField3>HMS Lancaster</fwc:CustomField3>\n         <fwc:CustomField4>MISCELLANEOUS</fwc:CustomField4>\n         <fwc:CustomField14>FLEET-20210313-BG027-</fwc:CustomField14>\n         <fwc:CustomField7>DR173498.jpg</fwc:CustomField7>\n         <fwc:CustomField10>27092021A</fwc:CustomField10>\n         <fwc:CustomField20>RoyalNavyAdmin</fwc:CustomField20>\n         <crs:HasCrop>False</crs:HasCrop>\n         <crs:AlreadyApplied>True</crs:AlreadyApplied>\n         <fwl:CreatedTime>135826+0000</fwl:CreatedTime>\n         <fwl:ReleaseDate>2021-03-13</fwl:ReleaseDate>\n         <fwl:ReleaseTime>15:21:49</fwl:ReleaseTime>\n         <fwl:EditStatus>Approved</fwl:EditStatus>\n         <fwl:FixtureIdentifier>Free</fwl:FixtureIdentifier>\n         <exif:PixelXDimension>3600</exif:PixelXDimension>\n         <exif:PixelYDimension>2400</exif:PixelYDimension>\n         <exif:ExposureTime>1/400</exif:ExposureTime>\n         <exif:FNumber>11/1</exif:FNumber>\n         <exif:ExposureProgram>1</exif:ExposureProgram>\n         <exif:ExifVersion>52 56 53 48</exif:ExifVersion>\n         <exif:ShutterSpeedValue>8643856/1000000</exif:ShutterSpeedValue>\n         <exif:ApertureValue>6918863/1000000</exif:ApertureValue>\n         <exif:ExposureBiasValue>0/1</exif:ExposureBiasValue>\n         <exif:MaxApertureValue>5/1</exif:MaxApertureValue>\n         <exif:MeteringMode>5</exif:MeteringMode>\n         <exif:FocalLength>180/1</exif:FocalLength>\n         <exif:ColorSpace>65535</exif:ColorSpace>\n         <exif:FocalPlaneXResolution>79080107/32768</exif:FocalPlaneXResolution>\n         <exif:FocalPlaneYResolution>79080107/32768</exif:FocalPlaneYResolution>\n         <exif:FocalPlaneResolutionUnit>3</exif:FocalPlaneResolutionUnit>\n         <exif:CustomRendered>0</exif:CustomRendered>\n         <exif:ExposureMode>1</exif:ExposureMode>\n         <exif:WhiteBalance>0</exif:WhiteBalance>\n         <exif:SceneCaptureType>0</exif:SceneCaptureType>\n         <exif:GPSVersionID>2.3.0.0</exif:GPSVersionID>\n         <exif:DateTimeOriginal>2021-03-13T13:58:26</exif:DateTimeOriginal>\n         <exif:ISOSpeedRatings>\n            <rdf:Seq>\n               <rdf:li>400</rdf:li>\n            </rdf:Seq>\n         </exif:ISOSpeedRatings>\n         <exif:Flash rdf:parseType=\"Resource\">\n            <exif:Fired>False</exif:Fired>\n            <exif:Return>0</exif:Return>\n            <exif:Mode>2</exif:Mode>\n            <exif:RedEyeMode>False</exif:RedEyeMode>\n         </exif:Flash>\n         <tiff:Make>Canon</tiff:Make>\n         <tiff:Model>Canon EOS 5DS</tiff:Model>\n         <tiff:Orientation>1</tiff:Orientation>\n         <tiff:XResolution>30000000/100000</tiff:XResolution>\n         <tiff:YResolution>30000000/100000</tiff:YResolution>\n         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>\n         <fwr:UniqueId>BF6B736163534BD1 9CBFCA03EE6AF512</fwr:UniqueId>\n         <fwr:ShortUniqueId>2984572655</fwr:ShortUniqueId>\n         <fwr:ContentValue>99998C7A999AAAACC7</fwr:ContentValue>\n         <fwr:Classify>02</fwr:Classify>\n         <fwr:WorkflowInfo rdf:parseType=\"Resource\">\n            <fwr:TransferredBy>admin@photos.mod.uk</fwr:TransferredBy>\n            <fwr:TransferredByFullName>Defence Imagery</fwr:TransferredByFullName>\n            <fwr:TransferredByEmail>admin@photos.mod.uk</fwr:TransferredByEmail>\n         </fwr:WorkflowInfo>\n         <fwr:History>\n            <rdf:Seq>\n               <rdf:li>E=ACT D=2021-03-15 T=07:25:48 U=coobano477%20(coobano477%40FRPU-M45) V=Archive%20Images%20To%20Server</rdf:li>\n               <rdf:li>E=ACT D=2021-03-15 T=07:27:26 U=coobano477%20(coobano477%40FRPU-M45) V=Send%20to%20Defence%20Imagery</rdf:li>\n               <rdf:li>E=TXT D=2021-03-16 T=08:35:01 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n               <rdf:li>E=ACT D=2021-03-16 T=08:36:28 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205) V=All%20Digital%20Cleared</rdf:li>\n               <rdf:li>E=ACT D=2021-09-24 T=17:35:53 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35) V=FTP%20to%20MOD%20Holding</rdf:li>\n               <rdf:li>E=ACT D=2021-09-24 T=17:37:16 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35) V=FTP%20to%20MOD%20Holding</rdf:li>\n               <rdf:li>E=TXT D=2021-09-27 T=11:42:59 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=TXT D=2021-09-27 T=12:13:49 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=TXT D=2021-09-27 T=13:12:41 U=P.Triantafillides%20(P.Triantafillides%40DESKTOP-2JQJD35)</rdf:li>\n               <rdf:li>E=TXT D=2021-09-30 T=13:59:10 U=harland.quarrington%20(harland.quarrington%40mb-mbpro-205)</rdf:li>\n            </rdf:Seq>\n         </fwr:History>\n         <cc:license>http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/</cc:license>\n         <xmpRights:UsageTerms>\n            <rdf:Alt>\n               <rdf:li xml:lang=\"x-default\">Available under the terms of the OGL (Open Government License).</rdf:li>\n            </rdf:Alt>\n         </xmpRights:UsageTerms>\n         <Iptc4xmpCore:CreatorContactInfo rdf:parseType=\"Resource\">\n            <Iptc4xmpCore:CiUrlWork>http://www.defenceimagery.mod.uk/fotoweb/ContactUs.fwx</Iptc4xmpCore:CiUrlWork>\n         </Iptc4xmpCore:CreatorContactInfo>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>",
+      "licenseNote": "Commons license box: OGL v1.0. Original UK MOD metadata specifies OGL v3.0 and Crown copyright. Both records preserved; attribute MOD/Crown and photographer; do not suggest endorsement.",
+      "bytes": 1085447,
+      "sha256": "67f39c6123f10f6c2266788415a9788c62201d9efdca3440df4344a40be55bd1",
+      "inspected": true
+    },
+    {
+      "id": "proteus-2025",
+      "title": "File:K60 RFA Proteus Multi-Role Ocean Surveillance (MROS) ship.jpg",
+      "role": "RFA Proteus at Cammell Laird, not a recording of undersea cable patrol.",
+      "date": "2025-09-14",
+      "kind": "photo",
+      "file": "public/images/part2/proteus-2025.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:K60_RFA_Proteus_Multi-Role_Ocean_Surveillance_(MROS)_ship.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/K60_RFA_Proteus_Multi-Role_Ocean_Surveillance_%28MROS%29_ship.jpg",
+      "width": 3840,
+      "height": 2626,
+      "author": "Steve Knight",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "https://www.flickr.com/photos/kitmasterbloke/54786580956/",
+      "description": "Birkenhead Priory was founded by Augustinian monks in 1348 and is the origin of the first \"Ferry 'Cross the Mersey\" which was operated by the monks. Dissolved by Henry VIII in 1536, the ruin is now a local museum and small chapel in the former chapter House, above which is the HMS Conway museum, dedicated to the sail training ship of that name lost in 1953 in the Menai Straits and featuring superb stained glass windows.. The former Victorian parish church of St Mary still has it's bell tower on site although all but the south wall was demolished in 1974. In 1946 some of the Priory's grave yard was sold to Cammell-Laid to expand their shipyard. Consequently, the tower viewing platform gives excellent views of the military shipyard as well as great vistas across the Mersey to the vibrant city of Liverpool. At the time of our visit there were two RFA Tide class Fleet Replenishment ships in CL dock, a Peruvian navy tall ship and the cruise liner Viking Jupiter on the Liverpool side.",
+      "permission": "",
+      "originalSha256": "6a385d57fcb0a4d78ac15cda179b97ee923302d2d2d91d2d70f01d5f655db0bc",
+      "originalMetadata": {
+        "DateTime": {
+          "value": "2025-09-16 12:23:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "K60 RFA Proteus Multi-Role Ocean Surveillance (MROS) ship",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "RFA Proteus (K60)|Flickr images reviewed by FlickreviewR 2|Ships at Birkenhead|Files with coordinates missing SDC location of creation (53° N, 4° W)|September 2025 in Merseyside|Files from Steve Knight Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "53.385698",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-3.011350",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Birkenhead Priory was founded by Augustinian monks in 1348 and is the origin of the first \"Ferry 'Cross the Mersey\" which was operated by the monks. Dissolved by Henry VIII in 1536, the ruin is now a local museum and small chapel in the former chapter House, above which is the HMS Conway museum, dedicated to the sail training ship of that name lost in 1953 in the Menai Straits and featuring superb stained glass windows.. The former Victorian parish church of St Mary still has it's bell tower on site although all but the south wall was demolished in 1974. In 1946 some of the Priory's grave yard was sold to Cammell-Laid to expand their shipyard. Consequently, the tower viewing platform gives excellent views of the military shipyard as well as great vistas across the Mersey to the vibrant city of Liverpool. At the time of our visit there were two RFA Tide class Fleet Replenishment ships in CL dock, a Peruvian navy tall ship and the cruise liner Viking Jupiter on the Liverpool side.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-09-14 16:57:01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/kitmasterbloke/54786580956/\">https://www.flickr.com/photos/kitmasterbloke/54786580956/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Steve Knight",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "embeddedXmp": null,
+      "licenseNote": null,
+      "bytes": 2024256,
+      "sha256": "95ba6406d81294c72654a3e8de80da73834d5d6c059c9e3e629301f43f2e123a",
+      "inspected": true
+    },
+    {
+      "id": "diamond-2024",
+      "dvids": 8213201,
+      "page": "https://www.dvidshub.net/image/8213201/uss-mason-sails-alongside-hms-diamond-during-passenger-transfer-red-sea",
+      "date": "2024-01-13",
+      "author": "US Navy / Christopher J. Krucke",
+      "downloadUrl": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2401/8213201/2000w_q95.jpg",
+      "role": "US Navy signal-lantern operator on USS Mason with HMS Diamond alongside. Passenger transfer in Red Sea; not a missile firing.",
+      "kind": "photo",
+      "file": "public/images/part2/diamond-2024.jpg",
+      "sourcePage": "https://www.dvidshub.net/image/8213201/uss-mason-sails-alongside-hms-diamond-during-passenger-transfer-red-sea",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "licenseNote": "DVIDS published 2000px derivative; not falsely described as original full-resolution photograph.",
+      "bytes": 684627,
+      "sha256": "6fb7e330cd0d21695b243dbfaab51f33b6f933922cfb23aaae7d71d19d736321",
+      "width": 1999,
+      "height": 1333,
+      "inspected": true
+    },
+    {
+      "id": "merlin-hm2-2025",
+      "dvids": 9185259,
+      "page": "https://www.dvidshub.net/image/9185259/george-washington-conducts-flight-operations",
+      "date": "2025-07-15",
+      "author": "US Navy / Ana Souza Young",
+      "downloadUrl": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2507/9185259/2000w_q95.jpg",
+      "role": "Royal Navy Merlin HM2 approaches USS George Washington in Timor Sea, Talisman Sabre 2025. The image does not show an active ASW engagement.",
+      "kind": "photo",
+      "file": "public/images/part2/merlin-hm2-2025.jpg",
+      "sourcePage": "https://www.dvidshub.net/image/9185259/george-washington-conducts-flight-operations",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "licenseNote": "DVIDS published 2000px derivative; not falsely described as original full-resolution photograph.",
+      "bytes": 525046,
+      "sha256": "ffebbc276f48634de463e190345f718b9d6eb626666063af8460d7693a312ab3",
+      "width": 2000,
+      "height": 1333,
+      "inspected": true
+    },
+    {
+      "id": "daring-profile",
+      "kind": "photo",
+      "file": "public/images/part2/daring-profile.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Type_45_Destroyer_HMS_Daring_in_the_English_Channel_MOD_45151622.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Type_45_Destroyer_HMS_Daring_in_the_English_Channel_MOD_45151622.jpg",
+      "width": 4256,
+      "height": 2832,
+      "date": "2010-06-17 11:57:43",
+      "author": "LA(Phot) James Crawford",
+      "license": "OGL v1.0",
+      "licenseUrl": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+      "description": "Pictured is Royal Navy Type 45 Destroyer HMS Daring shortly after breaking away from a Replenishment at Sea (RAS) with Royal Fleet Auxiliary vessel RFA Wave Knight, which can be seen in the background. HMS Daring was conducting trials in the English Channel at the time in preparation for her first operational deployment. Organization: Royal Navy Object Name: 04142289 Category: RNA Supplemental Categories: Type 45, Destroyers, Ships Keywords: HMS Daring, Type 45, DDG, Destroyer, Ship, Equipment, Royal Navy Country: UK",
+      "role": "HMS Daring, Type45, English Channel after RAS. Actual ship profile; date retained, not evidence of 2025 readiness.",
+      "bytes": 1597400,
+      "sha256": "ad69cbcde5a1d19642f915d7d3cb82b2f5631d32ea31c8342b0b01bc354aa653",
+      "originalMetadata": {
+        "DateTime": {
+          "value": "2013-06-27 12:57:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Type 45 Destroyer HMS Daring in the English Channel MOD 45151622",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D3|OGL v1.0|HMS Daring (D32)|Underway replenishment|Images from MoD uploaded by Fæ|Images from Defence Imagery|Chase's temporary check category",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pictured is Royal Navy Type 45 Destroyer HMS Daring shortly after breaking away from a Replenishment at Sea (RAS) with Royal Fleet Auxiliary vessel RFA Wave Knight, which can be seen in the background.\n<p>HMS Daring was conducting trials in the English Channel at the time in preparation for her first operational deployment.\n</p>\n<ul><li>Organization: Royal Navy</li>\n<li>Object Name: 04142289</li>\n<li>Category: RNA</li>\n<li>Supplemental Categories: Type 45, Destroyers, Ships</li>\n<li>Keywords: HMS Daring, Type 45, DDG, Destroyer, Ship, Equipment, Royal Navy</li>\n<li>Country: UK</li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-06-17 11:57:43",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<ul><li>Photo <a rel=\"nofollow\" class=\"external text\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg?ForceSaveDialog=no&amp;D=A81D8793137680C0E66D08E8E606BD1F11732CAD1490F960D1DA871986B1F9663B985DAF6425EE16CAAA2B3AA2B030D852712EB1B11DAC16910A2D0D9AC01DBDFD4FF8B88BBB8DFBB7B853A1DDC5B802541203B7EA261E943AD41CBFD81744353E842775B08634FAC2FFF6F5C43D1BA11D77D3527AC2E94D2CBED32D1E4B20F3D1A4BB899F76D9396B7199226538B04669FE4492BD85E39C\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/download.dll/45153802.jpg</a></li>\n<li>Metadata source: <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45151622.jpg\">http://www.defenceimagery.mod.uk/fotoweb/fwbin/fotoweb_isapi.dll/ArchiveAgent/5042/Search?FileInfo=1&amp;MetaData=1&amp;Search=45151622.jpg</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "LA(Phot) James Crawford",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Images are downloadable at high resolution, made available at <a rel=\"nofollow\" class=\"external free\" href=\"http://www.defenceimagery.mod.uk\">http://www.defenceimagery.mod.uk</a> for reuse under the OGL (Open Government License).",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "OGL v1.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Open Government License version 1.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Photo: LA(Phot) James Crawford/MOD",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        }
+      }
+    }
+  ],
+  "video": [
+    {
+      "id": "richmond-broadside",
+      "sourceId": "richmond-2022",
+      "start": 123,
+      "duration": 8,
+      "activity": "Continuous camera pan across Type 23 superstructure and visible F239 hull marking.",
+      "shortCredit": "US Navy · HMS Richmond · 2022",
+      "suggestedUse": "Type 23 identity / frigate replacement, in documentary inset at native 1280×720.",
+      "kind": "video",
+      "file": "public/video/part2/richmond-broadside.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/858020/british-royal-navy-visits-norfolk",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/2209/DOD_109227795/DOD_109227795.mp4",
+      "sourceDate": "2022-09-20",
+      "author": "US Navy / Jonathan M. Wideman",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "Type 23 HMS Richmond arrives at Norfolk. Port manoeuvres, not ASW engagement.",
+      "sourceStartSeconds": 123,
+      "sourceEndSeconds": 131,
+      "durationSeconds": 8,
+      "frames": 240,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 2924111,
+      "sha256": "a8e6871e77722c551b446a099482e9210c1bfe06bc4f48eb2ed7b8d8727a6e90",
+      "sourceSha256": "4e215eac2ec0ebcdbfe1e322f8995f6d90ee360fce50ce2faa2187f846beeae3",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    },
+    {
+      "id": "richmond-bow",
+      "sourceId": "richmond-2022",
+      "start": 134,
+      "duration": 8,
+      "activity": "Continuous distant bow view of HMS Richmond approaching with a tug at Norfolk.",
+      "shortCredit": "US Navy · Norfolk · 2022",
+      "suggestedUse": "Port transit / fleet identity. Small subject; avoid aggressive crop or claiming ocean ASW.",
+      "kind": "video",
+      "file": "public/video/part2/richmond-bow.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/858020/british-royal-navy-visits-norfolk",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/2209/DOD_109227795/DOD_109227795.mp4",
+      "sourceDate": "2022-09-20",
+      "author": "US Navy / Jonathan M. Wideman",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "Type 23 HMS Richmond arrives at Norfolk. Port manoeuvres, not ASW engagement.",
+      "sourceStartSeconds": 134,
+      "sourceEndSeconds": 142,
+      "durationSeconds": 8,
+      "frames": 240,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 2361279,
+      "sha256": "494e3fedc912debf26aa484409603e290c51b00c014db5ee7c82e78e327f711a",
+      "sourceSha256": "4e215eac2ec0ebcdbfe1e322f8995f6d90ee360fce50ce2faa2187f846beeae3",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    },
+    {
+      "id": "lyme-bay-deck",
+      "sourceId": "lyme-bay-2024",
+      "start": 86.2,
+      "duration": 7.5,
+      "activity": "RFA deck personnel handle a hose beside a US MV-22B Osprey during deck servicing.",
+      "shortCredit": "USMC · RFA Lyme Bay · 2024",
+      "suggestedUse": "Logistics and deck servicing. Not engine maintenance or ship-to-ship tanker RAS.",
+      "kind": "video",
+      "file": "public/video/part2/lyme-bay-deck.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/930677/b-roll-mrf-d-243-marines-conduct-mv-22b-osprey-carrier-qualifications-aboard-british-rfa-lyme-bay",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/2407/DOD_110442902/DOD_110442902.mp4",
+      "sourceDate": "2024-07-11",
+      "author": "US Marine Corps / Sgt Cristian Bestul",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "RFA Lyme Bay, MV-22B transport of Royal Marines and deck qualifications at Darwin. Neither tanker RAS nor engineering maintenance.",
+      "sourceStartSeconds": 86.2,
+      "sourceEndSeconds": 93.7,
+      "durationSeconds": 7.5,
+      "frames": 225,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 9962167,
+      "sha256": "7a35d2c48bc7cad4a918e710301232db303237ad0c80ea13969c15d4f366618f",
+      "sourceSha256": "f1a5581740bf1f8be818dd44b96e31fa35c6c4c58b5fc2ae95f26c13fe8a7cf6",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    },
+    {
+      "id": "lyme-bay-transfer",
+      "sourceId": "lyme-bay-2024",
+      "start": 172.4,
+      "duration": 9,
+      "activity": "Deck crew and personnel move around the landed MV-22B on RFA Lyme Bay.",
+      "shortCredit": "USMC · RFA Lyme Bay · 2024",
+      "suggestedUse": "Personnel movement / teamwork / availability. US aircraft on British auxiliary ship.",
+      "kind": "video",
+      "file": "public/video/part2/lyme-bay-transfer.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/930677/b-roll-mrf-d-243-marines-conduct-mv-22b-osprey-carrier-qualifications-aboard-british-rfa-lyme-bay",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/2407/DOD_110442902/DOD_110442902.mp4",
+      "sourceDate": "2024-07-11",
+      "author": "US Marine Corps / Sgt Cristian Bestul",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "RFA Lyme Bay, MV-22B transport of Royal Marines and deck qualifications at Darwin. Neither tanker RAS nor engineering maintenance.",
+      "sourceStartSeconds": 172.4,
+      "sourceEndSeconds": 181.4,
+      "durationSeconds": 9,
+      "frames": 270,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 5642058,
+      "sha256": "1445654c060696886b78054f44895564eee23db17b19244b40e1ca2703eb6611",
+      "sourceSha256": "f1a5581740bf1f8be818dd44b96e31fa35c6c4c58b5fc2ae95f26c13fe8a7cf6",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    },
+    {
+      "id": "merlin-mk3-crew",
+      "sourceId": "merlin-transport-2017",
+      "start": 83.3,
+      "duration": 6.5,
+      "activity": "Personnel inside British Merlin Mk3 transport cabin; occupants begin to stand and prepare to move.",
+      "shortCredit": "USMC · Merlin Mk3 · 2017",
+      "suggestedUse": "Crew / transport / cooperation. Not HM2 or ASW, not engineering maintenance.",
+      "kind": "video",
+      "file": "public/video/part2/merlin-mk3-crew.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/524702/jeanne-darc-mk3-merlin-helicopter-training",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/1705/DOD_104364032/DOD_104364032-1024x576-1769k.mp4",
+      "sourceDate": "2017-05-09",
+      "author": "US Marine Corps / Cpl David A. Diggs",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "British Merlin Mk3 TRANSPORT familiarization training on French ship Mistral. NOT HM2, ASW, or a British ship deck.",
+      "sourceStartSeconds": 83.3,
+      "sourceEndSeconds": 89.8,
+      "durationSeconds": 6.5,
+      "frames": 195,
+      "fps": 30,
+      "width": 1024,
+      "height": 576,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 2715593,
+      "sha256": "37e4990d2af41ca60e1ef2d2f2a1405f1d78e79a83c1aa6495b9175ecd9c3d28",
+      "sourceSha256": "4040903a418fe6a408cf23818600fad0ffccb94ceb22d35a445f720079cca5d0",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    },
+    {
+      "id": "merlin-mk3-flight",
+      "sourceId": "merlin-transport-2017",
+      "start": 125,
+      "duration": 8,
+      "activity": "British Merlin Mk3 lifts and flies away from French ship Mistral; camera follows its motion.",
+      "shortCredit": "USMC · Merlin Mk3 · 2017",
+      "suggestedUse": "Transport aviation / cooperation. Not an ASW helicopter sortie.",
+      "kind": "video",
+      "file": "public/video/part2/merlin-mk3-flight.mp4",
+      "sourcePage": "https://www.dvidshub.net/video/524702/jeanne-darc-mk3-merlin-helicopter-training",
+      "downloadUrl": "https://d34w7g4gy10iej.cloudfront.net/video/1705/DOD_104364032/DOD_104364032-1024x576-1769k.mp4",
+      "sourceDate": "2017-05-09",
+      "author": "US Marine Corps / Cpl David A. Diggs",
+      "license": "Public domain (US federal employee official duty)",
+      "licenseUrl": "https://www.dvidshub.net/about/copyright",
+      "sourceRole": "British Merlin Mk3 TRANSPORT familiarization training on French ship Mistral. NOT HM2, ASW, or a British ship deck.",
+      "sourceStartSeconds": 125,
+      "sourceEndSeconds": 133,
+      "durationSeconds": 8,
+      "frames": 240,
+      "fps": 30,
+      "width": 1024,
+      "height": 576,
+      "audio": false,
+      "loop": false,
+      "retimed": false,
+      "bytes": 1796858,
+      "sha256": "c44a0919379e5710265de5e35b9a8821a05231e4ff37ec4cfeadfe4d7600fb3a",
+      "sourceSha256": "4040903a418fe6a408cf23818600fad0ffccb94ceb22d35a445f720079cca5d0",
+      "inspected": true,
+      "inspection": "Source full contact sheet, dense interval filmstrip, and output early/middle/late contact sheet."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "merlin-2021",
+      "dvids": 796773,
+      "sourcePage": "https://www.dvidshub.net/video/796773/hms-queen-elizabeth-participates-steadfast-defender-2021-off-coast-portugal",
+      "reason": "DVIDS PUBLIC DOMAIN label conflicts with NATO external-use terms restricting sale/advertising and reserving removal. Not downloaded as source, not cut, not included in public/.",
+      "termsUrl": "https://www.nato.int/cps/en/natohq/68162.htm"
+    },
+    {
+      "id": "ras-808640",
+      "sourcePage": "https://www.dvidshub.net/video/808640/vmfa-211-conducts-routine-operations-south-china-sea",
+      "reason": "DVIDS explicitly states copyrighted portions are not licensed for distribution."
+    }
+  ]
+}
